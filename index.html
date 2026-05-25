@@ -1,768 +1,285 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>TGShop Chat — все Telegram-чаты магазина в одном кабинете</title>
-<meta name="description" content="Подключите все Telegram-аккаунты вашего магазина и не теряйте заявки. Ни одно сообщение клиента не пропадёт. От 399 000 soʻm/мес.">
-<meta property="og:title" content="TGShop Chat — все Telegram-чаты магазина в одном кабинете">
-<meta property="og:description" content="Не теряйте клиентов в Telegram. Все аккаунты, менеджеры и переписки в одном кабинете.">
-<meta property="og:type" content="website">
-<meta property="og:image" content="/og-image.jpg">
-<link rel="icon" type="image/png" href="/favicon.png">
-<link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TGShop Chat — Telegram-магазин и CRM для бизнеса в Узбекистане</title>
+<meta name="description" content="Запустите магазин в Telegram за 5 минут без сайта и разработчиков. Каталог, оплата через Click и Payme, CRM в одном кабинете.">
+<meta property="og:title" content="TGShop Chat — Telegram-магазин и CRM">
+<meta property="og:description" content="Запустите магазин в Telegram за 5 минут без сайта и разработчиков.">
+<meta property="og:image" content="og-image.png">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <!-- HEADER -->
 <header class="header">
   <div class="container header-inner">
-    <a class="brand" href="/">
-      <span class="brand-tg">TGShop</span><span class="brand-chat">Chat</span>
+    <a href="/" class="brand">
+      <span class="brand-name">TGShop</span><span class="brand-suffix">Chat</span>
     </a>
-    <nav class="nav">
-      <a href="#how">Как работает</a>
-      <a href="#features">Возможности</a>
-      <a href="#pricing">Тарифы</a>
-      <a href="#faq">FAQ</a>
+    <nav class="nav-desktop">
+      <a href="https://docs.tgshop.io/uz/telegramda-dokon-ochish/tezkor-boshlash">База знаний</a>
+      <a href="https://tgshop.io/yearly/">Тарифы</a>
+      <a href="https://tgshop.io/shops/">Помощь</a>
+      <a href="https://uz.tgshop.io/ru/blog">Решения</a>
     </nav>
-    <div class="header-cta">
-      <a class="btn btn-outline btn-m" href="https://admin.tgshop.io/sign-in">Войти</a>
-      <a class="btn btn-primary btn-m" href="https://admin.tgshop.io/sign-up">Попробовать бесплатно</a>
+    <div class="header-actions">
+      <a href="https://admin.tgshop.io/sign-in?utm_content=uz" class="btn btn-ghost btn-login">Войти</a>
+      <a href="https://admin.tgshop.io/sign-up?utm_content=uz" class="btn btn-primary btn-register">Зарегистрироваться</a>
+      <button class="burger" aria-label="Меню" onclick="document.body.classList.toggle('menu-open')">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </div>
 </header>
 
+<!-- MOBILE MENU OVERLAY -->
+<div class="mobile-menu">
+  <div class="mobile-menu-inner">
+    <button class="mobile-menu-close" aria-label="Закрыть" onclick="document.body.classList.remove('menu-open')">✕</button>
+    <div class="brand"><span class="brand-name">TGShop</span><span class="brand-suffix">Chat</span></div>
+    <nav>
+      <a href="https://docs.tgshop.io/uz/telegramda-dokon-ochish/tezkor-boshlash">База знаний</a>
+      <a href="https://tgshop.io/yearly/">Тарифы</a>
+      <a href="https://t.me/TGShopHelp_bot">Поддержка</a>
+      <a href="https://uz.tgshop.io/ru/blog">Решения</a>
+    </nav>
+    <div class="mobile-menu-cta">
+      <a href="https://admin.tgshop.io/sign-up?utm_content=uz" class="btn btn-primary">Зарегистрироваться</a>
+      <a href="https://admin.tgshop.io/sign-in?utm_content=uz" class="btn btn-ghost">Войти</a>
+    </div>
+  </div>
+</div>
+
 <!-- HERO -->
 <section class="hero">
   <div class="container hero-inner">
-    <div class="hero-text">
-      <div class="pill-kicker">
-        <span class="pill-kicker-dot"></span>
-        Часть экосистемы TGShop · 2&nbsp;000+ магазинов с&nbsp;нами
+    <div class="hero-left">
+      <div class="pill"><span class="pill-dot"></span>2 000+ магазинов уже подключили TGShop</div>
+      <h1>Telegram-магазин<br>и чаты с клиентами в одном кабинете</h1>
+      <p class="hero-desc">Ваши менеджеры не успевают отвечать всем клиентам в Telegram — и заказы уходят к конкурентам. С TGShop ни одна заявка не потеряется, и клиенты смогут покупать в 1 клик.</p>
+      <div class="cta-row">
+        <a href="https://admin.tgshop.io/sign-up?utm_content=uz" class="btn btn-primary btn-lg">Попробовать бесплатно</a>
+        <a href="https://t.me/nothingshopuz_bot/" class="btn btn-ghost btn-lg">Посмотреть демо</a>
       </div>
-      <h1 class="h1">
-        Все чаты с&nbsp;клиентами&nbsp;— в&nbsp;одном Telegram-кабинете
-      </h1>
-      <p class="hero-lead">
-        Ваши менеджеры не&nbsp;успевают отвечать всем клиентам в&nbsp;Telegram — и&nbsp;заказы уходят к&nbsp;конкурентам.
-        С&nbsp;<strong>TGShop Chat</strong> ни&nbsp;одна заявка не&nbsp;потеряется.
-      </p>
-      <div class="hero-cta-row">
-        <a class="btn btn-primary btn-l" href="https://admin.tgshop.io/sign-up">Попробовать бесплатно</a>
-        <a class="btn btn-ghost-light btn-l" href="https://admin.tgshop.io/sign-up">Посмотреть демо</a>
-      </div>
-      <div class="hero-micro">14&nbsp;дней бесплатно · настройка за&nbsp;5&nbsp;минут</div>
+      <div class="hero-disclaimer">14 дней бесплатно · без разработки</div>
     </div>
-
-    <!-- HERO MOCKUP — unified inbox -->
-    <div class="hero-mock">
-      <div class="mock-frame">
-        <div class="mock-top">
-          <div class="mock-dots"><span></span><span></span><span></span></div>
-          <div class="mock-title">TGShop Chat · Единый кабинет</div>
-        </div>
-        <div class="mock-body">
-          <aside class="mock-sidebar">
-            <div class="mock-sidebar-title">Аккаунты</div>
-            <div class="mock-account active"><span class="avatar a1">M</span>Магазин · основной</div>
-            <div class="mock-account"><span class="avatar a2">П</span>Поддержка</div>
-            <div class="mock-account"><span class="avatar a3">Д</span>Доставка</div>
-            <div class="mock-account"><span class="avatar a4">О</span>Оптовый</div>
-          </aside>
-          <div class="mock-chats">
-            <div class="mock-chats-head">
-              <div class="mock-tabs">
-                <span class="tab active">Все</span>
-                <span class="tab">Новые <b>12</b></span>
-                <span class="tab">Просрочка <b class="red">3</b></span>
-              </div>
-            </div>
-            <div class="chat-row unread">
-              <span class="avatar a5">Ю</span>
-              <div class="chat-main">
-                <div class="chat-top"><b>Юлия К.</b><span class="time">только что</span></div>
-                <div class="chat-msg">Здравствуйте! У вас есть кроссовки Nike 39 размера?</div>
-              </div>
-              <span class="badge new">new</span>
-            </div>
-            <div class="chat-row unread">
-              <span class="avatar a6">А</span>
-              <div class="chat-main">
-                <div class="chat-top"><b>Акмал Т.</b><span class="time">1 мин назад</span></div>
-                <div class="chat-msg">Можно ли доставить сегодня до 18:00?</div>
-              </div>
-              <span class="badge warn">ждёт</span>
-            </div>
-            <div class="chat-row">
-              <span class="avatar a7">Д</span>
-              <div class="chat-main">
-                <div class="chat-top"><b>Дилшод М.</b><span class="time">4 мин назад</span></div>
-                <div class="chat-msg"><span class="manager">Менеджер Алина:</span> Уже передал в доставку ✅</div>
-              </div>
-            </div>
-            <div class="chat-row">
-              <span class="avatar a8">М</span>
-              <div class="chat-main">
-                <div class="chat-top"><b>Мадина Х.</b><span class="time">12 мин</span></div>
-                <div class="chat-msg">Спасибо!</div>
-              </div>
-            </div>
-          </div>
+    <div class="hero-right">
+      <div class="hero-mock">
+        <div class="hero-mock-header">📱 TGShop</div>
+        <div class="hero-mock-body">
+          <div class="hero-mock-chat"><strong>Юлия К.</strong> <span>только что</span> <em class="status-new">Новый</em></div>
+          <div class="hero-mock-chat"><strong>Ozoda M.</strong> <span>только что</span> <em class="status-new">Новый</em></div>
+          <div class="hero-mock-chat"><strong>Дилшод М.</strong> <span>4 мин</span> <em class="status-open">Открыт</em></div>
+          <div class="hero-mock-chat"><strong>Мадина Х.</strong> <span>12 мин</span> <em class="status-open">Открыт</em></div>
+          <div class="hero-mock-chat"><strong>Акмал Т.</strong> <span>10 мин</span> <em class="status-closed">Закрыт</em></div>
         </div>
       </div>
-
-      <!-- Floating metrics -->
-      <div class="float-card float-1">
-        <div class="float-num">12</div>
-        <div class="float-label">новых<br>сообщений сейчас</div>
+      <div class="badge badge-15min">
+        <small>Запуск за</small>
+        <strong>15 минут</strong>
+        <span>● без программистов</span>
       </div>
-      <div class="float-card float-2">
-        <div class="float-num green">94%</div>
-        <div class="float-label">отвечено<br>за 5 минут</div>
+      <div class="badge badge-orders">
+        <strong>+37</strong>
+        <small>новых заказов сегодня</small>
       </div>
-      <div class="float-card float-3">
-        <div class="float-num">3</div>
-        <div class="float-label">менеджера<br>онлайн</div>
+      <div class="badge badge-msg">
+        <strong>12</strong>
+        <small>новых заявок в чатах</small>
       </div>
     </div>
   </div>
 </section>
 
-<!-- TRUST BAR -->
+<!-- TRUST -->
 <section class="trust">
-  <div class="container trust-inner">
-    <div class="trust-label">Нам доверяют магазины Узбекистана</div>
-    <div class="trust-logos">
-      <div class="trust-logo placeholder">LOGO 1</div>
-      <div class="trust-logo placeholder">LOGO 2</div>
-      <div class="trust-logo placeholder">LOGO 3</div>
-      <div class="trust-logo placeholder">LOGO 4</div>
-      <div class="trust-logo placeholder">LOGO 5</div>
-      <div class="trust-logo placeholder">LOGO 6</div>
+  <div class="container">
+    <h2 class="section-title">Нам доверяют</h2>
+    <div class="logos">
+      <span>Yves Rocher</span><span>EMRA</span><span>Merci Lingerie</span><span>Dragonfly</span>
+      <span>around you</span><span>ANA HILDEBRANT</span><span>Skincare</span><span>BOSCO</span>
     </div>
-    <div class="trust-stats">
-      <div class="trust-stat"><b>2&nbsp;000+</b><span>магазинов в&nbsp;Telegram</span></div>
-      <div class="trust-stat"><b>1,5&nbsp;млн</b><span>заказов обработано</span></div>
-      <div class="trust-stat"><b>5&nbsp;минут</b><span>на&nbsp;подключение</span></div>
+    <div class="cases">
+      <div class="case-card">
+        <div class="case-badge">✓ x2 клиентов</div>
+        <div class="case-metrics"><div><strong class="green">+30%</strong><span>рост продаж</span></div><div><strong class="green">+40%</strong><span>товаров в заказе</span></div><div><strong class="green">x2</strong><span>клиентов</span></div></div>
+        <div class="case-brand"><div class="case-logo">FF</div><div><strong>Fashion Fabrique</strong><small>бренд одежды, обуви и аксессуаров</small></div></div>
+      </div>
+      <div class="case-card">
+        <div class="case-badge">✓ 0 ₽ на рекламу</div>
+        <div class="case-metrics"><div><strong class="green">6 515</strong><span>с TGShop</span></div><div><strong class="gray">740</strong><span>«до» на маркетплейсе</span></div></div>
+        <div class="case-caption">за 6 месяцев</div>
+        <div class="case-brand"><div class="case-logo pink">A</div><div><strong>Around You</strong><small>цветочный магазин</small></div></div>
+      </div>
+      <div class="case-card">
+        <div class="case-badge">✓ Постоянный рост</div>
+        <div class="case-metrics"><div><strong class="green">+15%</strong><span>конверсия продаж</span></div><div><strong class="green">+7%</strong><span>рост CR/мес</span></div></div>
+        <div class="case-caption">в месяц</div>
+        <div class="case-brand"><div class="case-logo">H</div><div><strong>Hold Store</strong><small>магазин кроссовок</small></div></div>
+      </div>
+      <div class="case-card">
+        <div class="case-badge">✓ Без сложной CRM</div>
+        <div class="case-metrics"><div><strong class="green">+43%</strong><span>конверсия продаж</span></div><div><strong class="green">x1,5</strong><span>рост выручки</span></div></div>
+        <div class="case-caption">за полгода</div>
+        <div class="case-brand"><div class="case-logo dark">C</div><div><strong>Casher</strong><small>магазин одежды</small></div></div>
+      </div>
+    </div>
+    <div class="stats">
+      <div><strong class="blue">2 000+</strong><span>магазинов в Telegram</span></div>
+      <div><strong class="blue">1,5 млн</strong><span>заказов обработано</span></div>
+      <div><strong class="blue">15 минут</strong><span>на подключение</span></div>
     </div>
   </div>
 </section>
 
-<!-- SECTION 2 — PAIN -->
+<!-- PAIN -->
 <section class="pain">
   <div class="container">
-    <div class="section-head section-head-pain">
-      <div class="section-kicker red">Проблема</div>
-      <h2 class="h2">Каждый день ваш магазин теряет выручку</h2>
-    </div>
-
+    <div class="kicker red">Проблема</div>
+    <h2 class="section-title">Каждый день ваш магазин теряет выручку</h2>
     <div class="pain-grid">
-      <div class="pain-card">
-        <div class="pain-icon">✕</div>
-        <h3 class="pain-title">Менеджер не&nbsp;увидел сообщение</h3>
-        <p class="pain-text">Один аккаунт открыт на&nbsp;телефоне менеджера, второй — на&nbsp;планшете руководителя. Сообщение пришло — никто не&nbsp;заметил. Клиент подождал час и&nbsp;купил у&nbsp;конкурента.</p>
-      </div>
-      <div class="pain-card">
-        <div class="pain-icon">✕</div>
-        <h3 class="pain-title">Три аккаунта, пять менеджеров — хаос</h3>
-        <p class="pain-text">Один работает с&nbsp;личного телефона, другой&nbsp;— с&nbsp;рабочего, третий — с&nbsp;планшета. Кто ответил клиенту? Кто-то ответил вообще? Узнать невозможно.</p>
-      </div>
-      <div class="pain-card">
-        <div class="pain-icon">✕</div>
-        <h3 class="pain-title">Уволился менеджер — клиенты ушли с&nbsp;ним</h3>
-        <p class="pain-text">Переписка была у&nbsp;него в&nbsp;личном Telegram. Кто этот клиент, что заказывал, чем интересовался — теперь знает только бывший сотрудник.</p>
-      </div>
-      <div class="pain-card">
-        <div class="pain-icon">✕</div>
-        <h3 class="pain-title">Менеджеры обещают то, чего нет</h3>
-        <p class="pain-text">Грубят клиенту, дают неправильные цены, придумывают сроки. Вы&nbsp;узнаёте об&nbsp;этом, только когда клиент уже ушёл с&nbsp;негативом и&nbsp;плохим отзывом.</p>
-      </div>
-      <div class="pain-card">
-        <div class="pain-icon">✕</div>
-        <h3 class="pain-title">Сколько заявок зависло — никто не&nbsp;считает</h3>
-        <p class="pain-text">Чтобы узнать «сколько потеряли сегодня», нужно вручную проверять каждый аккаунт. На&nbsp;это уходит час в&nbsp;день. И&nbsp;всё&nbsp;равно что-то проскакивает.</p>
-      </div>
+      <div class="pain-card red"><span class="icon">✕</span><h3>Клиент остался без ответа</h3><p>Менеджер может забыть ответить — и никто это не заметит. Клиент подождал час и купил у конкурента.</p></div>
+      <div class="pain-card red"><span class="icon">✕</span><h3>Уволился менеджер — клиенты ушли с ним</h3><p>Переписка велась в личном Telegram. Кто этот клиент и чем интересовался, знает только бывший сотрудник.</p></div>
+      <div class="pain-card red"><span class="icon">✕</span><h3>Менеджеры обещают то, чего нет</h3><p>Менеджер грубит клиенту, называет неверную цену или придумывает сроки доставки. Об этом вы узнаёте, когда клиент уже ушёл с негативом.</p></div>
+      <div class="pain-card green"><span class="icon">✓</span><h3>Контроль чатов с клиентами</h3><p>Руководитель открывает любой диалог и видит, как менеджер обрабатывает заявки и как общается с клиентами.</p></div>
+      <div class="pain-card green"><span class="icon">✓</span><h3>Магазин принимает заказы 24/7</h3><p>Клиенты оформляют заказ в один клик в любое время суток, а вы не теряете выручку в нерабочее время.</p></div>
+      <div class="pain-card green"><span class="icon">✓</span><h3>Без сложных CRM</h3><p>Доступ к перепискам и заказам прямо в Telegram. Если менеджер уволится, клиенты останутся у вас, а не на чужом телефоне.</p></div>
     </div>
   </div>
 </section>
 
-<!-- SECTION 3 — PRICE OF PROBLEM -->
-<section class="price">
-  <div class="price-decor" aria-hidden="true">
-    <span class="math-symbol sym-1">×</span>
-    <span class="math-symbol sym-2">%</span>
-    <span class="math-symbol sym-3">=</span>
-    <span class="math-symbol sym-4">÷</span>
-    <span class="math-symbol sym-5">+</span>
-  </div>
-
+<!-- PRICE / CALCULATOR -->
+<section class="price-section">
   <div class="container price-inner">
-    <div class="price-text">
-      <div class="section-kicker">Цена бездействия</div>
-      <h2 class="h2">Посчитайте, сколько вы&nbsp;теряете</h2>
-      <p class="price-lead">
-        Магазин получает <b>50 заявок в&nbsp;день</b>, и&nbsp;хотя&nbsp;бы <b>10%</b> из&nbsp;них теряются из-за ошибок менеджеров —
-        это <b>5 потерянных клиентов ежедневно</b>.
-      </p>
-      <p class="price-lead">
-        При среднем чеке <b>300&nbsp;000&nbsp;soʻm</b> это <b>1&nbsp;500&nbsp;000&nbsp;soʻm в&nbsp;день.</b>
-        Или <b>45&nbsp;миллионов&nbsp;soʻm в&nbsp;месяц.</b>
-      </p>
-
-      <div class="loss-chart">
-        <div class="loss-chart-head">
-          <span class="loss-chart-label">Потери накапливаются каждый день</span>
-          <span class="loss-chart-scale">30 дней</span>
-        </div>
-        <div class="loss-bars">
-          <div class="loss-bar" style="--h: 14%"></div>
-          <div class="loss-bar" style="--h: 22%"></div>
-          <div class="loss-bar" style="--h: 18%"></div>
-          <div class="loss-bar" style="--h: 30%"></div>
-          <div class="loss-bar" style="--h: 26%"></div>
-          <div class="loss-bar" style="--h: 38%"></div>
-          <div class="loss-bar" style="--h: 32%"></div>
-          <div class="loss-bar" style="--h: 44%"></div>
-          <div class="loss-bar" style="--h: 40%"></div>
-          <div class="loss-bar" style="--h: 52%"></div>
-          <div class="loss-bar" style="--h: 48%"></div>
-          <div class="loss-bar" style="--h: 58%"></div>
-          <div class="loss-bar" style="--h: 54%"></div>
-          <div class="loss-bar" style="--h: 64%"></div>
-          <div class="loss-bar" style="--h: 60%"></div>
-          <div class="loss-bar" style="--h: 70%"></div>
-          <div class="loss-bar" style="--h: 66%"></div>
-          <div class="loss-bar" style="--h: 76%"></div>
-          <div class="loss-bar" style="--h: 72%"></div>
-          <div class="loss-bar" style="--h: 80%"></div>
-          <div class="loss-bar" style="--h: 78%"></div>
-          <div class="loss-bar" style="--h: 84%"></div>
-          <div class="loss-bar" style="--h: 82%"></div>
-          <div class="loss-bar" style="--h: 88%"></div>
-          <div class="loss-bar" style="--h: 86%"></div>
-          <div class="loss-bar" style="--h: 92%"></div>
-          <div class="loss-bar" style="--h: 90%"></div>
-          <div class="loss-bar" style="--h: 96%"></div>
-          <div class="loss-bar" style="--h: 94%"></div>
-          <div class="loss-bar hl" style="--h: 100%"><span class="loss-tip">день&nbsp;30</span></div>
-        </div>
-        <div class="loss-chart-foot">
-          <span>день 1 — 1,5 млн</span>
-          <span>день 30 — <b>45&nbsp;млн&nbsp;soʻm</b></span>
-        </div>
-      </div>
-
-      <p class="price-tail">
-        Не&nbsp;из-за плохого товара. Не&nbsp;из-за цены. Просто потому что ответили поздно — или не&nbsp;ответили вообще.
-      </p>
-
-      <div class="price-cta">
-        <a class="btn btn-primary btn-l" href="#pricing">Хочу не&nbsp;терять 45&nbsp;млн →</a>
-        <div class="price-cta-micro">14&nbsp;дней бесплатно · карта не&nbsp;нужна</div>
-      </div>
+    <div class="price-left">
+      <div class="kicker blue">Цена бездействия</div>
+      <h2 class="section-title">Посчитайте, сколько вы теряете</h2>
+      <p>Магазин получает 50 заявок в день, и хотя бы 10% теряются — это 5 потерянных клиентов ежедневно.</p>
+      <p>При среднем чеке 300 000 soʻm это 1 500 000 soʻm в день. Или 45 миллионов soʻm в месяц.</p>
+      <p class="muted">Не из-за плохого товара. Не из-за цены. Просто потому что ответили поздно — или не ответили вообще.</p>
+      <a href="https://admin.tgshop.io/sign-up?utm_content=uz" class="btn btn-primary">Хочу больше продаж →</a>
     </div>
-
-    <!-- Schematic calculator -->
-    <div class="calc-card">
-      <div class="calc-head">
-        <span class="calc-chip">Расчёт потерь</span>
-        <span class="calc-chip-muted">в месяц</span>
+    <div class="price-right">
+      <div class="bar-chart">
+        <div class="bar-chart-head"><span>Потери накапливаются каждый день</span><small>30 ДНЕЙ</small></div>
+        <div class="bars" id="bars"></div>
+        <div class="bar-chart-foot"><span>день 1 — 1,5 млн</span><strong>день 30 — 45 млн soʻm</strong></div>
       </div>
-      <div class="calc-row">
-        <div class="calc-label">Заявок в день</div>
-        <div class="calc-value">50</div>
+      <div class="arrow">↓</div>
+      <div class="total-card">
+        <div class="total-label">ПОТЕРИ В МЕСЯЦ</div>
+        <div class="total-num"><strong>45 000 000</strong> <span>soʻm</span></div>
       </div>
-      <div class="calc-row">
-        <div class="calc-label">Средний чек</div>
-        <div class="calc-value">300&nbsp;000&nbsp;soʻm</div>
-      </div>
-      <div class="calc-row">
-        <div class="calc-label">Потеряно заявок (≈10%)</div>
-        <div class="calc-value red">5 в день</div>
-      </div>
-      <div class="calc-divider"></div>
-      <div class="calc-row calc-inter">
-        <div class="calc-label">Потери в день</div>
-        <div class="calc-value red">1&nbsp;500&nbsp;000&nbsp;soʻm</div>
-      </div>
-      <div class="calc-arrow">↓</div>
-      <div class="calc-total">
-        <div class="calc-total-label">Потери в месяц</div>
-        <div class="calc-total-value">
-          45&nbsp;000&nbsp;000
-          <span class="calc-total-unit">soʻm</span>
-        </div>
-      </div>
-      <div class="calc-note">Средний магазин · 30 рабочих дней</div>
+      <div class="total-foot">Средний магазин · 30 рабочих дней</div>
     </div>
   </div>
 </section>
 
-<!-- SECTION 4 — SOLUTION -->
-<section class="solution">
+<!-- QUICK START / SOLUTION -->
+<section class="quickstart">
   <div class="container">
-    <div class="section-head center">
-      <div class="section-kicker">Решение</div>
-      <h2 class="h2">TGShop Chat — простая CRM для&nbsp;магазинов в&nbsp;Telegram</h2>
-    </div>
-
-    <div class="solution-grid">
-      <div class="sol-card">
-        <div class="sol-num">1</div>
-        <h3 class="sol-title">Все Telegram-аккаунты в&nbsp;одном кабинете</h3>
-        <p class="sol-text">Подключите все аккаунты магазина — основной, поддержку, доставку, оптовый. Сообщения от&nbsp;клиентов собираются в&nbsp;одном кабинете. Менеджеры не&nbsp;переключаются между телефонами — и&nbsp;ни&nbsp;один чат не&nbsp;теряется.</p>
-        <div class="sol-mini-mock">
-          <div class="mini-inbox">
-            <div class="mini-line"><span class="mini-dot a1"></span>@magazin_main</div>
-            <div class="mini-line"><span class="mini-dot a2"></span>@podderzhka</div>
-            <div class="mini-line"><span class="mini-dot a3"></span>@dostavka</div>
-          </div>
-          <div class="mini-arrow">→</div>
-          <div class="mini-output">
-            <div class="mini-output-title">Один inbox</div>
-            <div class="mini-output-count">48 чатов</div>
-          </div>
-        </div>
+    <div class="kicker blue">Старт</div>
+    <h2 class="section-title centered">Быстрый старт без разработки</h2>
+    <div class="qs-grid">
+      <div class="qs-card">
+        <h3>1. Добавьте товары</h3>
+        <ul><li>✓ Массовый импорт из XML/XLS и по ссылке</li><li>✓ Импорт из Мойсклад, 1С, Billz</li><li>✓ Добавление товаров вручную</li><li>✓ Автоматическое обновление цен и остатков</li></ul>
+        <div class="qs-logos"><span class="logo-pill blue">МойСклад</span><span class="logo-pill red">1С</span><span class="logo-pill blue">Billz</span></div>
       </div>
-
-      <div class="sol-card">
-        <div class="sol-num">2</div>
-        <h3 class="sol-title">Видите всё, что делают менеджеры</h3>
-        <p class="sol-text">Сколько диалогов открыто. Кто отвечает за&nbsp;минуту, а&nbsp;кто за&nbsp;час. Что менеджеры пишут клиентам. Вся переписка хранится в&nbsp;TGShop Chat — даже если сотрудник ушёл, клиенты остаются с&nbsp;вами.</p>
-        <div class="sol-mini-mock">
-          <div class="mini-stats">
-            <div class="mini-stat"><b>127</b><span>диалогов</span></div>
-            <div class="mini-stat"><b class="green">94%</b><span>отвечено</span></div>
-            <div class="mini-stat"><b class="red">3</b><span>просрочка</span></div>
-          </div>
-        </div>
+      <div class="qs-card">
+        <h3>2. Включите оплату и доставку</h3>
+        <ul><li>✓ Курьерская доставка и самовывоз</li><li>✓ Онлайн-оплата в 1 клик</li><li>✓ Рассрочка</li><li>✓ Чеки</li><li>✓ Оплата наличными</li></ul>
+        <div class="qs-logos"><span class="logo-pill red">Я.Доставка</span><span class="logo-pill blue">Click</span><span class="logo-pill purple">Uzum nasiya</span><span class="logo-pill teal">Payme</span></div>
       </div>
-
-      <div class="sol-card">
-        <div class="sol-num">3</div>
-        <h3 class="sol-title">Менеджеры работают в&nbsp;привычном Telegram</h3>
-        <p class="sol-text">Никаких новых программ. Никакого обучения. Команда продолжает писать клиентам в&nbsp;Telegram как обычно. Меняется только то, что вы — как руководитель — видите всё в&nbsp;одном месте.</p>
-        <div class="sol-mini-mock">
-          <div class="mini-phone">
-            <div class="mini-phone-top">Telegram</div>
-            <div class="mini-phone-chat">Клиент: Здравствуйте</div>
-            <div class="mini-phone-chat you">Менеджер: Добрый день!</div>
-          </div>
-          <div class="mini-arrow">→</div>
-          <div class="mini-output">
-            <div class="mini-output-title">Вы видите всё</div>
-            <div class="mini-output-count">в ЛК</div>
-          </div>
-        </div>
+      <div class="qs-card">
+        <h3>3. Привлекайте клиентов эффективно</h3>
+        <ul><li>✓ Промокоды</li><li>✓ Закрепите магазин в канале</li><li>✓ Интеграция с Яндекс Метрикой</li><li>✓ Рассылки и триггерные уведомления</li><li>✓ Реферальная программа — клиенты приводят друзей</li></ul>
+        <div class="qs-logos"><span class="logo-pill orange">Я.Метрика</span><span class="logo-pill blue">Telegram Ads</span><span class="logo-pill yellow">Я.Директ</span></div>
+      </div>
+      <div class="qs-card">
+        <h3>4. Управляйте заказами</h3>
+        <ul><li>✓ Интеграции с AmoCRM, Битрикс24</li><li>✓ Уведомления о заказах в Telegram</li></ul>
+        <div class="qs-logos"><span class="logo-pill cyan">amoCRM</span><span class="logo-pill blue">МойСклад</span><span class="logo-pill red">1С</span><span class="logo-pill blue">Битрикс24</span></div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- SECTION 5 — KEY FEATURES (новые: статусы + рассылки) -->
-<section class="key-features">
+<!-- HOW STEPS -->
+<section class="how">
   <div class="container">
-    <div class="section-head center">
-      <div class="section-kicker">Главные функции</div>
-      <h2 class="h2">Не&nbsp;просто переписки —&nbsp;а&nbsp;система продаж</h2>
-    </div>
-
-    <div class="kf-grid">
-      <!-- Карточка 1: Статусы заявок -->
-      <div class="kf-card">
-        <div class="kf-text">
-          <h3 class="kf-title">Статусы заявок — сразу видно, кому не&nbsp;ответили</h3>
-          <p class="kf-lead">
-            Каждый чат имеет статус: <b>«новая»</b>, <b>«в&nbsp;работе»</b>, <b>«ждёт ответа клиента»</b>, <b>«просрочена»</b>.
-            Никому не&nbsp;нужно держать в&nbsp;голове «кому я&nbsp;уже ответил, а&nbsp;кому&nbsp;нет».
-          </p>
-          <ul class="kf-bullets">
-            <li>Новые заявки выделяются автоматически</li>
-            <li>Если клиент ждёт больше 15&nbsp;минут — уведомление руководителю</li>
-            <li>Видно, кто из&nbsp;менеджеров не&nbsp;закрыл свой чат</li>
-          </ul>
-        </div>
-        <div class="kf-mock">
-          <div class="kf-mock-card">
-            <div class="kf-status new">⚡ Новая</div>
-            <div class="kf-row"><span><b>Юлия К.</b></span><span class="kf-time">только что</span></div>
-            <div class="kf-status warn">⏱ Просрочка 23&nbsp;мин</div>
-            <div class="kf-row"><span><b>Акмал Т.</b></span><span class="kf-time">23 мин назад</span></div>
-            <div class="kf-status work">💬 В работе</div>
-            <div class="kf-row"><span><b>Дилшод М.</b></span><span class="kf-time">5 мин назад</span></div>
-            <div class="kf-status ok">✓ Ответили</div>
-            <div class="kf-row"><span><b>Мадина Х.</b></span><span class="kf-time">2 мин назад</span></div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Карточка 2: Рассылки по сегментам -->
-      <div class="kf-card kf-card-reverse">
-        <div class="kf-text">
-          <h3 class="kf-title">Рассылки по&nbsp;готовым сегментам — возвращайте клиентов</h3>
-          <p class="kf-lead">
-            Сегменты собираются автоматически — на&nbsp;основе поведения клиента. Отправьте сообщение тем, кто бросил корзину, кто давно не&nbsp;покупал или кто только что оформил заказ.
-          </p>
-          <ul class="kf-bullets">
-            <li><b>Бросил корзину</b> — догнать персональным сообщением</li>
-            <li><b>Не&nbsp;оплатил</b> — напомнить за&nbsp;1&nbsp;клик</li>
-            <li><b>Купил недавно</b> — предложить дополнение</li>
-            <li><b>Не&nbsp;активен 7&nbsp;/&nbsp;30 дней</b> — вернуть промокодом</li>
-          </ul>
-        </div>
-        <div class="kf-mock">
-          <div class="kf-mock-card kf-mock-segments">
-            <div class="kf-mock-title">Кому отправить?</div>
-            <div class="kf-mock-sub">Выберите сегмент</div>
-            <div class="kf-segment selected">
-              <span>Кто оформлял заказы</span><span class="kf-segment-count">847</span>
-            </div>
-            <div class="kf-segment">
-              <span>Бросили корзину</span><span class="kf-segment-count">132</span>
-            </div>
-            <div class="kf-segment">
-              <span>Неактивные 7&nbsp;дней</span><span class="kf-segment-count">2&nbsp;419</span>
-            </div>
-            <div class="kf-segment">
-              <span>Неактивные 30&nbsp;дней</span><span class="kf-segment-count">5&nbsp;102</span>
-            </div>
-            <button class="kf-mock-btn">Отправить рассылку</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- SECTION 6 — HOW IT WORKS -->
-<section id="how" class="how">
-  <div class="container">
-    <div class="section-head center">
-      <div class="section-kicker">Старт за 5 минут</div>
-      <h2 class="h2">Как начать работу — три шага</h2>
-    </div>
-
+    <div class="kicker blue centered">Старт за 5 минут</div>
+    <h2 class="section-title centered">Как начать работу — три шага</h2>
     <div class="steps">
-      <div class="step">
-        <div class="step-head">
-          <span class="step-num">Шаг 1</span>
-          <span class="step-time">5 минут</span>
-        </div>
-        <h3 class="step-title">Подключите аккаунты</h3>
-        <p class="step-text">Добавьте все Telegram-аккаунты вашего магазина. Технических знаний не&nbsp;нужно.</p>
-        <div class="step-mock">
-          <div class="step-mock-card">
-            <div class="step-mock-row"><span class="check">✓</span>@magazin_main</div>
-            <div class="step-mock-row"><span class="check">✓</span>@podderzhka</div>
-            <div class="step-mock-row"><span class="check">✓</span>@dostavka</div>
-            <div class="step-mock-row dim"><span class="plus">+</span>Добавить аккаунт</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="step">
-        <div class="step-head">
-          <span class="step-num">Шаг 2</span>
-          <span class="step-time">2 минуты</span>
-        </div>
-        <h3 class="step-title">Распределите менеджеров</h3>
-        <p class="step-text">Укажите, кто за&nbsp;какие чаты отвечает. Каждый менеджер видит только свои диалоги — или все сразу, если нужно.</p>
-        <div class="step-mock">
-          <div class="step-mock-card">
-            <div class="step-mock-manager">
-              <span class="avatar a5">А</span>
-              <div><b>Алина</b><span class="small">Основной · Поддержка</span></div>
-            </div>
-            <div class="step-mock-manager">
-              <span class="avatar a6">Р</span>
-              <div><b>Руслан</b><span class="small">Доставка</span></div>
-            </div>
-            <div class="step-mock-manager">
-              <span class="avatar a7">Н</span>
-              <div><b>Нигора</b><span class="small">Оптовый</span></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="step">
-        <div class="step-head">
-          <span class="step-num">Шаг 3</span>
-          <span class="step-time">дальше — автоматически</span>
-        </div>
-        <h3 class="step-title">Отслеживайте новые заявки</h3>
-        <p class="step-text">Все диалоги в&nbsp;одном месте. Если клиент не&nbsp;получил ответ — будет уведомление. История всех переписок сохраняется. Ни&nbsp;одна заявка не&nbsp;пропадёт.</p>
-        <div class="step-mock">
-          <div class="step-mock-alert">
-            <div class="alert-icon">⚠</div>
-            <div>
-              <b>Заявка без ответа 15 минут</b>
-              <div class="small">Юлия К. · @magazin_main</div>
-            </div>
-            <button class="alert-btn">Открыть</button>
-          </div>
-          <div class="step-mock-alert ok">
-            <div class="alert-icon green-bg">✓</div>
-            <div>
-              <b>Заявка обработана</b>
-              <div class="small">Акмал Т. · менеджер Алина · за 2 мин</div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div class="step"><div class="step-head"><span class="step-pill">Шаг 1</span><span class="step-time">5 минут</span></div><h3>Создайте магазин</h3><p>Загрузите товары, включите доставку и оплату.</p><div class="step-mock"><div>✓ Каталог <strong>24 SKU</strong></div><div>✓ Оплата <strong>Click, Payme</strong></div><div>✓ Доставка <strong>3 способа</strong></div></div></div>
+      <div class="step"><div class="step-head"><span class="step-pill">Шаг 2</span><span class="step-time">1 минута</span></div><h3>Выдайте доступ менеджерам</h3><p>Обрабатывайте заявки и вопросы клиентов.</p><div class="step-mock chat-mock"><div><strong>Юлия К.</strong> <small>1 мин</small></div><div class="msg msg-in">Есть Nike Air Max 39?</div><div class="msg msg-out">Да, 1 290 000 soʻm. Оформлять?</div><div class="msg msg-success">✓ Заказ оформлен · 1 290 000 soʻm</div></div></div>
+      <div class="step"><div class="step-head"><span class="step-pill">Шаг 3</span><span class="step-time">автоматически</span></div><h3>Отслеживайте продажи</h3><p>Контролируйте все диалоги и заказы — в одном месте в Telegram.</p><div class="step-mock"><div>📦 Заказов сегодня <strong>47</strong></div><div>💰 Выручка <strong>3,2 млн soʻm</strong></div><div>👥 Новых клиентов <strong>12</strong></div></div></div>
     </div>
   </div>
 </section>
 
-<!-- SECTION 7 — FEATURES (small cards) -->
-<section id="features" class="features">
-  <div class="feat-bg">
-    <svg class="feat-route" viewBox="0 0 1200 760" preserveAspectRatio="none" aria-hidden="true">
-      <defs>
-        <linearGradient id="routeGrad" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0%" stop-color="#108ef5" stop-opacity="0"/>
-          <stop offset="15%" stop-color="#108ef5" stop-opacity="0.45"/>
-          <stop offset="50%" stop-color="#05acff" stop-opacity="0.55"/>
-          <stop offset="85%" stop-color="#108ef5" stop-opacity="0.45"/>
-          <stop offset="100%" stop-color="#108ef5" stop-opacity="0"/>
-        </linearGradient>
-      </defs>
-      <path d="M 120 160 C 260 80, 400 240, 600 160 S 940 80, 1080 160"
-            fill="none" stroke="url(#routeGrad)" stroke-width="2" stroke-dasharray="6 8"/>
-      <path d="M 1080 160 C 1120 300, 1120 420, 1080 560"
-            fill="none" stroke="url(#routeGrad)" stroke-width="2" stroke-dasharray="6 8"/>
-      <path d="M 1080 560 C 940 640, 760 480, 600 560 S 260 640, 120 560"
-            fill="none" stroke="url(#routeGrad)" stroke-width="2" stroke-dasharray="6 8"/>
-      <g class="route-node">
-        <circle cx="120" cy="160" r="5"/>
-        <circle cx="600" cy="160" r="5"/>
-        <circle cx="1080" cy="160" r="5"/>
-        <circle cx="120" cy="560" r="5"/>
-        <circle cx="600" cy="560" r="5"/>
-        <circle cx="1080" cy="560" r="5"/>
-      </g>
-    </svg>
-    <div class="feat-bubble b1">
-      <svg viewBox="0 0 24 24" fill="none"><path d="M5 4h14v10H8l-3 4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
-    </div>
-    <div class="feat-bubble b2">
-      <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M12 8v4l3 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-    </div>
-    <div class="feat-bubble b3">
-      <svg viewBox="0 0 24 24" fill="none"><path d="M4 20V8 M10 20V4 M16 20v-9 M22 20v-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-    </div>
-    <div class="feat-bubble b4">
-      <svg viewBox="0 0 24 24" fill="none"><circle cx="9" cy="8" r="3" stroke="currentColor" stroke-width="2"/><path d="M3 20c0-4 3-6 6-6s6 2 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-    </div>
-  </div>
-
+<!-- PRICING -->
+<section class="pricing">
   <div class="container">
-    <div class="section-head center">
-      <div class="section-kicker">Возможности</div>
-      <h2 class="h2">Что умеет TGShop Chat</h2>
-    </div>
-
-    <div class="features-grid">
-      <div class="feat">
-        <div class="feat-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M3 5h18v14H3z M8 12h8 M8 8h8 M8 16h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
-        <h3 class="feat-title">Единый личный кабинет</h3>
-        <p class="feat-text">Все чаты из&nbsp;всех Telegram-аккаунтов в&nbsp;одном месте.</p>
-      </div>
-      <div class="feat">
-        <div class="feat-icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="9" cy="8" r="3" stroke="currentColor" stroke-width="2"/><circle cx="17" cy="10" r="2.5" stroke="currentColor" stroke-width="2"/><path d="M3 19c0-3 3-5 6-5s6 2 6 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M15 18c0-2 2-3.5 4-3.5s4 1.5 4 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
-        <h3 class="feat-title">Управление менеджерами</h3>
-        <p class="feat-text">Распределение диалогов, контроль скорости ответа.</p>
-      </div>
-      <div class="feat">
-        <div class="feat-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 8v4l3 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/></svg></div>
-        <h3 class="feat-title">История переписок</h3>
-        <p class="feat-text">Вся переписка сохраняется, даже если менеджер уволился.</p>
-      </div>
-      <div class="feat">
-        <div class="feat-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3l9 4v5c0 5-3.5 8-9 9-5.5-1-9-4-9-9V7l9-4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M8 12l3 3 5-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-        <h3 class="feat-title">Уведомления о&nbsp;пропущенных</h3>
-        <p class="feat-text">Клиент ждёт ответ дольше нужного — вам&nbsp;приходит уведомление.</p>
-      </div>
-      <div class="feat">
-        <div class="feat-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M3 20V10 M9 20V4 M15 20v-8 M21 20v-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
-        <h3 class="feat-title">Аналитика по&nbsp;менеджерам</h3>
-        <p class="feat-text">Кто сколько обработал заявок, насколько быстро.</p>
-      </div>
-      <div class="feat">
-        <div class="feat-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M21.5 4l-9 15-4-6-6-2z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></div>
-        <h3 class="feat-title">Не&nbsp;нужно учить новую программу</h3>
-        <p class="feat-text">Команда работает в&nbsp;привычном Telegram. Меняется только то, что видит руководитель.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- SECTION 8 — PRICING -->
-<section id="pricing" class="pricing">
-  <div class="container">
-    <div class="section-head center">
-      <div class="section-kicker">Тарифы</div>
-      <h2 class="h2">TGShop Chat включён во&nbsp;все тарифы TGShop</h2>
-      <p class="pricing-lead">Один тариф — и&nbsp;магазин, и&nbsp;Диалоги, и&nbsp;все интеграции. Без скрытых доплат.</p>
-    </div>
-
-    <div class="billing-toggle">
-      <button class="bt-option" data-period="month">Помесячно</button>
-      <button class="bt-option active" data-period="year">За&nbsp;год · −20%</button>
-    </div>
-
-    <div class="pricing-grid">
-      <!-- Старт -->
+    <div class="kicker blue centered">Тарифы</div>
+    <h2 class="section-title centered">Тарифы для любого магазина</h2>
+    <div class="price-cards">
       <div class="price-card">
-        <div class="price-card-name">Старт</div>
-        <div class="price-card-amount"><b>399&nbsp;000</b><span>soʻm&nbsp;/&nbsp;мес</span></div>
-        <div class="price-card-old">499&nbsp;000&nbsp;soʻm/мес</div>
-        <div class="price-card-limit">До&nbsp;100 товаров · 1&nbsp;активный магазин</div>
-        <ul class="price-card-list">
-          <li>Все Telegram-чаты в&nbsp;одном окне</li>
-          <li>Управление менеджерами</li>
-          <li>Каталог и&nbsp;витрина для&nbsp;маркетплейсов</li>
-          <li>Приём платежей</li>
-          <li>Интеграция со&nbsp;службами доставки</li>
-          <li>Интеграция с&nbsp;CRM</li>
-          <li>Аналитика</li>
-          <li>Импорт XLS&nbsp;/&nbsp;XML</li>
-          <li>Рассылки и&nbsp;промокоды</li>
+        <h3>Старт</h3>
+        <div class="price"><strong>399 000</strong> <span>soʻm/мес</span></div>
+        <div class="old-price">499 000 soʻm/мес</div>
+        <div class="price-limit">До 100 товаров · 1 активный магазин</div>
+        <ul class="price-features">
+          <li>✓ Диалоги с клиентами</li><li>✓ Витрина для маркетплейсов</li><li>✓ Каталог и товары</li><li>✓ Прием платежей</li><li>✓ Интеграция со службами доставки</li><li>✓ Интеграция с CRM</li><li>✓ Доступ к аналитике</li><li>✓ Импорт товаров из XLS/XML</li><li>✓ Рассылки</li><li>✓ Промокоды</li>
+          <li class="x">✕ Интеграция с МойСклад / 1С</li><li class="x">✕ Периодический импорт по ссылке</li><li class="x">✕ Нет возможности отключить «Сделано при помощи TGShop»</li>
         </ul>
-        <a class="btn btn-outline btn-l" href="https://admin.tgshop.io/sign-up">Начать бесплатно</a>
+        <a href="https://admin.tgshop.io/sign-up?utm_content=uz" class="btn btn-primary btn-block">Начать бесплатно</a>
       </div>
-
-      <!-- Бизнес -->
-      <div class="price-card price-card-popular">
-        <div class="price-card-tag">⚡ Популярный</div>
-        <div class="price-card-name">Бизнес</div>
-        <div class="price-card-amount"><b>559&nbsp;000</b><span>soʻm&nbsp;/&nbsp;мес</span></div>
-        <div class="price-card-old">699&nbsp;000&nbsp;soʻm/мес</div>
-        <div class="price-card-limit">До&nbsp;1&nbsp;000 товаров · до&nbsp;5 магазинов</div>
-        <ul class="price-card-list">
-          <li>Всё из&nbsp;тарифа Старт</li>
-          <li>До&nbsp;5 активных магазинов</li>
-          <li>До&nbsp;1&nbsp;000 товаров в&nbsp;каталоге</li>
-          <li>Расширенная аналитика</li>
+      <div class="price-card popular">
+        <div class="popular-badge">⚡ Популярный</div>
+        <h3>Бизнес</h3>
+        <div class="price"><strong>559 000</strong> <span>soʻm/мес</span></div>
+        <div class="old-price">699 000 soʻm/мес</div>
+        <div class="price-limit">До 1000 товаров · до 5 активных магазинов</div>
+        <ul class="price-features">
+          <li>✓ Диалоги с клиентами</li><li>✓ Витрина для маркетплейсов</li><li>✓ Каталог и товары</li><li>✓ Прием платежей</li><li>✓ Интеграция со службами доставки</li><li>✓ Интеграция с CRM</li><li>✓ Доступ к аналитике</li><li>✓ Импорт товаров из XLS/XML</li><li>✓ Рассылки</li><li>✓ Промокоды</li><li>✓ Отсутствует реклама сервиса</li>
+          <li class="x">✕ Интеграция с МойСклад / 1С</li><li class="x">✕ Периодический импорт по ссылке</li>
         </ul>
-        <a class="btn btn-primary btn-l" href="https://admin.tgshop.io/sign-up">Начать бесплатно</a>
+        <a href="https://admin.tgshop.io/sign-up?utm_content=uz" class="btn btn-primary btn-block">Начать бесплатно</a>
       </div>
-
-      <!-- Премиум -->
       <div class="price-card">
-        <div class="price-card-name">Премиум</div>
-        <div class="price-card-amount"><b>799&nbsp;000</b><span>soʻm&nbsp;/&nbsp;мес</span></div>
-        <div class="price-card-old">999&nbsp;000&nbsp;soʻm/мес</div>
-        <div class="price-card-limit">До&nbsp;15&nbsp;000 товаров · до&nbsp;10 магазинов</div>
-        <ul class="price-card-list">
-          <li>Всё из&nbsp;тарифа Бизнес</li>
-          <li>До&nbsp;10 активных магазинов</li>
-          <li>До&nbsp;15&nbsp;000 товаров</li>
-          <li>Приоритетная поддержка</li>
+        <h3>Премиум</h3>
+        <div class="price"><strong>799 000</strong> <span>soʻm/мес</span></div>
+        <div class="old-price">999 000 soʻm/мес</div>
+        <div class="price-limit">До 15 000 товаров · до 10 активных магазинов</div>
+        <ul class="price-features">
+          <li>✓ Диалоги с клиентами</li><li>✓ Витрина для маркетплейсов</li><li>✓ Каталог и товары</li><li>✓ Прием платежей</li><li>✓ Интеграция со службами доставки</li><li>✓ Интеграция с CRM</li><li>✓ Доступ к аналитике</li><li>✓ Импорт товаров из XLS/XML</li><li>✓ Рассылки</li><li>✓ Промокоды</li><li>✓ Интеграция с МойСклад / 1С</li><li>✓ Периодический импорт по ссылке</li><li>✓ Отсутствует реклама сервиса</li><li>✓ Приоритетная поддержка</li>
         </ul>
-        <a class="btn btn-outline btn-l" href="https://admin.tgshop.io/sign-up">Начать бесплатно</a>
+        <a href="https://admin.tgshop.io/sign-up?utm_content=uz" class="btn btn-primary btn-block">Начать бесплатно</a>
       </div>
-    </div>
-
-    <div class="pricing-note">
-      14&nbsp;дней бесплатно · карта не&nbsp;нужна · отмена в&nbsp;любой момент
-    </div>
-  </div>
-</section>
-
-<!-- SECTION 9 — SOON (custdev trap) -->
-<section class="soon">
-  <div class="container">
-    <div class="section-head center">
-      <div class="section-kicker soft">🚀 В&nbsp;разработке</div>
-      <h2 class="h2">Скоро в&nbsp;TGShop Chat</h2>
-      <p class="soon-lead">
-        Мы&nbsp;строим продукт вместе с&nbsp;клиентами. Хочешь повлиять на&nbsp;roadmap — напиши нам, покажем превью и&nbsp;дадим скидку первой когорте.
-      </p>
-    </div>
-    <div class="soon-grid">
-      <div class="soon-card">
-        <div class="soon-icon">📊</div>
-        <h3>Воронка сделок</h3>
-        <p>Каждый чат — сделка. Видите путь клиента: первое сообщение → расчёт → оплата → доставка.</p>
-      </div>
-      <div class="soon-card">
-        <div class="soon-icon">🏷</div>
-        <h3>Теги клиентов и&nbsp;сегменты</h3>
-        <p>Размечайте: VIP, оптовый, проблемный, первая покупка. Стройте сегменты для&nbsp;рассылок.</p>
-      </div>
-      <div class="soon-card">
-        <div class="soon-icon">📩</div>
-        <h3>Авторассылки по&nbsp;триггерам</h3>
-        <p>Возвращайте клиентов автоматически — пишите тем, кто давно не&nbsp;покупал.</p>
-      </div>
-      <div class="soon-card">
-        <div class="soon-icon">🤖</div>
-        <h3>AI-ответы на&nbsp;частые вопросы</h3>
-        <p>Бот отвечает мгновенно на&nbsp;«сколько стоит доставка?». Менеджер подключается, когда нужен человек.</p>
-      </div>
-    </div>
-    <div class="soon-cta">
-      <a class="btn btn-secondary btn-l" href="https://admin.tgshop.io/sign-up">Хочу повлиять на&nbsp;roadmap →</a>
-      <div class="soon-cta-note">Расскажете, как используете чаты сейчас — получите 30% скидку на&nbsp;первый год.</div>
     </div>
   </div>
 </section>
 
 <!-- FAQ -->
-<section id="faq" class="faq">
-  <div class="container faq-inner">
-    <div class="faq-head">
-      <div class="section-kicker">FAQ</div>
-      <h2 class="h2">Ответы на&nbsp;частые вопросы</h2>
-    </div>
-    <div class="faq-list">
-      <div class="faq-item">
-        <div class="faq-q">Как оплатить из&nbsp;Узбекистана?</div>
-        <div class="faq-a">Click, Payme, Uzcard, Humo, банковская карта. Оплачиваете прямо в&nbsp;кабинете в&nbsp;soʻm.</div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q">Сколько менеджеров можно подключить?</div>
-        <div class="faq-a">Без ограничений во&nbsp;всех тарифах. Лимит — только на&nbsp;количество товаров и&nbsp;активных магазинов.</div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q">Чат работает с&nbsp;обычного смартфона менеджера?</div>
-        <div class="faq-a">Да. Менеджеры пишут клиентам в&nbsp;Telegram как обычно — со&nbsp;своего смартфона. Все диалоги при этом видны вам в&nbsp;едином кабинете.</div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q">Это работает с&nbsp;обычным Telegram?</div>
-        <div class="faq-a">Да. Вам не&nbsp;нужно создавать новый аккаунт или переходить на&nbsp;Telegram&nbsp;Business. Мы&nbsp;интегрируемся с&nbsp;вашими текущими аккаунтами.</div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q">Нужно&nbsp;ли устанавливать что-то на&nbsp;телефоны менеджеров?</div>
-        <div class="faq-a">Нет. Менеджеры продолжают работать в&nbsp;своём Telegram как обычно. Изменится только то, что вы, как руководитель, видите всё в&nbsp;одном месте.</div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q">Безопасно&nbsp;ли это? Кто видит переписку?</div>
-        <div class="faq-a">Переписка видна только вам и&nbsp;тем менеджерам, которым вы&nbsp;даёте доступ.</div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q">У&nbsp;меня небольшой магазин, мне это нужно?</div>
-        <div class="faq-a">Если у&nbsp;вас хотя&nbsp;бы один менеджер и&nbsp;хотя&nbsp;бы один Telegram-аккаунт для&nbsp;продаж — ваш менеджер уже может терять заявки. Размер бизнеса не&nbsp;имеет значения.</div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q">Сколько это стоит?</div>
-        <div class="faq-a">Тарифы — от&nbsp;399&nbsp;000&nbsp;soʻm/мес (со&nbsp;скидкой за&nbsp;год). 14&nbsp;дней бесплатно. Одна сохранённая заявка при среднем чеке 300&nbsp;000&nbsp;soʻm уже окупает месяц подписки.</div>
-      </div>
-    </div>
+<section class="faq">
+  <div class="container">
+    <h2 class="section-title centered">Частые вопросы</h2>
+    <details><summary>Безопасно ли это? Кто видит переписку?</summary><p>Переписка хранится в вашем кабинете и доступна только вам и вашей команде.</p></details>
+    <details><summary>Сколько стоит? Есть ли бесплатный пробный период?</summary><p>14 дней бесплатно для любого тарифа. После — от 399 000 soʻm/мес.</p></details>
+    <details><summary>Нужен ли сайт? Нужны ли разработчики?</summary><p>Нет, всё работает прямо в Telegram. Не нужны ни сайт, ни программисты.</p></details>
+    <details><summary>Как происходит оплата?</summary><p>Помесячно или раз в год (-20%). Click, Payme, банковская карта.</p></details>
+    <details><summary>Можно ли отказаться и забрать данные?</summary><p>Да. Все диалоги и клиенты остаются у вас в Telegram. TGShop не запирает данные.</p></details>
   </div>
 </section>
 
 <!-- FINAL CTA -->
-<section class="cta-final">
-  <div class="container cta-final-inner">
-    <h2 class="h2-inv">Начните сегодня и&nbsp;перестаньте терять заказы в&nbsp;Telegram</h2>
-    <p class="cta-final-lead">
-      Каждую минуту, пока вы&nbsp;не&nbsp;подключили TGShop&nbsp;Chat, кто-то из&nbsp;ваших клиентов не&nbsp;дождался ответа и&nbsp;ушёл к&nbsp;конкуренту.
-    </p>
-    <a class="btn btn-secondary btn-l" href="https://admin.tgshop.io/sign-up">Попробовать бесплатно 14&nbsp;дней →</a>
-    <div class="cta-final-micro">14&nbsp;дней бесплатно · от&nbsp;399&nbsp;000&nbsp;soʻm/мес · отмена в&nbsp;любой момент</div>
+<section class="final-cta">
+  <div class="container centered">
+    <h2>Начните сегодня и перестаньте терять заказы в Telegram</h2>
+    <a href="https://admin.tgshop.io/sign-up?utm_content=uz" class="btn btn-primary btn-lg">Попробовать бесплатно →</a>
   </div>
 </section>
 
@@ -770,32 +287,52 @@
 <footer class="footer">
   <div class="container footer-inner">
     <div class="footer-brand">
-      <div class="brand"><span class="brand-tg">TGShop</span><span class="brand-chat">Chat</span></div>
-      <div class="footer-about">Все Telegram-чаты магазина в&nbsp;одном кабинете. Часть экосистемы TGShop.</div>
+      <div class="brand"><span class="brand-name">TGShop</span><span class="brand-suffix">Chat</span></div>
+      <p>Все Telegram-чаты магазина в одном кабинете. Часть экосистемы TGShop.</p>
     </div>
     <div class="footer-col">
-      <div class="footer-col-title">Продукт</div>
-      <a href="#features">Возможности</a>
-      <a href="#how">Как работает</a>
-      <a href="#pricing">Тарифы</a>
-      <a href="#faq">FAQ</a>
+      <h4>Полезные материалы</h4>
+      <a href="https://tgshop.io/blog">Блог</a>
+      <a href="https://tgshop.io/faq">FAQ</a>
+      <a href="https://tgshop.io/yearly/">Тарифы</a>
+      <a href="https://docs.tgshop.io/uz/telegramda-dokon-ochish/tezkor-boshlash">Инструкции</a>
     </div>
     <div class="footer-col">
-      <div class="footer-col-title">TGShop</div>
-      <a href="https://tgshop.io" target="_blank">Telegram-магазин</a>
-      <a href="https://tgshop.io/telegram-sales/" target="_blank">Продажи в&nbsp;Telegram</a>
+      <h4>Решения</h4>
+      <a href="https://tgshop.io/blog/instrukciya-kak-sozdat-magazin-v-telegram-po-shagam/">Telegram-магазин</a>
+      <a href="https://uz.tgshop.io">TGShop Узбекистан</a>
     </div>
     <div class="footer-col">
-      <div class="footer-col-title">Поддержка</div>
-      <a href="#">Написать в&nbsp;Telegram</a>
-      <a href="#">База знаний</a>
-      <a href="#">Политика данных</a>
+      <h4>Поддержка</h4>
+      <a href="https://t.me/TGShopHelp_bot">Связаться</a>
+      <a href="https://tgshop.io/privacypolicy/">Политика данных</a>
+      <a href="https://tgshop.io/useragreement/">Правила использования</a>
     </div>
   </div>
   <div class="container footer-bottom">
-    © 2026 TGShop Chat. Все права защищены.
+    <span>© 2026 TGShop. Все права защищены.</span>
+    <div class="footer-social">
+      <a href="https://t.me/tgshop_io" aria-label="Telegram">TG</a>
+      <a href="https://www.youtube.com/@tgshop_io" aria-label="YouTube">YT</a>
+      <a href="https://vk.com/tgshop_io" aria-label="VK">VK</a>
+    </div>
   </div>
 </footer>
 
+<script>
+// Build bar chart bars
+const bars = document.getElementById('bars');
+if (bars) {
+  for (let i = 0; i < 30; i++) {
+    const b = document.createElement('div');
+    b.className = 'bar';
+    const h = 18 + (i / 29) * 75; // 18% to 93%
+    b.style.height = h + '%';
+    b.style.opacity = 0.4 + (i / 29) * 0.6;
+    if (i === 29) b.classList.add('peak');
+    bars.appendChild(b);
+  }
+}
+</script>
 </body>
 </html>
