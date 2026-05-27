@@ -680,7 +680,7 @@ export default function LandingV2Desktop1440Px() {
                   ✓
                 </p>
                 <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0 text-[11px]" data-node-id="40002705:8490" style={{ fontVariationSettings: "'wdth' 100" }}>
-                  0 ₽ на рекламу
+                  0 сум на рекламу
                 </p>
               </div>
               <div className="content-stretch flex gap-[34px] h-[63px] items-start relative shrink-0 w-full" data-node-id="40002690:8541">
@@ -702,7 +702,7 @@ export default function LandingV2Desktop1440Px() {
                   </div>
                   <div className="bg-[#c7cfd9] h-[4px] relative rounded-[2px] shrink-0 w-[12px]" data-node-id="40002705:8486" data-name="Rectangle" />
                   <div className="[word-break:break-word] font-['SF_Pro:Medium',sans-serif] font-[510] leading-[0] relative shrink-0 text-[#6b7885] text-[14px] tracking-[-0.392px] whitespace-nowrap" data-node-id="40002690:8547" style={{ fontVariationSettings: "'wdth' 100" }}>
-                    <p className="leading-[18px] mb-0 whitespace-pre">{`“до” на `}</p>
+                    <p className="leading-[18px] mb-0 whitespace-pre">{`“до” было на `}</p>
                     <p className="leading-[18px] whitespace-pre">маркетплейсе</p>
                   </div>
                 </div>
@@ -764,7 +764,7 @@ export default function LandingV2Desktop1440Px() {
                   </p>
                 </div>
               </div>
-              <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" data-node-id="40002712:8495" style={{ fontVariationSettings: "'wdth' 100" }}>
+              <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] opacity-0 relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" data-node-id="40002712:8495" style={{ fontVariationSettings: "'wdth' 100" }}>
                 в месяц
               </p>
               <div className="h-[48px] overflow-clip relative shrink-0 w-[272px]" data-node-id="40002690:8570" data-name="Container">
@@ -824,7 +824,7 @@ export default function LandingV2Desktop1440Px() {
                   </p>
                 </div>
               </div>
-              <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" data-node-id="40002712:8502" style={{ fontVariationSettings: "'wdth' 100" }}>
+              <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] opacity-0 relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" data-node-id="40002712:8502" style={{ fontVariationSettings: "'wdth' 100" }}>
                 за полгода
               </p>
               <div className="h-[48px] overflow-clip relative shrink-0 w-[272px]" data-node-id="40002690:8589" data-name="Container">
@@ -1159,7 +1159,7 @@ export default function LandingV2Desktop1440Px() {
                   Оплата
                 </p>
                 <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#6b7885] text-[13px] whitespace-nowrap" data-node-id="40002655:8254" style={{ fontVariationSettings: "'wdth' 100" }}>
-                  Click, Payme
+                  Click, Payme, наличные
                 </p>
               </div>
               <div className="bg-white content-stretch flex gap-[12px] items-center overflow-clip py-[4px] relative shrink-0" data-node-id="40002655:8255" data-name="row">
@@ -1288,7 +1288,7 @@ export default function LandingV2Desktop1440Px() {
                   Выручка
                 </p>
                 <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#6b7885] text-[13px] whitespace-nowrap" data-node-id="40002655:8287" style={{ fontVariationSettings: "'wdth' 100" }}>
-                  3,2 млн soʻm
+                  6,2 млн soʻm
                 </p>
               </div>
               <div className="bg-white content-stretch flex gap-[12px] items-center overflow-clip py-[4px] relative shrink-0" data-node-id="40002655:8288" data-name="row">

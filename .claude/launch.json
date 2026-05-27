@@ -3,9 +3,9 @@
   "configurations": [
     {
       "name": "tgshop-chat-landing",
-      "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "5710", "--directory", "/Users/lipt/Desktop/Claude TGShop Cursor/tgshop-chat-landing"],
-      "port": 5710
+      "runtimeExecutable": "echo",
+      "runtimeArgs": ["preview-already-running-on-5740"],
+      "port": 5740
     }
   ]
 }
