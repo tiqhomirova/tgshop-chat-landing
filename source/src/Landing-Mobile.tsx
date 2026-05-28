@@ -328,7 +328,7 @@ function Trust() {
           </div>
         </div>
       </div>
-      <div className="bg-white content-stretch flex flex-col gap-[12px] items-start overflow-clip relative shrink-0 w-full" data-name="cases-row">
+      <div className="content-stretch flex flex-col gap-[12px] items-start overflow-clip relative shrink-0 w-full" data-name="cases-row">
         <div className="content-stretch flex gap-[10px] items-start overflow-clip relative shrink-0 w-full" data-name="row1">
           {/* FashionFabrique */}
           <div className="bg-white border border-[#ebedf2] border-solid content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px px-[12px] py-[14px] relative rounded-[14px] self-stretch" data-name="case-Fashion Fabrique">
