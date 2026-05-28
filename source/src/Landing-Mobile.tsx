@@ -359,35 +359,32 @@ function Trust() {
               </div>
             </div>
           </div>
-          {/* Around You */}
-          <div className="bg-white border border-[#ebedf2] border-solid content-stretch flex flex-[1_0_0] flex-col gap-[8px] h-[232px] items-start min-w-px pl-[12px] pr-[10px] py-[14px] relative rounded-[14px]" data-name="case-Around You">
+          {/* Around You — exact Figma node 40002889:824 */}
+          <div className="bg-white border border-[#ebedf2] border-solid content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-w-px pl-[12px] pr-[10px] py-[14px] relative rounded-[14px] self-stretch" data-name="case-Around You">
             <div className="[word-break:break-word] bg-[rgba(33,178,99,0.14)] content-stretch flex gap-[5px] items-center leading-[normal] overflow-clip px-[8px] py-[3px] relative rounded-[8px] shrink-0 text-[#0f8c33] text-[10px] w-full whitespace-nowrap">
               <p className="font-['SF_Pro:Bold',sans-serif] font-bold relative shrink-0" style={{ fontVariationSettings: "'wdth' 100" }}>✓</p>
-              <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0" style={{ fontVariationSettings: "'wdth' 100" }}>0 сум на рекламу</p>
+              <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0" style={{ fontVariationSettings: "'wdth' 100" }}>{`Reklama: 0 so'm `}</p>
             </div>
             <div className="bg-white content-stretch flex flex-col gap-[6px] items-start overflow-clip relative shrink-0 w-full">
               <div className="bg-white content-stretch flex flex-col gap-[5px] items-start overflow-clip relative shrink-0">
-                <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#0f8c33] text-[20px] w-[142px]" style={{ fontVariationSettings: "'wdth' 100" }}>6 515 заказов</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#0f8c33] text-[20px] w-[142px]" style={{ fontVariationSettings: "'wdth' 100" }}>6515 ta sotuv</p>
                 <div className="bg-[#21b263] h-[4px] relative rounded-[2px] shrink-0 w-[50px]" />
-                <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>с TGShop</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>TGShop bilan</p>
               </div>
               <div className="bg-white content-stretch flex flex-col gap-[5px] items-start overflow-clip relative shrink-0">
-                <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#f04545] text-[20px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>740</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#f04545] text-[20px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>740 ta sotuv</p>
                 <div className="bg-[#f04545] h-[4px] relative rounded-[2px] shrink-0 w-[8px]" />
-                <div className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-                  <p className="leading-[normal] mb-0 whitespace-pre">{`"до" было `}</p>
-                  <p className="leading-[normal] whitespace-pre">на маркетплейсе</p>
-                </div>
+                <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{`«ilgari» marketplace'da`}</p>
               </div>
             </div>
-            <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>за 6 месяцев</p>
+            <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>6 oy ichida</p>
             <div className="bg-white content-stretch flex gap-[10px] items-center overflow-clip relative shrink-0 w-full">
               <div className="border border-[#f6f7f9] border-solid relative rounded-[999px] shrink-0 size-[32px]">
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[999px] size-full" src={imgTrust_Bg1} />
               </div>
               <div className="[word-break:break-word] bg-white content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-start min-w-px overflow-clip relative">
                 <p className="font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#121726] text-[11px] w-full" style={{ fontVariationSettings: "'wdth' 100" }}>Around You</p>
-                <p className="font-['SF_Pro:Regular',sans-serif] font-normal leading-[13px] relative shrink-0 text-[#6b7885] text-[10px] w-full" style={{ fontVariationSettings: "'wdth' 100" }}>цветочный магазин</p>
+                <p className="font-['SF_Pro:Regular',sans-serif] font-normal leading-[13px] relative shrink-0 text-[#6b7885] text-[10px] w-full" style={{ fontVariationSettings: "'wdth' 100" }}>{`gul do'koni`}</p>
               </div>
             </div>
           </div>
