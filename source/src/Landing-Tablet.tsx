@@ -882,6 +882,16 @@ function How() {
           </div>
         </div>
       </div>
+      <div className="h-[40px] relative shrink-0 w-[100px]" />
+      <div className="content-stretch flex items-center justify-center relative shrink-0">
+        <a href={CTA_HREF} target="_blank" rel="noopener" className="contents no-underline">
+          <div className="bg-[#108ef5] cursor-pointer content-stretch flex h-[52px] items-center justify-center overflow-clip px-[32px] relative rounded-[100px] shadow-[0px_20px_35px_0px_rgba(51,133,255,0.22)] shrink-0" data-name="btn-primary-l">
+            <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[16px] text-white tracking-[-0.16px] whitespace-nowrap">
+              Попробовать бесплатно
+            </p>
+          </div>
+        </a>
+      </div>
     </div>
   );
 }
@@ -1177,7 +1187,7 @@ function Pricing({ isYear, setPeriod }: { isYear: boolean; setPeriod: (p: 'month
         </p>
       </div>
       <div className="h-[16px] relative shrink-0 w-[100px]" />
-      <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.55] not-italic relative shrink-0 text-[#595959] text-[16px] text-center tracking-[-0.16px] w-[620px] whitespace-pre-wrap">{`Один тариф — магазин, диалоги со статусами,  интеграции. Без скрытых доплат.`}</p>
+      <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.55] not-italic relative shrink-0 text-[#595959] text-[16px] text-center tracking-[-0.16px] w-[620px] whitespace-pre-wrap">{`Один тариф — магазин, диалоги со статусами, интеграции. Без скрытых доплат.`}</p>
       <div className="h-[40px] relative shrink-0 w-[100px]" />
       <div className="bg-white border border-[rgba(230,232,236,0.6)] border-solid content-stretch flex items-start p-[4px] relative rounded-[100px] shrink-0" data-name="bt">
         <button
