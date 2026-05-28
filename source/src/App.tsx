@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import LandingDesktop from './Landing-Desktop';
 import LandingTablet from './Landing-Tablet';
 import LandingMobile from './Landing-Mobile';
+import { readLangFromUrl, setLang, applyTranslations, updateLangSwitchLabels, type Lang } from './i18n';
 
 const DESIGN_WIDTH = { mobile: 375, tablet: 1024, desktop: 1440 } as const;
 type BP = keyof typeof DESIGN_WIDTH;
@@ -12,8 +13,6 @@ function pickBreakpoint(vw: number): BP {
   return 'desktop';
 }
 
-// Reads UTM params from current URL and returns a query string fragment.
-// Empty string if no UTM params present.
 function getUtmSuffix(): string {
   if (typeof window === 'undefined') return '';
   const url = new URLSearchParams(window.location.search);
@@ -25,27 +24,44 @@ function getUtmSuffix(): string {
   return s ? '?' + s : '';
 }
 
-// Append UTM params from page URL to every <a href="admin.tgshop.io/..."> link.
-// Runs after each render; safe to call multiple times (idempotent — won't double-append).
 function applyUtmPassthrough() {
   const utm = getUtmSuffix();
   if (!utm) return;
   const anchors = document.querySelectorAll<HTMLAnchorElement>('a[href*="admin.tgshop.io"]');
   anchors.forEach((a) => {
     const orig = a.getAttribute('href') || '';
-    // Only touch links that don't already carry an utm_ param
     if (/[?&]utm_/i.test(orig)) return;
     const sep = orig.includes('?') ? '&' : '?';
-    // utm starts with '?', strip it when joining
     a.setAttribute('href', orig + sep + utm.slice(1));
   });
+}
+
+/** Click handler delegated to the document: clicking any lang switch element
+   toggles between RU and UZ. We use delegation because the switch is rendered
+   inside Landing-Desktop / Landing-Tablet / Landing-Mobile and we don't want
+   to refactor each one to pass a callback. */
+function bindLangSwitchClick(currentLang: Lang) {
+  const handler = (e: Event) => {
+    const target = e.target as HTMLElement | null;
+    if (!target) return;
+    const switchEl = target.closest('[data-name="lang-btn"], [data-name="lang-switch"]') as HTMLElement | null;
+    if (!switchEl) return;
+    // Don't capture clicks on actual anchors inside the burger menu list.
+    if (target.closest('a[href]')) return;
+    e.preventDefault();
+    setLang(currentLang === 'ru' ? 'uz' : 'ru');
+  };
+  document.addEventListener('click', handler, true);
+  return () => document.removeEventListener('click', handler, true);
 }
 
 export default function App() {
   const [bp, setBp] = useState<BP>(() =>
     typeof window !== 'undefined' ? pickBreakpoint(window.innerWidth) : 'desktop'
   );
+  const [lang] = useState<Lang>(() => readLangFromUrl());
 
+  // Resize/scale handler — unchanged.
   useEffect(() => {
     function apply() {
       const vw = document.documentElement.clientWidth;
@@ -76,10 +92,12 @@ export default function App() {
     };
   }, []);
 
-  // Re-apply layout calc + UTM passthrough when breakpoint changes
-  // (different component mounted → different <a> tags to walk).
+  // Lang switcher click delegation.
+  useEffect(() => bindLangSwitchClick(lang), [lang]);
+
+  // Re-apply layout calc + UTM passthrough + translations on bp/lang change.
   useEffect(() => {
-    requestAnimationFrame(() => {
+    const run = () => {
       const vw = document.documentElement.clientWidth;
       const dw = DESIGN_WIDTH[bp];
       const scale = vw / dw;
@@ -88,11 +106,14 @@ export default function App() {
         document.body.style.height = `${root.scrollHeight * scale}px`;
       }
       applyUtmPassthrough();
-    });
-    // Run again after a small delay to catch async-rendered links
-    const t = setTimeout(applyUtmPassthrough, 200);
-    return () => clearTimeout(t);
-  }, [bp]);
+      applyTranslations(lang);
+      updateLangSwitchLabels(lang);
+    };
+    requestAnimationFrame(run);
+    const t1 = setTimeout(run, 200);
+    const t2 = setTimeout(run, 800);
+    return () => { clearTimeout(t1); clearTimeout(t2); };
+  }, [bp, lang]);
 
   if (bp === 'mobile') return <LandingMobile />;
   if (bp === 'tablet') return <LandingTablet />;

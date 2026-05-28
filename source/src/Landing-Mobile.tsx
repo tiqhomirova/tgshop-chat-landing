@@ -59,8 +59,8 @@ function MobileMenuPortal({ onClose }: { onClose: () => void }) {
           </a>
         </div>
 
-        <div className="mt-[20px] pt-[16px] border-t border-[#e9ebf1] text-[12px] text-[#6b7885]">
-          Язык: <span className="text-[#121726] font-semibold">Русский</span> · <span className="opacity-60">O'zbek (скоро)</span>
+        <div className="mt-[20px] pt-[16px] border-t border-[#e9ebf1] text-[12px] text-[#6b7885]" data-name="lang-switch">
+          Язык: <span className="text-[#121726] font-semibold">Русский</span> · <span className="cursor-pointer hover:text-[#121726]">O'zbek</span>
         </div>
       </div>
     </div>,
@@ -117,7 +117,7 @@ function Header() {
         <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#299eeb]" style={{ fontVariationSettings: "'wdth' 100" }}>Chat</p>
       </div>
       <div className="bg-white content-stretch flex gap-[8px] items-center overflow-clip relative shrink-0" data-node-id="40002794:8509" data-name="actions">
-        <div className="[word-break:break-word] bg-white border border-[#e0e5ed] border-solid content-stretch flex gap-[4px] items-center leading-[normal] overflow-clip pl-[10px] pr-[8px] py-[8px] relative rounded-[8px] shrink-0 whitespace-nowrap" data-node-id="40002794:8510" data-name="lang-btn">
+        <div className="[word-break:break-word] bg-white border border-[#e0e5ed] border-solid content-stretch flex gap-[4px] items-center leading-[normal] overflow-clip pl-[10px] pr-[8px] py-[8px] relative rounded-[8px] shrink-0 whitespace-nowrap cursor-pointer" data-node-id="40002794:8510" data-name="lang-btn">
           <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[14px] text-black" style={{ fontVariationSettings: "'wdth' 100" }}>🌐</p>
           <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0 text-[#121726] text-[13px]" style={{ fontVariationSettings: "'wdth' 100" }}>RU</p>
           <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#6b7885] text-[10px]" style={{ fontVariationSettings: "'wdth' 100" }}>▾</p>
