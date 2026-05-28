@@ -285,45 +285,56 @@ function Trust() {
       </p>
       <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" data-name="logos">
         <div className="content-stretch flex flex-col gap-[12px] items-center py-[8px] relative shrink-0 w-full">
+          {/* Restored 1:1 from Figma node 40002682:1121 — subagent had broken
+              several h/w/crop params, causing stretched logos that overflowed
+              the 4-column row. Each block matches the Figma source exactly. */}
           <div className="content-stretch flex gap-[14px] items-center justify-center overflow-clip relative shrink-0" data-name="logo-row1">
+            {/* Yves Rocher 85.333×18 */}
             <div className="h-[18px] relative shrink-0 w-[85.333px]">
-              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgTrust_YvesRocher} />
+              <img alt="Yves Rocher" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgTrust_YvesRocher} />
             </div>
-            <div className="h-[18px] relative shrink-0 w-[71.595px]">
+            {/* EMRA 64×16 */}
+            <div className="h-[16px] relative shrink-0 w-[64px]">
               <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                <img alt="" className="absolute h-[155.06%] left-0 max-w-none top-[-27.53%] w-full" src={imgTrust_61} />
+                <img alt="EMRA" className="absolute h-[155.06%] left-0 max-w-none top-[-27.53%] w-full" src={imgTrust_61} />
               </div>
             </div>
-            <div className="h-[18px] mix-blend-darken relative shrink-0 w-[66.316px]">
+            {/* Merci Lingerie 63×18 */}
+            <div className="h-[18px] relative shrink-0 w-[63px]">
               <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                <img alt="" className="absolute h-[145.61%] left-[-7.86%] max-w-none top-[-19.3%] w-[115.48%]" src={imgTrust_221} />
+                <img alt="Merci Lingerie" className="absolute h-[99.28%] left-[-0.52%] max-w-none top-[-0.16%] w-[100.81%]" src={imgTrust_221} />
               </div>
             </div>
-            <div className="h-[18px] mix-blend-darken relative shrink-0 w-[59.004px]">
+            {/* Dragonfly 60×18 */}
+            <div className="h-[18px] relative shrink-0 w-[60px]">
               <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                <img alt="" className="absolute h-[219.8%] left-[-0.92%] max-w-none top-[-60.6%] w-[102.5%]" src={imgTrust_51} />
+                <img alt="Dragonfly" className="absolute h-[115.61%] left-[0.12%] max-w-none top-[0.42%] w-[100.8%]" src={imgTrust_51} />
               </div>
             </div>
           </div>
           <div className="content-stretch flex gap-[14px] items-center justify-center overflow-clip relative shrink-0 w-full" data-name="logo-row2">
+            {/* Around You (SVG) 65×12 */}
             <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0">
               <div className="col-1 h-[12px] ml-0 mt-0 relative row-1 w-[65px]">
-                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTrust_Logo1} />
+                <img alt="Around You" className="absolute block inset-0 max-w-none size-full" src={imgTrust_Logo1} />
               </div>
             </div>
-            <div className="h-[20px] relative shrink-0 w-[66px]">
+            {/* ANA HILDEBRANT 66×18 */}
+            <div className="h-[18px] relative shrink-0 w-[66px]">
               <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                <img alt="" className="absolute h-[243.66%] left-[-46.98%] max-w-none top-[-71.83%] w-[189.08%]" src={imgTrust_62} />
+                <img alt="ANA HILDEBRANT" className="absolute h-[270.73%] left-[-46.98%] max-w-none top-[-85.37%] w-[189.08%]" src={imgTrust_62} />
               </div>
             </div>
+            {/* skincare 72×18 */}
             <div className="h-[18px] mix-blend-darken relative shrink-0 w-[72px]">
               <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                <img alt="" className="absolute h-[145.61%] left-[-4.68%] max-w-none top-[-19.3%] w-[106.36%]" src={imgTrust_222} />
+                <img alt="Skincare" className="absolute h-[145.61%] left-[-4.68%] max-w-none top-[-19.3%] w-[106.36%]" src={imgTrust_222} />
               </div>
             </div>
-            <div className="h-[22px] mix-blend-darken relative shrink-0 w-[59px]">
+            {/* Bogner 82×18 */}
+            <div className="h-[18px] relative shrink-0 w-[82px]">
               <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                <img alt="" className="absolute h-[91.65%] left-[0.17%] max-w-none top-[6.39%] w-[99.45%]" src={imgTrust_223} />
+                <img alt="Bogner" className="absolute h-[91.65%] left-[0.17%] max-w-none top-[6.39%] w-[99.45%]" src={imgTrust_223} />
               </div>
             </div>
           </div>
