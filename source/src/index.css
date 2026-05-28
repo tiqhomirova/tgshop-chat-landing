@@ -17,11 +17,3 @@ body {
   transform-origin: top left;
   transform: scale(var(--scale, 1));
 }
-
-/* Brand-logo marquee fallback — only target the img (not the wrapper) so
-   that other Background nodes elsewhere stay untouched. Combined with
-   the fresh transparent PNG URLs for Merci Lingerie / Dragonfly, this
-   handles the few remaining white-bg logos. */
-[data-name="Section-upper/Default"] img {
-  mix-blend-mode: multiply;
-}
