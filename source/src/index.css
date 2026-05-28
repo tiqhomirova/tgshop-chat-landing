@@ -4,24 +4,16 @@
 
 html, body {
   margin: 0;
+  overflow-x: hidden;
+}
+body {
   font-family: -apple-system, BlinkMacSystemFont, "SF Pro", "Inter", sans-serif;
 }
 
-/* --- Responsive scaling wrapper ---
-   The landing is designed at 1440px. On narrower viewports the entire desktop
-   layout is proportionally scaled down via JS-driven CSS variable (--scale).
-   No horizontal scroll, layout structure preserved.
-   This is a temporary measure until pixel-perfect Tablet (1024) and Mobile (375)
-   components are built from the dedicated Figma frames. */
-
-html { overflow-x: hidden; }
-body { overflow-x: hidden; min-width: 0; }
-
+/* Responsive scaling: each landing component is rendered at its design width
+   (375 / 1024 / 1440). The wrapper #root is scaled to fit the actual viewport
+   width. Scale factor is computed in App.tsx and set via the --scale CSS var. */
 #root {
-  width: 1440px;
   transform-origin: top left;
   transform: scale(var(--scale, 1));
 }
-
-/* Body height is set in JS to match the scaled height so vertical scroll
-   reflects the visually visible content. */
