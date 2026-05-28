@@ -52,12 +52,12 @@ function Header() {
   return (
     <div className="bg-white border border-[rgba(0,0,0,0.05)] border-solid content-stretch flex flex-col items-start relative size-full" data-node-id="40002524:8898" data-name="Header">
       <div className="content-stretch flex gap-[40px] h-[72px] items-center px-[48px] relative shrink-0 w-[1024px]" data-node-id="40002524:8899" data-name="header-inner">
-        <div className="[word-break:break-word] content-stretch flex font-['SF_Pro_Display:Bold'] gap-[4px] items-baseline leading-[1.5] not-italic overflow-clip relative shrink-0 text-[20px] tracking-[-0.4px] whitespace-nowrap" data-node-id="40002524:8900" data-name="brand">
+        <div className="[word-break:break-word] content-stretch flex font-['SF_Pro_Display:Bold',sans-serif] gap-[4px] items-baseline leading-[1.5] not-italic overflow-clip relative shrink-0 text-[20px] tracking-[-0.4px] whitespace-nowrap" data-node-id="40002524:8900" data-name="brand">
           <p className="relative shrink-0 text-[#0a1519]" data-node-id="40002524:8901">TGShop</p>
           <p className="relative shrink-0 text-[#108ef5]" data-node-id="40002524:8902">Chat</p>
         </div>
         <div className="flex-[1_0_0] h-[100px] min-w-px relative" data-node-id="40002524:8903" data-name="sp" />
-        <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium'] font-[510] gap-[28px] items-center leading-[0] overflow-clip relative shrink-0 text-[#595959] text-[14px] tracking-[-0.14px] whitespace-nowrap" data-node-id="40002524:8904" data-name="nav">
+        <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium',sans-serif] font-[510] gap-[28px] items-center leading-[0] overflow-clip relative shrink-0 text-[#595959] text-[14px] tracking-[-0.14px] whitespace-nowrap" data-node-id="40002524:8904" data-name="nav">
           <a className="block relative shrink-0" href="https://docs.tgshop.io/uz/telegramda-dokon-ochish/tezkor-boshlash" data-node-id="40002524:8905" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
             <p className="cursor-pointer leading-[1.5]">База знаний</p>
           </a>
@@ -70,12 +70,12 @@ function Header() {
         </div>
         <div className="content-stretch flex gap-[12px] items-center relative shrink-0" data-node-id="40002524:8909" data-name="header-cta">
           <div className="border-[1.5px] border-[rgba(16,142,245,0.2)] border-solid content-stretch flex h-[40px] items-center justify-center overflow-clip px-[18px] relative rounded-[100px] shrink-0" data-node-id="40002524:8910" data-name="btn-outline">
-            <a className="[word-break:break-word] block font-['SF_Pro:Semibold'] font-[590] leading-[0] relative shrink-0 text-[#108ef5] text-[14px] tracking-[-0.14px] whitespace-nowrap" href="https://admin.tgshop.io/sign-in?utm_content=uz" data-node-id="40002524:8911" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
+            <a className="[word-break:break-word] block font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[0] relative shrink-0 text-[#108ef5] text-[14px] tracking-[-0.14px] whitespace-nowrap" href="https://admin.tgshop.io/sign-in?utm_content=uz" data-node-id="40002524:8911" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
               <p className="cursor-pointer leading-[1.5]">Войти</p>
             </a>
           </div>
           <div className="bg-[#108ef5] content-stretch flex h-[40px] items-center justify-center overflow-clip px-[18px] relative rounded-[100px] shadow-[0px_12px_24px_0px_rgba(51,133,255,0.22)] shrink-0" data-node-id="40002524:8912" data-name="btn-primary">
-            <a className="[word-break:break-word] block font-['SF_Pro:Semibold'] font-[590] leading-[0] relative shrink-0 text-[14px] text-white tracking-[-0.14px] whitespace-nowrap" href="https://admin.tgshop.io/sign-up?utm_content=uz" data-node-id="40002524:8913" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
+            <a className="[word-break:break-word] block font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[0] relative shrink-0 text-[14px] text-white tracking-[-0.14px] whitespace-nowrap" href="https://admin.tgshop.io/sign-up?utm_content=uz" data-node-id="40002524:8913" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
               <p className="cursor-pointer leading-[1.5]">Зарегистрироваться</p>
             </a>
           </div>
@@ -92,31 +92,31 @@ function Hero() {
         <div className="content-stretch flex flex-col items-start relative shrink-0 w-[460px]" data-node-id="40002524:8916" data-name="left">
           <div className="bg-[rgba(16,142,245,0.08)] content-stretch flex gap-[8px] items-center overflow-clip px-[14px] py-[8px] relative rounded-[100px] shrink-0" data-node-id="40002524:8917" data-name="pill">
             <div className="bg-[#108ef5] relative rounded-[4px] shrink-0 size-[8px]" data-node-id="40002524:8918" data-name="dot" />
-            <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[1.5] relative shrink-0 text-[#108ef5] text-[13px] tracking-[-0.13px] whitespace-nowrap" data-node-id="40002524:8919" style={{ fontVariationSettings: "'wdth' 100" }}>
+            <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[#108ef5] text-[13px] tracking-[-0.13px] whitespace-nowrap" data-node-id="40002524:8919" style={{ fontVariationSettings: "'wdth' 100" }}>
               2 000+ магазинов уже подключили TGShop
             </p>
           </div>
           <div className="h-[24px] relative shrink-0 w-[100px]" data-node-id="40002524:8920" data-name="sp" />
-          <div className="[word-break:break-word] font-['SF_Pro:Bold'] font-bold leading-[0] relative shrink-0 text-[#0a1519] text-[44px] tracking-[-1.32px] w-[460px] whitespace-pre-wrap" data-node-id="40002524:8921" style={{ fontVariationSettings: "'wdth' 100" }}>
+          <div className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[0] relative shrink-0 text-[#0a1519] text-[44px] tracking-[-1.32px] w-[460px] whitespace-pre-wrap" data-node-id="40002524:8921" style={{ fontVariationSettings: "'wdth' 100" }}>
             <p className="leading-[1.05] mb-0">{`Telegram-магазин `}</p>
             <p className="leading-[1.05]">и чаты с клиентами в одном кабинете</p>
           </div>
           <div className="h-[24px] relative shrink-0 w-[100px]" data-node-id="40002524:8922" data-name="sp" />
-          <p className="[word-break:break-word] font-['SF_Pro_Display:Regular'] leading-[1.55] not-italic relative shrink-0 text-[#595959] text-[18px] tracking-[-0.18px] w-[460px]" data-node-id="40002524:8923">
+          <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.55] not-italic relative shrink-0 text-[#595959] text-[18px] tracking-[-0.18px] w-[460px]" data-node-id="40002524:8923">
             Ваши менеджеры не успевают отвечать всем клиентам в Telegram — и заказы уходят к конкурентам. С TGShop ни одна заявка не потеряется, и клиенты смогут покупать в 1 клик.
           </p>
           <div className="h-[32px] relative shrink-0 w-[100px]" data-node-id="40002524:8924" data-name="sp" />
           <div className="content-stretch flex items-start relative shrink-0" data-node-id="40002524:8925" data-name="cta-row">
             <a href={CTA_HREF} target="_blank" rel="noopener" className="contents no-underline">
               <div className="bg-[#108ef5] cursor-pointer content-stretch flex h-[52px] items-center justify-center overflow-clip px-[32px] relative rounded-[100px] shadow-[0px_20px_35px_0px_rgba(51,133,255,0.22)] shrink-0" data-node-id="40002524:8926" data-name="btn-primary-l">
-                <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold'] leading-[1.5] not-italic relative shrink-0 text-[16px] text-white tracking-[-0.16px] whitespace-nowrap" data-node-id="40002524:8927">
+                <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[16px] text-white tracking-[-0.16px] whitespace-nowrap" data-node-id="40002524:8927">
                   Попробовать бесплатно
                 </p>
               </div>
             </a>
           </div>
           <div className="h-[20px] relative shrink-0 w-[100px]" data-node-id="40002524:8930" data-name="sp" />
-          <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[1.5] relative shrink-0 text-[#1d9b5e] text-[13px] tracking-[-0.13px] whitespace-nowrap" data-node-id="40002524:8931" style={{ fontVariationSettings: "'wdth' 100" }}>
+          <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.5] relative shrink-0 text-[#1d9b5e] text-[13px] tracking-[-0.13px] whitespace-nowrap" data-node-id="40002524:8931" style={{ fontVariationSettings: "'wdth' 100" }}>
             14 дней бесплатно · без разработки
           </p>
         </div>
@@ -125,113 +125,113 @@ function Hero() {
             <div className="bg-white content-stretch flex flex-col gap-[2px] h-[300.9px] items-start overflow-clip px-[10px] py-[14px] relative shrink-0 w-[274.55px]" data-node-id="40002757:8487" data-name="chats">
               <div className="content-stretch flex gap-[6px] h-[35.7px] items-start overflow-clip pb-[12px] px-[4px] relative shrink-0 w-[266.05px]" data-node-id="40002757:8488" data-name="ctabs">
                 <div className="bg-[#108ef5] content-stretch flex h-[25.5px] items-center overflow-clip px-[10px] py-[6px] relative rounded-[100px] shrink-0 w-[53.55px]" data-node-id="40002757:8489" data-name="ct1">
-                  <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[1.5] relative shrink-0 text-[10px] text-white tracking-[-0.1px] whitespace-nowrap" data-node-id="40002757:8490" style={{ fontVariationSettings: "'wdth' 100" }}>💬 Чаты</p>
+                  <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[10px] text-white tracking-[-0.1px] whitespace-nowrap" data-node-id="40002757:8490" style={{ fontVariationSettings: "'wdth' 100" }}>💬 Чаты</p>
                 </div>
                 <div className="[word-break:break-word] bg-[#f6f7f9] content-stretch flex gap-[4px] h-[25.5px] items-center leading-[1.5] overflow-clip px-[10px] py-[6px] relative rounded-[100px] shrink-0 text-[10px] tracking-[-0.1px] w-[56.95px] whitespace-nowrap" data-node-id="40002757:8491" data-name="ct2">
-                  <p className="font-['SF_Pro:Regular'] font-normal relative shrink-0 text-[#767d88]" data-node-id="40002757:8492" style={{ fontVariationSettings: "'wdth' 100" }}>Новые</p>
-                  <p className="font-['SF_Pro:Semibold'] font-[590] relative shrink-0 text-[#e5484d]" data-node-id="40002757:8493" style={{ fontVariationSettings: "'wdth' 100" }}>8</p>
+                  <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#767d88]" data-node-id="40002757:8492" style={{ fontVariationSettings: "'wdth' 100" }}>Новые</p>
+                  <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0 text-[#e5484d]" data-node-id="40002757:8493" style={{ fontVariationSettings: "'wdth' 100" }}>8</p>
                 </div>
                 <div className="[word-break:break-word] bg-[#f6f7f9] content-stretch flex gap-[4px] h-[25.5px] items-center leading-[1.5] overflow-clip px-[10px] py-[6px] relative rounded-[100px] shrink-0 text-[10px] tracking-[-0.1px] w-[67.15px] whitespace-nowrap" data-node-id="40002757:8494" data-name="ct2">
-                  <p className="font-['SF_Pro:Regular'] font-normal relative shrink-0 text-[#767d88]" data-node-id="40002757:8495" style={{ fontVariationSettings: "'wdth' 100" }}>Открыты</p>
-                  <p className="font-['SF_Pro:Semibold'] font-[590] relative shrink-0 text-[#f7b50d]" data-node-id="40002757:8496" style={{ fontVariationSettings: "'wdth' 100" }}>5</p>
+                  <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#767d88]" data-node-id="40002757:8495" style={{ fontVariationSettings: "'wdth' 100" }}>Открыты</p>
+                  <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0 text-[#f7b50d]" data-node-id="40002757:8496" style={{ fontVariationSettings: "'wdth' 100" }}>5</p>
                 </div>
                 <div className="[word-break:break-word] bg-[#f6f7f9] content-stretch flex gap-[4px] h-[25.5px] items-center leading-[1.5] overflow-clip px-[10px] py-[6px] relative rounded-[100px] shrink-0 text-[10px] tracking-[-0.1px] w-[66.3px] whitespace-nowrap" data-node-id="40002757:8497" data-name="ct3">
-                  <p className="font-['SF_Pro:Regular'] font-normal relative shrink-0 text-[#767d88]" data-node-id="40002757:8498" style={{ fontVariationSettings: "'wdth' 100" }}>Закрыты</p>
-                  <p className="font-['SF_Pro:Semibold'] font-[590] relative shrink-0 text-[#595959]" data-node-id="40002757:8499" style={{ fontVariationSettings: "'wdth' 100" }}>3</p>
+                  <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#767d88]" data-node-id="40002757:8498" style={{ fontVariationSettings: "'wdth' 100" }}>Закрыты</p>
+                  <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0 text-[#595959]" data-node-id="40002757:8499" style={{ fontVariationSettings: "'wdth' 100" }}>3</p>
                 </div>
               </div>
               <div className="bg-[#f3f8ff] content-stretch flex gap-[12px] h-[37.4px] items-start p-[10px] relative rounded-[10px] shrink-0 w-[253.3px]" data-node-id="40002757:8500" data-name="ch">
                 <div className="bg-[#e5484d] content-stretch flex items-center justify-center overflow-clip relative rounded-[14px] shrink-0 size-[23.8px]" data-node-id="40002757:8501" data-name="av">
-                  <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[1.5] relative shrink-0 text-[10px] text-white tracking-[-0.1px] whitespace-nowrap" data-node-id="40002757:8502" style={{ fontVariationSettings: "'wdth' 100" }}>Ю</p>
+                  <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[10px] text-white tracking-[-0.1px] whitespace-nowrap" data-node-id="40002757:8502" style={{ fontVariationSettings: "'wdth' 100" }}>Ю</p>
                 </div>
                 <div className="content-stretch flex flex-col h-[85px] items-start relative shrink-0 w-[118.575px]" data-node-id="40002757:8503" data-name="main">
                   <div className="content-stretch flex h-[85px] items-start overflow-clip relative shrink-0 w-[100.789px]" data-node-id="40002757:8504" data-name="top">
-                    <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[1.5] relative shrink-0 text-[#0a1519] text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002757:8505" style={{ fontVariationSettings: "'wdth' 100" }}>Регина К.</p>
+                    <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[#0a1519] text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002757:8505" style={{ fontVariationSettings: "'wdth' 100" }}>Регина К.</p>
                     <div className="h-[85px] relative shrink-0 w-[6px]" data-node-id="40002757:8506" data-name="s" />
-                    <p className="[word-break:break-word] font-['SF_Pro:Medium'] font-[510] leading-[1.5] relative shrink-0 text-[#767d88] text-[9px] tracking-[-0.09px] whitespace-nowrap" data-node-id="40002757:8507" style={{ fontVariationSettings: "'wdth' 100" }}>только что</p>
+                    <p className="[word-break:break-word] font-['SF_Pro:Medium',sans-serif] font-[510] leading-[1.5] relative shrink-0 text-[#767d88] text-[9px] tracking-[-0.09px] whitespace-nowrap" data-node-id="40002757:8507" style={{ fontVariationSettings: "'wdth' 100" }}>только что</p>
                   </div>
                 </div>
                 <div className="bg-[#e5484d] content-stretch flex h-[18px] items-center overflow-clip px-[7px] py-[3px] relative rounded-[100px] shrink-0 w-[45px]" data-node-id="40002757:8508" data-name="bd">
-                  <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[1.5] relative shrink-0 text-[9px] text-white tracking-[0.18px] whitespace-nowrap" data-node-id="40002757:8509" style={{ fontVariationSettings: "'wdth' 100" }}>Новый</p>
+                  <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[9px] text-white tracking-[0.18px] whitespace-nowrap" data-node-id="40002757:8509" style={{ fontVariationSettings: "'wdth' 100" }}>Новый</p>
                 </div>
               </div>
               <div className="bg-[#f3f8ff] content-stretch flex gap-[12px] h-[37.4px] items-start p-[10px] relative rounded-[10px] shrink-0 w-[253.3px]" data-node-id="40002757:8510" data-name="ch">
                 <div className="bg-[#e5484d] content-stretch flex items-center justify-center overflow-clip relative rounded-[14px] shrink-0 size-[23.8px]" data-node-id="40002757:8511" data-name="av">
-                  <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[1.5] relative shrink-0 text-[10px] text-white tracking-[-0.1px] whitespace-nowrap" data-node-id="40002757:8512" style={{ fontVariationSettings: "'wdth' 100" }}>Ю</p>
+                  <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[10px] text-white tracking-[-0.1px] whitespace-nowrap" data-node-id="40002757:8512" style={{ fontVariationSettings: "'wdth' 100" }}>Ю</p>
                 </div>
                 <div className="content-stretch flex flex-col h-[85px] items-start relative shrink-0 w-[118.575px]" data-node-id="40002757:8513" data-name="main">
                   <div className="content-stretch flex h-[85px] items-start overflow-clip relative shrink-0 w-[100.789px]" data-node-id="40002757:8514" data-name="top">
-                    <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[1.5] relative shrink-0 text-[#0a1519] text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002757:8515" style={{ fontVariationSettings: "'wdth' 100" }}>Ozoda M.</p>
+                    <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[#0a1519] text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002757:8515" style={{ fontVariationSettings: "'wdth' 100" }}>Ozoda M.</p>
                     <div className="h-[85px] relative shrink-0 w-[6px]" data-node-id="40002757:8516" data-name="s" />
-                    <p className="[word-break:break-word] font-['SF_Pro:Medium'] font-[510] leading-[1.5] relative shrink-0 text-[#767d88] text-[9px] tracking-[-0.09px] whitespace-nowrap" data-node-id="40002757:8517" style={{ fontVariationSettings: "'wdth' 100" }}>только что</p>
+                    <p className="[word-break:break-word] font-['SF_Pro:Medium',sans-serif] font-[510] leading-[1.5] relative shrink-0 text-[#767d88] text-[9px] tracking-[-0.09px] whitespace-nowrap" data-node-id="40002757:8517" style={{ fontVariationSettings: "'wdth' 100" }}>только что</p>
                   </div>
                 </div>
                 <div className="bg-[#e5484d] content-stretch flex h-[18px] items-center overflow-clip px-[7px] py-[3px] relative rounded-[100px] shrink-0 w-[45px]" data-node-id="40002757:8518" data-name="bd">
-                  <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[1.5] relative shrink-0 text-[9px] text-white tracking-[0.18px] whitespace-nowrap" data-node-id="40002757:8519" style={{ fontVariationSettings: "'wdth' 100" }}>Новый</p>
+                  <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[9px] text-white tracking-[0.18px] whitespace-nowrap" data-node-id="40002757:8519" style={{ fontVariationSettings: "'wdth' 100" }}>Новый</p>
                 </div>
               </div>
               <div className="content-stretch flex gap-[12px] h-[37.4px] items-start p-[10px] relative rounded-[10px] shrink-0 w-[253.3px]" data-node-id="40002757:8520" data-name="ch">
                 <div className="bg-[#8b5cf6] content-stretch flex items-center justify-center overflow-clip relative rounded-[14px] shrink-0 size-[23.8px]" data-node-id="40002757:8521" data-name="av">
-                  <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[1.5] relative shrink-0 text-[10px] text-white tracking-[-0.1px] whitespace-nowrap" data-node-id="40002757:8522" style={{ fontVariationSettings: "'wdth' 100" }}>Д</p>
+                  <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[10px] text-white tracking-[-0.1px] whitespace-nowrap" data-node-id="40002757:8522" style={{ fontVariationSettings: "'wdth' 100" }}>Д</p>
                 </div>
                 <div className="content-stretch flex flex-col gap-[2px] h-[103.7px] items-start relative shrink-0 w-[114.325px]" data-node-id="40002757:8523" data-name="main">
                   <div className="content-stretch flex h-[85px] items-start overflow-clip relative shrink-0 w-[97.176px]" data-node-id="40002757:8524" data-name="top">
-                    <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[1.5] relative shrink-0 text-[#0a1519] text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002757:8525" style={{ fontVariationSettings: "'wdth' 100" }}>Дилшод М.</p>
+                    <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[#0a1519] text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002757:8525" style={{ fontVariationSettings: "'wdth' 100" }}>Дилшод М.</p>
                     <div className="h-[85px] relative shrink-0 w-[6px]" data-node-id="40002757:8526" data-name="s" />
-                    <p className="[word-break:break-word] font-['SF_Pro:Medium'] font-[510] leading-[1.5] relative shrink-0 text-[#767d88] text-[9px] tracking-[-0.09px] whitespace-nowrap" data-node-id="40002757:8527" style={{ fontVariationSettings: "'wdth' 100" }}>4 мин</p>
+                    <p className="[word-break:break-word] font-['SF_Pro:Medium',sans-serif] font-[510] leading-[1.5] relative shrink-0 text-[#767d88] text-[9px] tracking-[-0.09px] whitespace-nowrap" data-node-id="40002757:8527" style={{ fontVariationSettings: "'wdth' 100" }}>4 мин</p>
                   </div>
-                  <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[1.5] relative shrink-0 text-[#108ef5] text-[11px] tracking-[-0.11px] w-[252px]" data-node-id="40002757:8528" style={{ fontVariationSettings: "'wdth' 100" }}>Алина: Передал в доставку ✅</p>
+                  <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.5] relative shrink-0 text-[#108ef5] text-[11px] tracking-[-0.11px] w-[252px]" data-node-id="40002757:8528" style={{ fontVariationSettings: "'wdth' 100" }}>Алина: Передал в доставку ✅</p>
                 </div>
                 <div className="bg-[#f7b50d] content-stretch flex h-[18px] items-center overflow-clip px-[7px] py-[3px] relative rounded-[100px] shrink-0 w-[48px]" data-node-id="40002757:8529" data-name="bd">
-                  <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[1.5] relative shrink-0 text-[9px] text-white tracking-[0.18px] whitespace-nowrap" data-node-id="40002757:8530" style={{ fontVariationSettings: "'wdth' 100" }}>Открыт</p>
+                  <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[9px] text-white tracking-[0.18px] whitespace-nowrap" data-node-id="40002757:8530" style={{ fontVariationSettings: "'wdth' 100" }}>Открыт</p>
                 </div>
               </div>
               <div className="content-stretch flex gap-[12px] h-[37.4px] items-start p-[10px] relative rounded-[10px] shrink-0 w-[253.3px]" data-node-id="40002757:8531" data-name="ch">
                 <div className="bg-[#ec4899] content-stretch flex items-center justify-center overflow-clip relative rounded-[14px] shrink-0 size-[23.8px]" data-node-id="40002757:8532" data-name="av">
-                  <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[1.5] relative shrink-0 text-[10px] text-white tracking-[-0.1px] whitespace-nowrap" data-node-id="40002757:8533" style={{ fontVariationSettings: "'wdth' 100" }}>М</p>
+                  <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[10px] text-white tracking-[-0.1px] whitespace-nowrap" data-node-id="40002757:8533" style={{ fontVariationSettings: "'wdth' 100" }}>М</p>
                 </div>
                 <div className="content-stretch flex flex-col gap-[2px] h-[103.7px] items-start relative shrink-0 w-[114.325px]" data-node-id="40002757:8534" data-name="main">
                   <div className="content-stretch flex h-[85px] items-start overflow-clip relative shrink-0 w-[97.176px]" data-node-id="40002757:8535" data-name="top">
-                    <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[1.5] relative shrink-0 text-[#0a1519] text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002757:8536" style={{ fontVariationSettings: "'wdth' 100" }}>Мадина Х.</p>
+                    <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[#0a1519] text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002757:8536" style={{ fontVariationSettings: "'wdth' 100" }}>Мадина Х.</p>
                     <div className="h-[85px] relative shrink-0 w-[6px]" data-node-id="40002757:8537" data-name="s" />
-                    <p className="[word-break:break-word] font-['SF_Pro:Medium'] font-[510] leading-[1.5] relative shrink-0 text-[#767d88] text-[9px] tracking-[-0.09px] whitespace-nowrap" data-node-id="40002757:8538" style={{ fontVariationSettings: "'wdth' 100" }}>12 мин</p>
+                    <p className="[word-break:break-word] font-['SF_Pro:Medium',sans-serif] font-[510] leading-[1.5] relative shrink-0 text-[#767d88] text-[9px] tracking-[-0.09px] whitespace-nowrap" data-node-id="40002757:8538" style={{ fontVariationSettings: "'wdth' 100" }}>12 мин</p>
                   </div>
-                  <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[1.5] relative shrink-0 text-[#595959] text-[11px] tracking-[-0.11px] w-[252px]" data-node-id="40002757:8539" style={{ fontVariationSettings: "'wdth' 100" }}>Спасибо!</p>
+                  <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.5] relative shrink-0 text-[#595959] text-[11px] tracking-[-0.11px] w-[252px]" data-node-id="40002757:8539" style={{ fontVariationSettings: "'wdth' 100" }}>Спасибо!</p>
                 </div>
                 <div className="bg-[#f7b50d] content-stretch flex h-[18px] items-center overflow-clip px-[7px] py-[3px] relative rounded-[100px] shrink-0 w-[48px]" data-node-id="40002757:8540" data-name="bd">
-                  <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[1.5] relative shrink-0 text-[9px] text-white tracking-[0.18px] whitespace-nowrap" data-node-id="40002757:8541" style={{ fontVariationSettings: "'wdth' 100" }}>Открыт</p>
+                  <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[9px] text-white tracking-[0.18px] whitespace-nowrap" data-node-id="40002757:8541" style={{ fontVariationSettings: "'wdth' 100" }}>Открыт</p>
                 </div>
               </div>
               <div className="bg-[#f3f8ff] content-stretch flex gap-[12px] h-[37.4px] items-start p-[10px] relative rounded-[10px] shrink-0 w-[253.3px]" data-node-id="40002757:8542" data-name="ch">
                 <div className="bg-[#0ea5e9] content-stretch flex items-center justify-center overflow-clip relative rounded-[14px] shrink-0 size-[23.8px]" data-node-id="40002757:8543" data-name="av">
-                  <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[1.5] relative shrink-0 text-[10px] text-white tracking-[-0.1px] whitespace-nowrap" data-node-id="40002757:8544" style={{ fontVariationSettings: "'wdth' 100" }}>А</p>
+                  <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[10px] text-white tracking-[-0.1px] whitespace-nowrap" data-node-id="40002757:8544" style={{ fontVariationSettings: "'wdth' 100" }}>А</p>
                 </div>
                 <div className="content-stretch flex flex-col gap-[2px] h-[103.7px] items-start relative shrink-0 w-[115.175px]" data-node-id="40002757:8545" data-name="main">
                   <div className="content-stretch flex h-[85px] items-start overflow-clip relative shrink-0 w-[97.899px]" data-node-id="40002757:8546" data-name="top">
-                    <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[1.5] relative shrink-0 text-[#0a1519] text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002757:8547" style={{ fontVariationSettings: "'wdth' 100" }}>Акмал Т.</p>
+                    <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[#0a1519] text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002757:8547" style={{ fontVariationSettings: "'wdth' 100" }}>Акмал Т.</p>
                     <div className="h-[85px] relative shrink-0 w-[12.664px]" data-node-id="40002757:8548" data-name="s" />
-                    <p className="[word-break:break-word] font-['SF_Pro:Medium'] font-[510] leading-[1.5] relative shrink-0 text-[#767d88] text-[9px] tracking-[-0.09px] whitespace-nowrap" data-node-id="40002757:8549" style={{ fontVariationSettings: "'wdth' 100" }}>10 мин</p>
+                    <p className="[word-break:break-word] font-['SF_Pro:Medium',sans-serif] font-[510] leading-[1.5] relative shrink-0 text-[#767d88] text-[9px] tracking-[-0.09px] whitespace-nowrap" data-node-id="40002757:8549" style={{ fontVariationSettings: "'wdth' 100" }}>10 мин</p>
                   </div>
-                  <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[1.5] relative shrink-0 text-[#595959] text-[11px] tracking-[-0.11px] w-[252px]" data-node-id="40002757:8550" style={{ fontVariationSettings: "'wdth' 100" }}>Доставите сегодня до 18:00?</p>
+                  <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.5] relative shrink-0 text-[#595959] text-[11px] tracking-[-0.11px] w-[252px]" data-node-id="40002757:8550" style={{ fontVariationSettings: "'wdth' 100" }}>Доставите сегодня до 18:00?</p>
                 </div>
                 <div className="bg-[#4fd192] content-stretch flex h-[18px] items-center overflow-clip px-[7px] py-[3px] relative rounded-[100px] shrink-0 w-[48px]" data-node-id="40002757:8551" data-name="bd">
-                  <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[1.5] relative shrink-0 text-[9px] text-white tracking-[0.18px] whitespace-nowrap" data-node-id="40002757:8552" style={{ fontVariationSettings: "'wdth' 100" }}>Закрыт</p>
+                  <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[9px] text-white tracking-[0.18px] whitespace-nowrap" data-node-id="40002757:8552" style={{ fontVariationSettings: "'wdth' 100" }}>Закрыт</p>
                 </div>
               </div>
               <div className="bg-[#f3f8ff] content-stretch flex gap-[12px] h-[37.4px] items-start p-[10px] relative rounded-[10px] shrink-0 w-[253.3px]" data-node-id="40002757:8553" data-name="ch">
                 <div className="bg-[#0ea5e9] content-stretch flex items-center justify-center overflow-clip relative rounded-[14px] shrink-0 size-[23.8px]" data-node-id="40002757:8554" data-name="av">
-                  <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[1.5] relative shrink-0 text-[10px] text-white tracking-[-0.1px] whitespace-nowrap" data-node-id="40002757:8555" style={{ fontVariationSettings: "'wdth' 100" }}>А</p>
+                  <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[10px] text-white tracking-[-0.1px] whitespace-nowrap" data-node-id="40002757:8555" style={{ fontVariationSettings: "'wdth' 100" }}>А</p>
                 </div>
                 <div className="content-stretch flex flex-col gap-[2px] h-[103.7px] items-start relative shrink-0 w-[115.175px]" data-node-id="40002757:8556" data-name="main">
                   <div className="content-stretch flex h-[85px] items-start overflow-clip relative shrink-0 w-[97.899px]" data-node-id="40002757:8557" data-name="top">
-                    <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[1.5] relative shrink-0 text-[#0a1519] text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002757:8558" style={{ fontVariationSettings: "'wdth' 100" }}>Aziz K.</p>
+                    <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[#0a1519] text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002757:8558" style={{ fontVariationSettings: "'wdth' 100" }}>Aziz K.</p>
                     <div className="h-[85px] relative shrink-0 w-[22.864px]" data-node-id="40002757:8559" data-name="s" />
-                    <p className="[word-break:break-word] font-['SF_Pro:Medium'] font-[510] leading-[1.5] relative shrink-0 text-[#767d88] text-[9px] tracking-[-0.09px] whitespace-nowrap" data-node-id="40002757:8560" style={{ fontVariationSettings: "'wdth' 100" }}>15 мин</p>
+                    <p className="[word-break:break-word] font-['SF_Pro:Medium',sans-serif] font-[510] leading-[1.5] relative shrink-0 text-[#767d88] text-[9px] tracking-[-0.09px] whitespace-nowrap" data-node-id="40002757:8560" style={{ fontVariationSettings: "'wdth' 100" }}>15 мин</p>
                   </div>
-                  <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[1.5] relative shrink-0 text-[#595959] text-[11px] tracking-[-0.11px] w-[252px]" data-node-id="40002757:8561" style={{ fontVariationSettings: "'wdth' 100" }}>Доставите сегодня до 18:00?</p>
+                  <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.5] relative shrink-0 text-[#595959] text-[11px] tracking-[-0.11px] w-[252px]" data-node-id="40002757:8561" style={{ fontVariationSettings: "'wdth' 100" }}>Доставите сегодня до 18:00?</p>
                 </div>
                 <div className="bg-[#4fd192] content-stretch flex h-[18px] items-center overflow-clip px-[7px] py-[3px] relative rounded-[100px] shrink-0 w-[48px]" data-node-id="40002757:8562" data-name="bd">
-                  <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[1.5] relative shrink-0 text-[9px] text-white tracking-[0.18px] whitespace-nowrap" data-node-id="40002757:8563" style={{ fontVariationSettings: "'wdth' 100" }}>Закрыт</p>
+                  <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[9px] text-white tracking-[0.18px] whitespace-nowrap" data-node-id="40002757:8563" style={{ fontVariationSettings: "'wdth' 100" }}>Закрыт</p>
                 </div>
               </div>
             </div>
@@ -239,11 +239,11 @@ function Hero() {
           <div className="absolute content-stretch flex flex-col h-[400.35px] items-start left-[91.8px] pb-[16px] pt-[14px] px-[14px] top-[2.55px] w-[172.55px]" data-node-id="40002757:8564" data-name="shop">
             <div className="content-stretch flex gap-[6px] h-[26px] items-start overflow-clip relative shrink-0 w-[154px]" data-node-id="40002757:8565" data-name="stabs">
               <div className="bg-[#108ef5] content-stretch flex h-[25.5px] items-center overflow-clip px-[10px] py-[6px] relative rounded-[100px] shrink-0 w-[69.7px]" data-node-id="40002757:8566" data-name="ta">
-                <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[1.5] relative shrink-0 text-[10px] text-white tracking-[-0.1px] whitespace-nowrap" data-node-id="40002757:8567" style={{ fontVariationSettings: "'wdth' 100" }}>🛍 Магазин</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[10px] text-white tracking-[-0.1px] whitespace-nowrap" data-node-id="40002757:8567" style={{ fontVariationSettings: "'wdth' 100" }}>🛍 Магазин</p>
               </div>
               <div className="[word-break:break-word] bg-[#f6f7f9] content-stretch flex gap-[4px] h-[25.5px] items-center leading-[1.5] overflow-clip px-[10px] py-[6px] relative rounded-[100px] shrink-0 text-[10px] tracking-[-0.1px] w-[70.55px] whitespace-nowrap" data-node-id="40002757:8568" data-name="tm">
-                <p className="font-['SF_Pro:Regular'] font-normal relative shrink-0 text-[#767d88]" data-node-id="40002757:8569" style={{ fontVariationSettings: "'wdth' 100" }}>Заказы</p>
-                <p className="font-['SF_Pro:Semibold'] font-[590] relative shrink-0 text-[#0a1519]" data-node-id="40002757:8570" style={{ fontVariationSettings: "'wdth' 100" }}>198</p>
+                <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#767d88]" data-node-id="40002757:8569" style={{ fontVariationSettings: "'wdth' 100" }}>Заказы</p>
+                <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0 text-[#0a1519]" data-node-id="40002757:8570" style={{ fontVariationSettings: "'wdth' 100" }}>198</p>
               </div>
             </div>
             <div className="h-[10.2px] relative shrink-0 w-[85px]" data-node-id="40002757:8571" data-name="sp" />
@@ -256,20 +256,20 @@ function Hero() {
           <div className="absolute flex h-[112.443px] items-center justify-center left-[91.37px] top-[293.83px] w-[208.063px]">
             <div className="-rotate-6 flex-none">
               <div className="bg-white drop-shadow-[0px_16px_20px_rgba(13,18,31,0.12)] h-[92.091px] relative rounded-[20px] w-[199.53px]" data-node-id="40002757:8575" data-name="badge-15min">
-                <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[20.4px] not-italic text-[#6b7380] text-[12px] top-[17px] whitespace-nowrap" data-node-id="40002757:8576">Запуск за</p>
-                <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold leading-[normal] left-[20.4px] not-italic text-[#121726] text-[20px] top-[35.7px] whitespace-nowrap" data-node-id="40002757:8577">15 минут</p>
+                <p className="[word-break:break-word] absolute font-['Inter:Regular',sans-serif] font-normal leading-[normal] left-[20.4px] not-italic text-[#6b7380] text-[12px] top-[17px] whitespace-nowrap" data-node-id="40002757:8576">Запуск за</p>
+                <p className="[word-break:break-word] absolute font-['Inter:Bold',sans-serif] font-bold leading-[normal] left-[20.4px] not-italic text-[#121726] text-[20px] top-[35.7px] whitespace-nowrap" data-node-id="40002757:8577">15 минут</p>
                 <div className="absolute left-[20.19px] size-[18.7px] top-[62.68px]" data-node-id="40002757:8578" data-name="Ellipse">
                   <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgHero_Ellipse} />
                 </div>
-                <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[normal] left-[45.69px] not-italic text-[#1f242e] text-[12px] top-[64.38px] whitespace-nowrap" data-node-id="40002757:8579">без программистов</p>
+                <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold',sans-serif] font-semibold leading-[normal] left-[45.69px] not-italic text-[#1f242e] text-[12px] top-[64.38px] whitespace-nowrap" data-node-id="40002757:8579">без программистов</p>
               </div>
             </div>
           </div>
           <div className="absolute flex h-[95.752px] items-center justify-center left-[353px] top-[9.5px] w-[147.231px]">
             <div className="flex-none rotate-3">
               <div className="[word-break:break-word] bg-white drop-shadow-[0px_12px_15px_rgba(79,209,146,0.22)] h-[88.4px] not-italic relative rounded-[16px] w-[142.8px] whitespace-nowrap" data-node-id="40002757:8580" data-name="badge-37orders">
-                <p className="absolute font-['Inter:Bold'] font-bold leading-[normal] left-[17px] text-[#0fba82] text-[27px] top-[11.9px]" data-node-id="40002757:8581">+37</p>
-                <div className="absolute font-['Inter:Regular'] font-normal leading-[0] left-[17px] text-[#4d5966] text-[11px] top-[47.6px]" data-node-id="40002757:8582">
+                <p className="absolute font-['Inter:Bold',sans-serif] font-bold leading-[normal] left-[17px] text-[#0fba82] text-[27px] top-[11.9px]" data-node-id="40002757:8581">+37</p>
+                <div className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[0] left-[17px] text-[#4d5966] text-[11px] top-[47.6px]" data-node-id="40002757:8582">
                   <p className="leading-[12px] mb-0">новых заказов</p>
                   <p className="leading-[12px]">сегодня</p>
                 </div>
@@ -277,8 +277,8 @@ function Hero() {
             </div>
           </div>
           <div className="[word-break:break-word] absolute bg-white drop-shadow-[0px_12px_15px_rgba(13,18,31,0.1)] h-[88.4px] left-[370px] not-italic rounded-[16px] top-[324.5px] w-[132.6px] whitespace-nowrap" data-node-id="40002757:8583" data-name="badge-12msg">
-            <p className="absolute font-['Inter:Bold'] font-bold leading-[normal] left-[17px] text-[#121726] text-[27px] top-[11.9px]" data-node-id="40002757:8584">12</p>
-            <div className="absolute font-['Inter:Regular'] font-normal leading-[0] left-[17px] text-[#4d5966] text-[11px] top-[47.6px]" data-node-id="40002757:8585">
+            <p className="absolute font-['Inter:Bold',sans-serif] font-bold leading-[normal] left-[17px] text-[#121726] text-[27px] top-[11.9px]" data-node-id="40002757:8584">12</p>
+            <div className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[0] left-[17px] text-[#4d5966] text-[11px] top-[47.6px]" data-node-id="40002757:8585">
               <p className="leading-[12px] mb-0">новых</p>
               <p className="leading-[12px]">заявок в чатах</p>
             </div>
@@ -473,7 +473,7 @@ function SectionUpperDefault({ className }: { className?: string }) {
 function Trust() {
   return (
     <div className="bg-[#f6f7f9] content-stretch flex flex-col gap-[32px] items-center px-[48px] py-[80px] relative size-full" data-node-id="40002673:8244" data-name="Trust">
-      <p className="[word-break:break-word] font-['SF_Pro:Bold'] font-bold leading-[normal] relative shrink-0 text-[#121726] text-[36px] whitespace-nowrap" data-node-id="40002673:8245" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#121726] text-[36px] whitespace-nowrap" data-node-id="40002673:8245" style={{ fontVariationSettings: "'wdth' 100" }}>
         Нам доверяют
       </p>
       <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-[928px]" data-node-id="40002758:2562" data-name="logos">
@@ -483,57 +483,57 @@ function Trust() {
         <div className="content-stretch flex gap-[16px] items-start overflow-clip relative shrink-0 w-full" data-node-id="40002673:8254" data-name="Frame">
           <div className="bg-white border border-[#ebedf2] border-solid content-stretch flex flex-[1_0_0] flex-col gap-[24px] items-start min-w-px overflow-clip p-[24px] relative rounded-[16px]" data-node-id="40002673:8256" data-name="case-Fashion Fabrique">
             <div className="[word-break:break-word] bg-[rgba(33,178,99,0.14)] content-stretch flex gap-[6px] items-center leading-[normal] overflow-clip px-[10px] py-[4px] relative rounded-[10px] shrink-0 text-[#0f8c33] whitespace-nowrap">
-              <p className="font-['SF_Pro:Bold'] font-bold relative shrink-0 text-[10px]" style={{ fontVariationSettings: "'wdth' 100" }}>✓</p>
-              <p className="font-['SF_Pro:Semibold'] font-[590] relative shrink-0 text-[11px]" style={{ fontVariationSettings: "'wdth' 100" }}>x2 клиентов</p>
+              <p className="font-['SF_Pro:Bold',sans-serif] font-bold relative shrink-0 text-[10px]" style={{ fontVariationSettings: "'wdth' 100" }}>✓</p>
+              <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0 text-[11px]" style={{ fontVariationSettings: "'wdth' 100" }}>x2 клиентов</p>
             </div>
             <div className="bg-white content-stretch flex gap-[20px] items-start overflow-clip relative shrink-0">
               <div className="bg-white content-stretch flex flex-col gap-[6px] items-start overflow-clip relative shrink-0">
-                <p className="[word-break:break-word] font-['SF_Pro:Bold'] font-bold leading-[normal] relative shrink-0 text-[#0f8c33] text-[24px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>+30%</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#0f8c33] text-[24px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>+30%</p>
                 <div className="bg-[#21b263] h-[4px] relative rounded-[2px] shrink-0 w-[40px]" />
-                <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[normal] relative shrink-0 text-[#6b7885] text-[12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>рост онлайн-продаж</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#6b7885] text-[12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>рост онлайн-продаж</p>
               </div>
               <div className="bg-white content-stretch flex flex-col gap-[6px] items-start overflow-clip relative shrink-0">
-                <p className="[word-break:break-word] font-['SF_Pro:Bold'] font-bold leading-[normal] relative shrink-0 text-[#0f8c33] text-[24px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>+40%</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#0f8c33] text-[24px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>+40%</p>
                 <div className="bg-[#21b263] h-[4px] relative rounded-[2px] shrink-0 w-[40px]" />
-                <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[normal] relative shrink-0 text-[#6b7885] text-[12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>товаров в заказе</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#6b7885] text-[12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>товаров в заказе</p>
               </div>
             </div>
-            <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>за квартал</p>
+            <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>за квартал</p>
             <div className="bg-white content-stretch flex gap-[12px] items-center overflow-clip relative shrink-0">
               <div className="border border-[#f6f7f9] border-solid relative rounded-[200px] shrink-0 size-[40px]">
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[200px] size-full" src={imgTrust_Photo202508261509211} />
               </div>
               <div className="[word-break:break-word] bg-white content-stretch flex flex-col gap-[2px] items-start leading-[normal] overflow-clip relative shrink-0 whitespace-nowrap">
-                <p className="font-['SF_Pro:Bold'] font-bold relative shrink-0 text-[#121726] text-[14px]" style={{ fontVariationSettings: "'wdth' 100" }}>Fashion Fabrique</p>
-                <p className="font-['SF_Pro:Regular'] font-normal relative shrink-0 text-[#6b7885] text-[12px]" style={{ fontVariationSettings: "'wdth' 100" }}>бренд одежды, обуви и аксессуаров</p>
+                <p className="font-['SF_Pro:Bold',sans-serif] font-bold relative shrink-0 text-[#121726] text-[14px]" style={{ fontVariationSettings: "'wdth' 100" }}>Fashion Fabrique</p>
+                <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#6b7885] text-[12px]" style={{ fontVariationSettings: "'wdth' 100" }}>бренд одежды, обуви и аксессуаров</p>
               </div>
             </div>
           </div>
           <div className="bg-white border border-[#ebedf2] border-solid content-stretch flex flex-[1_0_0] flex-col gap-[24px] items-start min-w-px overflow-clip p-[24px] relative rounded-[16px]" data-node-id="40002673:8273" data-name="case-Around You">
             <div className="[word-break:break-word] bg-[rgba(33,178,99,0.14)] content-stretch flex gap-[6px] items-center leading-[normal] overflow-clip px-[10px] py-[4px] relative rounded-[10px] shrink-0 text-[#0f8c33] whitespace-nowrap">
-              <p className="font-['SF_Pro:Bold'] font-bold relative shrink-0 text-[10px]" style={{ fontVariationSettings: "'wdth' 100" }}>✓</p>
-              <p className="font-['SF_Pro:Semibold'] font-[590] relative shrink-0 text-[11px]" style={{ fontVariationSettings: "'wdth' 100" }}>0 сум на рекламу</p>
+              <p className="font-['SF_Pro:Bold',sans-serif] font-bold relative shrink-0 text-[10px]" style={{ fontVariationSettings: "'wdth' 100" }}>✓</p>
+              <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0 text-[11px]" style={{ fontVariationSettings: "'wdth' 100" }}>0 сум на рекламу</p>
             </div>
             <div className="bg-white content-stretch flex gap-[20px] items-start overflow-clip relative shrink-0">
               <div className="bg-white content-stretch flex flex-col gap-[6px] items-start overflow-clip relative shrink-0">
-                <p className="[word-break:break-word] font-['SF_Pro:Bold'] font-bold leading-[normal] relative shrink-0 text-[#0f8c33] text-[24px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>6 515 заказов</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#0f8c33] text-[24px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>6 515 заказов</p>
                 <div className="bg-[#21b263] h-[4px] relative rounded-[2px] shrink-0 w-[60px]" />
-                <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>с TGShop</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>с TGShop</p>
               </div>
               <div className="bg-white content-stretch flex flex-col gap-[6px] items-start overflow-clip relative shrink-0">
-                <p className="[word-break:break-word] font-['SF_Pro:Bold'] font-bold leading-[normal] relative shrink-0 text-[#f04545] text-[24px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>740 заказов</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#f04545] text-[24px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>740 заказов</p>
                 <div className="bg-[#f04545] h-[4px] relative rounded-[2px] shrink-0 w-[10px]" />
-                <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>“до” было на маркетплейсе</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>“до” было на маркетплейсе</p>
               </div>
             </div>
-            <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>за 6 месяцев</p>
+            <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>за 6 месяцев</p>
             <div className="bg-white content-stretch flex gap-[12px] items-center overflow-clip relative shrink-0">
               <div className="border border-[#f6f7f9] border-solid relative rounded-[999px] shrink-0 size-[40px]">
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[999px] size-full" src={imgTrust_Background} />
               </div>
               <div className="[word-break:break-word] bg-white content-stretch flex flex-col gap-[2px] items-start leading-[normal] overflow-clip relative shrink-0 whitespace-nowrap">
-                <p className="font-['SF_Pro:Bold'] font-bold relative shrink-0 text-[#121726] text-[14px]" style={{ fontVariationSettings: "'wdth' 100" }}>Around You</p>
-                <p className="font-['SF_Pro:Regular'] font-normal relative shrink-0 text-[#6b7885] text-[12px]" style={{ fontVariationSettings: "'wdth' 100" }}>цветочный магазин</p>
+                <p className="font-['SF_Pro:Bold',sans-serif] font-bold relative shrink-0 text-[#121726] text-[14px]" style={{ fontVariationSettings: "'wdth' 100" }}>Around You</p>
+                <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#6b7885] text-[12px]" style={{ fontVariationSettings: "'wdth' 100" }}>цветочный магазин</p>
               </div>
             </div>
           </div>
@@ -541,57 +541,57 @@ function Trust() {
         <div className="content-stretch flex gap-[16px] items-start overflow-clip relative shrink-0 w-full" data-node-id="40002673:8255" data-name="Frame">
           <div className="bg-white border border-[#ebedf2] border-solid content-stretch flex flex-[1_0_0] flex-col gap-[24px] items-start min-w-px overflow-clip p-[24px] relative rounded-[16px]" data-node-id="40002673:8287" data-name="case-Hold Store">
             <div className="[word-break:break-word] bg-[rgba(33,178,99,0.14)] content-stretch flex gap-[6px] items-center leading-[normal] overflow-clip px-[10px] py-[4px] relative rounded-[10px] shrink-0 text-[#0f8c33] whitespace-nowrap">
-              <p className="font-['SF_Pro:Bold'] font-bold relative shrink-0 text-[10px]" style={{ fontVariationSettings: "'wdth' 100" }}>✓</p>
-              <p className="font-['SF_Pro:Semibold'] font-[590] relative shrink-0 text-[11px]" style={{ fontVariationSettings: "'wdth' 100" }}>Постоянный рост</p>
+              <p className="font-['SF_Pro:Bold',sans-serif] font-bold relative shrink-0 text-[10px]" style={{ fontVariationSettings: "'wdth' 100" }}>✓</p>
+              <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0 text-[11px]" style={{ fontVariationSettings: "'wdth' 100" }}>Постоянный рост</p>
             </div>
             <div className="bg-white content-stretch flex gap-[20px] items-start overflow-clip relative shrink-0">
               <div className="bg-white content-stretch flex flex-col gap-[6px] items-start overflow-clip relative shrink-0">
-                <p className="[word-break:break-word] font-['SF_Pro:Bold'] font-bold leading-[normal] relative shrink-0 text-[#0f8c33] text-[24px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>+15%</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#0f8c33] text-[24px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>+15%</p>
                 <div className="bg-[#21b263] h-[4px] relative rounded-[2px] shrink-0 w-[40px]" />
-                <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[normal] relative shrink-0 text-[#6b7885] text-[12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>конверсия продаж</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#6b7885] text-[12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>конверсия продаж</p>
               </div>
               <div className="bg-white content-stretch flex flex-col gap-[6px] items-start overflow-clip relative shrink-0">
-                <p className="[word-break:break-word] font-['SF_Pro:Bold'] font-bold leading-[normal] relative shrink-0 text-[#0f8c33] text-[24px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>+7%</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#0f8c33] text-[24px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>+7%</p>
                 <div className="bg-[#21b263] h-[4px] relative rounded-[2px] shrink-0 w-[40px]" />
-                <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[normal] relative shrink-0 text-[#6b7885] text-[12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>рост CR в месяц</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#6b7885] text-[12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>рост CR в месяц</p>
               </div>
             </div>
-            <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[11px] opacity-0 whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>в месяц</p>
+            <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[11px] opacity-0 whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>в месяц</p>
             <div className="bg-white content-stretch flex gap-[12px] items-center overflow-clip relative shrink-0">
               <div className="border border-[#f6f7f9] border-solid relative rounded-[999px] shrink-0 size-[40px]">
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[999px] size-full" src={imgTrust_Background1} />
               </div>
               <div className="[word-break:break-word] bg-white content-stretch flex flex-col gap-[2px] items-start leading-[normal] overflow-clip relative shrink-0 whitespace-nowrap">
-                <p className="font-['SF_Pro:Bold'] font-bold relative shrink-0 text-[#121726] text-[14px]" style={{ fontVariationSettings: "'wdth' 100" }}>Hold Store</p>
-                <p className="font-['SF_Pro:Regular'] font-normal relative shrink-0 text-[#6b7885] text-[12px]" style={{ fontVariationSettings: "'wdth' 100" }}>магазин кроссовок</p>
+                <p className="font-['SF_Pro:Bold',sans-serif] font-bold relative shrink-0 text-[#121726] text-[14px]" style={{ fontVariationSettings: "'wdth' 100" }}>Hold Store</p>
+                <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#6b7885] text-[12px]" style={{ fontVariationSettings: "'wdth' 100" }}>магазин кроссовок</p>
               </div>
             </div>
           </div>
           <div className="bg-white border border-[#ebedf2] border-solid content-stretch flex flex-[1_0_0] flex-col gap-[24px] items-start min-w-px overflow-clip p-[24px] relative rounded-[16px]" data-node-id="40002673:8301" data-name="case-Casher">
             <div className="[word-break:break-word] bg-[rgba(33,178,99,0.14)] content-stretch flex gap-[6px] items-center leading-[normal] overflow-clip px-[10px] py-[4px] relative rounded-[10px] shrink-0 text-[#0f8c33] whitespace-nowrap">
-              <p className="font-['SF_Pro:Bold'] font-bold relative shrink-0 text-[10px]" style={{ fontVariationSettings: "'wdth' 100" }}>✓</p>
-              <p className="font-['SF_Pro:Semibold'] font-[590] relative shrink-0 text-[11px]" style={{ fontVariationSettings: "'wdth' 100" }}>Без сложной CRM</p>
+              <p className="font-['SF_Pro:Bold',sans-serif] font-bold relative shrink-0 text-[10px]" style={{ fontVariationSettings: "'wdth' 100" }}>✓</p>
+              <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0 text-[11px]" style={{ fontVariationSettings: "'wdth' 100" }}>Без сложной CRM</p>
             </div>
             <div className="bg-white content-stretch flex gap-[20px] items-start overflow-clip relative shrink-0">
               <div className="bg-white content-stretch flex flex-col gap-[6px] items-start overflow-clip relative shrink-0">
-                <p className="[word-break:break-word] font-['SF_Pro:Bold'] font-bold leading-[normal] relative shrink-0 text-[#0f8c33] text-[24px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>+43%</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#0f8c33] text-[24px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>+43%</p>
                 <div className="bg-[#21b263] h-[4px] relative rounded-[2px] shrink-0 w-[40px]" />
-                <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[normal] relative shrink-0 text-[#6b7885] text-[12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>конверсия продаж</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#6b7885] text-[12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>конверсия продаж</p>
               </div>
               <div className="bg-white content-stretch flex flex-col gap-[6px] items-start overflow-clip relative shrink-0">
-                <p className="[word-break:break-word] font-['SF_Pro:Bold'] font-bold leading-[normal] relative shrink-0 text-[#0f8c33] text-[24px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>x1,5</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#0f8c33] text-[24px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>x1,5</p>
                 <div className="bg-[#21b263] h-[4px] relative rounded-[2px] shrink-0 w-[40px]" />
-                <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[normal] relative shrink-0 text-[#6b7885] text-[12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>рост выручки</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#6b7885] text-[12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>рост выручки</p>
               </div>
             </div>
-            <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[11px] opacity-0 whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>за полгода</p>
+            <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[11px] opacity-0 whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>за полгода</p>
             <div className="bg-white content-stretch flex gap-[12px] items-center overflow-clip relative shrink-0">
               <div className="border-[1.25px] border-[#f6f7f9] border-solid relative rounded-[1000px] shrink-0 size-[40px]">
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[1000px] size-full" src={imgTrust_Photo202508261509132} />
               </div>
               <div className="[word-break:break-word] bg-white content-stretch flex flex-col gap-[2px] items-start leading-[normal] overflow-clip relative shrink-0 whitespace-nowrap">
-                <p className="font-['SF_Pro:Bold'] font-bold relative shrink-0 text-[#121726] text-[14px]" style={{ fontVariationSettings: "'wdth' 100" }}>Casher</p>
-                <p className="font-['SF_Pro:Regular'] font-normal relative shrink-0 text-[#6b7885] text-[12px]" style={{ fontVariationSettings: "'wdth' 100" }}>магазин одежды</p>
+                <p className="font-['SF_Pro:Bold',sans-serif] font-bold relative shrink-0 text-[#121726] text-[14px]" style={{ fontVariationSettings: "'wdth' 100" }}>Casher</p>
+                <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#6b7885] text-[12px]" style={{ fontVariationSettings: "'wdth' 100" }}>магазин одежды</p>
               </div>
             </div>
           </div>
@@ -600,16 +600,16 @@ function Trust() {
       <div className="bg-[#ebedf2] h-px relative shrink-0 w-[600px]" />
       <div className="[word-break:break-word] content-stretch flex gap-[60px] items-start justify-center leading-[normal] overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="40002673:8316" data-name="stats">
         <div className="content-stretch flex flex-col gap-[4px] items-center overflow-clip relative shrink-0">
-          <p className="font-['SF_Pro:Bold'] font-bold relative shrink-0 text-[#108ef5] text-[32px]" style={{ fontVariationSettings: "'wdth' 100" }}>2 000+</p>
-          <p className="font-['SF_Pro:Regular'] font-normal relative shrink-0 text-[#6b7885] text-[13px]" style={{ fontVariationSettings: "'wdth' 100" }}>магазинов в Telegram</p>
+          <p className="font-['SF_Pro:Bold',sans-serif] font-bold relative shrink-0 text-[#108ef5] text-[32px]" style={{ fontVariationSettings: "'wdth' 100" }}>2 000+</p>
+          <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#6b7885] text-[13px]" style={{ fontVariationSettings: "'wdth' 100" }}>магазинов в Telegram</p>
         </div>
         <div className="content-stretch flex flex-col gap-[4px] items-center overflow-clip relative shrink-0">
-          <p className="font-['SF_Pro:Bold'] font-bold relative shrink-0 text-[#108ef5] text-[32px]" style={{ fontVariationSettings: "'wdth' 100" }}>1,5 млн</p>
-          <p className="font-['SF_Pro:Regular'] font-normal relative shrink-0 text-[#6b7885] text-[13px]" style={{ fontVariationSettings: "'wdth' 100" }}>заказов обработано</p>
+          <p className="font-['SF_Pro:Bold',sans-serif] font-bold relative shrink-0 text-[#108ef5] text-[32px]" style={{ fontVariationSettings: "'wdth' 100" }}>1,5 млн</p>
+          <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#6b7885] text-[13px]" style={{ fontVariationSettings: "'wdth' 100" }}>заказов обработано</p>
         </div>
         <div className="content-stretch flex flex-col gap-[4px] items-center overflow-clip relative shrink-0">
-          <p className="font-['SF_Pro:Bold'] font-bold relative shrink-0 text-[#108ef5] text-[32px]" style={{ fontVariationSettings: "'wdth' 100" }}>15 минут</p>
-          <p className="font-['SF_Pro:Regular'] font-normal relative shrink-0 text-[#6b7885] text-[13px]" style={{ fontVariationSettings: "'wdth' 100" }}>на подключение</p>
+          <p className="font-['SF_Pro:Bold',sans-serif] font-bold relative shrink-0 text-[#108ef5] text-[32px]" style={{ fontVariationSettings: "'wdth' 100" }}>15 минут</p>
+          <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#6b7885] text-[13px]" style={{ fontVariationSettings: "'wdth' 100" }}>на подключение</p>
         </div>
       </div>
     </div>
@@ -621,7 +621,7 @@ function Pain() {
     <div className="bg-[#f6f7f9] content-stretch flex flex-col items-center px-[48px] py-[60px] relative size-full" data-node-id="40002524:8963" data-name="Pain">
       <div className="content-stretch flex flex-col items-center overflow-clip relative shrink-0 w-[820px]" data-node-id="40002524:8964" data-name="section-head">
         <div className="h-[16px] relative shrink-0 w-[100px]" />
-        <p className="[word-break:break-word] font-['SF_Pro_Display:Bold'] leading-[1.1] not-italic relative shrink-0 text-[#0a1519] text-[36px] text-center tracking-[-0.9px] w-[820px]" data-node-id="40002524:8968">
+        <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.1] not-italic relative shrink-0 text-[#0a1519] text-[36px] text-center tracking-[-0.9px] w-[820px]" data-node-id="40002524:8968">
           Каждый день ваш магазин теряет выручку
         </p>
       </div>
@@ -635,11 +635,11 @@ function Pain() {
           ].map((card, i) => (
             <div key={`pain-bad-${i}`} className="bg-white border border-[#f5c7c7] border-solid content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-w-px overflow-clip p-[24px] relative rounded-[16px]" data-name="pain-card">
               <div className="bg-[#fae8e8] content-stretch flex items-center justify-center overflow-clip relative rounded-[10px] shrink-0 size-[36px]">
-                <p className="[word-break:break-word] font-['SF_Pro:Bold'] font-bold leading-[normal] relative shrink-0 text-[#f04545] text-[16px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>✕</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#f04545] text-[16px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>✕</p>
               </div>
               <div className="relative shrink-0 size-[8px]" />
-              <p className="[word-break:break-word] font-['SF_Pro:Bold'] font-bold leading-[normal] min-w-full relative shrink-0 text-[#121726] text-[18px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>{card.title}</p>
-              <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[22px] min-w-full relative shrink-0 text-[#667080] text-[14px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>{card.text}</p>
+              <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] min-w-full relative shrink-0 text-[#121726] text-[18px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>{card.title}</p>
+              <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[22px] min-w-full relative shrink-0 text-[#667080] text-[14px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>{card.text}</p>
             </div>
           ))}
         </div>
@@ -651,11 +651,11 @@ function Pain() {
           ].map((card, i) => (
             <div key={`pain-good-${i}`} className="bg-white border border-[#b8e8cf] border-solid content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-w-px overflow-clip p-[24px] relative rounded-[16px]" data-name="pain-card">
               <div className="bg-[#d9f7e8] content-stretch flex items-center justify-center overflow-clip relative rounded-[10px] shrink-0 size-[36px]">
-                <p className="[word-break:break-word] font-['SF_Pro:Bold'] font-bold leading-[normal] relative shrink-0 text-[#21b263] text-[16px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>✓</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#21b263] text-[16px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>✓</p>
               </div>
               <div className="relative shrink-0 size-[8px]" />
-              <p className="[word-break:break-word] font-['SF_Pro:Bold'] font-bold leading-[normal] min-w-full relative shrink-0 text-[#121726] text-[18px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>{card.title}</p>
-              <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[22px] min-w-full relative shrink-0 text-[#667080] text-[14px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>{card.text}</p>
+              <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] min-w-full relative shrink-0 text-[#121726] text-[18px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>{card.title}</p>
+              <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[22px] min-w-full relative shrink-0 text-[#667080] text-[14px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>{card.text}</p>
             </div>
           ))}
         </div>
@@ -678,37 +678,37 @@ function Price() {
       <div className="content-stretch flex gap-[64px] items-start relative shrink-0 w-[928px]" data-node-id="40002524:9010" data-name="price-inner">
         <div className="content-stretch flex flex-col items-start relative shrink-0 w-[432px]" data-node-id="40002524:9011" data-name="price-text">
           <div className="bg-[rgba(16,142,245,0.08)] content-stretch flex items-start overflow-clip px-[12px] py-[6px] relative rounded-[100px] shrink-0">
-            <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold'] leading-[1.5] not-italic relative shrink-0 text-[#108ef5] text-[14px] tracking-[-0.14px] whitespace-nowrap">
+            <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#108ef5] text-[14px] tracking-[-0.14px] whitespace-nowrap">
               Цена бездействия
             </p>
           </div>
           <div className="h-[16px] relative shrink-0 w-[100px]" />
-          <p className="[word-break:break-word] font-['SF_Pro_Display:Bold'] leading-[1.1] not-italic relative shrink-0 text-[#0a1519] text-[36px] tracking-[-0.9px] w-[432px]">
+          <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.1] not-italic relative shrink-0 text-[#0a1519] text-[36px] tracking-[-0.9px] w-[432px]">
             Посчитайте, сколько вы теряете
           </p>
           <div className="h-[24px] relative shrink-0 w-[100px]" />
-          <p className="[word-break:break-word] font-['SF_Pro_Display:Regular'] leading-[1.6] not-italic relative shrink-0 text-[#595959] text-[18px] tracking-[-0.18px] w-[432px]">
+          <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.6] not-italic relative shrink-0 text-[#595959] text-[18px] tracking-[-0.18px] w-[432px]">
             Магазин получает 50 заявок в день, и хотя бы 10% теряются — это 5 потерянных клиентов ежедневно.
           </p>
           <div className="h-[16px] relative shrink-0 w-[100px]" />
-          <p className="[word-break:break-word] font-['SF_Pro_Display:Regular'] leading-[1.6] not-italic relative shrink-0 text-[#595959] text-[18px] tracking-[-0.18px] w-[432px]">
+          <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.6] not-italic relative shrink-0 text-[#595959] text-[18px] tracking-[-0.18px] w-[432px]">
             При среднем чеке 300 000 soʻm это 1 500 000 soʻm в день. Или 45 миллионов soʻm в месяц.
           </p>
           <div className="h-[32px] relative shrink-0 w-[100px]" />
           <div className="h-[28px] relative shrink-0 w-[100px]" />
-          <p className="[word-break:break-word] font-['SF_Pro_Display:Regular'] leading-[1.55] not-italic relative shrink-0 text-[#e5484d] text-[15px] tracking-[-0.15px] w-[432px]">
+          <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.55] not-italic relative shrink-0 text-[#e5484d] text-[15px] tracking-[-0.15px] w-[432px]">
             Не из-за плохого товара. Не из-за цены. Просто потому что ответили поздно — или не ответили вообще.
           </p>
           <div className="h-[28px] relative shrink-0 w-[100px]" />
           <div className="content-stretch flex gap-[20px] items-center relative shrink-0">
             <a href={CTA_HREF} target="_blank" rel="noopener" className="contents no-underline">
               <div className="bg-[#108ef5] cursor-pointer content-stretch flex h-[52px] items-center justify-center overflow-clip px-[32px] relative rounded-[100px] shadow-[0px_20px_35px_0px_rgba(51,133,255,0.22)] shrink-0" data-name="btn-primary-l">
-                <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold'] leading-[1.5] not-italic relative shrink-0 text-[16px] text-white tracking-[-0.16px] whitespace-nowrap">
+                <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[16px] text-white tracking-[-0.16px] whitespace-nowrap">
                   Хочу больше продаж
                 </p>
               </div>
             </a>
-            <p className="[word-break:break-word] font-['SF_Pro_Display:Regular'] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[13px] tracking-[-0.13px] whitespace-nowrap">
+            <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[13px] tracking-[-0.13px] whitespace-nowrap">
               14 дней бесплатно · карта не нужна
             </p>
           </div>
@@ -716,11 +716,11 @@ function Price() {
         <div className="bg-white border border-[rgba(0,0,0,0.06)] border-solid content-stretch drop-shadow-[0px_8px_12px_rgba(0,0,0,0.06)] flex flex-col gap-[14px] items-center pb-[20px] relative rounded-[24px] shrink-0 w-[432px]" data-name="calc-card">
           <div className="bg-white border border-[rgba(0,0,0,0.06)] border-solid content-stretch flex flex-col items-start overflow-clip pb-[16px] pt-[18px] px-[20px] relative rounded-[16px] shadow-[0px_4px_12px_0px_rgba(0,0,0,0.04)] shrink-0 w-[432px]" data-name="loss-chart">
             <div className="content-stretch flex items-center relative shrink-0 w-[221px]">
-              <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold'] leading-[1.5] not-italic relative shrink-0 text-[#0a1519] text-[13px] tracking-[-0.13px] whitespace-nowrap">
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#0a1519] text-[13px] tracking-[-0.13px] whitespace-nowrap">
                 Потери накапливаются каждый день
               </p>
               <div className="flex-[1_0_0] h-[100px] min-w-px relative" />
-              <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold'] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[11px] tracking-[0.22px] whitespace-nowrap">30 ДНЕЙ</p>
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[11px] tracking-[0.22px] whitespace-nowrap">30 ДНЕЙ</p>
             </div>
             <div className="h-[14px] relative shrink-0 w-[100px]" />
             <div className="content-stretch flex gap-[3px] h-[80px] items-end relative shrink-0 w-full" data-name="bars">
@@ -731,24 +731,24 @@ function Price() {
             </div>
             <div className="h-[10px] relative shrink-0 w-[100px]" />
             <div className="content-stretch flex items-center justify-between relative shrink-0 w-full" data-name="ch-foot">
-              <p className="[word-break:break-word] font-['SF_Pro_Display:Regular'] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[11px] tracking-[-0.11px] whitespace-nowrap">день 1 — 1,5 млн</p>
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[11px] tracking-[-0.11px] whitespace-nowrap">день 1 — 1,5 млн</p>
               <div className="flex-[1_0_0] h-[100px] min-w-px relative" />
               <div className="[word-break:break-word] content-stretch flex gap-[4px] items-start leading-[1.5] not-italic overflow-clip relative shrink-0 text-[11px] tracking-[-0.11px] whitespace-nowrap">
-                <p className="font-['SF_Pro_Display:Regular'] relative shrink-0 text-[#767d88]">день 30 —</p>
-                <p className="font-['SF_Pro_Display:Bold'] relative shrink-0 text-[#e5484d]">45 млн soʻm</p>
+                <p className="font-['SF_Pro_Display:Regular',sans-serif] relative shrink-0 text-[#767d88]">день 30 —</p>
+                <p className="font-['SF_Pro_Display:Bold',sans-serif] relative shrink-0 text-[#e5484d]">45 млн soʻm</p>
               </div>
             </div>
           </div>
-          <p className="[word-break:break-word] font-['SF_Pro_Display:Regular'] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[22px] text-center tracking-[-0.22px] w-[372px]">↓</p>
+          <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[22px] text-center tracking-[-0.22px] w-[372px]">↓</p>
           <div className="bg-[#fff1f1] border border-[rgba(229,72,77,0.2)] border-solid content-stretch flex flex-col items-center overflow-clip px-[24px] py-[22px] relative rounded-[16px] shadow-[0px_10px_30px_0px_rgba(229,71,77,0.08)] shrink-0 w-full" data-name="calc-total">
-            <p className="[word-break:break-word] font-['SF_Pro_Display:Bold'] leading-[1.5] not-italic relative shrink-0 text-[#e5484d] text-[13px] tracking-[0.78px] whitespace-nowrap">ПОТЕРИ В МЕСЯЦ</p>
+            <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#e5484d] text-[13px] tracking-[0.78px] whitespace-nowrap">ПОТЕРИ В МЕСЯЦ</p>
             <div className="h-[8px] relative shrink-0 w-[100px]" />
             <div className="[word-break:break-word] content-stretch flex gap-[8px] items-baseline not-italic overflow-clip relative shrink-0 whitespace-nowrap" data-name="total-num">
-              <p className="font-['SF_Pro_Display:Bold'] leading-none relative shrink-0 text-[#e5484d] text-[44px] tracking-[-1.76px]">45 000 000</p>
-              <p className="font-['SF_Pro_Display:Semibold'] leading-[1.5] relative shrink-0 text-[20px] text-[rgba(229,72,77,0.8)] tracking-[-0.2px]">soʻm</p>
+              <p className="font-['SF_Pro_Display:Bold',sans-serif] leading-none relative shrink-0 text-[#e5484d] text-[44px] tracking-[-1.76px]">45 000 000</p>
+              <p className="font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] relative shrink-0 text-[20px] text-[rgba(229,72,77,0.8)] tracking-[-0.2px]">soʻm</p>
             </div>
           </div>
-          <p className="[word-break:break-word] font-['SF_Pro_Display:Regular'] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[12px] text-center tracking-[-0.12px] w-[372px]">Средний магазин · 30 рабочих дней</p>
+          <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[12px] text-center tracking-[-0.12px] w-[372px]">Средний магазин · 30 рабочих дней</p>
         </div>
       </div>
     </div>
@@ -760,12 +760,12 @@ function How() {
     <div className="bg-[#f6f7f9] content-stretch flex flex-col items-center px-[48px] py-[50px] relative size-full" data-node-id="40002524:9242" data-name="How">
       <div className="content-stretch flex flex-col items-center overflow-clip relative shrink-0 w-[820px]" data-name="section-head">
         <div className="bg-[rgba(16,142,245,0.08)] content-stretch flex items-start overflow-clip px-[12px] py-[6px] relative rounded-[100px] shrink-0" data-name="kicker">
-          <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold'] leading-[1.5] not-italic relative shrink-0 text-[#108ef5] text-[14px] tracking-[-0.14px] whitespace-nowrap">
+          <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#108ef5] text-[14px] tracking-[-0.14px] whitespace-nowrap">
             Старт за 5 минут
           </p>
         </div>
         <div className="h-[16px] relative shrink-0 w-[100px]" />
-        <p className="[word-break:break-word] font-['SF_Pro_Display:Bold'] leading-[1.1] not-italic relative shrink-0 text-[#0a1519] text-[36px] text-center tracking-[-0.9px] w-[820px]">
+        <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.1] not-italic relative shrink-0 text-[#0a1519] text-[36px] text-center tracking-[-0.9px] w-[820px]">
           Как начать работу — три шага
         </p>
       </div>
@@ -775,15 +775,15 @@ function How() {
         <div className="bg-white border border-[rgba(0,0,0,0.06)] border-solid content-stretch flex flex-[1_0_0] flex-col items-start min-w-px overflow-clip pb-[20px] pt-[24px] px-[20px] relative rounded-[24px]" data-name="step">
           <div className="content-stretch flex items-center relative shrink-0 w-full">
             <div className="bg-[#108ef5] content-stretch flex items-start overflow-clip px-[14px] py-[6px] relative rounded-[100px] shrink-0">
-              <p className="[word-break:break-word] font-['SF_Pro_Display:Bold'] leading-[1.5] not-italic relative shrink-0 text-[13px] text-white tracking-[-0.13px] whitespace-nowrap">Шаг 1</p>
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[13px] text-white tracking-[-0.13px] whitespace-nowrap">Шаг 1</p>
             </div>
             <div className="flex-[1_0_0] h-[100px] min-w-px relative" />
-            <p className="[word-break:break-word] font-['SF_Pro_Display:Regular'] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[12px] tracking-[-0.12px] whitespace-nowrap">5 минут</p>
+            <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[12px] tracking-[-0.12px] whitespace-nowrap">5 минут</p>
           </div>
           <div className="h-[16px] relative shrink-0 w-[100px]" />
-          <p className="[word-break:break-word] font-['SF_Pro:Bold'] font-bold leading-[1.2] min-w-full relative shrink-0 text-[#0a1519] text-[22px] tracking-[-0.44px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>Создайте магазин</p>
+          <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[1.2] min-w-full relative shrink-0 text-[#0a1519] text-[22px] tracking-[-0.44px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>Создайте магазин</p>
           <div className="h-[10px] relative shrink-0 w-[100px]" />
-          <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[1.5] min-w-full relative shrink-0 text-[#595959] text-[15px] tracking-[-0.15px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>Загрузите товары, включите доставку и оплату.</p>
+          <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.5] min-w-full relative shrink-0 text-[#595959] text-[15px] tracking-[-0.15px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>Загрузите товары, включите доставку и оплату.</p>
           <div className="h-[20px] relative shrink-0 w-[100px]" />
           <div className="bg-white border border-[#ebedf2] border-solid content-stretch flex flex-col gap-[8px] items-start overflow-clip p-[18px] relative rounded-[16px] shrink-0 w-full" data-name="m1-setup">
             {[
@@ -793,10 +793,10 @@ function How() {
             ].map((row, i) => (
               <div key={`m1-${i}`} className="bg-white content-stretch flex gap-[12px] items-center overflow-clip py-[4px] relative shrink-0" data-name="row">
                 <div className="bg-[rgba(15,186,130,0.12)] content-stretch flex items-center justify-center overflow-clip relative rounded-[12px] shrink-0 size-[24px]">
-                  <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[normal] relative shrink-0 text-[#0fba82] text-[12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>✓</p>
+                  <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[normal] relative shrink-0 text-[#0fba82] text-[12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>✓</p>
                 </div>
-                <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[normal] relative shrink-0 text-[#121726] text-[14px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{row.label}</p>
-                <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[normal] relative shrink-0 text-[#6b7885] text-[13px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{row.value}</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[normal] relative shrink-0 text-[#121726] text-[14px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{row.label}</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#6b7885] text-[13px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{row.value}</p>
               </div>
             ))}
           </div>
@@ -805,41 +805,41 @@ function How() {
         <div className="bg-white border border-[rgba(0,0,0,0.06)] border-solid content-stretch flex flex-[1_0_0] flex-col items-start min-w-px overflow-clip pb-[20px] pt-[24px] px-[20px] relative rounded-[24px]" data-name="step">
           <div className="content-stretch flex items-center relative shrink-0 w-full">
             <div className="bg-[#108ef5] content-stretch flex items-start overflow-clip px-[14px] py-[6px] relative rounded-[100px] shrink-0">
-              <p className="[word-break:break-word] font-['SF_Pro_Display:Bold'] leading-[1.5] not-italic relative shrink-0 text-[13px] text-white tracking-[-0.13px] whitespace-nowrap">Шаг 2</p>
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[13px] text-white tracking-[-0.13px] whitespace-nowrap">Шаг 2</p>
             </div>
             <div className="flex-[1_0_0] h-[100px] min-w-px relative" />
-            <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[1.5] relative shrink-0 text-[#767d88] text-[12px] tracking-[-0.12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>1 минута</p>
+            <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.5] relative shrink-0 text-[#767d88] text-[12px] tracking-[-0.12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>1 минута</p>
           </div>
           <div className="h-[16px] relative shrink-0 w-[100px]" />
-          <p className="[word-break:break-word] font-['SF_Pro:Bold'] font-bold leading-[1.2] min-w-full relative shrink-0 text-[#0a1519] text-[22px] tracking-[-0.44px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>Выдайте доступ менеджерам</p>
+          <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[1.2] min-w-full relative shrink-0 text-[#0a1519] text-[22px] tracking-[-0.44px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>Выдайте доступ менеджерам</p>
           <div className="h-[10px] relative shrink-0 w-[100px]" />
-          <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[1.5] min-w-full relative shrink-0 text-[#595959] text-[15px] tracking-[-0.15px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>Обрабатывайте заявки и вопросы клиентов.</p>
+          <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.5] min-w-full relative shrink-0 text-[#595959] text-[15px] tracking-[-0.15px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>Обрабатывайте заявки и вопросы клиентов.</p>
           <div className="h-[20px] relative shrink-0 w-[100px]" />
           <div className="bg-white border border-[#ebedf2] border-solid content-stretch flex flex-col gap-[10px] items-start overflow-clip p-[18px] relative rounded-[16px] shrink-0 w-full" data-name="m2-chat">
             <div className="bg-white content-stretch flex items-center justify-between overflow-clip relative shrink-0 w-full">
               <div className="bg-white content-stretch flex gap-[8px] items-center overflow-clip relative shrink-0">
                 <div className="bg-[rgba(38,99,235,0.15)] content-stretch flex items-center justify-center overflow-clip relative rounded-[12px] shrink-0 size-[24px]">
-                  <p className="[word-break:break-word] font-['SF_Pro:Bold'] font-bold leading-[normal] relative shrink-0 text-[#2663eb] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>Ю</p>
+                  <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#2663eb] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>Ю</p>
                 </div>
-                <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[normal] relative shrink-0 text-[#121726] text-[14px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>Юлия К.</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[normal] relative shrink-0 text-[#121726] text-[14px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>Юлия К.</p>
               </div>
-              <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[normal] relative shrink-0 text-[#99a6b2] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>1 мин</p>
+              <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#99a6b2] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>1 мин</p>
             </div>
             <div className="bg-[#f7fafc] content-stretch flex items-start overflow-clip px-[12px] py-[10px] relative rounded-[12px] shrink-0">
-              <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[normal] relative shrink-0 text-[#121726] text-[13px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>Есть Nike Air Max 39?</p>
+              <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#121726] text-[13px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>Есть Nike Air Max 39?</p>
             </div>
             <div className="bg-white content-stretch flex items-start justify-end overflow-clip relative shrink-0 w-full">
               <div className="bg-[#e8f2ff] content-stretch flex items-start overflow-clip px-[12px] py-[10px] relative rounded-[12px] shrink-0 w-[220px]">
-                <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[normal] relative shrink-0 text-[#121726] text-[13px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>Да, 1290000 soʻm. Оформлять?</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#121726] text-[13px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>Да, 1290000 soʻm. Оформлять?</p>
               </div>
             </div>
             <div className="bg-[rgba(15,186,130,0.1)] content-stretch flex gap-[10px] items-center overflow-clip px-[12px] py-[10px] relative rounded-[12px] shrink-0 w-full">
               <div className="bg-[#0fba82] content-stretch flex items-center justify-center overflow-clip relative rounded-[10px] shrink-0 size-[20px]">
-                <p className="[word-break:break-word] font-['SF_Pro:Bold'] font-bold leading-[normal] relative shrink-0 text-[11px] text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>✓</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[11px] text-white whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>✓</p>
               </div>
               <div className="[word-break:break-word] content-stretch flex flex-col gap-[2px] items-start leading-[normal] overflow-clip relative shrink-0 whitespace-nowrap">
-                <p className="font-['SF_Pro:Semibold'] font-[590] relative shrink-0 text-[#121726] text-[13px]" style={{ fontVariationSettings: "'wdth' 100" }}>Заказ оформлен</p>
-                <p className="font-['SF_Pro:Regular'] font-normal relative shrink-0 text-[#6b7885] text-[11px]" style={{ fontVariationSettings: "'wdth' 100" }}>1 290 000 soʻm</p>
+                <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0 text-[#121726] text-[13px]" style={{ fontVariationSettings: "'wdth' 100" }}>Заказ оформлен</p>
+                <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#6b7885] text-[11px]" style={{ fontVariationSettings: "'wdth' 100" }}>1 290 000 soʻm</p>
               </div>
             </div>
           </div>
@@ -848,15 +848,15 @@ function How() {
         <div className="bg-white border border-[rgba(0,0,0,0.06)] border-solid content-stretch flex flex-[1_0_0] flex-col items-start min-w-px overflow-clip pb-[20px] pt-[24px] px-[20px] relative rounded-[24px]" data-name="step">
           <div className="content-stretch flex items-center relative shrink-0 w-full">
             <div className="bg-[#108ef5] content-stretch flex items-start overflow-clip px-[14px] py-[6px] relative rounded-[100px] shrink-0">
-              <p className="[word-break:break-word] font-['SF_Pro_Display:Bold'] leading-[1.5] not-italic relative shrink-0 text-[13px] text-white tracking-[-0.13px] whitespace-nowrap">Шаг 3</p>
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[13px] text-white tracking-[-0.13px] whitespace-nowrap">Шаг 3</p>
             </div>
             <div className="flex-[1_0_0] h-[100px] min-w-px relative" />
-            <p className="[word-break:break-word] font-['SF_Pro_Display:Regular'] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[12px] tracking-[-0.12px] whitespace-nowrap">автоматически</p>
+            <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[12px] tracking-[-0.12px] whitespace-nowrap">автоматически</p>
           </div>
           <div className="h-[16px] relative shrink-0 w-[100px]" />
-          <p className="[word-break:break-word] font-['SF_Pro:Bold'] font-bold leading-[1.2] min-w-full relative shrink-0 text-[#0a1519] text-[22px] tracking-[-0.44px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>Отслеживайте продажи</p>
+          <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[1.2] min-w-full relative shrink-0 text-[#0a1519] text-[22px] tracking-[-0.44px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>Отслеживайте продажи</p>
           <div className="h-[10px] relative shrink-0 w-[100px]" />
-          <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[1.5] min-w-full relative shrink-0 text-[#595959] text-[15px] tracking-[-0.15px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>Контролируйте все диалоги и заказы — в одном месте в Telegram.</p>
+          <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.5] min-w-full relative shrink-0 text-[#595959] text-[15px] tracking-[-0.15px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>Контролируйте все диалоги и заказы — в одном месте в Telegram.</p>
           <div className="h-[20px] relative shrink-0 w-[100px]" />
           <div className="bg-white border border-[#ebedf2] border-solid content-stretch flex flex-col gap-[8px] items-start overflow-clip p-[18px] relative rounded-[16px] shrink-0 w-full" data-name="m3-stats">
             {[
@@ -866,10 +866,10 @@ function How() {
             ].map((row, i) => (
               <div key={`m3-${i}`} className="bg-white content-stretch flex gap-[12px] items-center overflow-clip py-[4px] relative shrink-0" data-name="row">
                 <div className="content-stretch flex items-center justify-center overflow-clip relative rounded-[12px] shrink-0 size-[24px]" style={{ backgroundColor: row.iconBg }}>
-                  <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[normal] relative shrink-0 text-[12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100", color: row.iconColor }}>{row.icon}</p>
+                  <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[normal] relative shrink-0 text-[12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100", color: row.iconColor }}>{row.icon}</p>
                 </div>
-                <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[normal] relative shrink-0 text-[#121726] text-[14px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{row.label}</p>
-                <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[normal] relative shrink-0 text-[#6b7885] text-[13px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{row.value}</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[normal] relative shrink-0 text-[#121726] text-[14px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{row.label}</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#6b7885] text-[13px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{row.value}</p>
               </div>
             ))}
           </div>
@@ -884,23 +884,23 @@ function KeyFeatures() {
     <div className="bg-white content-stretch flex flex-col items-center px-[48px] py-[80px] relative size-full" data-node-id="40002524:9133" data-name="KeyFeatures">
       <div className="content-stretch flex flex-col items-center overflow-clip relative shrink-0 w-[820px]" data-name="section-head">
         <div className="bg-[rgba(16,142,245,0.08)] content-stretch flex items-start overflow-clip px-[12px] py-[6px] relative rounded-[100px] shrink-0">
-          <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold'] leading-[1.5] not-italic relative shrink-0 text-[#108ef5] text-[14px] tracking-[-0.14px] whitespace-nowrap">
+          <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#108ef5] text-[14px] tracking-[-0.14px] whitespace-nowrap">
             Главные функции
           </p>
         </div>
         <div className="h-[16px] relative shrink-0 w-[100px]" />
-        <p className="[word-break:break-word] font-['SF_Pro_Display:Bold'] leading-[1.1] not-italic relative shrink-0 text-[#0a1519] text-[36px] text-center tracking-[-0.9px] w-[820px]">
+        <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.1] not-italic relative shrink-0 text-[#0a1519] text-[36px] text-center tracking-[-0.9px] w-[820px]">
           Не просто переписки — а система продаж
         </p>
       </div>
       <div className="h-[48px] relative shrink-0 w-[100px]" />
       <div className="content-stretch flex gap-[80px] items-center relative shrink-0 w-[928px]" data-name="kf-card">
         <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-[424px]" data-name="kf-text">
-          <p className="[word-break:break-word] font-['SF_Pro_Display:Bold'] leading-[1.18] not-italic relative shrink-0 text-[#0a1519] text-[30px] tracking-[-0.75px] w-[424px]">
+          <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.18] not-italic relative shrink-0 text-[#0a1519] text-[30px] tracking-[-0.75px] w-[424px]">
             Статусы заявок — сразу видно, кому не ответили
           </p>
           <div className="h-[16px] relative shrink-0 w-[100px]" />
-          <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[1.55] relative shrink-0 text-[#595959] text-[16px] tracking-[-0.16px] w-[424px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+          <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.55] relative shrink-0 text-[#595959] text-[16px] tracking-[-0.16px] w-[424px]" style={{ fontVariationSettings: "'wdth' 100" }}>
             Каждый чат имеет статус: «новый», «открыт» или «закрыт». Не нужно запоминать, кому уже ответили, а кому — нет.
           </p>
           <div className="h-[20px] relative shrink-0 w-[100px]" />
@@ -908,9 +908,9 @@ function KeyFeatures() {
             {['Новые заявки выделяются автоматически', 'Отслеживайте, на какие чаты не ответили'].map((b, i) => (
               <div key={`bsta-${i}`} className="content-stretch flex gap-[10px] items-start overflow-clip relative shrink-0" data-name="b">
                 <div className="bg-[rgba(16,142,245,0.1)] content-stretch flex items-center justify-center overflow-clip relative rounded-[10px] shrink-0 size-[20px]">
-                  <p className="[word-break:break-word] font-['SF_Pro_Display:Bold'] leading-[1.5] not-italic relative shrink-0 text-[#108ef5] text-[11px] tracking-[-0.11px] whitespace-nowrap">✓</p>
+                  <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#108ef5] text-[11px] tracking-[-0.11px] whitespace-nowrap">✓</p>
                 </div>
-                <p className="[word-break:break-word] font-['SF_Pro_Display:Regular'] leading-[1.45] not-italic relative shrink-0 text-[#0a1519] text-[15px] tracking-[-0.15px] w-[394px]">{b}</p>
+                <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.45] not-italic relative shrink-0 text-[#0a1519] text-[15px] tracking-[-0.15px] w-[394px]">{b}</p>
               </div>
             ))}
           </div>
@@ -924,15 +924,15 @@ function KeyFeatures() {
             <div key={`col-${i}`} className="bg-[#f7fafc] content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px overflow-clip px-[10px] py-[12px] relative rounded-[14px]" data-name={`col-${col.label}`}>
               <div className="bg-white content-stretch flex items-center justify-between overflow-clip relative shrink-0 w-full">
                 <div className="content-stretch flex items-start overflow-clip px-[8px] py-[3px] relative rounded-[8px] shrink-0" style={{ backgroundColor: col.labelBg }}>
-                  <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[normal] relative shrink-0 text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100", color: col.labelColor }}>{col.label}</p>
+                  <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[normal] relative shrink-0 text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100", color: col.labelColor }}>{col.label}</p>
                 </div>
-                <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[normal] relative shrink-0 text-[#6b7885] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{col.count}</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[normal] relative shrink-0 text-[#6b7885] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{col.count}</p>
               </div>
               {col.cards.map((card, j) => (
                 <div key={`card-${i}-${j}`} className="[word-break:break-word] bg-white border border-[#ebedf2] border-solid content-stretch flex flex-col gap-[5px] items-start leading-[normal] overflow-clip p-[10px] relative rounded-[10px] shrink-0 w-full whitespace-nowrap" data-name="stat-card">
-                  <p className="font-['SF_Pro:Semibold'] font-[590] relative shrink-0 text-[#121726] text-[12px]" style={{ fontVariationSettings: "'wdth' 100" }}>{card.name}</p>
-                  <p className="font-['SF_Pro:Regular'] font-normal relative shrink-0 text-[#6b7885] text-[11px]" style={{ fontVariationSettings: "'wdth' 100" }}>{card.msg}</p>
-                  <p className="font-['SF_Pro:Regular'] font-normal relative shrink-0 text-[#99a6b2] text-[10px]" style={{ fontVariationSettings: "'wdth' 100" }}>{card.time}</p>
+                  <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0 text-[#121726] text-[12px]" style={{ fontVariationSettings: "'wdth' 100" }}>{card.name}</p>
+                  <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#6b7885] text-[11px]" style={{ fontVariationSettings: "'wdth' 100" }}>{card.msg}</p>
+                  <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#99a6b2] text-[10px]" style={{ fontVariationSettings: "'wdth' 100" }}>{card.time}</p>
                 </div>
               ))}
             </div>
@@ -958,20 +958,20 @@ function KeyFeatures() {
                   <div className="relative shrink-0 size-[8px]">
                     <img alt="" className="absolute block inset-0 max-w-none size-full" src={seg.dot} />
                   </div>
-                  <p className="[word-break:break-word] font-['SF_Pro:Bold'] font-bold leading-[normal] relative shrink-0 text-[#121726] text-[26px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{seg.num}</p>
-                  <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[normal] relative shrink-0 text-[#121726] text-[13px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{seg.label}</p>
-                  <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[normal] relative shrink-0 text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100", color: seg.color }}>{seg.cta}</p>
+                  <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#121726] text-[26px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{seg.num}</p>
+                  <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[normal] relative shrink-0 text-[#121726] text-[13px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{seg.label}</p>
+                  <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100", color: seg.color }}>{seg.cta}</p>
                 </div>
               ))}
             </div>
           ))}
         </div>
         <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-[424px]" data-name="kf-text-2">
-          <p className="[word-break:break-word] font-['SF_Pro_Display:Bold'] leading-[1.18] not-italic relative shrink-0 text-[#0a1519] text-[30px] tracking-[-0.75px] w-[424px]">
+          <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.18] not-italic relative shrink-0 text-[#0a1519] text-[30px] tracking-[-0.75px] w-[424px]">
             Рассылки по готовым сегментам — возвращайте клиентов
           </p>
           <div className="h-[16px] relative shrink-0 w-[100px]" />
-          <p className="[word-break:break-word] font-['SF_Pro_Display:Regular'] leading-[1.55] not-italic relative shrink-0 text-[#595959] text-[16px] tracking-[-0.16px] w-[424px]">
+          <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.55] not-italic relative shrink-0 text-[#595959] text-[16px] tracking-[-0.16px] w-[424px]">
             Сегменты собираются автоматически — на основе поведения клиента. Отправьте сообщение тем, кто бросил корзину, кто давно не покупал или только что оформил заказ.
           </p>
           <div className="h-[20px] relative shrink-0 w-[100px]" />
@@ -984,9 +984,9 @@ function KeyFeatures() {
             ].map((b, i) => (
               <div key={`bseg-${i}`} className="content-stretch flex gap-[10px] items-start overflow-clip relative shrink-0" data-name="b">
                 <div className="bg-[rgba(16,142,245,0.1)] content-stretch flex items-center justify-center overflow-clip relative rounded-[10px] shrink-0 size-[20px]">
-                  <p className="[word-break:break-word] font-['SF_Pro_Display:Bold'] leading-[1.5] not-italic relative shrink-0 text-[#108ef5] text-[11px] tracking-[-0.11px] whitespace-nowrap">✓</p>
+                  <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#108ef5] text-[11px] tracking-[-0.11px] whitespace-nowrap">✓</p>
                 </div>
-                <p className="[word-break:break-word] font-['SF_Pro_Display:Regular'] leading-[1.45] not-italic relative shrink-0 text-[#0a1519] text-[15px] tracking-[-0.15px] w-[394px]">{b}</p>
+                <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.45] not-italic relative shrink-0 text-[#0a1519] text-[15px] tracking-[-0.15px] w-[394px]">{b}</p>
               </div>
             ))}
           </div>
@@ -1062,7 +1062,7 @@ function Solution() {
     <div className="bg-[#f6f7f9] content-stretch flex flex-col items-center px-[48px] py-[60px] relative size-full" data-node-id="40002524:9108" data-name="Solution">
       <div className="content-stretch flex flex-col items-center overflow-clip relative shrink-0 w-[820px]" data-name="section-head">
         <div className="h-[16px] relative shrink-0 w-[100px]" />
-        <p className="[word-break:break-word] font-['SF_Pro:Bold'] font-bold leading-[1.1] relative shrink-0 text-[#0a1519] text-[36px] text-center tracking-[-0.9px] w-[820px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+        <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[1.1] relative shrink-0 text-[#0a1519] text-[36px] text-center tracking-[-0.9px] w-[820px]" style={{ fontVariationSettings: "'wdth' 100" }}>
           Готовые интеграции без разработки
         </p>
       </div>
@@ -1072,14 +1072,14 @@ function Solution() {
           <div key={`sr-${startIdx}`} className="content-stretch flex gap-[24px] items-start overflow-clip relative shrink-0 w-full">
             {cards.slice(startIdx, startIdx + 2).map((card, i) => (
               <div key={`sol-${startIdx + i}`} className="bg-white border border-[#ebedf2] border-solid content-stretch flex flex-[1_0_0] flex-col gap-[18px] items-start min-w-px overflow-clip p-[28px] relative rounded-[20px] shadow-[0px_8px_24px_0px_rgba(13,18,31,0.06)]" data-name={`sol-card-${startIdx + i + 1}`}>
-                <p className="[word-break:break-word] font-['SF_Pro:Bold'] font-bold leading-[normal] relative shrink-0 text-[#121726] text-[20px] w-full" style={{ fontVariationSettings: "'wdth' 100" }}>{card.title}</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#121726] text-[20px] w-full" style={{ fontVariationSettings: "'wdth' 100" }}>{card.title}</p>
                 <div className="bg-white content-stretch flex flex-col gap-[12px] items-start overflow-clip relative shrink-0 w-full">
                   {card.items.map((item, j) => (
                     <div key={`item-${startIdx + i}-${j}`} className="bg-white content-stretch flex gap-[10px] items-start overflow-clip relative shrink-0 w-full">
                       <div className="content-stretch flex items-center justify-center overflow-clip relative shrink-0 size-[16px]">
-                        <p className="[word-break:break-word] font-['SF_Pro:Bold'] font-bold leading-[normal] relative shrink-0 text-[#0f8c33] text-[12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>✓</p>
+                        <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#0f8c33] text-[12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>✓</p>
                       </div>
-                      <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro:Regular'] font-normal leading-[normal] min-w-px relative text-[#121726] text-[14px]" style={{ fontVariationSettings: "'wdth' 100" }}>{item}</p>
+                      <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] min-w-px relative text-[#121726] text-[14px]" style={{ fontVariationSettings: "'wdth' 100" }}>{item}</p>
                     </div>
                   ))}
                 </div>
@@ -1089,7 +1089,7 @@ function Solution() {
                       <div className="relative shrink-0 size-[8px]">
                         <img alt="" className="absolute block inset-0 max-w-none size-full" src={tag.dot} />
                       </div>
-                      <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[normal] relative shrink-0 text-[#121726] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{tag.label}</p>
+                      <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[normal] relative shrink-0 text-[#121726] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{tag.label}</p>
                     </div>
                   ))}
                 </div>
@@ -1163,15 +1163,15 @@ function Pricing({ isYear, setPeriod }: { isYear: boolean; setPeriod: (p: 'month
     <div className="bg-[#f6f7f9] content-stretch flex flex-col items-center px-[48px] py-[80px] relative size-full" data-node-id="40002524:9389" data-name="Pricing">
       <div className="content-stretch flex flex-col items-center overflow-clip relative shrink-0 w-[820px]" data-name="section-head">
         <div className="bg-[rgba(16,142,245,0.08)] content-stretch flex items-start overflow-clip px-[12px] py-[6px] relative rounded-[100px] shrink-0">
-          <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold'] leading-[1.5] not-italic relative shrink-0 text-[#108ef5] text-[14px] tracking-[-0.14px] whitespace-nowrap">Тарифы</p>
+          <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#108ef5] text-[14px] tracking-[-0.14px] whitespace-nowrap">Тарифы</p>
         </div>
         <div className="h-[16px] relative shrink-0 w-[100px]" />
-        <p className="[word-break:break-word] font-['SF_Pro_Display:Bold'] leading-[1.1] not-italic relative shrink-0 text-[#0a1519] text-[36px] text-center tracking-[-0.9px] w-[820px]">
+        <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.1] not-italic relative shrink-0 text-[#0a1519] text-[36px] text-center tracking-[-0.9px] w-[820px]">
           TGShop Chat включён во все тарифы TGShop
         </p>
       </div>
       <div className="h-[16px] relative shrink-0 w-[100px]" />
-      <p className="[word-break:break-word] font-['SF_Pro_Display:Regular'] leading-[1.55] not-italic relative shrink-0 text-[#595959] text-[16px] text-center tracking-[-0.16px] w-[620px] whitespace-pre-wrap">{`Один тариф — магазин, диалоги со статусами,  интеграции. Без скрытых доплат.`}</p>
+      <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.55] not-italic relative shrink-0 text-[#595959] text-[16px] text-center tracking-[-0.16px] w-[620px] whitespace-pre-wrap">{`Один тариф — магазин, диалоги со статусами,  интеграции. Без скрытых доплат.`}</p>
       <div className="h-[40px] relative shrink-0 w-[100px]" />
       <div className="bg-white border border-[rgba(230,232,236,0.6)] border-solid content-stretch flex items-start p-[4px] relative rounded-[100px] shrink-0" data-name="bt">
         <button
@@ -1179,7 +1179,7 @@ function Pricing({ isYear, setPeriod }: { isYear: boolean; setPeriod: (p: 'month
           className={`content-stretch flex items-center overflow-clip px-[22px] py-[10px] relative rounded-[100px] shrink-0 cursor-pointer border-0 ${!isYear ? 'bg-[#108ef5] shadow-[0px_4px_12px_0px_rgba(51,133,255,0.25)]' : 'bg-transparent'}`}
           data-name="opt"
         >
-          <p className={`[word-break:break-word] font-['SF_Pro_Display:Semibold'] leading-[1.5] not-italic relative shrink-0 text-[14px] tracking-[-0.14px] whitespace-nowrap ${!isYear ? 'text-white' : 'text-[#595959]'}`}>
+          <p className={`[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[14px] tracking-[-0.14px] whitespace-nowrap ${!isYear ? 'text-white' : 'text-[#595959]'}`}>
             Помесячно
           </p>
         </button>
@@ -1188,7 +1188,7 @@ function Pricing({ isYear, setPeriod }: { isYear: boolean; setPeriod: (p: 'month
           className={`content-stretch flex items-center overflow-clip px-[22px] py-[10px] relative rounded-[100px] shrink-0 cursor-pointer border-0 ${isYear ? 'bg-[#108ef5] shadow-[0px_4px_12px_0px_rgba(51,133,255,0.25)]' : 'bg-transparent'}`}
           data-name="opt"
         >
-          <p className={`[word-break:break-word] font-['SF_Pro_Display:Semibold'] leading-[1.5] not-italic relative shrink-0 text-[14px] tracking-[-0.14px] whitespace-nowrap ${isYear ? 'text-white' : 'text-[#595959]'}`}>
+          <p className={`[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[14px] tracking-[-0.14px] whitespace-nowrap ${isYear ? 'text-white' : 'text-[#595959]'}`}>
             За год · −20%
           </p>
         </button>
@@ -1208,31 +1208,31 @@ function Pricing({ isYear, setPeriod }: { isYear: boolean; setPeriod: (p: 'month
             {card.highlight && (
               <>
                 <div className="bg-[#108ef5] content-stretch flex items-center justify-center overflow-clip px-[14px] py-[6px] relative rounded-[100px] shrink-0" data-name="tag">
-                  <p className="[word-break:break-word] font-['SF_Pro_Display:Bold'] leading-[1.5] not-italic relative shrink-0 text-[12px] text-white tracking-[-0.12px] whitespace-nowrap">⚡ Популярный</p>
+                  <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[12px] text-white tracking-[-0.12px] whitespace-nowrap">⚡ Популярный</p>
                 </div>
                 <div className="h-[16px] relative shrink-0 w-[100px]" />
               </>
             )}
-            <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold'] leading-[1.5] not-italic relative shrink-0 text-[#595959] text-[18px] tracking-[-0.18px] whitespace-nowrap">{card.name}</p>
+            <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#595959] text-[18px] tracking-[-0.18px] whitespace-nowrap">{card.name}</p>
             <div className="h-[12px] relative shrink-0 w-[100px]" />
             <div className="[word-break:break-word] content-stretch flex gap-[6px] items-baseline leading-[1.5] overflow-clip relative shrink-0 whitespace-nowrap" data-name="pr">
-              <p className="font-['SF_Pro:Bold'] font-bold relative shrink-0 text-[#0a1519] text-[40px] tracking-[-1.2px]" style={{ fontVariationSettings: "'wdth' 100" }}>{card.price}</p>
-              <p className="font-['SF_Pro_Display:Regular'] not-italic relative shrink-0 text-[#767d88] text-[14px] tracking-[-0.14px]">soʻm / мес</p>
+              <p className="font-['SF_Pro:Bold',sans-serif] font-bold relative shrink-0 text-[#0a1519] text-[40px] tracking-[-1.2px]" style={{ fontVariationSettings: "'wdth' 100" }}>{card.price}</p>
+              <p className="font-['SF_Pro_Display:Regular',sans-serif] not-italic relative shrink-0 text-[#767d88] text-[14px] tracking-[-0.14px]">soʻm / мес</p>
             </div>
             <div className="h-[6px] relative shrink-0 w-[100px]" />
-            <p className={`[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[1.5] relative shrink-0 text-[#767d88] text-[13px] tracking-[-0.13px] whitespace-nowrap ${isYear ? 'line-through' : ''}`} style={{ fontVariationSettings: "'wdth' 100" }}>{card.hint}</p>
+            <p className={`[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.5] relative shrink-0 text-[#767d88] text-[13px] tracking-[-0.13px] whitespace-nowrap ${isYear ? 'line-through' : ''}`} style={{ fontVariationSettings: "'wdth' 100" }}>{card.hint}</p>
             <div className="h-[16px] relative shrink-0 w-[100px]" />
             <div className="bg-[rgba(16,142,245,0.08)] content-stretch flex items-center overflow-clip px-[12px] py-[8px] relative rounded-[8px] shrink-0" data-name="lim">
-              <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[1.5] relative shrink-0 text-[#108ef5] text-[13px] tracking-[-0.13px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{card.limit}</p>
+              <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[#108ef5] text-[13px] tracking-[-0.13px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{card.limit}</p>
             </div>
             <div className="h-[20px] relative shrink-0 w-[100px]" />
             <div className="content-stretch flex flex-col gap-[8px] items-start overflow-clip relative shrink-0" data-name="ls">
               {card.items.map((it, j) => (
                 <div key={`li-${i}-${j}`} className="content-stretch flex gap-[10px] items-start overflow-clip relative shrink-0" data-name="li">
                   <div className={`content-stretch flex items-center justify-center overflow-clip relative rounded-[9px] shrink-0 size-[18px] ${it.ok ? 'bg-[rgba(33,178,99,0.12)]' : 'bg-[#fad9d9]'}`}>
-                    <p className={`[word-break:break-word] font-['SF_Pro:Bold'] font-bold leading-[1.5] relative shrink-0 text-[10px] tracking-[-0.1px] whitespace-nowrap ${it.ok ? 'text-[#0f8c33]' : 'text-[#f04545]'}`} style={{ fontVariationSettings: "'wdth' 100" }}>{it.ok ? '✓' : '✕'}</p>
+                    <p className={`[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[1.5] relative shrink-0 text-[10px] tracking-[-0.1px] whitespace-nowrap ${it.ok ? 'text-[#0f8c33]' : 'text-[#f04545]'}`} style={{ fontVariationSettings: "'wdth' 100" }}>{it.ok ? '✓' : '✕'}</p>
                   </div>
-                  <p className={`[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[1.45] relative shrink-0 text-[14px] tracking-[-0.14px] w-[400px] ${it.ok ? 'text-[#121726]' : 'text-[#73808c]'}`} style={{ fontVariationSettings: "'wdth' 100" }}>{it.text}</p>
+                  <p className={`[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.45] relative shrink-0 text-[14px] tracking-[-0.14px] w-[400px] ${it.ok ? 'text-[#121726]' : 'text-[#73808c]'}`} style={{ fontVariationSettings: "'wdth' 100" }}>{it.text}</p>
                 </div>
               ))}
             </div>
@@ -1240,11 +1240,11 @@ function Pricing({ isYear, setPeriod }: { isYear: boolean; setPeriod: (p: 'month
             <a href={CTA_HREF} target="_blank" rel="noopener" className="contents no-underline">
               {card.highlight ? (
                 <div className="bg-[#108ef5] cursor-pointer content-stretch flex h-[48px] items-center justify-center overflow-clip px-[32px] relative rounded-[100px] shadow-[0px_12px_24px_0px_rgba(51,133,255,0.25)] shrink-0 w-full" data-name="btn">
-                  <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold'] leading-[1.5] not-italic relative shrink-0 text-[15px] text-white tracking-[-0.15px] whitespace-nowrap">Начать бесплатно</p>
+                  <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[15px] text-white tracking-[-0.15px] whitespace-nowrap">Начать бесплатно</p>
                 </div>
               ) : (
                 <div className="border-[1.5px] border-[rgba(16,142,245,0.3)] border-solid content-stretch cursor-pointer flex h-[48px] items-center justify-center overflow-clip px-[32px] relative rounded-[100px] shrink-0 w-full" data-name="btn">
-                  <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold'] leading-[1.5] not-italic relative shrink-0 text-[#108ef5] text-[15px] tracking-[-0.15px] whitespace-nowrap">Начать бесплатно</p>
+                  <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#108ef5] text-[15px] tracking-[-0.15px] whitespace-nowrap">Начать бесплатно</p>
                 </div>
               )}
             </a>
@@ -1252,7 +1252,7 @@ function Pricing({ isYear, setPeriod }: { isYear: boolean; setPeriod: (p: 'month
         ))}
       </div>
       <div className="h-[32px] relative shrink-0 w-[100px]" />
-      <p className="[word-break:break-word] font-['SF_Pro_Display:Regular'] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[14px] text-center tracking-[-0.14px] w-[928px]">
+      <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[14px] text-center tracking-[-0.14px] w-[928px]">
         14 дней бесплатно · карта не нужна · отмена в любой момент
       </p>
     </div>
@@ -1263,23 +1263,23 @@ function CtaFinal() {
   return (
     <div className="bg-[#0a151a] content-stretch flex flex-col items-center px-[48px] py-[80px] relative size-full" data-node-id="40002524:9576" data-name="CTA Final">
       <div className="content-stretch flex flex-col items-center relative shrink-0 w-[820px]" data-name="cta-inner">
-        <p className="[word-break:break-word] font-['SF_Pro_Display:Bold'] leading-[1.1] not-italic relative shrink-0 text-[36px] text-center text-white tracking-[-0.9px] w-[820px]">
+        <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.1] not-italic relative shrink-0 text-[36px] text-center text-white tracking-[-0.9px] w-[820px]">
           Начните сегодня и перестаньте терять заказы в Telegram
         </p>
         <div className="h-[24px] relative shrink-0 w-[100px]" />
-        <p className="[word-break:break-word] font-['SF_Pro_Display:Regular'] leading-[1.55] not-italic relative shrink-0 text-[18px] text-[rgba(255,255,255,0.7)] text-center tracking-[-0.18px] w-[720px]">
+        <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.55] not-italic relative shrink-0 text-[18px] text-[rgba(255,255,255,0.7)] text-center tracking-[-0.18px] w-[720px]">
           Каждую минуту, пока вы не подключили TGShop, кто-то из ваших клиентов не дождался ответа и ушёл к конкуренту.
         </p>
         <div className="h-[36px] relative shrink-0 w-[100px]" />
         <a href={CTA_HREF} target="_blank" rel="noopener" className="contents no-underline">
           <div className="bg-white cursor-pointer content-stretch flex h-[52px] items-center justify-center overflow-clip px-[32px] relative rounded-[100px] shadow-[0px_20px_40px_0px_rgba(0,0,0,0.3)] shrink-0" data-name="btn-primary-l">
-            <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold'] leading-[1.5] not-italic relative shrink-0 text-[#108ef5] text-[16px] tracking-[-0.16px] whitespace-nowrap">
+            <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#108ef5] text-[16px] tracking-[-0.16px] whitespace-nowrap">
               Создать Telegram-магазин бесплатно →
             </p>
           </div>
         </a>
         <div className="h-[18px] relative shrink-0 w-[100px]" />
-        <p className="[word-break:break-word] font-['SF_Pro_Display:Regular'] leading-[1.5] not-italic relative shrink-0 text-[13px] text-[rgba(255,255,255,0.5)] text-center tracking-[-0.13px] whitespace-nowrap">
+        <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[13px] text-[rgba(255,255,255,0.5)] text-center tracking-[-0.13px] whitespace-nowrap">
           14 дней бесплатно · отмена в любой момент
         </p>
       </div>
@@ -1292,11 +1292,11 @@ function Footer() {
     <div className="bg-[#121721] border border-[rgba(0,0,0,0.04)] border-solid content-stretch flex flex-col items-start pb-[24px] pt-[48px] px-[48px] relative size-full" data-node-id="40002524:9586" data-name="Footer">
       <div className="content-stretch flex gap-[24px] items-start relative shrink-0 w-full" data-name="footer-top">
         <div className="[word-break:break-word] content-stretch flex flex-col gap-[12px] items-start leading-[1.5] overflow-clip relative shrink-0 w-[260px]" data-name="fb">
-          <div className="content-stretch flex font-['SF_Pro:Bold'] font-bold gap-[4px] items-baseline overflow-clip relative shrink-0 text-[20px] text-white tracking-[-0.4px] whitespace-nowrap" data-name="br">
+          <div className="content-stretch flex font-['SF_Pro:Bold',sans-serif] font-bold gap-[4px] items-baseline overflow-clip relative shrink-0 text-[20px] text-white tracking-[-0.4px] whitespace-nowrap" data-name="br">
             <p className="relative shrink-0" style={{ fontVariationSettings: "'wdth' 100" }}>TGShop</p>
             <p className="relative shrink-0" style={{ fontVariationSettings: "'wdth' 100" }}>Chat</p>
           </div>
-          <p className="font-['SF_Pro:Regular'] font-normal min-w-full relative shrink-0 text-[#a6b0bf] text-[14px] tracking-[-0.14px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>
+          <p className="font-['SF_Pro:Regular',sans-serif] font-normal min-w-full relative shrink-0 text-[#a6b0bf] text-[14px] tracking-[-0.14px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>
             Все Telegram-чаты магазина в одном кабинете. Часть экосистемы TGShop.
           </p>
         </div>
@@ -1318,10 +1318,10 @@ function Footer() {
           ]},
         ].map((col, i) => (
           <div key={`fc-${i}`} className="content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-w-px overflow-clip relative" data-name="fc">
-            <p className="[word-break:break-word] font-['SF_Pro:Semibold'] font-[590] leading-[1.5] relative shrink-0 text-[14px] text-white tracking-[-0.14px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{col.title}</p>
+            <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[14px] text-white tracking-[-0.14px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{col.title}</p>
             <div className="h-[4px] relative shrink-0 w-[100px]" />
             {col.links.map((l, j) => (
-              <a key={`fl-${i}-${j}`} className="[word-break:break-word] block font-['SF_Pro:Regular'] font-normal leading-[0] relative shrink-0 text-[#a6b0bf] text-[14px] tracking-[-0.14px] whitespace-nowrap" href={l.href} style={{ fontVariationSettings: "'wdth' 100" }} target="_blank" rel="noopener">
+              <a key={`fl-${i}-${j}`} className="[word-break:break-word] block font-['SF_Pro:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[#a6b0bf] text-[14px] tracking-[-0.14px] whitespace-nowrap" href={l.href} style={{ fontVariationSettings: "'wdth' 100" }} target="_blank" rel="noopener">
                 <p className="cursor-pointer leading-[1.5]">{l.label}</p>
               </a>
             ))}
@@ -1331,7 +1331,7 @@ function Footer() {
       <div className="h-[32px] relative shrink-0 w-[100px]" />
       <div className="bg-[rgba(0,0,0,0.06)] h-px relative shrink-0 w-[928px]" />
       <div className="h-[20px] relative shrink-0 w-[100px]" />
-      <p className="[word-break:break-word] font-['SF_Pro:Regular'] font-normal leading-[1.5] relative shrink-0 text-[#a6b0bf] text-[12px] tracking-[-0.12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.5] relative shrink-0 text-[#a6b0bf] text-[12px] tracking-[-0.12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
         © 2026 TGShop. Все права защищены.
       </p>
     </div>
