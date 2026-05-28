@@ -625,10 +625,10 @@ function How() {
             <div className="bg-[#108ef5] content-stretch flex items-start overflow-clip px-[14px] py-[6px] relative rounded-[100px] shrink-0">
               <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[13px] text-white tracking-[-0.13px] whitespace-nowrap">Шаг 1</p>
             </div>
-            <div className="flex-[1_0_0] h-[100px] min-w-px relative" />
+            <div className="flex-[1_0_0] min-w-px relative" />
             <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[12px] tracking-[-0.12px] whitespace-nowrap">5 минут</p>
           </div>
-          <div className="h-[16px] relative shrink-0 w-[100px]" />
+          <div className="h-[12px] relative shrink-0 w-[100px]" />
           <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[1.2] min-w-full relative shrink-0 text-[#0a1519] text-[22px] tracking-[-0.44px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>Создайте магазин</p>
           <div className="h-[10px] relative shrink-0 w-[100px]" />
           <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.5] min-w-full relative shrink-0 text-[#595959] text-[15px] tracking-[-0.15px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>Загрузите товары, включите доставку и оплату.</p>
@@ -655,10 +655,10 @@ function How() {
             <div className="bg-[#108ef5] content-stretch flex items-start overflow-clip px-[14px] py-[6px] relative rounded-[100px] shrink-0">
               <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[13px] text-white tracking-[-0.13px] whitespace-nowrap">Шаг 2</p>
             </div>
-            <div className="flex-[1_0_0] h-[100px] min-w-px relative" />
+            <div className="flex-[1_0_0] min-w-px relative" />
             <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.5] relative shrink-0 text-[#767d88] text-[12px] tracking-[-0.12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>1 минута</p>
           </div>
-          <div className="h-[16px] relative shrink-0 w-[100px]" />
+          <div className="h-[12px] relative shrink-0 w-[100px]" />
           <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[1.2] min-w-full relative shrink-0 text-[#0a1519] text-[22px] tracking-[-0.44px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>Выдайте доступ менеджерам</p>
           <div className="h-[10px] relative shrink-0 w-[100px]" />
           <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.5] min-w-full relative shrink-0 text-[#595959] text-[15px] tracking-[-0.15px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>Обрабатывайте заявки и вопросы клиентов.</p>
@@ -698,10 +698,10 @@ function How() {
             <div className="bg-[#108ef5] content-stretch flex items-start overflow-clip px-[14px] py-[6px] relative rounded-[100px] shrink-0">
               <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[13px] text-white tracking-[-0.13px] whitespace-nowrap">Шаг 3</p>
             </div>
-            <div className="flex-[1_0_0] h-[100px] min-w-px relative" />
+            <div className="flex-[1_0_0] min-w-px relative" />
             <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[12px] tracking-[-0.12px] whitespace-nowrap">автоматически</p>
           </div>
-          <div className="h-[16px] relative shrink-0 w-[100px]" />
+          <div className="h-[12px] relative shrink-0 w-[100px]" />
           <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[1.2] min-w-full relative shrink-0 text-[#0a1519] text-[22px] tracking-[-0.44px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>Отслеживайте продажи</p>
           <div className="h-[10px] relative shrink-0 w-[100px]" />
           <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.5] min-w-full relative shrink-0 text-[#595959] text-[15px] tracking-[-0.15px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>Контролируйте все диалоги и заказы — в одном месте в Telegram.</p>
