@@ -275,4 +275,5 @@ export const RU_TO_UZ: Record<string, string> = {
   "499 000 soʻm/мес": "499 000 so'm/oy",
   "699 000 soʻm/мес": "699 000 so'm/oy",
   "999 000 soʻm/мес": "999 000 so'm/oy",
+  "1,5 млн": "1,5 mln",
 };

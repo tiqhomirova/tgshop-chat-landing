@@ -247,7 +247,7 @@ function Hero() {
               <div className="bg-[#108ef5] content-stretch flex h-[25.5px] items-center overflow-clip px-[10px] py-[6px] relative rounded-[100px] shrink-0 w-[69.7px]" data-node-id="40002757:8566" data-name="ta">
                 <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[10px] text-white tracking-[-0.1px] whitespace-nowrap" data-node-id="40002757:8567" style={{ fontVariationSettings: "'wdth' 100" }}>🛍 Магазин</p>
               </div>
-              <div className="[word-break:break-word] bg-[#f6f7f9] content-stretch flex gap-[4px] h-[25.5px] items-center leading-[1.5] overflow-clip px-[10px] py-[6px] relative rounded-[100px] shrink-0 text-[10px] tracking-[-0.1px] w-[70.55px] whitespace-nowrap" data-node-id="40002757:8568" data-name="tm">
+              <div className="[word-break:break-word] bg-[#f6f7f9] content-stretch flex gap-[4px] h-[25.5px] items-center leading-[1.5] px-[10px] py-[6px] relative rounded-[100px] shrink-0 text-[10px] tracking-[-0.1px] whitespace-nowrap" data-node-id="40002757:8568" data-name="tm">
                 <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#767d88]" data-node-id="40002757:8569" style={{ fontVariationSettings: "'wdth' 100" }}>Заказы</p>
                 <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0 text-[#0a1519]" data-node-id="40002757:8570" style={{ fontVariationSettings: "'wdth' 100" }}>198</p>
               </div>

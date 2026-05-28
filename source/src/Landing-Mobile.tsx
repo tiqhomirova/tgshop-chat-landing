@@ -230,7 +230,7 @@ function Hero() {
               <div className="bg-[#108ef5] content-stretch flex h-[19px] items-center overflow-clip pl-[7px] pr-[10px] py-[6px] relative rounded-[100px] shrink-0 w-[59px]">
                 <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[8px] text-white tracking-[-0.08px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>🛍 Магазин</p>
               </div>
-              <div className="[word-break:break-word] bg-[#f6f7f9] content-stretch flex gap-[4px] h-[19px] items-center leading-[1.5] overflow-clip pl-[6px] pr-[10px] py-[6px] relative rounded-[100px] shrink-0 text-[8px] tracking-[-0.08px] w-[59px] whitespace-nowrap">
+              <div className="[word-break:break-word] bg-[#f6f7f9] content-stretch flex gap-[4px] h-[19px] items-center leading-[1.5] pl-[6px] pr-[10px] py-[6px] relative rounded-[100px] shrink-0 text-[8px] tracking-[-0.08px] whitespace-nowrap">
                 <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#767d88]" style={{ fontVariationSettings: "'wdth' 100" }}>Заказы</p>
                 <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0 text-[#0a1519]" style={{ fontVariationSettings: "'wdth' 100" }}>198</p>
               </div>

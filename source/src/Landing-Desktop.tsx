@@ -6,9 +6,9 @@ import { useState } from 'react';
 const imgPhoto202508261509211 = "https://www.figma.com/api/mcp/asset/2b5b9d8c-8369-46b7-a4f3-8e31e9268c6a";
 const imgYvesRocherLogoSvg3 = "https://www.figma.com/api/mcp/asset/b8d47311-d979-4c66-a799-578e19ba94e4";
 const img61 = "https://www.figma.com/api/mcp/asset/5489dbd8-41b9-41d5-bc09-8bf2a1fdab68";
-const img221 = "https://www.figma.com/api/mcp/asset/ce3cf0e2-5416-4d47-a8ef-239cfbcca731";
-const img51 = "https://www.figma.com/api/mcp/asset/19f36c65-2ddc-426a-93d7-bf97f3ca4c76";
-const img41 = "https://www.figma.com/api/mcp/asset/b4f1f6ad-f87e-4bcc-bd77-0098bd2a903b";
+const img221 = "https://www.figma.com/api/mcp/asset/9bdf0220-879b-4575-9247-a701566e86f7";
+const img51 = "https://www.figma.com/api/mcp/asset/1f3418d4-d3b8-4d02-9402-716fc6a88937";
+const img41 = "https://www.figma.com/api/mcp/asset/d30648b9-a129-40a1-a954-9bb312ae39b8";
 const imgGroup = "https://www.figma.com/api/mcp/asset/8f189612-a673-446c-8140-1d67e6f156d8";
 const imgGroup1 = "https://www.figma.com/api/mcp/asset/bc1b9308-442f-406b-b6b1-af057124cf7b";
 const imgGroup2 = "https://www.figma.com/api/mcp/asset/b384c814-d76c-4257-82a9-a0bb04ebe477";
@@ -560,7 +560,7 @@ export default function LandingDesktop() {
                     🛍 Магазин
                   </p>
                 </div>
-                <div className="[word-break:break-word] bg-[#f6f7f9] content-stretch flex gap-[4px] items-center leading-[1.5] not-italic overflow-clip px-[10px] py-[6px] relative rounded-[100px] shrink-0 text-[12px] tracking-[-0.12px] whitespace-nowrap" data-node-id="40002524:8030" data-name="tm">
+                <div className="[word-break:break-word] bg-[#f6f7f9] content-stretch flex gap-[4px] items-center leading-[1.5] not-italic px-[10px] py-[6px] relative rounded-[100px] shrink-0 text-[12px] tracking-[-0.12px] whitespace-nowrap" data-node-id="40002524:8030" data-name="tm">
                   <p className="font-['SF_Pro_Display:Regular',sans-serif] relative shrink-0 text-[#767d88]" data-node-id="40002524:8031">
                     Заказы
                   </p>

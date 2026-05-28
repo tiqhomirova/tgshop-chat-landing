@@ -18,18 +18,10 @@ body {
   transform: scale(var(--scale, 1));
 }
 
-/* Brand-logo marquee on Desktop / Tablet. The Figma export uses Tailwind v4
-   mask-image utilities to clip each logo to its SVG shape; those utilities
-   don't exist in Tailwind v3 so the full source PNG (including its white
-   background) renders. The fix is `mix-blend-mode: darken` on the wrapper
-   AND the inner img — same approach Mobile uses. White pixels blend into
-   the surrounding gray (#f6f7f9) and become invisible. */
-[data-name="Section-upper/Default"] [data-name="Background"] {
-  mix-blend-mode: darken;
-  background: transparent !important;
-}
-[data-name="Section-upper/Default"] [data-name="Background"] img,
-[data-name="Section-upper/Default"] [data-name="Background"] div {
-  mix-blend-mode: darken;
-  background: transparent !important;
+/* Brand-logo marquee fallback — only target the img (not the wrapper) so
+   that other Background nodes elsewhere stay untouched. Combined with
+   the fresh transparent PNG URLs for Merci Lingerie / Dragonfly, this
+   handles the few remaining white-bg logos. */
+[data-name="Section-upper/Default"] img {
+  mix-blend-mode: multiply;
 }
