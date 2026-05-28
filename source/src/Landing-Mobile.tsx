@@ -1,4 +1,73 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { createPortal } from 'react-dom';
+
+// Mobile burger-menu overlay — rendered as portal to <body> so that
+// it sits OUTSIDE the #root element (which has transform: scale on it
+// for responsive scaling). Using a portal keeps fixed-position math
+// honest regardless of the scale on the parent stacking context.
+function MobileMenuPortal({ onClose }: { onClose: () => void }) {
+  // Lock body scroll while open
+  useEffect(() => {
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => { document.body.style.overflow = prev; };
+  }, []);
+  const linkClass = "block py-[14px] text-[18px] font-['SF_Pro:Semibold',sans-serif] font-[590] text-[#121726] tracking-[-0.18px] no-underline border-b border-[#e9ebf1]";
+  return createPortal(
+    <div className="fixed inset-0 z-[1000] flex" onClick={onClose}>
+      <div className="absolute inset-0 bg-black/40" />
+      <div
+        className="relative ml-auto w-[80%] max-w-[320px] h-full bg-white shadow-2xl p-[20px] flex flex-col gap-[6px] overflow-y-auto"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <div className="flex items-center justify-between mb-[12px]">
+          <div className="text-[18px]">
+            <span className="font-['SF_Pro:Bold',sans-serif] font-bold text-[#121726]">TGShop</span>
+            <span className="font-['SF_Pro:Regular',sans-serif] font-normal text-[#299eeb] ml-[4px]">Chat</span>
+          </div>
+          <button
+            type="button"
+            onClick={onClose}
+            aria-label="Закрыть меню"
+            className="bg-transparent border-0 p-[8px] text-[22px] leading-none text-[#6b7885] cursor-pointer"
+          >
+            ✕
+          </button>
+        </div>
+        <a className={linkClass} href="https://docs.tgshop.io/uz/telegramda-dokon-ochish/tezkor-boshlash" target="_blank" rel="noopener" onClick={onClose}>База знаний</a>
+        <a className={linkClass} href="https://t.me/TGShopHelp_bot" target="_blank" rel="noopener" onClick={onClose}>Помощь</a>
+        <a className={linkClass} href="#trust" onClick={onClose}>Кейсы</a>
+
+        <div className="mt-[16px] flex flex-col gap-[10px]">
+          <a
+            href="https://admin.tgshop.io/sign-in"
+            target="_blank"
+            rel="noopener"
+            onClick={onClose}
+            className="block text-center py-[12px] rounded-[100px] border-[1.5px] border-[rgba(16,142,245,0.3)] text-[#108ef5] text-[15px] font-['SF_Pro:Semibold',sans-serif] font-[590] no-underline"
+          >
+            Войти
+          </a>
+          <a
+            href="https://admin.tgshop.io/sign-up"
+            target="_blank"
+            rel="noopener"
+            onClick={onClose}
+            className="block text-center py-[12px] rounded-[100px] bg-[#108ef5] text-white text-[15px] font-['SF_Pro:Semibold',sans-serif] font-[590] no-underline shadow-[0px_12px_24px_0px_rgba(51,133,255,0.22)]"
+          >
+            Зарегистрироваться
+          </a>
+        </div>
+
+        <div className="mt-[20px] pt-[16px] border-t border-[#e9ebf1] text-[12px] text-[#6b7885]">
+          Язык: <span className="text-[#121726] font-semibold">Русский</span> · <span className="opacity-60">O'zbek (скоро)</span>
+        </div>
+      </div>
+    </div>,
+    document.body
+  );
+}
+
 
 // === IMAGE CONSTANTS (deduped across sections) ===
 
@@ -40,6 +109,7 @@ const CTA_HREF = "https://admin.tgshop.io/sign-up";
 // === SECTION COMPONENTS ===
 
 function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="bg-white border border-[rgba(0,0,0,0.05)] border-solid content-stretch flex items-center justify-between px-[16px] py-[12px] relative w-full" data-node-id="40002524:9616" data-name="Header">
       <div className="[word-break:break-word] bg-white content-stretch flex gap-[4px] items-center leading-[normal] overflow-clip relative shrink-0 text-[18px] whitespace-nowrap" data-node-id="40002794:8506" data-name="brand">
@@ -52,12 +122,20 @@ function Header() {
           <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0 text-[#121726] text-[13px]" style={{ fontVariationSettings: "'wdth' 100" }}>RU</p>
           <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#6b7885] text-[10px]" style={{ fontVariationSettings: "'wdth' 100" }}>▾</p>
         </div>
-        <div className="bg-white border border-[#e0e5ed] border-solid content-stretch flex flex-col gap-[4px] items-center justify-center overflow-clip px-[8px] py-[12px] relative rounded-[8px] shrink-0" data-node-id="40002794:8514" data-name="burger-btn">
-          <div className="bg-[#121726] h-[2px] relative rounded-[1px] shrink-0 w-[18px]" />
-          <div className="bg-[#121726] h-[2px] relative rounded-[1px] shrink-0 w-[18px]" />
-          <div className="bg-[#121726] h-[2px] relative rounded-[1px] shrink-0 w-[18px]" />
-        </div>
+        <button
+          type="button"
+          onClick={() => setMenuOpen(true)}
+          aria-label="Открыть меню"
+          className="bg-white border border-[#e0e5ed] border-solid flex flex-col gap-[4px] items-center justify-center px-[8px] py-[12px] rounded-[8px] shrink-0 cursor-pointer"
+          data-node-id="40002794:8514"
+          data-name="burger-btn"
+        >
+          <div className="bg-[#121726] h-[2px] rounded-[1px] w-[18px]" />
+          <div className="bg-[#121726] h-[2px] rounded-[1px] w-[18px]" />
+          <div className="bg-[#121726] h-[2px] rounded-[1px] w-[18px]" />
+        </button>
       </div>
+      {menuOpen && <MobileMenuPortal onClose={() => setMenuOpen(false)} />}
     </div>
   );
 }
