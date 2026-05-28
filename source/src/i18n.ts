@@ -63,8 +63,8 @@ export function applyTranslations(lang: Lang, root: HTMLElement = document.body)
     // Normalize NBSP to plain space for lookup, but preserve original spacing.
     const trimmed = orig.replace(/ /g, ' ').trim();
     if (!trimmed) continue;
+    if (!(trimmed in RU_TO_UZ)) continue;
     const uz = RU_TO_UZ[trimmed];
-    if (!uz) continue;
     const leading = orig.match(/^[\s ]*/)?.[0] ?? '';
     const trailing = orig.match(/[\s ]*$/)?.[0] ?? '';
     node.nodeValue = leading + uz + trailing;
