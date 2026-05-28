@@ -39,14 +39,23 @@ const imgEllipse11 = "https://www.figma.com/api/mcp/asset/41280be2-2fee-422b-a80
 const imgEllipse12 = "https://www.figma.com/api/mcp/asset/62a3df9e-676a-4334-b78b-37d52c294497";
 
 function SectionUpperDefault({ className }: { className?: string }) {
-  // Brand strip — same 5 logos for Desktop & Tablet, uniform sizing via
-  // max-height. Width auto via object-contain, so each logo keeps its
-  // own aspect ratio without pixel tweaks.
+  // Brand strip — marquee-fade illusion (matches Figma node 40002524:8040).
+  // Centre = 5 main logos. Two phantom logos on each side (duplicates of the
+  // main set, simulating the next/previous loop of an infinite marquee) get
+  // visually faded out by two gradient overlays matching Trust bg #f6f7f9.
+  // NOTE: deliberately avoids Tailwind v4 mask-alpha / mask-position classes
+  // (they don't generate CSS in v3). All effects use plain bg-gradient utils.
   const logoCls = "max-h-[36px] w-auto object-contain mix-blend-darken shrink-0";
   const dividerCls = "w-px h-[32px] bg-[#e9ebf1] shrink-0";
   return (
     <div className={className || "h-[80px] overflow-clip relative w-[1216px]"} data-node-id="40002524:7510" data-name="Section-upper/Default">
-      <div className="h-full flex items-center justify-around gap-[40px] px-[40px]">
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center gap-[40px] whitespace-nowrap">
+        {/* phantom tail of previous marquee loop */}
+        <img src={img221} alt="" aria-hidden="true" className={logoCls} />
+        <div className={dividerCls} />
+        <img src={img51} alt="" aria-hidden="true" className={logoCls} />
+        <div className={dividerCls} />
+        {/* main 5 logos */}
         <img src={imgYvesRocherLogoSvg3} alt="Yves Rocher" className={logoCls} />
         <div className={dividerCls} />
         <img src={imgVector} alt="Bogner" className={logoCls} />
@@ -56,7 +65,15 @@ function SectionUpperDefault({ className }: { className?: string }) {
         <img src={img221} alt="Merci Lingerie" className={logoCls} />
         <div className={dividerCls} />
         <img src={img51} alt="Dragonfly" className={logoCls} />
+        <div className={dividerCls} />
+        {/* phantom head of next marquee loop */}
+        <img src={imgYvesRocherLogoSvg3} alt="" aria-hidden="true" className={logoCls} />
+        <div className={dividerCls} />
+        <img src={imgVector} alt="" aria-hidden="true" className={logoCls} />
       </div>
+      {/* Edge fade overlays — bg matches Trust section #f6f7f9 */}
+      <div className="pointer-events-none absolute inset-y-0 left-0 w-[80px] bg-gradient-to-r from-[#f6f7f9] to-transparent" />
+      <div className="pointer-events-none absolute inset-y-0 right-0 w-[80px] bg-gradient-to-l from-[#f6f7f9] to-transparent" />
     </div>
   );
 }
