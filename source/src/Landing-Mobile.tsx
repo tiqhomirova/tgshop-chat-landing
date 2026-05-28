@@ -395,7 +395,7 @@ function Trust() {
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[999px] size-full" src={imgTrust_Bg1} />
               </div>
               <div className="[word-break:break-word] bg-white content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-start min-w-px overflow-clip relative">
-                <p className="font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#121726] text-[11px] w-full" style={{ fontVariationSettings: "'wdth' 100" }}>Around You</p>
+                <p className="font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#121726] text-[13px] w-full" style={{ fontVariationSettings: "'wdth' 100" }}>Around You</p>
                 <p className="font-['SF_Pro:Regular',sans-serif] font-normal leading-[13px] relative shrink-0 text-[#6b7885] text-[10px] w-full" style={{ fontVariationSettings: "'wdth' 100" }}>{`gul do'koni`}</p>
               </div>
             </div>
