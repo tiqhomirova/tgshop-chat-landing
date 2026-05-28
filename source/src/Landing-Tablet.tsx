@@ -296,19 +296,23 @@ function Hero() {
 }
 
 function SectionUpperDefault({ className }: { className?: string }) {
-  // Static brand strip — 5 real client logos as shown in Figma 40002673:8244
+  // Brand strip — same 5 logos for Desktop & Tablet, uniform sizing via
+  // max-height. Width auto via object-contain, so each logo keeps its
+  // own aspect ratio without pixel tweaks.
+  const logoCls = "max-h-[36px] w-auto object-contain mix-blend-darken shrink-0";
+  const dividerCls = "w-px h-[32px] bg-[#e9ebf1] shrink-0";
   return (
     <div className={className || "h-[80px] overflow-clip relative w-[928px]"} data-node-id="40002524:7510" data-name="Section-upper/Default">
       <div className="h-full flex items-center justify-around gap-[40px] px-[40px]">
-        <img src={imgTrust_YvesRocherLogoSvg3} alt="Yves Rocher" className="h-[20px] w-auto object-contain mix-blend-darken shrink-0" />
-        <div className="w-px h-[32px] bg-[#e9ebf1] shrink-0" />
-        <img src={imgTrust_Vector} alt="Bogner" className="h-[22px] w-auto object-contain mix-blend-darken shrink-0" />
-        <div className="w-px h-[32px] bg-[#e9ebf1] shrink-0" />
-        <img src={imgTrust_61} alt="EMRA" className="h-[20px] w-auto object-contain mix-blend-darken shrink-0" />
-        <div className="w-px h-[32px] bg-[#e9ebf1] shrink-0" />
-        <img src={imgTrust_221} alt="Merci Lingerie" className="h-[32px] w-auto object-contain shrink-0" />
-        <div className="w-px h-[32px] bg-[#e9ebf1] shrink-0" />
-        <img src={imgTrust_51} alt="Dragonfly" className="h-[40px] w-auto object-contain shrink-0" />
+        <img src={imgTrust_YvesRocherLogoSvg3} alt="Yves Rocher" className={logoCls} />
+        <div className={dividerCls} />
+        <img src={imgTrust_Vector} alt="Bogner" className={logoCls} />
+        <div className={dividerCls} />
+        <img src={imgTrust_61} alt="EMRA" className={logoCls} />
+        <div className={dividerCls} />
+        <img src={imgTrust_221} alt="Merci Lingerie" className={logoCls} />
+        <div className={dividerCls} />
+        <img src={imgTrust_51} alt="Dragonfly" className={logoCls} />
       </div>
     </div>
   );

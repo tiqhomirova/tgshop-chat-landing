@@ -39,21 +39,23 @@ const imgEllipse11 = "https://www.figma.com/api/mcp/asset/41280be2-2fee-422b-a80
 const imgEllipse12 = "https://www.figma.com/api/mcp/asset/62a3df9e-676a-4334-b78b-37d52c294497";
 
 function SectionUpperDefault({ className }: { className?: string }) {
-  // Static brand strip — 6 real client logos as shown in Figma 40002524:8040
+  // Brand strip — same 5 logos for Desktop & Tablet, uniform sizing via
+  // max-height. Width auto via object-contain, so each logo keeps its
+  // own aspect ratio without pixel tweaks.
+  const logoCls = "max-h-[36px] w-auto object-contain mix-blend-darken shrink-0";
+  const dividerCls = "w-px h-[32px] bg-[#e9ebf1] shrink-0";
   return (
     <div className={className || "h-[80px] overflow-clip relative w-[1216px]"} data-node-id="40002524:7510" data-name="Section-upper/Default">
       <div className="h-full flex items-center justify-around gap-[40px] px-[40px]">
-        <img src={imgPhoto202508261509211} alt="Fashion Fabrique" className="h-[40px] w-[40px] object-cover rounded-full border border-[#b9b9b9] shrink-0" />
-        <div className="w-px h-[32px] bg-[#e9ebf1] shrink-0" />
-        <img src={imgYvesRocherLogoSvg3} alt="Yves Rocher" className="h-[18px] w-auto object-contain mix-blend-darken shrink-0" />
-        <div className="w-px h-[32px] bg-[#e9ebf1] shrink-0" />
-        <img src={imgVector} alt="Bogner" className="h-[20px] w-auto object-contain mix-blend-darken shrink-0" />
-        <div className="w-px h-[32px] bg-[#e9ebf1] shrink-0" />
-        <img src={img61} alt="EMRA" className="h-[18px] w-auto object-contain mix-blend-darken shrink-0" />
-        <div className="w-px h-[32px] bg-[#e9ebf1] shrink-0" />
-        <img src={img221} alt="Merci Lingerie" className="h-[28px] w-auto object-contain shrink-0" />
-        <div className="w-px h-[32px] bg-[#e9ebf1] shrink-0" />
-        <img src={img51} alt="Dragonfly" className="h-[32px] w-auto object-contain shrink-0" />
+        <img src={imgYvesRocherLogoSvg3} alt="Yves Rocher" className={logoCls} />
+        <div className={dividerCls} />
+        <img src={imgVector} alt="Bogner" className={logoCls} />
+        <div className={dividerCls} />
+        <img src={img61} alt="EMRA" className={logoCls} />
+        <div className={dividerCls} />
+        <img src={img221} alt="Merci Lingerie" className={logoCls} />
+        <div className={dividerCls} />
+        <img src={img51} alt="Dragonfly" className={logoCls} />
       </div>
     </div>
   );
