@@ -17,3 +17,10 @@ body {
   transform-origin: top left;
   transform: scale(var(--scale, 1));
 }
+
+/* Brand logo strip — many of the exported PNGs from Figma carry a solid white
+   background. Multiply-blend makes those white pixels effectively transparent
+   while keeping the logo's actual colors. */
+[data-name="Section-upper/Default"] img {
+  mix-blend-mode: multiply;
+}

@@ -294,7 +294,7 @@ export default function LandingDesktop() {
     <div className="bg-white content-stretch flex flex-col items-start relative size-full" data-node-id="40002524:7910" data-name="Landing v2 / Desktop — 1440px">
       <div className="bg-white border border-[rgba(0,0,0,0.05)] border-solid content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-[1440px]" data-node-id="40002524:7911" data-name="Header">
         <div className="content-stretch flex gap-[40px] h-[72px] items-center px-[120px] relative shrink-0 w-[1440px]" data-node-id="40002524:7912" data-name="header-inner">
-          <div className="[word-break:break-word] content-stretch flex font-['SF_Pro_Display:Bold',sans-serif] gap-[4px] items-baseline leading-[1.5] not-italic overflow-clip relative shrink-0 text-[20px] tracking-[-0.4px] whitespace-nowrap" data-node-id="40002524:7913" data-name="brand">
+          <div className="[word-break:break-word] content-stretch flex font-['SF_Pro_Display:Bold',sans-serif] font-bold gap-[4px] items-baseline leading-[1.5] not-italic overflow-clip relative shrink-0 text-[20px] tracking-[-0.4px] whitespace-nowrap" data-node-id="40002524:7913" data-name="brand">
             <p className="relative shrink-0 text-[#0a1519]" data-node-id="40002524:7914">
               TGShop
             </p>
@@ -303,25 +303,32 @@ export default function LandingDesktop() {
             </p>
           </div>
           <div className="flex-[1_0_0] h-[100px] min-w-px relative" data-node-id="40002524:7916" data-name="sp" />
-          <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium',sans-serif] font-[510] gap-[28px] items-center leading-[0] overflow-clip relative shrink-0 text-[#595959] text-[14px] tracking-[-0.14px] whitespace-nowrap" data-node-id="40002524:7917" data-name="nav">
+          <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium',sans-serif] font-normal gap-[28px] items-center leading-[0] overflow-clip relative shrink-0 text-[#595959] text-[14px] tracking-[-0.14px] whitespace-nowrap" data-node-id="40002524:7917" data-name="nav">
             <a className="block relative shrink-0" href="https://docs.tgshop.io/uz/telegramda-dokon-ochish/tezkor-boshlash" data-node-id="40002524:7918" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
               <p className="cursor-pointer leading-[1.5]">База знаний</p>
             </a>
-            <a className="block relative shrink-0" href="https://tgshop.io/shops/" data-node-id="40002524:7920" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
+            <a className="block relative shrink-0" href="https://t.me/TGShopHelp_bot" data-node-id="40002524:7920" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
               <p className="cursor-pointer leading-[1.5]">Помощь</p>
             </a>
-            <a className="block relative shrink-0" href="https://uz.tgshop.io/ru/blog" data-node-id="40002524:7921" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
-              <p className="cursor-pointer leading-[1.5]">Решения</p>
+            <a className="block relative shrink-0" href="#trust" data-node-id="40002524:7921" style={{ fontVariationSettings: "'wdth' 100" }}>
+            <p className="cursor-pointer leading-[1.5]">Кейсы</p>
             </a>
           </div>
           <div className="content-stretch flex gap-[12px] items-center relative shrink-0" data-node-id="40002524:7922" data-name="header-cta">
+            <div className="content-stretch flex gap-[12px] items-center relative shrink-0 mr-[4px]" data-name="lang-switch">
+              <div className="content-stretch flex gap-[6px] items-center px-[12px] py-[8px] rounded-[100px] cursor-pointer hover:bg-[rgba(16,142,245,0.06)] transition-colors" title="Сменить язык (O'zbek скоро)">
+                <span className="text-[14px]">🌐</span>
+                <span className="font-['SF_Pro:Semibold',sans-serif] font-[590] text-[14px] text-[#595959] tracking-[-0.14px]">Русский</span>
+                <span className="text-[10px] text-[#595959]">▾</span>
+              </div>
+            </div>
             <div className="border-[1.5px] border-[rgba(16,142,245,0.2)] border-solid content-stretch flex h-[40px] items-center justify-center overflow-clip px-[18px] relative rounded-[100px] shrink-0" data-node-id="40002524:7923" data-name="btn-outline">
-              <a className="[word-break:break-word] block font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[0] relative shrink-0 text-[#108ef5] text-[14px] tracking-[-0.14px] whitespace-nowrap" href="https://admin.tgshop.io/sign-in?utm_content=uz" data-node-id="40002524:7924" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
+              <a className="[word-break:break-word] block font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[0] relative shrink-0 text-[#108ef5] text-[14px] tracking-[-0.14px] whitespace-nowrap" href="https://admin.tgshop.io/sign-in" data-node-id="40002524:7924" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
                 <p className="cursor-pointer leading-[1.5]">Войти</p>
               </a>
             </div>
             <div className="bg-[#108ef5] content-stretch flex h-[40px] items-center justify-center overflow-clip px-[18px] relative rounded-[100px] shadow-[0px_12px_24px_0px_rgba(51,133,255,0.22)] shrink-0" data-node-id="40002524:7925" data-name="btn-primary">
-              <a className="[word-break:break-word] block font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[0] relative shrink-0 text-[14px] text-white tracking-[-0.14px] whitespace-nowrap" href="https://admin.tgshop.io/sign-up?utm_content=uz" data-node-id="40002524:7926" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
+              <a className="[word-break:break-word] block font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[0] relative shrink-0 text-[14px] text-white tracking-[-0.14px] whitespace-nowrap" href="https://admin.tgshop.io/sign-up" data-node-id="40002524:7926" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
                 <p className="cursor-pointer leading-[1.5]">Зарегистрироваться</p>
               </a>
             </div>
@@ -348,7 +355,7 @@ export default function LandingDesktop() {
             </p>
             <div className="h-[32px] relative shrink-0 w-[100px]" data-node-id="40002524:7937" data-name="sp" />
             <div className="content-stretch flex items-start relative shrink-0" data-node-id="40002524:7938" data-name="cta-row">
-              <a href="https://admin.tgshop.io/sign-up?utm_content=uz" target="_blank" rel="noopener" className="contents no-underline">
+              <a href="https://admin.tgshop.io/sign-up" target="_blank" rel="noopener" className="contents no-underline">
                 <div className="bg-[#108ef5] content-stretch flex h-[52px] items-center justify-center overflow-clip px-[32px] relative rounded-[100px] shadow-[0px_20px_35px_0px_rgba(51,133,255,0.22)] shrink-0 cursor-pointer" data-node-id="40002524:7939" data-name="btn-primary-l">
                   <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[16px] text-white tracking-[-0.16px] whitespace-nowrap" data-node-id="40002524:7940">
                     Попробовать бесплатно
@@ -613,7 +620,7 @@ export default function LandingDesktop() {
           </div>
         </div>
       </div>
-      <div className="bg-[#f6f7f9] border border-[rgba(0,0,0,0.04)] border-solid content-stretch flex flex-col items-center overflow-clip px-[120px] py-[56px] relative shrink-0 w-[1440px]" data-node-id="40002524:8037" data-name="Trust">
+      <div className="bg-[#f6f7f9] border border-[rgba(0,0,0,0.04)] border-solid content-stretch flex flex-col items-center overflow-clip px-[120px] py-[56px] relative shrink-0 w-[1440px]" data-node-id="40002524:8037" data-name="Trust" id="trust">
         <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[30px] text-black text-center w-[1200px]" data-node-id="40002524:8038">
           Нам доверяют
         </p>
@@ -696,7 +703,7 @@ export default function LandingDesktop() {
                   </div>
                 </div>
                 <div className="content-stretch flex flex-col gap-[6px] items-start relative shrink-0" data-node-id="40002690:8545">
-                  <div className="[word-break:break-word] font-['SF_Pro:Heavy',sans-serif] font-[860] leading-[0] relative shrink-0 text-[#8c949e] text-[24px] tracking-[-0.912px] whitespace-nowrap" data-node-id="40002690:8546" style={{ fontVariationSettings: "'wdth' 100" }}>
+                  <div className="[word-break:break-word] font-['SF_Pro:Heavy',sans-serif] font-[860] leading-[0] relative shrink-0 text-[#f04545] text-[24px] tracking-[-0.912px] whitespace-nowrap" data-node-id="40002690:8546" style={{ fontVariationSettings: "'wdth' 100" }}>
                     <p className="leading-[normal] mb-0 whitespace-pre">{`740 `}</p>
                     <p className="leading-[normal] whitespace-pre">заказов</p>
                   </div>
@@ -1003,12 +1010,12 @@ export default function LandingDesktop() {
             </p>
             <div className="h-[32px] relative shrink-0 w-[100px]" data-node-id="40002633:431" data-name="sp" />
             <div className="h-[28px] relative shrink-0 w-[100px]" data-node-id="40002633:476" data-name="sp" />
-            <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.55] not-italic relative shrink-0 text-[#767d88] text-[15px] tracking-[-0.15px] w-[568px]" data-node-id="40002633:477">
+            <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.55] not-italic relative shrink-0 text-[#e5484d] text-[15px] tracking-[-0.15px] w-[568px]" data-node-id="40002633:477">
               Не из-за плохого товара. Не из-за цены. Просто потому что ответили поздно — или не ответили вообще.
             </p>
             <div className="h-[28px] relative shrink-0 w-[100px]" data-node-id="40002633:478" data-name="sp" />
             <div className="content-stretch flex items-center relative shrink-0" data-node-id="40002633:479" data-name="price-cta">
-              <a href="https://admin.tgshop.io/sign-up?utm_content=uz" target="_blank" rel="noopener" className="contents no-underline">
+              <a href="https://admin.tgshop.io/sign-up" target="_blank" rel="noopener" className="contents no-underline">
                 <div className="bg-[#108ef5] content-stretch flex h-[52px] items-center justify-center overflow-clip px-[32px] relative rounded-[100px] shadow-[0px_20px_35px_0px_rgba(51,133,255,0.22)] shrink-0 cursor-pointer" data-node-id="40002633:480" data-name="btn-primary-l">
                   <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[16px] text-white tracking-[-0.16px] whitespace-nowrap" data-node-id="40002633:481">
                     Хочу больше продаж
@@ -1913,10 +1920,7 @@ export default function LandingDesktop() {
       <div className="bg-[#f6f7f9] content-stretch flex flex-col items-center overflow-clip px-[120px] py-[90px] relative shrink-0 w-[1440px]" data-node-id="40002524:8481" data-name="Pricing">
         <div className="content-stretch flex flex-col items-center overflow-clip relative shrink-0 w-[820px]" data-node-id="40002524:8482" data-name="section-head">
           <div className="bg-[rgba(16,142,245,0.08)] content-stretch flex items-start overflow-clip px-[12px] py-[6px] relative rounded-[100px] shrink-0" data-node-id="40002524:8483" data-name="kicker">
-            <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#108ef5] text-[14px] tracking-[-0.14px] whitespace-nowrap" data-node-id="40002524:8484">
-              Тарифы
-            </p>
-          </div>
+            </div>
           <div className="h-[16px] relative shrink-0 w-[100px]" data-node-id="40002524:8485" data-name="sp" />
           <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.1] not-italic relative shrink-0 text-[#0a1519] text-[44px] text-center tracking-[-1.1px] w-[820px]" data-node-id="40002524:8486">
             TGShop Chat включён во все тарифы TGShop
@@ -2096,7 +2100,7 @@ export default function LandingDesktop() {
               </div>
             </div>
             <div className="h-[24px] relative shrink-0 w-[100px]" data-node-id="40002524:8546" data-name="sp" />
-            <a href="https://admin.tgshop.io/sign-up?utm_content=uz" target="_blank" rel="noopener" className="contents no-underline">
+            <a href="https://admin.tgshop.io/sign-up" target="_blank" rel="noopener" className="contents no-underline">
               <div className="border-[1.5px] border-[rgba(16,142,245,0.3)] border-solid content-stretch flex h-[48px] items-center justify-center overflow-clip px-[32px] relative rounded-[100px] shrink-0 w-full cursor-pointer" data-node-id="40002524:8547" data-name="btn">
                 <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#108ef5] text-[15px] tracking-[-0.15px] whitespace-nowrap" data-node-id="40002524:8548">
                   Начать бесплатно
@@ -2267,7 +2271,7 @@ export default function LandingDesktop() {
               </div>
             </div>
             <div className="h-[24px] relative shrink-0 w-[100px]" data-node-id="40002524:8581" data-name="sp" />
-            <a href="https://admin.tgshop.io/sign-up?utm_content=uz" target="_blank" rel="noopener" className="contents no-underline">
+            <a href="https://admin.tgshop.io/sign-up" target="_blank" rel="noopener" className="contents no-underline">
               <div className="bg-[#108ef5] content-stretch flex h-[48px] items-center justify-center overflow-clip px-[32px] relative rounded-[100px] shadow-[0px_12px_24px_0px_rgba(51,133,255,0.25)] shrink-0 w-full cursor-pointer" data-node-id="40002524:8582" data-name="btn">
                 <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[15px] text-white tracking-[-0.15px] whitespace-nowrap" data-node-id="40002524:8583">
                   Начать бесплатно
@@ -2442,7 +2446,7 @@ export default function LandingDesktop() {
               </div>
             </div>
             <div className="h-[24px] relative shrink-0 w-[100px]" data-node-id="40002524:8613" data-name="sp" />
-            <a href="https://admin.tgshop.io/sign-up?utm_content=uz" target="_blank" rel="noopener" className="contents no-underline">
+            <a href="https://admin.tgshop.io/sign-up" target="_blank" rel="noopener" className="contents no-underline">
               <div className="border-[1.5px] border-[rgba(16,142,245,0.3)] border-solid content-stretch flex h-[48px] items-center justify-center overflow-clip px-[32px] relative rounded-[100px] shrink-0 w-full cursor-pointer" data-node-id="40002524:8614" data-name="btn">
                 <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#108ef5] text-[15px] tracking-[-0.15px] whitespace-nowrap" data-node-id="40002524:8615">
                   Начать бесплатно
@@ -2466,7 +2470,7 @@ export default function LandingDesktop() {
             Каждую минуту, пока вы не подключили TGShop, кто-то из ваших клиентов не дождался ответа и ушёл к конкуренту.
           </p>
           <div className="h-[36px] relative shrink-0 w-[100px]" data-node-id="40002524:8673" data-name="sp" />
-          <a href="https://admin.tgshop.io/sign-up?utm_content=uz" target="_blank" rel="noopener" className="contents no-underline">
+          <a href="https://admin.tgshop.io/sign-up" target="_blank" rel="noopener" className="contents no-underline">
             <div className="bg-white content-stretch flex h-[52px] items-center justify-center overflow-clip px-[32px] relative rounded-[100px] shadow-[0px_20px_40px_0px_rgba(0,0,0,0.3)] shrink-0 cursor-pointer" data-node-id="40002524:8674" data-name="btn">
               <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#108ef5] text-[16px] tracking-[-0.16px] whitespace-nowrap" data-node-id="40002524:8675">
                 Создать Telegram-магазин бесплатно →
@@ -2504,9 +2508,6 @@ export default function LandingDesktop() {
             </a>
             <a className="[word-break:break-word] block font-['SF_Pro:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[#a6b0bf] text-[14px] tracking-[-0.14px] whitespace-nowrap" href="https://tgshop.io/faq" data-node-id="40002524:8689" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
               <p className="cursor-pointer leading-[1.5]">FAQ</p>
-            </a>
-            <a className="[word-break:break-word] block font-['SF_Pro:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[#a6b0bf] text-[14px] tracking-[-0.14px] whitespace-nowrap" href="https://tgshop.io/yearly/" data-node-id="40002524:8690" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
-              <p className="cursor-pointer leading-[1.5]">Тарифы</p>
             </a>
             <a className="[word-break:break-word] block font-['SF_Pro:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[#a6b0bf] text-[14px] tracking-[-0.14px] whitespace-nowrap" href="https://docs.tgshop.io/uz/telegramda-dokon-ochish/tezkor-boshlash" data-node-id="40002524:8691" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
               <p className="cursor-pointer leading-[1.5]">Инструкции</p>

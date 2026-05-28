@@ -35,7 +35,7 @@ const imgSol_Ellipse4 = "https://www.figma.com/api/mcp/asset/2c065143-22d4-4e96-
 const imgSol_Ellipse5 = "https://www.figma.com/api/mcp/asset/9119ef2d-29c1-4588-8931-721115f61645";
 const imgSol_Ellipse6 = "https://www.figma.com/api/mcp/asset/b0810e57-d350-4197-b1d2-e92ab9d8780d";
 
-const CTA_HREF = "https://admin.tgshop.io/sign-up?utm_content=uz";
+const CTA_HREF = "https://admin.tgshop.io/sign-up";
 
 // === SECTION COMPONENTS ===
 
@@ -201,7 +201,7 @@ function Hero() {
 
 function Trust() {
   return (
-    <div className="bg-[#f6f7f9] content-stretch flex flex-col gap-[24px] items-center px-[20px] py-[48px] relative w-full" data-node-id="40002674:8244" data-name="Trust">
+    <div className="bg-[#f6f7f9] content-stretch flex flex-col gap-[24px] items-center px-[20px] py-[48px] relative w-full" data-node-id="40002674:8244" data-name="Trust" id="trust">
       <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#121726] text-[24px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
         Нам доверяют
       </p>
@@ -295,7 +295,7 @@ function Trust() {
                 <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>с TGShop</p>
               </div>
               <div className="bg-white content-stretch flex flex-col gap-[5px] items-start overflow-clip relative shrink-0">
-                <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#f04545] text-[20px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>740</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#f04545] text-[20px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>740 заказов</p>
                 <div className="bg-[#f04545] h-[4px] relative rounded-[2px] shrink-0 w-[8px]" />
                 <div className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
                   <p className="leading-[normal] mb-0 whitespace-pre">{`"до" было `}</p>
@@ -887,8 +887,7 @@ function Pricing({ isYear, setPeriod }: { isYear: boolean; setPeriod: (p: 'month
     <div className="bg-[#f6f7f9] content-stretch flex flex-col items-center px-[20px] py-[40px] relative w-full" data-node-id="40002524:10205" data-name="Pricing">
       <div className="content-stretch flex flex-col items-center overflow-clip relative shrink-0 w-[335px]">
         <div className="bg-[rgba(16,142,245,0.08)] content-stretch flex items-start overflow-clip px-[12px] py-[6px] relative rounded-[100px] shrink-0">
-          <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#108ef5] text-[12px] tracking-[-0.12px] whitespace-nowrap">Тарифы</p>
-        </div>
+          </div>
         <div className="h-[16px] shrink-0 w-[100px]" />
         <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.1] not-italic relative shrink-0 text-[#0a1519] text-[26px] text-center tracking-[-0.65px] w-[335px]">
           TGShop Chat включён во все тарифы TGShop
@@ -1115,7 +1114,6 @@ function Footer() {
           {[
             { href: 'https://tgshop.io/blog', t: 'Блог' },
             { href: 'https://tgshop.io/faq', t: 'FAQ' },
-            { href: 'https://tgshop.io/yearly/', t: 'Тарифы' },
             { href: 'https://docs.tgshop.io/uz/telegramda-dokon-ochish/tezkor-boshlash', t: 'Инструкции' },
           ].map((l) => (
             <a key={l.t} className="[word-break:break-word] block font-['SF_Pro:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[#a6b0bf] text-[14px] tracking-[-0.14px] whitespace-nowrap" href={l.href} target="_blank" rel="noopener" style={{ fontVariationSettings: "'wdth' 100" }}>

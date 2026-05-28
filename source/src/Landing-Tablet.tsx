@@ -44,7 +44,7 @@ const imgSol_Ellipse5 = "https://www.figma.com/api/mcp/asset/0003642b-d3a5-476f-
 const imgSol_Ellipse6 = "https://www.figma.com/api/mcp/asset/3459ceb7-4967-4467-9a6d-d70a608c2e2e";
 const imgSol_Ellipse7 = "https://www.figma.com/api/mcp/asset/da56fcc0-6f3b-4afb-bcfa-66b23c24bd10";
 
-const CTA_HREF = "https://admin.tgshop.io/sign-up?utm_content=uz";
+const CTA_HREF = "https://admin.tgshop.io/sign-up";
 
 // === SECTION COMPONENTS ===
 
@@ -52,30 +52,37 @@ function Header() {
   return (
     <div className="bg-white border border-[rgba(0,0,0,0.05)] border-solid content-stretch flex flex-col items-start relative size-full" data-node-id="40002524:8898" data-name="Header">
       <div className="content-stretch flex gap-[40px] h-[72px] items-center px-[48px] relative shrink-0 w-[1024px]" data-node-id="40002524:8899" data-name="header-inner">
-        <div className="[word-break:break-word] content-stretch flex font-['SF_Pro_Display:Bold',sans-serif] gap-[4px] items-baseline leading-[1.5] not-italic overflow-clip relative shrink-0 text-[20px] tracking-[-0.4px] whitespace-nowrap" data-node-id="40002524:8900" data-name="brand">
+        <div className="[word-break:break-word] content-stretch flex font-['SF_Pro_Display:Bold',sans-serif] font-bold gap-[4px] items-baseline leading-[1.5] not-italic overflow-clip relative shrink-0 text-[20px] tracking-[-0.4px] whitespace-nowrap" data-node-id="40002524:8900" data-name="brand">
           <p className="relative shrink-0 text-[#0a1519]" data-node-id="40002524:8901">TGShop</p>
           <p className="relative shrink-0 text-[#108ef5]" data-node-id="40002524:8902">Chat</p>
         </div>
         <div className="flex-[1_0_0] h-[100px] min-w-px relative" data-node-id="40002524:8903" data-name="sp" />
-        <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium',sans-serif] font-[510] gap-[28px] items-center leading-[0] overflow-clip relative shrink-0 text-[#595959] text-[14px] tracking-[-0.14px] whitespace-nowrap" data-node-id="40002524:8904" data-name="nav">
+        <div className="[word-break:break-word] content-stretch flex font-['SF_Pro:Medium',sans-serif] font-normal gap-[28px] items-center leading-[0] overflow-clip relative shrink-0 text-[#595959] text-[14px] tracking-[-0.14px] whitespace-nowrap" data-node-id="40002524:8904" data-name="nav">
           <a className="block relative shrink-0" href="https://docs.tgshop.io/uz/telegramda-dokon-ochish/tezkor-boshlash" data-node-id="40002524:8905" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
             <p className="cursor-pointer leading-[1.5]">База знаний</p>
           </a>
-          <a className="block relative shrink-0" href="https://tgshop.io/shops/" data-node-id="40002524:8907" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
+          <a className="block relative shrink-0" href="https://t.me/TGShopHelp_bot" data-node-id="40002524:8907" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
             <p className="cursor-pointer leading-[1.5]">Помощь</p>
           </a>
-          <a className="block relative shrink-0" href="https://uz.tgshop.io/ru/blog" data-node-id="40002524:8908" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
-            <p className="cursor-pointer leading-[1.5]">Решения</p>
+          <a className="block relative shrink-0" href="#trust" data-node-id="40002524:8908" style={{ fontVariationSettings: "'wdth' 100" }}>
+            <p className="cursor-pointer leading-[1.5]">Кейсы</p>
           </a>
         </div>
         <div className="content-stretch flex gap-[12px] items-center relative shrink-0" data-node-id="40002524:8909" data-name="header-cta">
+            <div className="content-stretch flex gap-[12px] items-center relative shrink-0 mr-[4px]" data-name="lang-switch">
+              <div className="content-stretch flex gap-[6px] items-center px-[12px] py-[8px] rounded-[100px] cursor-pointer hover:bg-[rgba(16,142,245,0.06)] transition-colors" title="Сменить язык (O'zbek скоро)">
+                <span className="text-[14px]">🌐</span>
+                <span className="font-['SF_Pro:Semibold',sans-serif] font-[590] text-[14px] text-[#595959] tracking-[-0.14px]">Русский</span>
+                <span className="text-[10px] text-[#595959]">▾</span>
+              </div>
+            </div>
           <div className="border-[1.5px] border-[rgba(16,142,245,0.2)] border-solid content-stretch flex h-[40px] items-center justify-center overflow-clip px-[18px] relative rounded-[100px] shrink-0" data-node-id="40002524:8910" data-name="btn-outline">
-            <a className="[word-break:break-word] block font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[0] relative shrink-0 text-[#108ef5] text-[14px] tracking-[-0.14px] whitespace-nowrap" href="https://admin.tgshop.io/sign-in?utm_content=uz" data-node-id="40002524:8911" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
+            <a className="[word-break:break-word] block font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[0] relative shrink-0 text-[#108ef5] text-[14px] tracking-[-0.14px] whitespace-nowrap" href="https://admin.tgshop.io/sign-in" data-node-id="40002524:8911" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
               <p className="cursor-pointer leading-[1.5]">Войти</p>
             </a>
           </div>
           <div className="bg-[#108ef5] content-stretch flex h-[40px] items-center justify-center overflow-clip px-[18px] relative rounded-[100px] shadow-[0px_12px_24px_0px_rgba(51,133,255,0.22)] shrink-0" data-node-id="40002524:8912" data-name="btn-primary">
-            <a className="[word-break:break-word] block font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[0] relative shrink-0 text-[14px] text-white tracking-[-0.14px] whitespace-nowrap" href="https://admin.tgshop.io/sign-up?utm_content=uz" data-node-id="40002524:8913" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
+            <a className="[word-break:break-word] block font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[0] relative shrink-0 text-[14px] text-white tracking-[-0.14px] whitespace-nowrap" href="https://admin.tgshop.io/sign-up" data-node-id="40002524:8913" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
               <p className="cursor-pointer leading-[1.5]">Зарегистрироваться</p>
             </a>
           </div>
@@ -472,7 +479,7 @@ function SectionUpperDefault({ className }: { className?: string }) {
 
 function Trust() {
   return (
-    <div className="bg-[#f6f7f9] content-stretch flex flex-col gap-[32px] items-center px-[48px] py-[80px] relative size-full" data-node-id="40002673:8244" data-name="Trust">
+    <div className="bg-[#f6f7f9] content-stretch flex flex-col gap-[32px] items-center px-[48px] py-[80px] relative size-full" data-node-id="40002673:8244" data-name="Trust" id="trust">
       <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#121726] text-[36px] whitespace-nowrap" data-node-id="40002673:8245" style={{ fontVariationSettings: "'wdth' 100" }}>
         Нам доверяют
       </p>
@@ -1163,8 +1170,7 @@ function Pricing({ isYear, setPeriod }: { isYear: boolean; setPeriod: (p: 'month
     <div className="bg-[#f6f7f9] content-stretch flex flex-col items-center px-[48px] py-[80px] relative size-full" data-node-id="40002524:9389" data-name="Pricing">
       <div className="content-stretch flex flex-col items-center overflow-clip relative shrink-0 w-[820px]" data-name="section-head">
         <div className="bg-[rgba(16,142,245,0.08)] content-stretch flex items-start overflow-clip px-[12px] py-[6px] relative rounded-[100px] shrink-0">
-          <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#108ef5] text-[14px] tracking-[-0.14px] whitespace-nowrap">Тарифы</p>
-        </div>
+          </div>
         <div className="h-[16px] relative shrink-0 w-[100px]" />
         <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.1] not-italic relative shrink-0 text-[#0a1519] text-[36px] text-center tracking-[-0.9px] w-[820px]">
           TGShop Chat включён во все тарифы TGShop
@@ -1304,7 +1310,6 @@ function Footer() {
           { title: 'Полезные материалы', links: [
             { label: 'Блог', href: 'https://tgshop.io/blog' },
             { label: 'FAQ', href: 'https://tgshop.io/faq' },
-            { label: 'Тарифы', href: 'https://tgshop.io/yearly/' },
             { label: 'Инструкции', href: 'https://docs.tgshop.io/uz/telegramda-dokon-ochish/tezkor-boshlash' },
           ]},
           { title: 'Решения', links: [
