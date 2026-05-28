@@ -335,9 +335,11 @@ function SectionUpperDefault({ className }: { className?: string }) {
           </div>
         </div>
         <div className={dividerCls} />
-        {/* Around You */}
-        <div className="h-[15px] relative shrink-0 w-[80px]">
-          <img alt="Around You" className="absolute block inset-0 max-w-none size-full" src={imgTrust_AroundYou} />
+        {/* Bogner */}
+        <div className="h-[22px] mix-blend-darken relative shrink-0 w-[100px]">
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <img alt="Bogner" className="absolute h-[91.65%] left-[0.17%] max-w-none top-[6.39%] w-[99.45%]" src={imgTrust_Vector} />
+          </div>
         </div>
         <div className={dividerCls} />
         {/* ANA HILDEBRANT */}
@@ -354,13 +356,14 @@ function SectionUpperDefault({ className }: { className?: string }) {
           </div>
         </div>
         <div className={dividerCls} />
-        {/* Bogner */}
-        <div className="h-[22px] mix-blend-darken relative shrink-0 w-[100px]">
-          <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <img alt="Bogner" className="absolute h-[91.65%] left-[0.17%] max-w-none top-[6.39%] w-[99.45%]" src={imgTrust_Vector} />
-          </div>
+        {/* Around You */}
+        <div className="h-[15px] relative shrink-0 w-[80px]">
+          <img alt="Around You" className="absolute block inset-0 max-w-none size-full" src={imgTrust_AroundYou} />
         </div>
       </div>
+      {/* Edge fade overlays per Figma node 40002524:8041 — bg matches Trust #f6f7f9 */}
+      <div className="pointer-events-none absolute inset-y-0 left-0 w-[80px] bg-gradient-to-r from-[#f6f7f9] to-transparent" />
+      <div className="pointer-events-none absolute inset-y-0 right-0 w-[80px] bg-gradient-to-l from-[#f6f7f9] to-transparent" />
     </div>
   );
 }
