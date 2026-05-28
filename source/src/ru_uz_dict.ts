@@ -10,7 +10,7 @@ export const RU_TO_UZ: Record<string, string> = {
   "Telegram-магазин и чаты с клиентами в одном кабинете": "Telegram-do'kon va mijozlar bilan chatlar — bitta kabinetda",
   "Ваши менеджеры не успевают отвечать всем клиентам в Telegram — и заказы уходят к конкурентам.": "Menejerlaringiz Telegramdagi barcha mijozlarga javob berishga ulgurmayapti — va buyurtmalar raqobatchilarga ketayapti.",
   "С TGShop ни одна заявка не потеряется, и клиенты смогут покупать в 1 клик.": "TGShop bilan birorta ham so'rov yo'qolmaydi, mijozlar esa 1 bosishda xarid qila oladi.",
-  "Попробовать бесплатно": "Bepul sinab ko'rish",
+  "Попробовать бесплатно": "Bepul boshlash",
   "14 дней бесплатно · без разработки": "14 kun bepul · dasturchilarisiz",
   "Чаты": "Chatlar",
   "Новые": "Yangi",

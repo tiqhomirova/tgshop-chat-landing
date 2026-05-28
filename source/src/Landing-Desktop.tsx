@@ -316,10 +316,9 @@ export default function LandingDesktop() {
           </div>
           <div className="content-stretch flex gap-[12px] items-center relative shrink-0" data-node-id="40002524:7922" data-name="header-cta">
             <div className="content-stretch flex gap-[12px] items-center relative shrink-0 mr-[4px]" data-name="lang-switch">
-              <div className="content-stretch flex gap-[6px] items-center px-[12px] py-[8px] rounded-[100px] cursor-pointer hover:bg-[rgba(16,142,245,0.06)] transition-colors" title="Сменить язык (O'zbek скоро)">
+              <div className="content-stretch flex gap-[6px] items-center px-[12px] py-[8px] rounded-[100px] cursor-pointer hover:bg-[rgba(16,142,245,0.06)] transition-colors" title="Сменить язык / Tilni o'zgartirish">
                 <span className="text-[14px]">🌐</span>
-                <span className="font-['SF_Pro:Semibold',sans-serif] font-[590] text-[14px] text-[#595959] tracking-[-0.14px]">Русский</span>
-                <span className="text-[10px] text-[#595959]">▾</span>
+                <span className="font-['SF_Pro:Semibold',sans-serif] font-[590] text-[14px] text-[#595959] tracking-[-0.14px]">O'zbek</span>
               </div>
             </div>
             <div className="border-[1.5px] border-[rgba(16,142,245,0.2)] border-solid content-stretch flex h-[40px] items-center justify-center overflow-clip px-[18px] relative rounded-[100px] shrink-0" data-node-id="40002524:7923" data-name="btn-outline">

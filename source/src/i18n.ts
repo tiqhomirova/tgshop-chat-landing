@@ -73,19 +73,25 @@ export function applyTranslations(lang: Lang, root: HTMLElement = document.body)
   return replaced;
 }
 
-/** Update the visible label of the language switcher buttons (🌐 RU/UZ chip). */
+/** Update the visible label of the language switcher chips.
+   The chip shows the language the user can switch TO (not the current one):
+     - on RU page  →  "O'zbek"
+     - on UZ page  →  "Русский"
+   Initial JSX renders "O'zbek" (since RU is default); when on UZ this
+   function swaps it to "Русский". */
 export function updateLangSwitchLabels(lang: Lang) {
-  const buttons = document.querySelectorAll<HTMLElement>('[data-name="lang-btn"], [data-name="lang-switch"] *');
-  // Look for short "RU" / "Русский" tokens to swap them too.
-  buttons.forEach((el) => {
-    const txt = el.textContent?.trim();
-    if (!txt) return;
-    if (lang === 'uz') {
-      if (txt === 'RU') el.textContent = 'UZ';
-      else if (txt === 'Русский') el.textContent = "O'zbek";
-    } else {
-      if (txt === 'UZ') el.textContent = 'RU';
-      else if (txt === "O'zbek") el.textContent = 'Русский';
-    }
+  const chips = document.querySelectorAll<HTMLElement>('[data-name="lang-btn"], [data-name="lang-switch"]');
+  chips.forEach((chip) => {
+    // The chip contains a globe emoji + a label span. Find the text span(s) that
+    // currently say "O'zbek" or "Русский" and swap based on current lang.
+    chip.querySelectorAll<HTMLElement>('span, p').forEach((el) => {
+      const txt = el.textContent?.trim();
+      if (!txt) return;
+      if (lang === 'uz') {
+        if (txt === "O'zbek") el.textContent = 'Русский';
+      } else {
+        if (txt === 'Русский') el.textContent = "O'zbek";
+      }
+    });
   });
 }
