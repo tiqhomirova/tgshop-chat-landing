@@ -317,4 +317,5 @@ export const RU_TO_UZ: Record<string, string> = {
   "Я.Доставка": "Y.Yetkazib",
   "Я.Метрика": "Y.Metrika",
   "Я.Директ": "Y.Direkt",
+  "\"до\" было": "«ilgari»",
 };

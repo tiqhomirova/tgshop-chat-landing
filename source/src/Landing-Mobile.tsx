@@ -329,7 +329,7 @@ function Trust() {
         </div>
       </div>
       <div className="bg-white content-stretch flex flex-col gap-[12px] items-start overflow-clip relative shrink-0 w-full" data-name="cases-row">
-        <div className="bg-white content-stretch flex gap-[10px] items-start overflow-clip relative shrink-0 w-full" data-name="row1">
+        <div className="content-stretch flex gap-[10px] items-start overflow-clip relative shrink-0 w-full" data-name="row1">
           {/* FashionFabrique */}
           <div className="bg-white border border-[#ebedf2] border-solid content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px px-[12px] py-[14px] relative rounded-[14px] self-stretch" data-name="case-Fashion Fabrique">
             <div className="[word-break:break-word] bg-[rgba(33,178,99,0.14)] content-stretch flex gap-[5px] items-center leading-[normal] overflow-clip px-[8px] py-[3px] relative rounded-[8px] shrink-0 text-[#0f8c33] text-[10px] w-full whitespace-nowrap">
@@ -372,7 +372,7 @@ function Trust() {
                 <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>с TGShop</p>
               </div>
               <div className="bg-white content-stretch flex flex-col gap-[5px] items-start overflow-clip relative shrink-0">
-                <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#f04545] text-[20px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>740 заказов</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#f04545] text-[20px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>740</p>
                 <div className="bg-[#f04545] h-[4px] relative rounded-[2px] shrink-0 w-[8px]" />
                 <div className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
                   <p className="leading-[normal] mb-0 whitespace-pre">{`"до" было `}</p>
@@ -392,7 +392,7 @@ function Trust() {
             </div>
           </div>
         </div>
-        <div className="bg-white content-stretch flex gap-[10px] items-start overflow-clip relative shrink-0 w-full" data-name="row2">
+        <div className="content-stretch flex gap-[10px] items-start overflow-clip relative shrink-0 w-full" data-name="row2">
           {/* Hold Store */}
           <div className="bg-white border border-[#ebedf2] border-solid content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px px-[12px] py-[14px] relative rounded-[14px] self-stretch" data-name="case-Hold Store">
             <div className="[word-break:break-word] bg-[rgba(33,178,99,0.14)] content-stretch flex gap-[5px] items-center leading-[normal] overflow-clip px-[8px] py-[3px] relative rounded-[8px] shrink-0 text-[#0f8c33] text-[10px] w-full whitespace-nowrap">
