@@ -633,7 +633,7 @@ function Pain() {
       </div>
       <div className="h-[48px] relative shrink-0 w-[100px]" />
       <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-[928px]" data-node-id="40002524:8970" data-name="pain-grid">
-        <div className="bg-white content-stretch flex gap-[24px] items-start overflow-clip relative shrink-0 w-full" data-node-id="40002667:8244" data-name="row">
+        <div className="content-stretch flex gap-[24px] items-start overflow-clip relative shrink-0 w-full" data-node-id="40002667:8244" data-name="row">
           {[
             { title: 'Клиент остался без ответа', text: 'Менеджер может забыть ответить — и никто это не заметит. Клиент подождал час и купил у конкурента.' },
             { title: 'Уволился менеджер — клиенты ушли с ним', text: 'Переписка велась в личном Telegram. Кто этот клиент и чем интересовался, знает только бывший сотрудник.' },
@@ -649,7 +649,7 @@ function Pain() {
             </div>
           ))}
         </div>
-        <div className="bg-white content-stretch flex gap-[24px] items-start overflow-clip relative shrink-0 w-full" data-node-id="40002667:8263" data-name="row">
+        <div className="content-stretch flex gap-[24px] items-start overflow-clip relative shrink-0 w-full" data-node-id="40002667:8263" data-name="row">
           {[
             { title: 'Контроль чатов с клиентами', text: 'Руководитель открывает любой диалог и видит, как менеджер обрабатывает заявки и как общается с клиентами.' },
             { title: 'Магазин принимает заказы 24/7', text: 'Клиенты оформляют заказ в один клик в любое время суток, а вы не теряете выручку в нерабочее время.' },
