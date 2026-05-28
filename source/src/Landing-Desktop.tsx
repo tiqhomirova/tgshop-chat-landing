@@ -4,11 +4,15 @@
 import { useState } from 'react';
 
 const imgPhoto202508261509211 = "https://www.figma.com/api/mcp/asset/2b5b9d8c-8369-46b7-a4f3-8e31e9268c6a";
-const imgYvesRocherLogoSvg3 = "https://www.figma.com/api/mcp/asset/b8d47311-d979-4c66-a799-578e19ba94e4";
-const img61 = "https://www.figma.com/api/mcp/asset/5489dbd8-41b9-41d5-bc09-8bf2a1fdab68";
-const img221 = "/tgshop-chat-landing/assets/logo-merci-lingerie.png";
-const img51 = "/tgshop-chat-landing/assets/logo-dragonfly.png";
+// Brand logos — local assets, mirror Figma node 40002682:1121 (8 brands).
+const imgYvesRocherLogoSvg3 = "/tgshop-chat-landing/assets/brand-yves-rocher.png";
+const img61 = "/tgshop-chat-landing/assets/brand-emra.png";
+const img221 = "/tgshop-chat-landing/assets/brand-merci.png";
+const img51 = "/tgshop-chat-landing/assets/brand-dragonfly.png";
 const img41 = "/tgshop-chat-landing/assets/logo-third.png";
+const imgAroundYou = "/tgshop-chat-landing/assets/brand-around-you.svg";
+const imgAnaHildebrant = "/tgshop-chat-landing/assets/brand-ana-hildebrant.png";
+const imgSkincare = "/tgshop-chat-landing/assets/brand-skincare.png";
 const imgGroup = "https://www.figma.com/api/mcp/asset/8f189612-a673-446c-8140-1d67e6f156d8";
 const imgGroup1 = "https://www.figma.com/api/mcp/asset/bc1b9308-442f-406b-b6b1-af057124cf7b";
 const imgGroup2 = "https://www.figma.com/api/mcp/asset/b384c814-d76c-4257-82a9-a0bb04ebe477";
@@ -19,7 +23,7 @@ const imgGroup6 = "https://www.figma.com/api/mcp/asset/ee9a813a-d3b6-4c72-8331-f
 const imgGroup7 = "https://www.figma.com/api/mcp/asset/c3eb9d50-8731-48a5-8a81-49c9e7ed8883";
 const imgGroup8 = "https://www.figma.com/api/mcp/asset/c5f00bf9-c429-41bd-a5df-c80ace041c21";
 const imgSvg = "https://www.figma.com/api/mcp/asset/55a32ee8-8447-4a5b-9d43-bc6e9e84b0e2";
-const imgVector = "https://www.figma.com/api/mcp/asset/ac64de1a-1bca-4c23-ae2e-2b0ca70a2543";
+const imgVector = "/tgshop-chat-landing/assets/brand-bogner.png";
 const imgFrame21361400041 = "https://www.figma.com/api/mcp/asset/c804cd89-b80e-4c5c-bfaa-126f396dfc0a";
 const imgBackground = "https://www.figma.com/api/mcp/asset/35134b53-6bfa-46b8-9cfb-9d74f7b1f201";
 const imgBackground1 = "https://www.figma.com/api/mcp/asset/c3ba6177-9636-42b8-8fd6-244a6a65c3bd";
@@ -39,41 +43,66 @@ const imgEllipse11 = "https://www.figma.com/api/mcp/asset/41280be2-2fee-422b-a80
 const imgEllipse12 = "https://www.figma.com/api/mcp/asset/62a3df9e-676a-4334-b78b-37d52c294497";
 
 function SectionUpperDefault({ className }: { className?: string }) {
-  // Brand strip — marquee-fade illusion (matches Figma node 40002524:8040).
-  // Centre = 5 main logos. Two phantom logos on each side (duplicates of the
-  // main set, simulating the next/previous loop of an infinite marquee) get
-  // visually faded out by two gradient overlays matching Trust bg #f6f7f9.
-  // NOTE: deliberately avoids Tailwind v4 mask-alpha / mask-position classes
-  // (they don't generate CSS in v3). All effects use plain bg-gradient utils.
-  const logoCls = "max-h-[36px] w-auto object-contain mix-blend-darken shrink-0";
-  const dividerCls = "w-px h-[32px] bg-[#e9ebf1] shrink-0";
+  // Brand strip — single row of 8 brand logos (mirror of Figma node 40002682:1121
+  // mobile 2x4 grid, but stretched horizontally for desktop). Each logo uses
+  // overflow-hidden + absolute image with figma-supplied crop parameters so
+  // white margins inside the source PNGs are clipped.
+  const dividerCls = "w-px h-[28px] bg-[#e9ebf1] shrink-0";
   return (
     <div className={className || "h-[80px] overflow-clip relative w-[1216px]"} data-node-id="40002524:7510" data-name="Section-upper/Default">
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center gap-[40px] whitespace-nowrap">
-        {/* phantom tail of previous marquee loop */}
-        <img src={img221} alt="" aria-hidden="true" className={logoCls} />
+      <div className="h-full flex items-center justify-center gap-[32px] px-[40px]">
+        {/* Yves Rocher */}
+        <div className="h-[22px] relative shrink-0 w-[104px]">
+          <img alt="Yves Rocher" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgYvesRocherLogoSvg3} />
+        </div>
         <div className={dividerCls} />
-        <img src={img51} alt="" aria-hidden="true" className={logoCls} />
+        {/* EMRA */}
+        <div className="h-[20px] relative shrink-0 w-[78px]">
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <img alt="EMRA" className="absolute h-[155.06%] left-0 max-w-none top-[-27.53%] w-full" src={img61} />
+          </div>
+        </div>
         <div className={dividerCls} />
-        {/* main 5 logos */}
-        <img src={imgYvesRocherLogoSvg3} alt="Yves Rocher" className={logoCls} />
+        {/* Merci Lingerie */}
+        <div className="h-[22px] mix-blend-darken relative shrink-0 w-[77px]">
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <img alt="Merci Lingerie" className="absolute h-[99.28%] left-[-0.52%] max-w-none top-[-0.16%] w-[100.81%]" src={img221} />
+          </div>
+        </div>
         <div className={dividerCls} />
-        <img src={imgVector} alt="Bogner" className={logoCls} />
+        {/* Dragonfly */}
+        <div className="h-[22px] mix-blend-darken relative shrink-0 w-[73px]">
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <img alt="Dragonfly" className="absolute h-[115.61%] left-[0.12%] max-w-none top-[0.42%] w-[100.8%]" src={img51} />
+          </div>
+        </div>
         <div className={dividerCls} />
-        <img src={img61} alt="EMRA" className={logoCls} />
+        {/* Around You */}
+        <div className="h-[15px] relative shrink-0 w-[80px]">
+          <img alt="Around You" className="absolute block inset-0 max-w-none size-full" src={imgAroundYou} />
+        </div>
         <div className={dividerCls} />
-        <img src={img221} alt="Merci Lingerie" className={logoCls} />
+        {/* ANA HILDEBRANT */}
+        <div className="h-[22px] relative shrink-0 w-[80px]">
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <img alt="ANA HILDEBRANT" className="absolute h-[270.73%] left-[-46.98%] max-w-none top-[-85.37%] w-[189.08%]" src={imgAnaHildebrant} />
+          </div>
+        </div>
         <div className={dividerCls} />
-        <img src={img51} alt="Dragonfly" className={logoCls} />
+        {/* skincare */}
+        <div className="h-[22px] mix-blend-darken relative shrink-0 w-[88px]">
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <img alt="Skincare" className="absolute h-[145.61%] left-[-4.68%] max-w-none top-[-19.3%] w-[106.36%]" src={imgSkincare} />
+          </div>
+        </div>
         <div className={dividerCls} />
-        {/* phantom head of next marquee loop */}
-        <img src={imgYvesRocherLogoSvg3} alt="" aria-hidden="true" className={logoCls} />
-        <div className={dividerCls} />
-        <img src={imgVector} alt="" aria-hidden="true" className={logoCls} />
+        {/* Bogner */}
+        <div className="h-[22px] mix-blend-darken relative shrink-0 w-[100px]">
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <img alt="Bogner" className="absolute h-[91.65%] left-[0.17%] max-w-none top-[6.39%] w-[99.45%]" src={imgVector} />
+          </div>
+        </div>
       </div>
-      {/* Edge fade overlays — bg matches Trust section #f6f7f9 */}
-      <div className="pointer-events-none absolute inset-y-0 left-0 w-[80px] bg-gradient-to-r from-[#f6f7f9] to-transparent" />
-      <div className="pointer-events-none absolute inset-y-0 right-0 w-[80px] bg-gradient-to-l from-[#f6f7f9] to-transparent" />
     </div>
   );
 }

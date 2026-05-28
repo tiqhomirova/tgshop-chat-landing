@@ -75,19 +75,20 @@ function MobileMenuPortal({ onClose }: { onClose: () => void }) {
 const imgHero_Frame21361400041 = "https://www.figma.com/api/mcp/asset/92d6f480-8420-4682-9edd-23e89a4e4c15";
 const imgHero_Ellipse = "https://www.figma.com/api/mcp/asset/baa1cc0e-05f7-499a-9280-1eb40969be49";
 
-// Trust
-const imgTrust_YvesRocher = "https://www.figma.com/api/mcp/asset/d773a4f5-15e6-4210-a901-3c99885e30af";
-const imgTrust_61 = "https://www.figma.com/api/mcp/asset/22ac9bba-93ab-409d-a2bb-429fdc4b4d14";
-const imgTrust_221 = "https://www.figma.com/api/mcp/asset/fd5be599-da63-4943-a76d-6b352e752198";
-const imgTrust_51 = "https://www.figma.com/api/mcp/asset/babe8187-ab31-4cc0-b45c-69600821e647";
-const imgTrust_62 = "https://www.figma.com/api/mcp/asset/948ea8f8-9c55-44a1-8417-043e15cddeec";
-const imgTrust_222 = "https://www.figma.com/api/mcp/asset/51a234aa-8a61-4eb1-8a55-1dd3abc05b77";
-const imgTrust_223 = "https://www.figma.com/api/mcp/asset/278531f5-f43f-4bd2-b810-bb813f8d2458";
+// Trust — brand logos (Figma node 40002682:1121). Local assets to survive
+// the 7-day Figma CDN URL expiry that was breaking the strip.
+const imgTrust_YvesRocher = "/tgshop-chat-landing/assets/brand-yves-rocher.png";
+const imgTrust_61 = "/tgshop-chat-landing/assets/brand-emra.png";
+const imgTrust_221 = "/tgshop-chat-landing/assets/brand-merci.png";
+const imgTrust_51 = "/tgshop-chat-landing/assets/brand-dragonfly.png";
+const imgTrust_62 = "/tgshop-chat-landing/assets/brand-ana-hildebrant.png";
+const imgTrust_222 = "/tgshop-chat-landing/assets/brand-skincare.png";
+const imgTrust_223 = "/tgshop-chat-landing/assets/brand-bogner.png";
 const imgTrust_Photo1 = "https://www.figma.com/api/mcp/asset/d53fe22d-40b2-41e7-850e-8aa0f3b74d8e";
 const imgTrust_Bg1 = "https://www.figma.com/api/mcp/asset/90d37cb6-57fd-4a9b-8590-e04a80aaef81";
 const imgTrust_Bg2 = "https://www.figma.com/api/mcp/asset/f72a08c0-e361-41f6-997e-a11d61ac7f9d";
 const imgTrust_Photo2 = "https://www.figma.com/api/mcp/asset/7a67027a-dc6d-4ea1-a615-bfef8f41999e";
-const imgTrust_Logo1 = "https://www.figma.com/api/mcp/asset/43b24515-85e7-4821-b8ff-8f4afc5c097c";
+const imgTrust_Logo1 = "/tgshop-chat-landing/assets/brand-around-you.svg";
 
 // KeyFeatures
 const imgKF_Ellipse = "https://www.figma.com/api/mcp/asset/41fc0a1b-6ecf-4850-a56f-1562540a6968";
