@@ -296,16 +296,19 @@ function Hero() {
 }
 
 function SectionUpperDefault({ className }: { className?: string }) {
+  // Static brand strip — 5 real client logos as shown in Figma 40002673:8244
   return (
-    <div className={className || "h-[80px] overflow-clip relative w-[1216px]"} data-node-id="40002524:7510" data-name="Section-upper/Default">
-      <div className="flex h-full items-center justify-around px-[24px] gap-[24px]" data-name="List">
-        <img src={imgTrust_YvesRocherLogoSvg3} alt="Yves Rocher" className="h-[28px] w-auto object-contain mix-blend-darken" />
-        <img src={imgTrust_61} alt="Bogner" className="h-[24px] w-auto object-contain mix-blend-darken" />
-        <img src={imgTrust_221} alt="Merci Lingerie" className="h-[32px] w-auto object-contain" />
-        <img src={imgTrust_51} alt="Dragonfly" className="h-[40px] w-auto object-contain" />
-        <img src={imgTrust_41} alt="" className="h-[24px] w-auto object-contain" />
-        <img src={imgTrust_Vector} alt="EMRA" className="h-[20px] w-auto object-contain mix-blend-darken" />
-        <img src={imgTrust_Svg} alt="" className="h-[20px] w-auto object-contain mix-blend-darken" />
+    <div className={className || "h-[80px] overflow-clip relative w-[928px]"} data-node-id="40002524:7510" data-name="Section-upper/Default">
+      <div className="h-full flex items-center justify-around gap-[40px] px-[40px]">
+        <img src={imgTrust_YvesRocherLogoSvg3} alt="Yves Rocher" className="h-[20px] w-auto object-contain mix-blend-darken shrink-0" />
+        <div className="w-px h-[32px] bg-[#e9ebf1] shrink-0" />
+        <img src={imgTrust_Vector} alt="Bogner" className="h-[22px] w-auto object-contain mix-blend-darken shrink-0" />
+        <div className="w-px h-[32px] bg-[#e9ebf1] shrink-0" />
+        <img src={imgTrust_61} alt="EMRA" className="h-[20px] w-auto object-contain mix-blend-darken shrink-0" />
+        <div className="w-px h-[32px] bg-[#e9ebf1] shrink-0" />
+        <img src={imgTrust_221} alt="Merci Lingerie" className="h-[32px] w-auto object-contain shrink-0" />
+        <div className="w-px h-[32px] bg-[#e9ebf1] shrink-0" />
+        <img src={imgTrust_51} alt="Dragonfly" className="h-[40px] w-auto object-contain shrink-0" />
       </div>
     </div>
   );
