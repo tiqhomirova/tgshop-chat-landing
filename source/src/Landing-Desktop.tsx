@@ -5,14 +5,14 @@ import { useState } from 'react';
 
 const imgPhoto202508261509211 = "https://www.figma.com/api/mcp/asset/2b5b9d8c-8369-46b7-a4f3-8e31e9268c6a";
 // Brand logos — local assets, mirror Figma node 40002682:1121 (8 brands).
-const imgYvesRocherLogoSvg3 = "/tgshop-chat-landing/assets/brand-yves-rocher.png";
-const img61 = "/tgshop-chat-landing/assets/brand-emra.png";
-const img221 = "/tgshop-chat-landing/assets/brand-merci.png";
-const img51 = "/tgshop-chat-landing/assets/brand-dragonfly.png";
-const img41 = "/tgshop-chat-landing/assets/logo-third.png";
-const imgAroundYou = "/tgshop-chat-landing/assets/brand-around-you.svg";
-const imgAnaHildebrant = "/tgshop-chat-landing/assets/brand-ana-hildebrant.png";
-const imgSkincare = "/tgshop-chat-landing/assets/brand-skincare.png";
+const imgYvesRocherLogoSvg3 = `${import.meta.env.BASE_URL}assets/brand-yves-rocher.png`;
+const img61 = `${import.meta.env.BASE_URL}assets/brand-emra.png`;
+const img221 = `${import.meta.env.BASE_URL}assets/brand-merci.png`;
+const img51 = `${import.meta.env.BASE_URL}assets/brand-dragonfly.png`;
+const img41 = `${import.meta.env.BASE_URL}assets/logo-third.png`;
+const imgAroundYou = `${import.meta.env.BASE_URL}assets/brand-around-you.svg`;
+const imgAnaHildebrant = `${import.meta.env.BASE_URL}assets/brand-ana-hildebrant.png`;
+const imgSkincare = `${import.meta.env.BASE_URL}assets/brand-skincare.png`;
 const imgGroup = "https://www.figma.com/api/mcp/asset/8f189612-a673-446c-8140-1d67e6f156d8";
 const imgGroup1 = "https://www.figma.com/api/mcp/asset/bc1b9308-442f-406b-b6b1-af057124cf7b";
 const imgGroup2 = "https://www.figma.com/api/mcp/asset/b384c814-d76c-4257-82a9-a0bb04ebe477";
@@ -23,7 +23,7 @@ const imgGroup6 = "https://www.figma.com/api/mcp/asset/ee9a813a-d3b6-4c72-8331-f
 const imgGroup7 = "https://www.figma.com/api/mcp/asset/c3eb9d50-8731-48a5-8a81-49c9e7ed8883";
 const imgGroup8 = "https://www.figma.com/api/mcp/asset/c5f00bf9-c429-41bd-a5df-c80ace041c21";
 const imgSvg = "https://www.figma.com/api/mcp/asset/55a32ee8-8447-4a5b-9d43-bc6e9e84b0e2";
-const imgVector = "/tgshop-chat-landing/assets/brand-bogner.png";
+const imgVector = `${import.meta.env.BASE_URL}assets/brand-bogner.png`;
 const imgFrame21361400041 = "https://www.figma.com/api/mcp/asset/c804cd89-b80e-4c5c-bfaa-126f396dfc0a";
 const imgBackground = "https://www.figma.com/api/mcp/asset/35134b53-6bfa-46b8-9cfb-9d74f7b1f201";
 const imgBackground1 = "https://www.figma.com/api/mcp/asset/c3ba6177-9636-42b8-8fd6-244a6a65c3bd";

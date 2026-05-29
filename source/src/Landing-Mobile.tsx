@@ -77,18 +77,18 @@ const imgHero_Ellipse = "https://www.figma.com/api/mcp/asset/baa1cc0e-05f7-499a-
 
 // Trust — brand logos (Figma node 40002682:1121). Local assets to survive
 // the 7-day Figma CDN URL expiry that was breaking the strip.
-const imgTrust_YvesRocher = "/tgshop-chat-landing/assets/brand-yves-rocher.png";
-const imgTrust_61 = "/tgshop-chat-landing/assets/brand-emra.png";
-const imgTrust_221 = "/tgshop-chat-landing/assets/brand-merci.png";
-const imgTrust_51 = "/tgshop-chat-landing/assets/brand-dragonfly.png";
-const imgTrust_62 = "/tgshop-chat-landing/assets/brand-ana-hildebrant.png";
-const imgTrust_222 = "/tgshop-chat-landing/assets/brand-skincare.png";
-const imgTrust_223 = "/tgshop-chat-landing/assets/brand-bogner.png";
+const imgTrust_YvesRocher = `${import.meta.env.BASE_URL}assets/brand-yves-rocher.png`;
+const imgTrust_61 = `${import.meta.env.BASE_URL}assets/brand-emra.png`;
+const imgTrust_221 = `${import.meta.env.BASE_URL}assets/brand-merci.png`;
+const imgTrust_51 = `${import.meta.env.BASE_URL}assets/brand-dragonfly.png`;
+const imgTrust_62 = `${import.meta.env.BASE_URL}assets/brand-ana-hildebrant.png`;
+const imgTrust_222 = `${import.meta.env.BASE_URL}assets/brand-skincare.png`;
+const imgTrust_223 = `${import.meta.env.BASE_URL}assets/brand-bogner.png`;
 const imgTrust_Photo1 = "https://www.figma.com/api/mcp/asset/d53fe22d-40b2-41e7-850e-8aa0f3b74d8e";
 const imgTrust_Bg1 = "https://www.figma.com/api/mcp/asset/90d37cb6-57fd-4a9b-8590-e04a80aaef81";
 const imgTrust_Bg2 = "https://www.figma.com/api/mcp/asset/f72a08c0-e361-41f6-997e-a11d61ac7f9d";
 const imgTrust_Photo2 = "https://www.figma.com/api/mcp/asset/7a67027a-dc6d-4ea1-a615-bfef8f41999e";
-const imgTrust_Logo1 = "/tgshop-chat-landing/assets/brand-around-you.svg";
+const imgTrust_Logo1 = `${import.meta.env.BASE_URL}assets/brand-around-you.svg`;
 
 // KeyFeatures
 const imgKF_Ellipse = "https://www.figma.com/api/mcp/asset/41fc0a1b-6ecf-4850-a56f-1562540a6968";
