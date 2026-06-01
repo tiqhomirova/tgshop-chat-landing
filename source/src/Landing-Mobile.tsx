@@ -178,48 +178,53 @@ function Hero() {
         <div className="h-[317px] relative shrink-0 w-[460px]" data-name="right">
           <div className="absolute content-stretch drop-shadow-[-2px_-2px_3px_rgba(0,0,0,0.1)] flex h-[230.1px] items-start left-[158.6px] overflow-clip rounded-[20px] top-[43.22px] w-[209.95px]" data-name="mock-body">
             <div className="bg-white content-stretch flex flex-col gap-[2px] h-[230.1px] items-start overflow-clip px-[10px] py-[14px] relative shrink-0 w-[209.95px]" data-name="chats">
-              <div className="content-stretch flex gap-[6px] h-[27.3px] items-start overflow-clip pb-[12px] px-[4px] relative shrink-0 w-[203.45px]" data-name="ctabs">
-                <div className="bg-[#108ef5] content-stretch flex h-[19.5px] items-center overflow-clip px-[10px] py-[6px] relative rounded-[100px] shrink-0 w-[40.95px]">
+              {/* Fixed tab widths (w-[40.95px] etc) clipped Russian labels. Removed
+                  widths + overflow-clip so each pill auto-sizes to its content.
+                  Reduced gap from 6px to 4px so all 4 tabs fit in the 203.45px row. */}
+              <div className="content-stretch flex gap-[4px] h-[27.3px] items-start pb-[12px] px-[4px] relative shrink-0 w-[203.45px]" data-name="ctabs">
+                <div className="bg-[#108ef5] content-stretch flex h-[19.5px] items-center px-[8px] py-[6px] relative rounded-[100px] shrink-0">
                   <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[8px] text-white tracking-[-0.08px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>💬 Чаты</p>
                 </div>
-                <div className="[word-break:break-word] bg-[#f6f7f9] content-stretch flex gap-[4px] h-[19.5px] items-center leading-[1.5] overflow-clip px-[10px] py-[6px] relative rounded-[100px] shrink-0 text-[8px] tracking-[-0.08px] w-[43.55px] whitespace-nowrap">
+                <div className="[word-break:break-word] bg-[#f6f7f9] content-stretch flex gap-[3px] h-[19.5px] items-center leading-[1.5] px-[8px] py-[6px] relative rounded-[100px] shrink-0 text-[8px] tracking-[-0.08px] whitespace-nowrap">
                   <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#767d88]" style={{ fontVariationSettings: "'wdth' 100" }}>Новые</p>
                   <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0 text-[#e5484d]" style={{ fontVariationSettings: "'wdth' 100" }}>8</p>
                 </div>
-                <div className="[word-break:break-word] bg-[#f6f7f9] content-stretch flex gap-[4px] h-[19.5px] items-center leading-[1.5] overflow-clip px-[10px] py-[6px] relative rounded-[100px] shrink-0 text-[8px] tracking-[-0.08px] w-[51.35px] whitespace-nowrap">
+                <div className="[word-break:break-word] bg-[#f6f7f9] content-stretch flex gap-[3px] h-[19.5px] items-center leading-[1.5] px-[8px] py-[6px] relative rounded-[100px] shrink-0 text-[8px] tracking-[-0.08px] whitespace-nowrap">
                   <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#767d88]" style={{ fontVariationSettings: "'wdth' 100" }}>Открыты</p>
                   <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0 text-[#f7b50d]" style={{ fontVariationSettings: "'wdth' 100" }}>5</p>
                 </div>
-                <div className="[word-break:break-word] bg-[#f6f7f9] content-stretch flex gap-[4px] h-[19.5px] items-center leading-[1.5] overflow-clip px-[10px] py-[6px] relative rounded-[100px] shrink-0 text-[8px] tracking-[-0.08px] w-[50.7px] whitespace-nowrap">
+                <div className="[word-break:break-word] bg-[#f6f7f9] content-stretch flex gap-[3px] h-[19.5px] items-center leading-[1.5] px-[8px] py-[6px] relative rounded-[100px] shrink-0 text-[8px] tracking-[-0.08px] whitespace-nowrap">
                   <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#767d88]" style={{ fontVariationSettings: "'wdth' 100" }}>Закрыты</p>
                   <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0 text-[#595959]" style={{ fontVariationSettings: "'wdth' 100" }}>3</p>
                 </div>
               </div>
+              {/* Fixed badge widths (w-[29.9px] etc) were sized for Uzbek text
+                  ("Yangi"/"Ochiq"/"Yopiq") and clipped Russian "Новый"/"Открыт"/"Закрыт".
+                  Removed badgeW — pill auto-sizes to content via px-[7px] padding. */}
               {[
-                { bg: 'bg-[#f3f8ff]', av: 'bg-[#e5484d]', avT: 'Ю', name: 'Регина К.', time: 'только что', badge: 'Новый', badgeBg: 'bg-[#e5484d]', badgeW: 'w-[29.9px]', preview: null },
-                { bg: 'bg-[#f3f8ff]', av: 'bg-[#e5484d]', avT: 'Ю', name: 'Ozoda M.', time: 'только что', badge: 'Новый', badgeBg: 'bg-[#e5484d]', badgeW: 'w-[29.9px]', preview: null },
-                { bg: '', av: 'bg-[#8b5cf6]', avT: 'Д', name: 'Дилшод М.', time: '4 мин', badge: 'Открыт', badgeBg: 'bg-[#f7b50d]', badgeW: 'w-[33.15px]', preview: { t: 'Алина: Передал в доставку ✅', c: '#108ef5' } },
-                { bg: '', av: 'bg-[#ec4899]', avT: 'М', name: 'Мадина Х.', time: '12 мин', badge: 'Открыт', badgeBg: 'bg-[#f7b50d]', badgeW: 'w-[33.15px]', preview: { t: 'Спасибо!', c: '#595959' } },
-                { bg: 'bg-[#f3f8ff]', av: 'bg-[#0ea5e9]', avT: 'А', name: 'Акмал Т.', time: '10 мин', badge: 'Закрыт', badgeBg: 'bg-[#4fd192]', badgeW: 'w-[32.5px]', preview: { t: 'Доставите сегодня до 18:00?', c: '#595959' } },
-                { bg: 'bg-[#f3f8ff]', av: 'bg-[#0ea5e9]', avT: 'А', name: 'Aziz K.', time: '15 мин', badge: 'Закрыт', badgeBg: 'bg-[#4fd192]', badgeW: 'w-[32.5px]', preview: { t: 'Доставите сегодня до 18:00?', c: '#595959' } },
+                { bg: 'bg-[#f3f8ff]', av: 'bg-[#e5484d]', avT: 'Ю', name: 'Регина К.', time: 'только что', badge: 'Новый', badgeBg: 'bg-[#e5484d]', preview: null },
+                { bg: 'bg-[#f3f8ff]', av: 'bg-[#e5484d]', avT: 'Ю', name: 'Ozoda M.', time: 'только что', badge: 'Новый', badgeBg: 'bg-[#e5484d]', preview: null },
+                { bg: '', av: 'bg-[#8b5cf6]', avT: 'Д', name: 'Дилшод М.', time: '4 мин', badge: 'Открыт', badgeBg: 'bg-[#f7b50d]', preview: { t: 'Алина: Передал в доставку ✅', c: '#108ef5' } },
+                { bg: '', av: 'bg-[#ec4899]', avT: 'М', name: 'Мадина Х.', time: '12 мин', badge: 'Открыт', badgeBg: 'bg-[#f7b50d]', preview: { t: 'Спасибо!', c: '#595959' } },
+                { bg: 'bg-[#f3f8ff]', av: 'bg-[#0ea5e9]', avT: 'А', name: 'Акмал Т.', time: '10 мин', badge: 'Закрыт', badgeBg: 'bg-[#4fd192]', preview: { t: 'Доставите сегодня до 18:00?', c: '#595959' } },
+                { bg: 'bg-[#f3f8ff]', av: 'bg-[#0ea5e9]', avT: 'А', name: 'Aziz K.', time: '15 мин', badge: 'Закрыт', badgeBg: 'bg-[#4fd192]', preview: { t: 'Доставите сегодня до 18:00?', c: '#595959' } },
               ].map((c, i) => (
-                <div key={i} className={`${c.bg} content-stretch flex gap-[12px] h-[28.6px] items-start p-[10px] relative rounded-[10px] shrink-0 w-[193.7px]`} data-name="ch">
+                <div key={i} className={`${c.bg} content-stretch flex gap-[8px] h-[28.6px] items-center p-[10px] relative rounded-[10px] shrink-0 w-[193.7px]`} data-name="ch">
                   <div className={`${c.av} content-stretch flex items-center justify-center overflow-clip relative rounded-[14px] shrink-0 size-[18.2px]`}>
                     <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[8px] text-white tracking-[-0.08px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{c.avT}</p>
                   </div>
-                  <div className="content-stretch flex flex-col gap-[2px] h-[79.3px] items-start relative shrink-0 w-[55.575px]">
-                    <div className="content-stretch flex h-[65px] items-start overflow-clip relative shrink-0 w-[36.124px]">
+                  <div className="content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-start min-w-0 relative shrink">
+                    <div className="content-stretch flex gap-[4px] items-baseline relative shrink-0 w-full">
                       <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[#0a1519] text-[8px] tracking-[-0.08px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{c.name}</p>
-                      <div className="h-[65px] shrink-0 w-[6px]" />
                       <p className="[word-break:break-word] font-['SF_Pro:Medium',sans-serif] font-[510] leading-[1.5] relative shrink-0 text-[#767d88] text-[8px] tracking-[-0.08px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{c.time}</p>
                     </div>
                     {c.preview && (
-                      <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.5] relative shrink-0 text-[8px] tracking-[-0.08px] w-[252px]" style={{ fontVariationSettings: "'wdth' 100", color: c.preview.c }}>
+                      <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.5] overflow-hidden relative shrink-0 text-[8px] text-ellipsis tracking-[-0.08px] w-full whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100", color: c.preview.c }}>
                         {c.preview.t}
                       </p>
                     )}
                   </div>
-                  <div className={`${c.badgeBg} ${c.badgeW} content-stretch flex h-[13.65px] items-center overflow-clip px-[7px] py-[3px] relative rounded-[100px] shrink-0`}>
+                  <div className={`${c.badgeBg} content-stretch flex h-[13.65px] items-center px-[7px] py-[3px] relative rounded-[100px] shrink-0`}>
                     <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[8px] text-white tracking-[0.16px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{c.badge}</p>
                   </div>
                 </div>
@@ -371,32 +376,32 @@ function Trust() {
               </div>
             </div>
           </div>
-          {/* Around You — exact Figma node 40002889:824 */}
+          {/* Around You — Russian source text in JSX; i18n walker translates to Uzbek via dict. */}
           <div className="bg-white border border-[#ebedf2] border-solid content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-w-px pl-[12px] pr-[10px] py-[14px] relative rounded-[14px] self-stretch" data-name="case-Around You">
             <div className="[word-break:break-word] bg-[rgba(33,178,99,0.14)] content-stretch flex gap-[5px] items-center leading-[normal] overflow-clip px-[8px] py-[3px] relative rounded-[8px] shrink-0 text-[#0f8c33] text-[10px] w-full whitespace-nowrap">
               <p className="font-['SF_Pro:Bold',sans-serif] font-bold relative shrink-0" style={{ fontVariationSettings: "'wdth' 100" }}>✓</p>
-              <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0" style={{ fontVariationSettings: "'wdth' 100" }}>{`Reklama: 0 so'm `}</p>
+              <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0" style={{ fontVariationSettings: "'wdth' 100" }}>0 сум на рекламу</p>
             </div>
             <div className="bg-white content-stretch flex flex-col gap-[6px] items-start overflow-clip relative shrink-0 w-full">
               <div className="bg-white content-stretch flex flex-col gap-[5px] items-start overflow-clip relative shrink-0">
-                <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#0f8c33] text-[20px] w-[142px]" style={{ fontVariationSettings: "'wdth' 100" }}>6515 ta sotuv</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#0f8c33] text-[20px]" style={{ fontVariationSettings: "'wdth' 100" }}>6 515 заказов</p>
                 <div className="bg-[#21b263] h-[4px] relative rounded-[2px] shrink-0 w-[50px]" />
-                <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>TGShop bilan</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>с TGShop</p>
               </div>
               <div className="bg-white content-stretch flex flex-col gap-[5px] items-start overflow-clip relative shrink-0">
-                <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#f04545] text-[20px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>740 ta sotuv</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#f04545] text-[20px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>740</p>
                 <div className="bg-[#f04545] h-[4px] relative rounded-[2px] shrink-0 w-[8px]" />
-                <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{`marketpleysda «ilgari»`}</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[11px]" style={{ fontVariationSettings: "'wdth' 100" }}>«до» было на маркетплейсе</p>
               </div>
             </div>
-            <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>6 oy ichida</p>
+            <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>за 6 месяцев</p>
             <div className="bg-white content-stretch flex gap-[10px] items-center overflow-clip relative shrink-0 w-full">
               <div className="border border-[#f6f7f9] border-solid relative rounded-[999px] shrink-0 size-[32px]">
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[999px] size-full" src={imgTrust_Bg1} />
               </div>
               <div className="[word-break:break-word] bg-white content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-start min-w-px overflow-clip relative">
                 <p className="font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#121726] text-[13px] w-full" style={{ fontVariationSettings: "'wdth' 100" }}>Around You</p>
-                <p className="font-['SF_Pro:Regular',sans-serif] font-normal leading-[13px] relative shrink-0 text-[#6b7885] text-[10px] w-full" style={{ fontVariationSettings: "'wdth' 100" }}>{`gul do'koni`}</p>
+                <p className="font-['SF_Pro:Regular',sans-serif] font-normal leading-[13px] relative shrink-0 text-[#6b7885] text-[10px] w-full" style={{ fontVariationSettings: "'wdth' 100" }}>цветочный магазин</p>
               </div>
             </div>
           </div>
