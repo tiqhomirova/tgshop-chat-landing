@@ -386,7 +386,7 @@ function Trust() {
               <div className="bg-white content-stretch flex flex-col gap-[5px] items-start overflow-clip relative shrink-0">
                 <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#f04545] text-[20px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>740 ta sotuv</p>
                 <div className="bg-[#f04545] h-[4px] relative rounded-[2px] shrink-0 w-[8px]" />
-                <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{`«ilgari» marketplace'da`}</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{`marketpleysda «ilgari»`}</p>
               </div>
             </div>
             <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>6 oy ichida</p>
