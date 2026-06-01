@@ -411,11 +411,10 @@ function Trust() {
               <p className="font-['SF_Pro:Bold',sans-serif] font-bold relative shrink-0" style={{ fontVariationSettings: "'wdth' 100" }}>✓</p>
               <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0" style={{ fontVariationSettings: "'wdth' 100" }}>Постоянный рост</p>
             </div>
-            <div className="bg-white content-stretch flex flex-col gap-[6px] items-start overflow-clip relative shrink-0 w-full">
+            <div className="bg-white content-stretch flex gap-[20px] items-start overflow-clip relative shrink-0">
               <div className="bg-white content-stretch flex flex-col gap-[5px] items-start overflow-clip relative shrink-0">
                 <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#0f8c33] text-[20px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>+15%</p>
                 <div className="bg-[#21b263] h-[4px] relative rounded-[2px] shrink-0 w-[36px]" />
-                <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#6b7885] text-[11px] whitespace-nowrap opacity-0" style={{ fontVariationSettings: "'wdth' 100" }}>в месяц</p>
                 <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#6b7885] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>конверсия продаж</p>
               </div>
               <div className="bg-white content-stretch flex flex-col gap-[5px] items-start overflow-clip relative shrink-0">
@@ -424,6 +423,7 @@ function Trust() {
                 <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#6b7885] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>рост CR в месяц</p>
               </div>
             </div>
+            <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>в месяц</p>
             <div className="bg-white content-stretch flex gap-[10px] items-center overflow-clip relative shrink-0 w-full">
               <div className="border border-[#f6f7f9] border-solid relative rounded-[999px] shrink-0 size-[32px]">
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[999px] size-full" src={imgTrust_Bg2} />
@@ -440,11 +440,10 @@ function Trust() {
               <p className="font-['SF_Pro:Bold',sans-serif] font-bold relative shrink-0" style={{ fontVariationSettings: "'wdth' 100" }}>✓</p>
               <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0" style={{ fontVariationSettings: "'wdth' 100" }}>Без сложной CRM</p>
             </div>
-            <div className="bg-white content-stretch flex flex-col gap-[6px] items-start overflow-clip relative shrink-0 w-full">
+            <div className="bg-white content-stretch flex gap-[20px] items-start overflow-clip relative shrink-0">
               <div className="bg-white content-stretch flex flex-col gap-[5px] items-start overflow-clip relative shrink-0">
                 <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#0f8c33] text-[20px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>+43%</p>
                 <div className="bg-[#21b263] h-[4px] relative rounded-[2px] shrink-0 w-[36px]" />
-                <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#6b7885] text-[11px] whitespace-nowrap opacity-0" style={{ fontVariationSettings: "'wdth' 100" }}>за полгода</p>
                 <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#6b7885] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>конверсия продаж</p>
               </div>
               <div className="bg-white content-stretch flex flex-col gap-[5px] items-start overflow-clip relative shrink-0">
@@ -453,6 +452,7 @@ function Trust() {
                 <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#6b7885] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>рост выручки</p>
               </div>
             </div>
+            <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>за полгода</p>
             <div className="bg-white content-stretch flex gap-[10px] items-center overflow-clip relative shrink-0 w-full">
               <div className="border-[1.25px] border-[#f6f7f9] border-solid relative rounded-[1000px] shrink-0 size-[32px]">
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[1000px] size-full" src={imgTrust_Photo2} />
