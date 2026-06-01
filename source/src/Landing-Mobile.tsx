@@ -233,11 +233,14 @@ function Hero() {
             </div>
           </div>
           <div className="absolute content-stretch flex flex-col h-[315px] items-start left-[70.5px] pb-[16px] pt-[14px] px-[14px] top-[2px] w-[156px]" data-name="shop">
-            <div className="content-stretch flex gap-[3px] h-[19px] items-start overflow-clip relative shrink-0 w-[124px]" data-name="stabs">
-              <div className="bg-[#108ef5] content-stretch flex h-[19px] items-center overflow-clip pl-[7px] pr-[10px] py-[6px] relative rounded-[100px] shrink-0 w-[59px]">
+            {/* stabs: removed w-[124px] + overflow-clip + first-tab fixed width
+                so the "Buyurtmalar 198" pill (longer than "Заказы 198") fits
+                without clipping the rounded background. */}
+            <div className="content-stretch flex gap-[2px] h-[19px] items-start relative shrink-0" data-name="stabs">
+              <div className="bg-[#108ef5] content-stretch flex h-[19px] items-center px-[7px] py-[6px] relative rounded-[100px] shrink-0">
                 <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[8px] text-white tracking-[-0.08px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>🛍 Магазин</p>
               </div>
-              <div className="[word-break:break-word] bg-[#f6f7f9] content-stretch flex gap-[4px] h-[19px] items-center leading-[1.5] pl-[6px] pr-[10px] py-[6px] relative rounded-[100px] shrink-0 text-[8px] tracking-[-0.08px] whitespace-nowrap">
+              <div className="[word-break:break-word] bg-[#f6f7f9] content-stretch flex gap-[4px] h-[19px] items-center leading-[1.5] px-[7px] py-[6px] relative rounded-[100px] shrink-0 text-[8px] tracking-[-0.08px] whitespace-nowrap">
                 <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#767d88]" style={{ fontVariationSettings: "'wdth' 100" }}>Заказы</p>
                 <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0 text-[#0a1519]" style={{ fontVariationSettings: "'wdth' 100" }}>198</p>
               </div>
@@ -261,21 +264,15 @@ function Hero() {
           </div>
           <div className="absolute flex h-[73.222px] items-center justify-center left-[304.85px] top-[11.05px] w-[112.588px]">
             <div className="flex-none rotate-3">
-              <div className="[word-break:break-word] bg-white drop-shadow-[0px_12px_15px_rgba(79,209,146,0.22)] h-[67.6px] not-italic relative rounded-[16px] w-[109.2px] whitespace-nowrap" data-name="badge-37orders">
+              <div className="[word-break:break-word] bg-white drop-shadow-[0px_12px_15px_rgba(79,209,146,0.22)] h-[67.6px] not-italic relative rounded-[16px] w-[109.2px]" data-name="badge-37orders">
                 <p className="absolute font-['Inter:Bold',sans-serif] font-bold leading-[normal] left-[13px] text-[#0fba82] text-[21px] top-[9.1px]">+37</p>
-                <div className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[0] left-[12.99px] text-[#4d5966] text-[8px] top-[36.25px]">
-                  <p className="leading-[10px] mb-0">новых заказов</p>
-                  <p className="leading-[10px]">сегодня</p>
-                </div>
+                <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[10px] left-[12.99px] right-[10px] text-[#4d5966] text-[8px] top-[36.25px]">новых заказов сегодня</p>
               </div>
             </div>
           </div>
-          <div className="[word-break:break-word] absolute bg-white drop-shadow-[0px_12px_15px_rgba(13,18,31,0.1)] h-[67.6px] left-[304.85px] not-italic rounded-[16px] top-[230.75px] w-[101.4px] whitespace-nowrap" data-name="badge-12msg">
+          <div className="[word-break:break-word] absolute bg-white drop-shadow-[0px_12px_15px_rgba(13,18,31,0.1)] h-[67.6px] left-[304.85px] not-italic rounded-[16px] top-[230.75px] w-[101.4px]" data-name="badge-12msg">
             <p className="absolute font-['Inter:Bold',sans-serif] font-bold leading-[normal] left-[13px] text-[#121726] text-[21px] top-[9.1px]">12</p>
-            <div className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[0] left-[13px] text-[#4d5966] text-[8px] top-[36.4px]">
-              <p className="leading-[10px] mb-0">новых</p>
-              <p className="leading-[10px]">заявок в чатах</p>
-            </div>
+            <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[10px] left-[13px] right-[10px] text-[#4d5966] text-[8px] top-[36.4px]">новых заявок в чатах</p>
           </div>
         </div>
       </div>

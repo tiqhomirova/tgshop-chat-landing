@@ -277,7 +277,7 @@ export const RU_TO_UZ: Record<string, string> = {
   "1,5 млн": "1,5 mln",
   "“до” было на": "«ilgari»",
   "“до” было на маркетплейсе": "«ilgari» marketplace'da",
-  "«до» было на маркетплейсе": "marketpleysda «ilgari»",
+  "«до» было на маркетплейсе": "buyurtmalar marketpleysda «ilgari»",
   "“до” было": "«ilgari»",
   "на маркетплейсе": "marketplace'da",
   "Ю": "Y",

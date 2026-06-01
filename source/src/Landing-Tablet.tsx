@@ -278,21 +278,15 @@ function Hero() {
           </div>
           <div className="absolute flex h-[95.752px] items-center justify-center left-[353px] top-[9.5px] w-[147.231px]">
             <div className="flex-none rotate-3">
-              <div className="[word-break:break-word] bg-white drop-shadow-[0px_12px_15px_rgba(79,209,146,0.22)] h-[88.4px] not-italic relative rounded-[16px] w-[142.8px] whitespace-nowrap" data-node-id="40002757:8580" data-name="badge-37orders">
+              <div className="[word-break:break-word] bg-white drop-shadow-[0px_12px_15px_rgba(79,209,146,0.22)] h-[88.4px] not-italic relative rounded-[16px] w-[142.8px]" data-node-id="40002757:8580" data-name="badge-37orders">
                 <p className="absolute font-['Inter:Bold',sans-serif] font-bold leading-[normal] left-[17px] text-[#0fba82] text-[27px] top-[11.9px]" data-node-id="40002757:8581">+37</p>
-                <div className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[0] left-[17px] text-[#4d5966] text-[11px] top-[47.6px]" data-node-id="40002757:8582">
-                  <p className="leading-[12px] mb-0">новых заказов</p>
-                  <p className="leading-[12px]">сегодня</p>
-                </div>
+                <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[14px] left-[17px] right-[12px] text-[#4d5966] text-[11px] top-[47.6px]" data-node-id="40002757:8582">новых заказов сегодня</p>
               </div>
             </div>
           </div>
-          <div className="[word-break:break-word] absolute bg-white drop-shadow-[0px_12px_15px_rgba(13,18,31,0.1)] h-[88.4px] left-[370px] not-italic rounded-[16px] top-[324.5px] w-[132.6px] whitespace-nowrap" data-node-id="40002757:8583" data-name="badge-12msg">
+          <div className="[word-break:break-word] absolute bg-white drop-shadow-[0px_12px_15px_rgba(13,18,31,0.1)] h-[88.4px] left-[370px] not-italic rounded-[16px] top-[324.5px] w-[132.6px]" data-node-id="40002757:8583" data-name="badge-12msg">
             <p className="absolute font-['Inter:Bold',sans-serif] font-bold leading-[normal] left-[17px] text-[#121726] text-[27px] top-[11.9px]" data-node-id="40002757:8584">12</p>
-            <div className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[0] left-[17px] text-[#4d5966] text-[11px] top-[47.6px]" data-node-id="40002757:8585">
-              <p className="leading-[12px] mb-0">новых</p>
-              <p className="leading-[12px]">заявок в чатах</p>
-            </div>
+            <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[14px] left-[17px] right-[12px] text-[#4d5966] text-[11px] top-[47.6px]" data-node-id="40002757:8585">новых заявок в чатах</p>
           </div>
         </div>
       </div>
@@ -420,9 +414,9 @@ function Trust() {
                 <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>с TGShop</p>
               </div>
               <div className="bg-white content-stretch flex flex-col gap-[6px] items-start overflow-clip relative shrink-0">
-                <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#f04545] text-[24px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>740 заказов</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#f04545] text-[24px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>740</p>
                 <div className="bg-[#f04545] h-[4px] relative rounded-[2px] shrink-0 w-[10px]" />
-                <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>“до” было на маркетплейсе</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[14px] relative shrink-0 text-[#8c949e] text-[12px] w-[140px]" style={{ fontVariationSettings: "'wdth' 100" }}>«до» было на маркетплейсе</p>
               </div>
             </div>
             <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>за 6 месяцев</p>
