@@ -364,7 +364,10 @@ function Trust() {
               </div>
             </div>
             <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>за квартал</p>
-            <div className="bg-white content-stretch flex gap-[10px] items-center overflow-clip relative shrink-0 w-full">
+            {/* mt-auto pins avatar to bottom of card — aligns with Around You whose
+                "«до» было на маркетплейсе" caption wraps to 2 lines, pushing its
+                avatar further down. */}
+            <div className="bg-white content-stretch flex gap-[10px] items-center overflow-clip relative shrink-0 w-full mt-auto">
               <div className="border border-[#f6f7f9] border-solid relative rounded-[200px] shrink-0 size-[32px]">
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[200px] size-full" src={imgTrust_Photo1} />
               </div>
