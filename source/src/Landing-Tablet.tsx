@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { CTA_HREF, SIGNIN_HREF } from './utm';
 
 // === IMAGE CONSTANTS (deduped across sections) ===
 
@@ -48,7 +49,7 @@ const imgSol_Ellipse5 = "https://www.figma.com/api/mcp/asset/0003642b-d3a5-476f-
 const imgSol_Ellipse6 = "https://www.figma.com/api/mcp/asset/3459ceb7-4967-4467-9a6d-d70a608c2e2e";
 const imgSol_Ellipse7 = "https://www.figma.com/api/mcp/asset/da56fcc0-6f3b-4afb-bcfa-66b23c24bd10";
 
-const CTA_HREF = "https://admin.tgshop.io/sign-up";
+// CTA_HREF / SIGNIN_HREF imported from ./utm (include ?utm_* from URL)
 
 // === SECTION COMPONENTS ===
 
@@ -80,12 +81,12 @@ function Header() {
               </div>
             </div>
           <div className="border-[1.5px] border-[rgba(16,142,245,0.2)] border-solid content-stretch flex h-[40px] items-center justify-center overflow-clip px-[18px] relative rounded-[100px] shrink-0" data-node-id="40002524:8910" data-name="btn-outline">
-            <a className="[word-break:break-word] block font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[0] relative shrink-0 text-[#108ef5] text-[14px] tracking-[-0.14px] whitespace-nowrap" href="https://admin.tgshop.io/sign-in" data-node-id="40002524:8911" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
+            <a className="[word-break:break-word] block font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[0] relative shrink-0 text-[#108ef5] text-[14px] tracking-[-0.14px] whitespace-nowrap" href={SIGNIN_HREF} data-node-id="40002524:8911" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
               <p className="cursor-pointer leading-[1.5]">Войти</p>
             </a>
           </div>
           <div className="bg-[#108ef5] content-stretch flex h-[40px] items-center justify-center overflow-clip px-[18px] relative rounded-[100px] shadow-[0px_12px_24px_0px_rgba(51,133,255,0.22)] shrink-0" data-node-id="40002524:8912" data-name="btn-primary">
-            <a className="[word-break:break-word] block font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[0] relative shrink-0 text-[14px] text-white tracking-[-0.14px] whitespace-nowrap" href="https://admin.tgshop.io/sign-up" data-node-id="40002524:8913" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
+            <a className="[word-break:break-word] block font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[0] relative shrink-0 text-[14px] text-white tracking-[-0.14px] whitespace-nowrap" href={CTA_HREF} data-node-id="40002524:8913" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
               <p className="cursor-pointer leading-[1.5]">Зарегистрироваться</p>
             </a>
           </div>

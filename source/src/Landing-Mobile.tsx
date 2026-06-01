@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
+import { CTA_HREF, SIGNIN_HREF } from './utm';
 
 // Mobile burger-menu overlay — rendered as portal to <body> so that
 // it sits OUTSIDE the #root element (which has transform: scale on it
@@ -40,7 +41,7 @@ function MobileMenuPortal({ onClose }: { onClose: () => void }) {
 
         <div className="mt-[16px] flex flex-col gap-[10px]">
           <a
-            href="https://admin.tgshop.io/sign-in"
+            href={SIGNIN_HREF}
             target="_blank"
             rel="noopener"
             onClick={onClose}
@@ -49,7 +50,7 @@ function MobileMenuPortal({ onClose }: { onClose: () => void }) {
             Войти
           </a>
           <a
-            href="https://admin.tgshop.io/sign-up"
+            href={CTA_HREF}
             target="_blank"
             rel="noopener"
             onClick={onClose}
@@ -105,7 +106,7 @@ const imgSol_Ellipse4 = "https://www.figma.com/api/mcp/asset/2c065143-22d4-4e96-
 const imgSol_Ellipse5 = "https://www.figma.com/api/mcp/asset/9119ef2d-29c1-4588-8931-721115f61645";
 const imgSol_Ellipse6 = "https://www.figma.com/api/mcp/asset/b0810e57-d350-4197-b1d2-e92ab9d8780d";
 
-const CTA_HREF = "https://admin.tgshop.io/sign-up";
+// CTA_HREF is now imported from ./utm (it already includes ?utm_* from URL)
 
 // === SECTION COMPONENTS ===
 
