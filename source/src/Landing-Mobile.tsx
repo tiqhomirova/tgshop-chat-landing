@@ -73,8 +73,8 @@ function MobileMenuPortal({ onClose }: { onClose: () => void }) {
 // === IMAGE CONSTANTS (deduped across sections) ===
 
 // Hero
-const imgHero_Frame21361400041 = "https://www.figma.com/api/mcp/asset/92d6f480-8420-4682-9edd-23e89a4e4c15";
-const imgHero_Ellipse = "https://www.figma.com/api/mcp/asset/baa1cc0e-05f7-499a-9280-1eb40969be49";
+const imgHero_Frame21361400041 = `${import.meta.env.BASE_URL}assets/imgHero_Frame21361400041.png`;
+const imgHero_Ellipse = `${import.meta.env.BASE_URL}assets/imgHero_Ellipse.svg`;
 
 // Trust — brand logos (Figma node 40002682:1121). Local assets to survive
 // the 7-day Figma CDN URL expiry that was breaking the strip.
@@ -85,26 +85,26 @@ const imgTrust_51 = `${import.meta.env.BASE_URL}assets/brand-dragonfly.png`;
 const imgTrust_62 = `${import.meta.env.BASE_URL}assets/brand-ana-hildebrant.png`;
 const imgTrust_222 = `${import.meta.env.BASE_URL}assets/brand-skincare.png`;
 const imgTrust_223 = `${import.meta.env.BASE_URL}assets/brand-bogner.png`;
-const imgTrust_Photo1 = "https://www.figma.com/api/mcp/asset/d53fe22d-40b2-41e7-850e-8aa0f3b74d8e";
-const imgTrust_Bg1 = "https://www.figma.com/api/mcp/asset/90d37cb6-57fd-4a9b-8590-e04a80aaef81";
-const imgTrust_Bg2 = "https://www.figma.com/api/mcp/asset/f72a08c0-e361-41f6-997e-a11d61ac7f9d";
-const imgTrust_Photo2 = "https://www.figma.com/api/mcp/asset/7a67027a-dc6d-4ea1-a615-bfef8f41999e";
+const imgTrust_Photo1 = `${import.meta.env.BASE_URL}assets/imgTrust_Photo1.png`;
+const imgTrust_Bg1 = `${import.meta.env.BASE_URL}assets/imgTrust_Bg1.png`;
+const imgTrust_Bg2 = `${import.meta.env.BASE_URL}assets/imgTrust_Bg2.png`;
+const imgTrust_Photo2 = `${import.meta.env.BASE_URL}assets/imgTrust_Photo2.png`;
 const imgTrust_Logo1 = `${import.meta.env.BASE_URL}assets/brand-around-you.svg`;
 
 // KeyFeatures
-const imgKF_Ellipse = "https://www.figma.com/api/mcp/asset/41fc0a1b-6ecf-4850-a56f-1562540a6968";
-const imgKF_Ellipse1 = "https://www.figma.com/api/mcp/asset/778b2e21-59b2-423d-9c8c-9dd8716170a7";
-const imgKF_Ellipse2 = "https://www.figma.com/api/mcp/asset/a206717d-44dc-4a75-b46e-5f3e45738dae";
-const imgKF_Ellipse3 = "https://www.figma.com/api/mcp/asset/5cd8ca54-de32-4670-99f7-78acb50ad0f8";
+const imgKF_Ellipse = `${import.meta.env.BASE_URL}assets/imgKF_Ellipse.svg`;
+const imgKF_Ellipse1 = `${import.meta.env.BASE_URL}assets/imgKF_Ellipse1.svg`;
+const imgKF_Ellipse2 = `${import.meta.env.BASE_URL}assets/imgKF_Ellipse2.svg`;
+const imgKF_Ellipse3 = `${import.meta.env.BASE_URL}assets/imgKF_Ellipse3.svg`;
 
 // Solution
-const imgSol_Ellipse = "https://www.figma.com/api/mcp/asset/c8133a83-da16-4f50-ab45-2941f69d4706";
-const imgSol_Ellipse1 = "https://www.figma.com/api/mcp/asset/71550304-1219-41ca-8aa0-aa0c3f9ddd1f";
-const imgSol_Ellipse2 = "https://www.figma.com/api/mcp/asset/96c6c843-29aa-4613-b1ff-78c96f1d9147";
-const imgSol_Ellipse3 = "https://www.figma.com/api/mcp/asset/1a817580-bcb8-4a36-8726-8ffb0ce9c223";
-const imgSol_Ellipse4 = "https://www.figma.com/api/mcp/asset/2c065143-22d4-4e96-984f-1cbdda9a7f2c";
-const imgSol_Ellipse5 = "https://www.figma.com/api/mcp/asset/9119ef2d-29c1-4588-8931-721115f61645";
-const imgSol_Ellipse6 = "https://www.figma.com/api/mcp/asset/b0810e57-d350-4197-b1d2-e92ab9d8780d";
+const imgSol_Ellipse = `${import.meta.env.BASE_URL}assets/imgSol_Ellipse.svg`;
+const imgSol_Ellipse1 = `${import.meta.env.BASE_URL}assets/imgSol_Ellipse1.svg`;
+const imgSol_Ellipse2 = `${import.meta.env.BASE_URL}assets/imgSol_Ellipse2.svg`;
+const imgSol_Ellipse3 = `${import.meta.env.BASE_URL}assets/imgSol_Ellipse3.svg`;
+const imgSol_Ellipse4 = `${import.meta.env.BASE_URL}assets/imgSol_Ellipse4.svg`;
+const imgSol_Ellipse5 = `${import.meta.env.BASE_URL}assets/imgSol_Ellipse5.svg`;
+const imgSol_Ellipse6 = `${import.meta.env.BASE_URL}assets/imgSol_Ellipse6.svg`;
 
 // CTA_HREF is now imported from ./utm (it already includes ?utm_* from URL)
 

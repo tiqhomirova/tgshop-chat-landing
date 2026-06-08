@@ -4,11 +4,11 @@ import { CTA_HREF, SIGNIN_HREF } from './utm';
 // === IMAGE CONSTANTS (deduped across sections) ===
 
 // Hero
-const imgHero_Frame21361400041 = "https://www.figma.com/api/mcp/asset/1a53674b-1399-44c7-86e1-923e16c24851";
-const imgHero_Ellipse = "https://www.figma.com/api/mcp/asset/312c87cf-c9a6-417d-9c43-d621738caa21";
+const imgHero_Frame21361400041 = `${import.meta.env.BASE_URL}assets/imgHero_Frame21361400041.png`;
+const imgHero_Ellipse = `${import.meta.env.BASE_URL}assets/imgHero_Ellipse.svg`;
 
 // Trust
-const imgTrust_Photo202508261509211 = "https://www.figma.com/api/mcp/asset/d4c3e52e-b9e0-4cc9-b944-b032f80e2f59";
+const imgTrust_Photo202508261509211 = `${import.meta.env.BASE_URL}assets/imgTrust_Photo202508261509211.png`;
 // Brand logos — local assets, mirror Figma node 40002682:1121 (8 brands).
 const imgTrust_YvesRocherLogoSvg3 = `${import.meta.env.BASE_URL}assets/brand-yves-rocher.png`;
 const imgTrust_61 = `${import.meta.env.BASE_URL}assets/brand-emra.png`;
@@ -18,36 +18,36 @@ const imgTrust_41 = `${import.meta.env.BASE_URL}assets/logo-third.png`;
 const imgTrust_AroundYou = `${import.meta.env.BASE_URL}assets/brand-around-you.svg`;
 const imgTrust_AnaHildebrant = `${import.meta.env.BASE_URL}assets/brand-ana-hildebrant.png`;
 const imgTrust_Skincare = `${import.meta.env.BASE_URL}assets/brand-skincare.png`;
-const imgTrust_Group = "https://www.figma.com/api/mcp/asset/511a67c6-9054-4e8f-af2d-c47285b786ea";
-const imgTrust_Group1 = "https://www.figma.com/api/mcp/asset/59604f62-55e9-4242-9aff-7c3a0c94b891";
-const imgTrust_Group2 = "https://www.figma.com/api/mcp/asset/664bbbe7-086b-4610-bb91-58773d128e0d";
-const imgTrust_Group3 = "https://www.figma.com/api/mcp/asset/96d0611e-9821-4cae-b045-c8acf0acad41";
-const imgTrust_Group4 = "https://www.figma.com/api/mcp/asset/5aba2860-1ba2-4c05-8463-7c2d02b5256f";
-const imgTrust_Group5 = "https://www.figma.com/api/mcp/asset/15dcc965-009b-425c-9e05-26da342a539b";
-const imgTrust_Group6 = "https://www.figma.com/api/mcp/asset/70da7cea-0aa2-4844-a382-6232989004c7";
-const imgTrust_Group7 = "https://www.figma.com/api/mcp/asset/18a0f8f8-e999-4e4b-92e6-5a85d3a91ede";
-const imgTrust_Group8 = "https://www.figma.com/api/mcp/asset/428d90f7-6172-476a-891c-dcedf973b0a2";
-const imgTrust_Svg = "https://www.figma.com/api/mcp/asset/27a1b550-35ea-48c2-bf52-d84a02f6675e";
+const imgTrust_Group = `${import.meta.env.BASE_URL}assets/imgTrust_Group.svg`;
+const imgTrust_Group1 = `${import.meta.env.BASE_URL}assets/imgTrust_Group1.svg`;
+const imgTrust_Group2 = `${import.meta.env.BASE_URL}assets/imgTrust_Group2.svg`;
+const imgTrust_Group3 = `${import.meta.env.BASE_URL}assets/imgTrust_Group3.svg`;
+const imgTrust_Group4 = `${import.meta.env.BASE_URL}assets/imgTrust_Group4.svg`;
+const imgTrust_Group5 = `${import.meta.env.BASE_URL}assets/imgTrust_Group5.svg`;
+const imgTrust_Group6 = `${import.meta.env.BASE_URL}assets/imgTrust_Group6.svg`;
+const imgTrust_Group7 = `${import.meta.env.BASE_URL}assets/imgTrust_Group7.svg`;
+const imgTrust_Group8 = `${import.meta.env.BASE_URL}assets/imgTrust_Group8.svg`;
+const imgTrust_Svg = `${import.meta.env.BASE_URL}assets/imgTrust_Svg.svg`;
 const imgTrust_Vector = `${import.meta.env.BASE_URL}assets/brand-bogner.png`;
-const imgTrust_Background = "https://www.figma.com/api/mcp/asset/62241a25-bbb6-457d-81c0-69c4ac4b13f8";
-const imgTrust_Background1 = "https://www.figma.com/api/mcp/asset/165cbd65-6e8c-45ea-aa55-362359d00b6a";
-const imgTrust_Photo202508261509132 = "https://www.figma.com/api/mcp/asset/b5e5e737-2f76-4281-af22-8ca51da0362a";
+const imgTrust_Background = `${import.meta.env.BASE_URL}assets/imgTrust_Background.png`;
+const imgTrust_Background1 = `${import.meta.env.BASE_URL}assets/imgTrust_Background1.png`;
+const imgTrust_Photo202508261509132 = `${import.meta.env.BASE_URL}assets/imgTrust_Photo202508261509132.png`;
 
 // KeyFeatures
-const imgKF_Ellipse = "https://www.figma.com/api/mcp/asset/17d2661d-3672-4359-b80c-23a1e058f25f";
-const imgKF_Ellipse1 = "https://www.figma.com/api/mcp/asset/f6e6ecc3-8357-478b-8002-d6ed8929e9f0";
-const imgKF_Ellipse2 = "https://www.figma.com/api/mcp/asset/a24da52a-e152-4a14-9c11-becc760bc3e9";
-const imgKF_Ellipse3 = "https://www.figma.com/api/mcp/asset/638d1ca3-7826-4a7a-a348-5c1c449f9dd9";
+const imgKF_Ellipse = `${import.meta.env.BASE_URL}assets/imgKF_Ellipse.svg`;
+const imgKF_Ellipse1 = `${import.meta.env.BASE_URL}assets/imgKF_Ellipse1.svg`;
+const imgKF_Ellipse2 = `${import.meta.env.BASE_URL}assets/imgKF_Ellipse2.svg`;
+const imgKF_Ellipse3 = `${import.meta.env.BASE_URL}assets/imgKF_Ellipse3.svg`;
 
 // Solution
-const imgSol_Ellipse = "https://www.figma.com/api/mcp/asset/7f0a21bb-cd71-4bed-997b-ddb18adf34a3";
-const imgSol_Ellipse1 = "https://www.figma.com/api/mcp/asset/60e184da-d719-44df-9d9c-6b996b95de38";
-const imgSol_Ellipse2 = "https://www.figma.com/api/mcp/asset/3686475f-2327-4689-8c03-4659d7a645f8";
-const imgSol_Ellipse3 = "https://www.figma.com/api/mcp/asset/9589992c-796f-47e2-b931-552d2483b122";
-const imgSol_Ellipse4 = "https://www.figma.com/api/mcp/asset/02443977-4167-47c5-8022-7627d5d810b5";
-const imgSol_Ellipse5 = "https://www.figma.com/api/mcp/asset/0003642b-d3a5-476f-915a-8a08239fd92c";
-const imgSol_Ellipse6 = "https://www.figma.com/api/mcp/asset/3459ceb7-4967-4467-9a6d-d70a608c2e2e";
-const imgSol_Ellipse7 = "https://www.figma.com/api/mcp/asset/da56fcc0-6f3b-4afb-bcfa-66b23c24bd10";
+const imgSol_Ellipse = `${import.meta.env.BASE_URL}assets/imgSol_Ellipse.svg`;
+const imgSol_Ellipse1 = `${import.meta.env.BASE_URL}assets/imgSol_Ellipse1.svg`;
+const imgSol_Ellipse2 = `${import.meta.env.BASE_URL}assets/imgSol_Ellipse2.svg`;
+const imgSol_Ellipse3 = `${import.meta.env.BASE_URL}assets/imgSol_Ellipse3.svg`;
+const imgSol_Ellipse4 = `${import.meta.env.BASE_URL}assets/imgSol_Ellipse4.svg`;
+const imgSol_Ellipse5 = `${import.meta.env.BASE_URL}assets/imgSol_Ellipse5.svg`;
+const imgSol_Ellipse6 = `${import.meta.env.BASE_URL}assets/imgSol_Ellipse6.svg`;
+const imgSol_Ellipse7 = `${import.meta.env.BASE_URL}assets/imgSol_Ellipse7.svg`;
 
 // CTA_HREF / SIGNIN_HREF imported from ./utm (include ?utm_* from URL)
 
