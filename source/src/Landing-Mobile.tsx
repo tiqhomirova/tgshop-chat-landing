@@ -217,8 +217,8 @@ function Hero() {
                   </div>
                   <div className="content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-start min-w-0 relative shrink">
                     <div className="content-stretch flex gap-[4px] items-baseline relative shrink-0 w-full">
-                      <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[#0a1519] text-[8px] tracking-[-0.08px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{c.name}</p>
-                      <p className="[word-break:break-word] font-['SF_Pro:Medium',sans-serif] font-[510] leading-[1.5] relative shrink-0 text-[#767d88] text-[8px] tracking-[-0.08px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{c.time}</p>
+                      <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] min-w-0 overflow-hidden relative flex-[1_0_0] text-[#0a1519] text-[8px] text-ellipsis tracking-[-0.08px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{c.name}</p>
+                      <p className="font-['SF_Pro:Medium',sans-serif] font-[510] leading-[1.5] relative shrink-0 text-[#767d88] text-[8px] tracking-[-0.08px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{c.time}</p>
                     </div>
                     {c.preview && (
                       <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.5] overflow-hidden relative shrink-0 text-[8px] text-ellipsis tracking-[-0.08px] w-full whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100", color: c.preview.c }}>
@@ -598,8 +598,8 @@ function Price() {
             <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#e5484d] text-[13px] tracking-[0.78px] whitespace-nowrap">ПОТЕРИ В МЕСЯЦ</p>
             <div className="h-[8px] shrink-0 w-[100px]" />
             <div className="[word-break:break-word] content-stretch flex gap-[8px] items-baseline not-italic overflow-clip relative shrink-0 whitespace-nowrap">
-              <p className="font-['SF_Pro_Display:Bold',sans-serif] leading-none relative shrink-0 text-[#e5484d] text-[32px] tracking-[-1.28px]">45 000 000</p>
-              <p className="font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] relative shrink-0 text-[16px] text-[rgba(229,72,77,0.8)] tracking-[-0.16px]">soʻm</p>
+              <p className="font-['SF_Pro_Display:Bold',sans-serif] leading-none relative shrink-0 text-[#e5484d] text-[32px] tracking-[-1.28px]">{T.lossBarBig}</p>
+              <p className="font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] relative shrink-0 text-[16px] text-[rgba(229,72,77,0.8)] tracking-[-0.16px]">{T.lossBarUnit}</p>
             </div>
           </div>
           <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[12px] text-center tracking-[-0.12px] w-[275px]">
@@ -715,7 +715,7 @@ function How() {
           <div className="bg-white border border-[#ebedf2] border-solid content-stretch flex flex-col gap-[6px] items-start overflow-clip p-[14px] relative rounded-[14px] shrink-0 w-full" data-name="m3-stats">
             {[
               { ic: '📦', icBg: 'bg-[rgba(38,99,235,0.12)]', icC: 'text-[#2663eb]', l: 'Заказов', v: '47' },
-              { ic: '💰', icBg: 'bg-[rgba(15,186,130,0.12)]', icC: 'text-[#0fba82]', l: 'Выручка', v: '6,2 млн' },
+              { ic: '💰', icBg: 'bg-[rgba(15,186,130,0.12)]', icC: 'text-[#0fba82]', l: 'Выручка', v: T.revenueAmount },
               { ic: '👥', icBg: 'bg-[rgba(140,92,245,0.12)]', icC: 'text-[#8c5cf5]', l: 'Новых клиентов', v: '12' },
             ].map((r, i) => (
               <div key={i} className="bg-white content-stretch flex gap-[10px] items-center overflow-clip py-[4px] relative shrink-0">

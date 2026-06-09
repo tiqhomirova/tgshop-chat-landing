@@ -906,10 +906,10 @@ export default function LandingDesktop() {
               <div className="h-[8px] relative shrink-0 w-[100px]" data-node-id="40002633:513" data-name="sp" />
               <div className="[word-break:break-word] content-stretch flex gap-[8px] items-baseline not-italic overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="40002633:514" data-name="total-num">
                 <p className="font-['SF_Pro_Display:Bold',sans-serif] leading-none relative shrink-0 text-[#e5484d] text-[44px] tracking-[-1.76px]" data-node-id="40002633:515">
-                  45 000 000
+                  {T.lossBarBig}
                 </p>
                 <p className="font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] relative shrink-0 text-[20px] text-[rgba(229,72,77,0.8)] tracking-[-0.2px]" data-node-id="40002633:516">
-                  soʻm
+                  {T.lossBarUnit}
                 </p>
               </div>
             </div>
@@ -1107,7 +1107,7 @@ export default function LandingDesktop() {
                   Выручка
                 </p>
                 <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#6b7885] text-[13px] whitespace-nowrap" data-node-id="40002655:8287" style={{ fontVariationSettings: "'wdth' 100" }}>
-                  6,2 млн soʻm
+                  {T.revenueAmount}
                 </p>
               </div>
               <div className="bg-white content-stretch flex gap-[12px] items-center overflow-clip py-[4px] relative shrink-0" data-node-id="40002655:8288" data-name="row">

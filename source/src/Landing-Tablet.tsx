@@ -638,8 +638,8 @@ function Price() {
             <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#e5484d] text-[13px] tracking-[0.78px] whitespace-nowrap">ПОТЕРИ В МЕСЯЦ</p>
             <div className="h-[8px] relative shrink-0 w-[100px]" />
             <div className="[word-break:break-word] content-stretch flex gap-[8px] items-baseline not-italic overflow-clip relative shrink-0 whitespace-nowrap" data-name="total-num">
-              <p className="font-['SF_Pro_Display:Bold',sans-serif] leading-none relative shrink-0 text-[#e5484d] text-[44px] tracking-[-1.76px]">45 000 000</p>
-              <p className="font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] relative shrink-0 text-[20px] text-[rgba(229,72,77,0.8)] tracking-[-0.2px]">soʻm</p>
+              <p className="font-['SF_Pro_Display:Bold',sans-serif] leading-none relative shrink-0 text-[#e5484d] text-[44px] tracking-[-1.76px]">{T.lossBarBig}</p>
+              <p className="font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] relative shrink-0 text-[20px] text-[rgba(229,72,77,0.8)] tracking-[-0.2px]">{T.lossBarUnit}</p>
             </div>
           </div>
           <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[12px] text-center tracking-[-0.12px] w-[372px]">Средний магазин · 30 рабочих дней</p>
@@ -755,7 +755,7 @@ function How() {
           <div className="bg-white border border-[#ebedf2] border-solid content-stretch flex flex-col gap-[8px] items-start overflow-clip p-[18px] relative rounded-[16px] shrink-0 w-full" data-name="m3-stats">
             {[
               { icon: '📦', iconBg: 'rgba(38,99,235,0.12)', iconColor: '#2663eb', label: 'Заказов сегодня', value: '47' },
-              { icon: '💰', iconBg: 'rgba(15,186,130,0.12)', iconColor: '#0fba82', label: 'Выручка', value: '6,2 млн soʻm' },
+              { icon: '💰', iconBg: 'rgba(15,186,130,0.12)', iconColor: '#0fba82', label: 'Выручка', value: T.revenueAmount },
               { icon: '👥', iconBg: 'rgba(140,92,245,0.12)', iconColor: '#8c5cf5', label: 'Новых клиентов', value: '12' },
             ].map((row, i) => (
               <div key={`m3-${i}`} className="bg-white content-stretch flex gap-[12px] items-center overflow-clip py-[4px] relative shrink-0" data-name="row">

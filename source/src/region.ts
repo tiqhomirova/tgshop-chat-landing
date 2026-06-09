@@ -33,6 +33,11 @@ interface RegionContent {
   footerBrand: string;             // "TGShop Узбекистан" / "TGShop"
   // Currency unit suffix (where the standalone "soʻm" appears)
   currency: string;                // "soʻm" / "₽"
+  // Hero analytics card: revenue
+  revenueAmount: string;           // "6,2 млн soʻm" / "62 000 ₽"
+  // Cost-of-inaction calc bar labels
+  lossBarBig: string;              // "45 000 000" / "450 000"  (large number on chart)
+  lossBarUnit: string;             // "soʻm" / "₽"  (unit under the number)
   // Integration chip names (Solution section, 4 payment chips + 1 import-card name)
   paymentChip1: string;            // "Я.Доставка" / "СБП"
   paymentChip2: string;            // "Click" / "T-Pay"
@@ -63,6 +68,9 @@ const UZ: RegionContent = {
   zeroAdsBadge:       "0 сум на рекламу",
   footerBrand:        "TGShop Узбекистан",
   currency:           "soʻm",
+  revenueAmount:      "6,2 млн soʻm",
+  lossBarBig:         "45 000 000",
+  lossBarUnit:        "soʻm",
   paymentChip1:       "Я.Доставка",
   paymentChip2:       "Click",
   paymentChip3:       "Uzum nasiya",
@@ -91,6 +99,9 @@ const RU: RegionContent = {
   zeroAdsBadge:       "0 ₽ на рекламу",
   footerBrand:        "TGShop",
   currency:           "₽",
+  revenueAmount:      "62 000 ₽",
+  lossBarBig:         "450 000",
+  lossBarUnit:        "₽",
   paymentChip1:       "СБП",
   paymentChip2:       "T-Pay",
   paymentChip3:       "СберPay",
