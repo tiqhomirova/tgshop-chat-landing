@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { CTA_HREF, SIGNIN_HREF } from './utm';
+import { T, HERO_CHAT_NAMES } from './region';
 
 // === IMAGE CONSTANTS (deduped across sections) ===
 
@@ -172,7 +173,7 @@ function Hero() {
                 </div>
                 <div className="content-stretch flex flex-col h-[85px] items-start relative shrink-0 w-[118.575px]" data-node-id="40002757:8513" data-name="main">
                   <div className="content-stretch flex h-[85px] items-start overflow-clip relative shrink-0 w-[100.789px]" data-node-id="40002757:8514" data-name="top">
-                    <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[#0a1519] text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002757:8515" style={{ fontVariationSettings: "'wdth' 100" }}>Ozoda M.</p>
+                    <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[#0a1519] text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002757:8515" style={{ fontVariationSettings: "'wdth' 100" }}>{HERO_CHAT_NAMES[1]}</p>
                     <div className="h-[85px] relative shrink-0 w-[6px]" data-node-id="40002757:8516" data-name="s" />
                     <p className="[word-break:break-word] font-['SF_Pro:Medium',sans-serif] font-[510] leading-[1.5] relative shrink-0 text-[#767d88] text-[9px] tracking-[-0.09px] whitespace-nowrap" data-node-id="40002757:8517" style={{ fontVariationSettings: "'wdth' 100" }}>только что</p>
                   </div>
@@ -187,7 +188,7 @@ function Hero() {
                 </div>
                 <div className="content-stretch flex flex-col gap-[2px] h-[103.7px] items-start relative shrink-0 w-[114.325px]" data-node-id="40002757:8523" data-name="main">
                   <div className="content-stretch flex h-[85px] items-start overflow-clip relative shrink-0 w-[97.176px]" data-node-id="40002757:8524" data-name="top">
-                    <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[#0a1519] text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002757:8525" style={{ fontVariationSettings: "'wdth' 100" }}>Дилшод М.</p>
+                    <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[#0a1519] text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002757:8525" style={{ fontVariationSettings: "'wdth' 100" }}>{HERO_CHAT_NAMES[2]}</p>
                     <div className="h-[85px] relative shrink-0 w-[6px]" data-node-id="40002757:8526" data-name="s" />
                     <p className="[word-break:break-word] font-['SF_Pro:Medium',sans-serif] font-[510] leading-[1.5] relative shrink-0 text-[#767d88] text-[9px] tracking-[-0.09px] whitespace-nowrap" data-node-id="40002757:8527" style={{ fontVariationSettings: "'wdth' 100" }}>4 мин</p>
                   </div>
@@ -203,7 +204,7 @@ function Hero() {
                 </div>
                 <div className="content-stretch flex flex-col gap-[2px] h-[103.7px] items-start relative shrink-0 w-[114.325px]" data-node-id="40002757:8534" data-name="main">
                   <div className="content-stretch flex h-[85px] items-start overflow-clip relative shrink-0 w-[97.176px]" data-node-id="40002757:8535" data-name="top">
-                    <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[#0a1519] text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002757:8536" style={{ fontVariationSettings: "'wdth' 100" }}>Мадина Х.</p>
+                    <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[#0a1519] text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002757:8536" style={{ fontVariationSettings: "'wdth' 100" }}>{HERO_CHAT_NAMES[3]}</p>
                     <div className="h-[85px] relative shrink-0 w-[6px]" data-node-id="40002757:8537" data-name="s" />
                     <p className="[word-break:break-word] font-['SF_Pro:Medium',sans-serif] font-[510] leading-[1.5] relative shrink-0 text-[#767d88] text-[9px] tracking-[-0.09px] whitespace-nowrap" data-node-id="40002757:8538" style={{ fontVariationSettings: "'wdth' 100" }}>12 мин</p>
                   </div>
@@ -219,7 +220,7 @@ function Hero() {
                 </div>
                 <div className="content-stretch flex flex-col gap-[2px] h-[103.7px] items-start relative shrink-0 w-[115.175px]" data-node-id="40002757:8545" data-name="main">
                   <div className="content-stretch flex h-[85px] items-start overflow-clip relative shrink-0 w-[97.899px]" data-node-id="40002757:8546" data-name="top">
-                    <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[#0a1519] text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002757:8547" style={{ fontVariationSettings: "'wdth' 100" }}>Акмал Т.</p>
+                    <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[#0a1519] text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002757:8547" style={{ fontVariationSettings: "'wdth' 100" }}>{HERO_CHAT_NAMES[4]}</p>
                     <div className="h-[85px] relative shrink-0 w-[12.664px]" data-node-id="40002757:8548" data-name="s" />
                     <p className="[word-break:break-word] font-['SF_Pro:Medium',sans-serif] font-[510] leading-[1.5] relative shrink-0 text-[#767d88] text-[9px] tracking-[-0.09px] whitespace-nowrap" data-node-id="40002757:8549" style={{ fontVariationSettings: "'wdth' 100" }}>10 мин</p>
                   </div>
@@ -235,7 +236,7 @@ function Hero() {
                 </div>
                 <div className="content-stretch flex flex-col gap-[2px] h-[103.7px] items-start relative shrink-0 w-[115.175px]" data-node-id="40002757:8556" data-name="main">
                   <div className="content-stretch flex h-[85px] items-start overflow-clip relative shrink-0 w-[97.899px]" data-node-id="40002757:8557" data-name="top">
-                    <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[#0a1519] text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002757:8558" style={{ fontVariationSettings: "'wdth' 100" }}>Aziz K.</p>
+                    <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[#0a1519] text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002757:8558" style={{ fontVariationSettings: "'wdth' 100" }}>{HERO_CHAT_NAMES[5]}</p>
                     <div className="h-[85px] relative shrink-0 w-[22.864px]" data-node-id="40002757:8559" data-name="s" />
                     <p className="[word-break:break-word] font-['SF_Pro:Medium',sans-serif] font-[510] leading-[1.5] relative shrink-0 text-[#767d88] text-[9px] tracking-[-0.09px] whitespace-nowrap" data-node-id="40002757:8560" style={{ fontVariationSettings: "'wdth' 100" }}>15 мин</p>
                   </div>
@@ -405,7 +406,7 @@ function Trust() {
           <div className="bg-white border border-[#ebedf2] border-solid content-stretch flex flex-[1_0_0] flex-col gap-[24px] items-start min-w-px overflow-clip p-[24px] relative rounded-[16px]" data-node-id="40002673:8273" data-name="case-Around You">
             <div className="[word-break:break-word] bg-[rgba(33,178,99,0.14)] content-stretch flex gap-[6px] items-center leading-[normal] overflow-clip px-[10px] py-[4px] relative rounded-[10px] shrink-0 text-[#0f8c33] whitespace-nowrap">
               <p className="font-['SF_Pro:Bold',sans-serif] font-bold relative shrink-0 text-[10px]" style={{ fontVariationSettings: "'wdth' 100" }}>✓</p>
-              <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0 text-[11px]" style={{ fontVariationSettings: "'wdth' 100" }}>0 сум на рекламу</p>
+              <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0 text-[11px]" style={{ fontVariationSettings: "'wdth' 100" }}>{T.zeroAdsBadge}</p>
             </div>
             <div className="bg-white content-stretch flex gap-[20px] items-start overflow-clip relative shrink-0">
               <div className="bg-white content-stretch flex flex-col gap-[6px] items-start overflow-clip relative shrink-0">
@@ -585,7 +586,7 @@ function Price() {
           </p>
           <div className="h-[16px] relative shrink-0 w-[100px]" />
           <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.6] not-italic relative shrink-0 text-[#595959] text-[18px] tracking-[-0.18px] w-[432px]">
-            При среднем чеке 300 000 soʻm это 1 500 000 soʻm в день. Или 45 миллионов soʻm в месяц.
+            {T.calcBody}
           </p>
           <div className="h-[32px] relative shrink-0 w-[100px]" />
           <div className="h-[28px] relative shrink-0 w-[100px]" />
@@ -624,11 +625,11 @@ function Price() {
             </div>
             <div className="h-[10px] relative shrink-0 w-[100px]" />
             <div className="content-stretch flex items-center justify-between relative shrink-0 w-full" data-name="ch-foot">
-              <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[11px] tracking-[-0.11px] whitespace-nowrap">день 1 — 1,5 млн</p>
+              <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[11px] tracking-[-0.11px] whitespace-nowrap">день 1 — {T.lossPerMonthShort}</p>
               <div className="flex-[1_0_0] h-[100px] min-w-px relative" />
               <div className="[word-break:break-word] content-stretch flex gap-[4px] items-start leading-[1.5] not-italic overflow-clip relative shrink-0 text-[11px] tracking-[-0.11px] whitespace-nowrap">
                 <p className="font-['SF_Pro_Display:Regular',sans-serif] relative shrink-0 text-[#767d88]">день 30 —</p>
-                <p className="font-['SF_Pro_Display:Bold',sans-serif] relative shrink-0 text-[#e5484d]">45 млн soʻm</p>
+                <p className="font-['SF_Pro_Display:Bold',sans-serif] relative shrink-0 text-[#e5484d]">{T.lossMonthEnd}</p>
               </div>
             </div>
           </div>
@@ -681,7 +682,7 @@ function How() {
           <div className="bg-white border border-[#ebedf2] border-solid content-stretch flex flex-col gap-[8px] items-start overflow-clip p-[18px] relative rounded-[16px] shrink-0 w-full" data-name="m1-setup">
             {[
               { label: 'Каталог', value: '24 SKU' },
-              { label: 'Оплата', value: 'Click, Payme, наличные' },
+              { label: 'Оплата', value: T.setupPayments },
               { label: 'Доставка', value: '3 способа' },
             ].map((row, i) => (
               <div key={`m1-${i}`} className="bg-white content-stretch flex gap-[12px] items-center overflow-clip py-[4px] relative shrink-0" data-name="row">
@@ -723,7 +724,7 @@ function How() {
             </div>
             <div className="bg-white content-stretch flex items-start justify-end overflow-clip relative shrink-0 w-full">
               <div className="bg-[#e8f2ff] content-stretch flex items-start overflow-clip px-[12px] py-[10px] relative rounded-[12px] shrink-0 w-[220px]">
-                <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#121726] text-[13px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>Да, 1290000 soʻm. Оформлять?</p>
+                <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#121726] text-[13px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{T.chatPriceReply}</p>
               </div>
             </div>
             <div className="bg-[rgba(15,186,130,0.1)] content-stretch flex gap-[10px] items-center overflow-clip px-[12px] py-[10px] relative rounded-[12px] shrink-0 w-full">
@@ -732,7 +733,7 @@ function How() {
               </div>
               <div className="[word-break:break-word] content-stretch flex flex-col gap-[2px] items-start leading-[normal] overflow-clip relative shrink-0 whitespace-nowrap">
                 <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0 text-[#121726] text-[13px]" style={{ fontVariationSettings: "'wdth' 100" }}>Заказ оформлен</p>
-                <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#6b7885] text-[11px]" style={{ fontVariationSettings: "'wdth' 100" }}>1 290 000 soʻm</p>
+                <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#6b7885] text-[11px]" style={{ fontVariationSettings: "'wdth' 100" }}>{T.chatOrderSum}</p>
               </div>
             </div>
           </div>
@@ -821,8 +822,8 @@ function KeyFeatures() {
         <div className="bg-white content-stretch flex gap-[10px] items-start overflow-clip p-[16px] relative rounded-[20px] shadow-[0px_12px_32px_0px_rgba(13,18,31,0.08)] shrink-0 w-[440px]" data-name="kf-status-board">
           {[
             { label: 'Новый', labelColor: '#2663eb', labelBg: 'rgba(38,99,235,0.12)', count: '3', cards: [{ name: 'Юлия К.', msg: 'Есть Nike?', time: 'только что' }, { name: 'Зухра М.', msg: 'Хочу заказать', time: '1 мин' }] },
-            { label: 'Открыт', labelColor: '#f5a624', labelBg: 'rgba(245,166,36,0.12)', count: '12', cards: [{ name: 'Акмал Т.', msg: 'Когда доставка?', time: '23 мин' }, { name: 'Дилшод М.', msg: 'Адрес?', time: '5 мин' }] },
-            { label: 'Закрыт', labelColor: '#0fba82', labelBg: 'rgba(15,186,130,0.12)', count: '48', cards: [{ name: 'Мадина Х.', msg: 'Получила 👍', time: '2 мин' }, { name: 'Малика О.', msg: 'Спасибо!', time: '15 мин' }] },
+            { label: 'Открыт', labelColor: '#f5a624', labelBg: 'rgba(245,166,36,0.12)', count: '12', cards: [{ name: HERO_CHAT_NAMES[4], msg: 'Когда доставка?', time: '23 мин' }, { name: HERO_CHAT_NAMES[2], msg: 'Адрес?', time: '5 мин' }] },
+            { label: 'Закрыт', labelColor: '#0fba82', labelBg: 'rgba(15,186,130,0.12)', count: '48', cards: [{ name: HERO_CHAT_NAMES[3], msg: 'Получила 👍', time: '2 мин' }, { name: 'Малика О.', msg: 'Спасибо!', time: '15 мин' }] },
           ].map((col, i) => (
             <div key={`col-${i}`} className="bg-[#f7fafc] content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px overflow-clip px-[10px] py-[12px] relative rounded-[14px]" data-name={`col-${col.label}`}>
               <div className="bg-white content-stretch flex items-center justify-between overflow-clip relative shrink-0 w-full">
@@ -905,14 +906,14 @@ function Solution() {
       title: '1. Добавьте товары',
       items: [
         'Массовый импорт из XML/XLS и по ссылке',
-        'Импорт из Мойсклад, 1С, Billz',
+        T.importLineWithChips,
         'Добавление товаров вручную',
         'Автоматическое обновление цен и остатков',
       ],
       tags: [
         { dot: imgSol_Ellipse, label: 'МойСклад' },
         { dot: imgSol_Ellipse1, label: '1С' },
-        { dot: imgSol_Ellipse2, label: 'Billz' },
+        { dot: imgSol_Ellipse2, label: T.importChip3 },
       ],
     },
     {
@@ -925,10 +926,10 @@ function Solution() {
         'Оплата наличными',
       ],
       tags: [
-        { dot: imgSol_Ellipse1, label: 'Я.Доставка' },
-        { dot: imgSol_Ellipse2, label: 'Click' },
-        { dot: imgSol_Ellipse3, label: 'Uzum nasiya' },
-        { dot: imgSol_Ellipse4, label: 'Payme' },
+        { dot: imgSol_Ellipse1, label: T.paymentChip1 },
+        { dot: imgSol_Ellipse2, label: T.paymentChip2 },
+        { dot: imgSol_Ellipse3, label: T.paymentChip3 },
+        { dot: imgSol_Ellipse4, label: T.paymentChip4 },
       ],
     },
     {
@@ -1021,8 +1022,8 @@ function Pricing({ isYear, setPeriod }: { isYear: boolean; setPeriod: (p: 'month
 
   const startCard = {
     name: 'Старт',
-    price: isYear ? '399 000' : '499 000',
-    hint: isYear ? '499 000 soʻm/мес' : '−20% при оплате за год',
+    price: isYear ? T.priceStarterYear : T.priceStarterMonth,
+    hint: isYear ? T.priceStarterMonth : '−20% при оплате за год',
     limit: 'До 100 товаров · 1 активный магазин',
     items: [
       ...sharedItems.map((t) => ({ text: t, ok: true })),
@@ -1034,8 +1035,8 @@ function Pricing({ isYear, setPeriod }: { isYear: boolean; setPeriod: (p: 'month
   };
   const businessCard = {
     name: 'Бизнес',
-    price: isYear ? '559 000' : '699 000',
-    hint: isYear ? '699 000 soʻm/мес' : '−20% при оплате за год',
+    price: isYear ? T.priceBusinessYear : T.priceBusinessMonth,
+    hint: isYear ? T.priceBusinessMonth : '−20% при оплате за год',
     limit: 'До 1000 товаров · до 5 активных магазинов',
     items: [
       ...sharedItems.map((t) => ({ text: t, ok: true })),
@@ -1047,8 +1048,8 @@ function Pricing({ isYear, setPeriod }: { isYear: boolean; setPeriod: (p: 'month
   };
   const premiumCard = {
     name: 'Премиум',
-    price: isYear ? '799 000' : '999 000',
-    hint: isYear ? '999 000 soʻm/мес' : '−20% при оплате за год',
+    price: isYear ? T.priceProYear : T.priceProMonth,
+    hint: isYear ? T.priceProMonth : '−20% при оплате за год',
     limit: 'До 15000 товаров · до 10 активных магазинов',
     items: [
       ...sharedItems.map((t) => ({ text: t, ok: true })),
@@ -1119,7 +1120,6 @@ function Pricing({ isYear, setPeriod }: { isYear: boolean; setPeriod: (p: 'month
             <div className="h-[12px] relative shrink-0 w-[100px]" />
             <div className="[word-break:break-word] content-stretch flex gap-[6px] items-baseline leading-[1.5] overflow-clip relative shrink-0 whitespace-nowrap" data-name="pr">
               <p className="font-['SF_Pro:Bold',sans-serif] font-bold relative shrink-0 text-[#0a1519] text-[40px] tracking-[-1.2px]" style={{ fontVariationSettings: "'wdth' 100" }}>{card.price}</p>
-              <p className="font-['SF_Pro_Display:Regular',sans-serif] not-italic relative shrink-0 text-[#767d88] text-[14px] tracking-[-0.14px]">soʻm / мес</p>
             </div>
             <div className="h-[6px] relative shrink-0 w-[100px]" />
             <p className={`[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.5] relative shrink-0 text-[#767d88] text-[13px] tracking-[-0.13px] whitespace-nowrap ${isYear ? 'line-through' : ''}`} style={{ fontVariationSettings: "'wdth' 100" }}>{card.hint}</p>
@@ -1210,7 +1210,7 @@ function Footer() {
           ]},
           { title: 'Решения', links: [
             { label: 'Telegram-магазин', href: 'https://tgshop.io/blog/instrukciya-kak-sozdat-magazin-v-telegram-po-shagam/' },
-            { label: 'TGShop Узбекистан', href: 'https://uz.tgshop.io' },
+            { label: T.footerBrand, href: 'https://uz.tgshop.io' },
           ]},
           { title: 'Поддержка', links: [
             { label: 'Связаться', href: 'https://t.me/TGShopHelp_bot' },

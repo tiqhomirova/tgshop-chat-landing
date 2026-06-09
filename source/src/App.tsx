@@ -3,6 +3,11 @@ import LandingDesktop from './Landing-Desktop';
 import LandingTablet from './Landing-Tablet';
 import LandingMobile from './Landing-Mobile';
 import { readLangFromUrl, setLang, applyTranslations, updateLangSwitchLabels, type Lang } from './i18n';
+import { REGION } from './region';
+
+// On the RU build the source JSX is already Russian, so we skip the i18n
+// DOM walker entirely and hide the lang switcher (added via a data attribute
+// CSS rule injected on first render).
 
 const DESIGN_WIDTH = { mobile: 375, tablet: 1024, desktop: 1440 } as const;
 type BP = keyof typeof DESIGN_WIDTH;
@@ -92,8 +97,23 @@ export default function App() {
     };
   }, []);
 
-  // Lang switcher click delegation.
-  useEffect(() => bindLangSwitchClick(lang), [lang]);
+  // Lang switcher click delegation (disabled on RU — switcher is hidden).
+  useEffect(() => {
+    if (REGION === 'ru') return;
+    return bindLangSwitchClick(lang);
+  }, [lang]);
+
+  // Hide lang switcher chip via CSS on RU build + patch document title/description.
+  useEffect(() => {
+    if (REGION !== 'ru') return;
+    const style = document.createElement('style');
+    style.textContent = '[data-name="lang-btn"],[data-name="lang-switch"]{display:none!important;}';
+    document.head.appendChild(style);
+    document.title = 'TGShop Chat — Telegram-магазин и CRM в России';
+    const desc = document.querySelector('meta[name="description"]');
+    if (desc) desc.setAttribute('content', 'Запустите Telegram-магазин за 5 минут без сайта и разработчиков. Каталог, СБП, эквайринг, CRM в одном кабинете.');
+    return () => { style.remove(); };
+  }, []);
 
   // Re-apply layout calc + UTM passthrough + translations on bp/lang change.
   useEffect(() => {
@@ -106,8 +126,11 @@ export default function App() {
         document.body.style.height = `${root.scrollHeight * scale}px`;
       }
       applyUtmPassthrough();
-      applyTranslations(lang);
-      updateLangSwitchLabels(lang);
+      // Skip DOM walker translation on RU build — JSX is already in Russian.
+      if (REGION !== 'ru') {
+        applyTranslations(lang);
+        updateLangSwitchLabels(lang);
+      }
     };
     requestAnimationFrame(run);
     const t1 = setTimeout(run, 200);

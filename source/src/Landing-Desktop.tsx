@@ -3,6 +3,7 @@
 // Full responsive landing — React + Tailwind
 import { useState } from 'react';
 import { CTA_HREF, SIGNIN_HREF } from './utm';
+import { T, HERO_CHAT_NAMES } from './region';
 
 const imgPhoto202508261509211 = `${import.meta.env.BASE_URL}assets/imgPhoto202508261509211.png`;
 // Brand logos — local assets, mirror Figma node 40002682:1121 (8 brands).
@@ -257,7 +258,7 @@ export default function LandingDesktop() {
                   <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="40002524:7974" data-name="main">
                     <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="40002524:7975" data-name="top">
                       <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#0a1519] text-[13px] tracking-[-0.13px] whitespace-nowrap" data-node-id="40002524:7976">
-                        Ozoda M.
+                        {HERO_CHAT_NAMES[1]}
                       </p>
                       <div className="flex-[1_0_0] h-[100px] min-w-px relative" data-node-id="40002524:7977" data-name="s" />
                       <p className="[word-break:break-word] font-['SF_Pro_Display:Medium',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002524:7978">
@@ -280,7 +281,7 @@ export default function LandingDesktop() {
                   <div className="content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-start min-w-px relative" data-node-id="40002524:7985" data-name="main">
                     <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="40002524:7986" data-name="top">
                       <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#0a1519] text-[13px] tracking-[-0.13px] whitespace-nowrap" data-node-id="40002524:7987">
-                        Дилшод М.
+                        {HERO_CHAT_NAMES[2]}
                       </p>
                       <div className="flex-[1_0_0] h-[100px] min-w-px relative" data-node-id="40002524:7988" data-name="s" />
                       <p className="[word-break:break-word] font-['SF_Pro_Display:Medium',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002524:7989">
@@ -306,7 +307,7 @@ export default function LandingDesktop() {
                   <div className="content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-start min-w-px relative" data-node-id="40002524:7996" data-name="main">
                     <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="40002524:7997" data-name="top">
                       <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#0a1519] text-[13px] tracking-[-0.13px] whitespace-nowrap" data-node-id="40002524:7998">
-                        Мадина Х.
+                        {HERO_CHAT_NAMES[3]}
                       </p>
                       <div className="flex-[1_0_0] h-[100px] min-w-px relative" data-node-id="40002524:7999" data-name="s" />
                       <p className="[word-break:break-word] font-['SF_Pro_Display:Medium',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002524:8000">
@@ -332,7 +333,7 @@ export default function LandingDesktop() {
                   <div className="content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-start min-w-px relative" data-node-id="40002524:8007" data-name="main">
                     <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="40002524:8008" data-name="top">
                       <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#0a1519] text-[13px] tracking-[-0.13px] whitespace-nowrap" data-node-id="40002524:8009">
-                        Акмал Т.
+                        {HERO_CHAT_NAMES[4]}
                       </p>
                       <div className="flex-[1_0_0] h-[100px] min-w-px relative" data-node-id="40002524:8010" data-name="s" />
                       <p className="[word-break:break-word] font-['SF_Pro_Display:Medium',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002524:8011">
@@ -358,7 +359,7 @@ export default function LandingDesktop() {
                   <div className="content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-start min-w-px relative" data-node-id="40002524:8018" data-name="main">
                     <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="40002524:8019" data-name="top">
                       <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#0a1519] text-[13px] tracking-[-0.13px] whitespace-nowrap" data-node-id="40002524:8020">
-                        Aziz K.
+                        {HERO_CHAT_NAMES[5]}
                       </p>
                       <div className="flex-[1_0_0] h-[100px] min-w-px relative" data-node-id="40002524:8021" data-name="s" />
                       <p className="[word-break:break-word] font-['SF_Pro_Display:Medium',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002524:8022">
@@ -504,7 +505,7 @@ export default function LandingDesktop() {
                   ✓
                 </p>
                 <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0 text-[11px]" data-node-id="40002705:8490" style={{ fontVariationSettings: "'wdth' 100" }}>
-                  0 сум на рекламу
+                  {T.zeroAdsBadge}
                 </p>
               </div>
               <div className="content-stretch flex gap-[34px] h-[63px] items-start relative shrink-0 w-full" data-node-id="40002690:8541">
@@ -817,7 +818,7 @@ export default function LandingDesktop() {
             </p>
             <div className="h-[16px] relative shrink-0 w-[100px]" data-node-id="40002633:429" data-name="sp" />
             <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.6] not-italic relative shrink-0 text-[#595959] text-[18px] tracking-[-0.18px] w-[568px]" data-node-id="40002633:430">
-              При среднем чеке 300 000 soʻm это 1 500 000 soʻm в день. Или 45 миллионов soʻm в месяц.
+              {T.calcBody}
             </p>
             <div className="h-[32px] relative shrink-0 w-[100px]" data-node-id="40002633:431" data-name="sp" />
             <div className="h-[28px] relative shrink-0 w-[100px]" data-node-id="40002633:476" data-name="sp" />
@@ -882,7 +883,7 @@ export default function LandingDesktop() {
               <div className="h-[10px] relative shrink-0 w-[100px]" data-node-id="40002633:469" data-name="sp" />
               <div className="content-stretch flex items-center justify-between relative shrink-0 w-full" data-node-id="40002633:470" data-name="ch-foot">
                 <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002633:471">
-                  день 1 — 1,5 млн
+                  день 1 — {T.lossPerMonthShort}
                 </p>
                 <div className="flex-[1_0_0] h-[100px] min-w-px relative" data-node-id="40002633:472" data-name="sp" />
                 <div className="[word-break:break-word] content-stretch flex gap-[4px] items-start leading-[1.5] not-italic overflow-clip relative shrink-0 text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002633:473" data-name="chf-r">
@@ -890,7 +891,7 @@ export default function LandingDesktop() {
                     день 30 —
                   </p>
                   <p className="font-['SF_Pro_Display:Bold',sans-serif] relative shrink-0 text-[#e5484d]" data-node-id="40002633:475">
-                    45 млн soʻm
+                    {T.lossMonthEnd}
                   </p>
                 </div>
               </div>
@@ -977,7 +978,7 @@ export default function LandingDesktop() {
                   Оплата
                 </p>
                 <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#6b7885] text-[13px] whitespace-nowrap" data-node-id="40002655:8254" style={{ fontVariationSettings: "'wdth' 100" }}>
-                  Click, Payme, наличные
+                  {T.setupPayments}
                 </p>
               </div>
               <div className="bg-white content-stretch flex gap-[12px] items-center overflow-clip py-[4px] relative shrink-0" data-node-id="40002655:8255" data-name="row">
@@ -1040,7 +1041,7 @@ export default function LandingDesktop() {
               <div className="bg-white content-stretch flex items-start justify-end overflow-clip relative shrink-0 w-full" data-node-id="40002679:8253" data-name="Frame">
                 <div className="bg-[#e8f2ff] content-stretch flex items-start overflow-clip px-[12px] py-[10px] relative rounded-[12px] shrink-0" data-node-id="40002679:8254" data-name="Frame">
                   <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#121726] text-[13px] whitespace-nowrap" data-node-id="40002679:8255" style={{ fontVariationSettings: "'wdth' 100" }}>
-                    Да, 1 290 000 soʻm. Оформлять?
+                    {T.chatPriceReply}
                   </p>
                 </div>
               </div>
@@ -1055,7 +1056,7 @@ export default function LandingDesktop() {
                     Заказ оформлен
                   </p>
                   <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#6b7885] text-[11px]" data-node-id="40002679:8261" style={{ fontVariationSettings: "'wdth' 100" }}>
-                    1 290 000 soʻm
+                    {T.chatOrderSum}
                   </p>
                 </div>
               </div>
@@ -1230,7 +1231,7 @@ export default function LandingDesktop() {
               </div>
               <div className="[word-break:break-word] bg-white border border-[#edf0f5] border-solid content-stretch flex flex-col gap-[6px] items-start leading-[normal] overflow-clip p-[12px] relative rounded-[12px] shrink-0 w-full whitespace-nowrap" data-node-id="40002650:7878" data-name="stat-card">
                 <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0 text-[#121726] text-[13px]" data-node-id="40002650:7879" style={{ fontVariationSettings: "'wdth' 100" }}>
-                  Акмал Т.
+                  {HERO_CHAT_NAMES[4]}
                 </p>
                 <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#6b7885] text-[12px]" data-node-id="40002650:7880" style={{ fontVariationSettings: "'wdth' 100" }}>
                   Когда доставка?
@@ -1241,7 +1242,7 @@ export default function LandingDesktop() {
               </div>
               <div className="[word-break:break-word] bg-white border border-[#edf0f5] border-solid content-stretch flex flex-col gap-[6px] items-start leading-[normal] overflow-clip p-[12px] relative rounded-[12px] shrink-0 w-full whitespace-nowrap" data-node-id="40002650:7882" data-name="stat-card">
                 <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0 text-[#121726] text-[13px]" data-node-id="40002650:7883" style={{ fontVariationSettings: "'wdth' 100" }}>
-                  Дилшод М.
+                  {HERO_CHAT_NAMES[2]}
                 </p>
                 <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#6b7885] text-[12px]" data-node-id="40002650:7884" style={{ fontVariationSettings: "'wdth' 100" }}>
                   Уточните адрес
@@ -1264,7 +1265,7 @@ export default function LandingDesktop() {
               </div>
               <div className="[word-break:break-word] bg-white border border-[#edf0f5] border-solid content-stretch flex flex-col gap-[6px] items-start leading-[normal] overflow-clip p-[12px] relative rounded-[12px] shrink-0 w-full whitespace-nowrap" data-node-id="40002650:7891" data-name="stat-card">
                 <p className="font-['SF_Pro:Semibold',sans-serif] font-[590] relative shrink-0 text-[#121726] text-[13px]" data-node-id="40002650:7892" style={{ fontVariationSettings: "'wdth' 100" }}>
-                  Мадина Х.
+                  {HERO_CHAT_NAMES[3]}
                 </p>
                 <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#6b7885] text-[12px]" data-node-id="40002650:7893" style={{ fontVariationSettings: "'wdth' 100" }}>
                   Получила 👍
@@ -1437,7 +1438,7 @@ export default function LandingDesktop() {
                     </p>
                   </div>
                   <p className="[word-break:break-word] flex-[1_0_0] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] min-w-px relative text-[#121726] text-[15px]" data-node-id="40002781:8497" style={{ fontVariationSettings: "'wdth' 100" }}>
-                    Импорт из Мойсклад, 1С, Billz
+                    {T.importLineWithChips}
                   </p>
                 </div>
                 <div className="bg-white content-stretch flex gap-[10px] items-start overflow-clip relative shrink-0 w-full" data-node-id="40002781:8498" data-name="Frame">
@@ -1483,7 +1484,7 @@ export default function LandingDesktop() {
                     <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse7} />
                   </div>
                   <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[normal] relative shrink-0 text-[#121726] text-[11px] whitespace-nowrap" data-node-id="40002781:8515" style={{ fontVariationSettings: "'wdth' 100" }}>
-                    Billz
+                    {T.importChip3}
                   </p>
                 </div>
               </div>
@@ -1550,7 +1551,7 @@ export default function LandingDesktop() {
                     <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse6} />
                   </div>
                   <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[normal] relative shrink-0 text-[#121726] text-[11px] whitespace-nowrap" data-node-id="40002781:8542" style={{ fontVariationSettings: "'wdth' 100" }}>
-                    Я.Доставка
+                    {T.paymentChip1}
                   </p>
                 </div>
                 <div className="bg-white border border-[#ebedf2] border-solid content-stretch flex gap-[6px] items-center justify-center overflow-clip px-[10px] py-[6px] relative rounded-[8px] shadow-[0px_2px_6px_0px_rgba(13,18,31,0.06)] shrink-0" data-node-id="40002781:8543" data-name="Frame">
@@ -1558,7 +1559,7 @@ export default function LandingDesktop() {
                     <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse7} />
                   </div>
                   <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[normal] relative shrink-0 text-[#121726] text-[11px] whitespace-nowrap" data-node-id="40002781:8545" style={{ fontVariationSettings: "'wdth' 100" }}>
-                    Click
+                    {T.paymentChip2}
                   </p>
                 </div>
                 <div className="bg-white border border-[#ebedf2] border-solid content-stretch flex gap-[6px] items-center justify-center overflow-clip px-[10px] py-[6px] relative rounded-[8px] shadow-[0px_2px_6px_0px_rgba(13,18,31,0.06)] shrink-0" data-node-id="40002781:8546" data-name="Frame">
@@ -1566,7 +1567,7 @@ export default function LandingDesktop() {
                     <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse8} />
                   </div>
                   <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[normal] relative shrink-0 text-[#121726] text-[11px] whitespace-nowrap" data-node-id="40002781:8548" style={{ fontVariationSettings: "'wdth' 100" }}>
-                    Uzum nasiya
+                    {T.paymentChip3}
                   </p>
                 </div>
                 <div className="bg-white border border-[#ebedf2] border-solid content-stretch flex gap-[6px] items-center justify-center overflow-clip px-[10px] py-[6px] relative rounded-[8px] shadow-[0px_2px_6px_0px_rgba(13,18,31,0.06)] shrink-0" data-node-id="40002781:8549" data-name="Frame">
@@ -1574,7 +1575,7 @@ export default function LandingDesktop() {
                     <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse9} />
                   </div>
                   <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[normal] relative shrink-0 text-[#121726] text-[11px] whitespace-nowrap" data-node-id="40002781:8551" style={{ fontVariationSettings: "'wdth' 100" }}>
-                    Payme
+                    {T.paymentChip4}
                   </p>
                 </div>
               </div>
@@ -1771,15 +1772,12 @@ export default function LandingDesktop() {
             <div className="h-[12px] relative shrink-0 w-[100px]" data-node-id="40002524:8499" data-name="sp" />
             <div className="[word-break:break-word] content-stretch flex gap-[6px] items-baseline leading-[1.5] overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="40002524:8500" data-name="pr">
               <p className="font-['SF_Pro:Bold',sans-serif] font-bold relative shrink-0 text-[#0a1519] text-[40px] tracking-[-1.2px]" data-node-id="40002524:8501" style={{ fontVariationSettings: "'wdth' 100" }}>
-                {isYear ? '399 000' : '499 000'}
-              </p>
-              <p className="font-['SF_Pro_Display:Regular',sans-serif] not-italic relative shrink-0 text-[#767d88] text-[14px] tracking-[-0.14px]" data-node-id="40002524:8502">
-                soʻm / мес
+                {isYear ? T.priceStarterYear : T.priceStarterMonth}
               </p>
             </div>
             <div className="h-[6px] relative shrink-0 w-[100px]" data-node-id="40002524:8503" data-name="sp" />
             <p className={`[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.5] relative shrink-0 text-[#767d88] text-[13px] tracking-[-0.13px] whitespace-nowrap ${isYear ? 'line-through' : ''}`} data-node-id="40002524:8504" style={{ fontVariationSettings: "'wdth' 100" }}>
-              {isYear ? '499 000 soʻm/мес' : '−20% при оплате за год'}
+              {isYear ? T.priceStarterMonth : '−20% при оплате за год'}
             </p>
             <div className="h-[16px] relative shrink-0 w-[100px]" data-node-id="40002524:8505" data-name="sp" />
             <div className="bg-[rgba(16,142,245,0.08)] content-stretch flex items-center overflow-clip px-[12px] py-[8px] relative rounded-[8px] shrink-0" data-node-id="40002524:8506" data-name="lim">
@@ -1942,15 +1940,12 @@ export default function LandingDesktop() {
             <div className="h-[12px] relative shrink-0 w-[100px]" data-node-id="40002524:8554" data-name="sp" />
             <div className="[word-break:break-word] content-stretch flex gap-[6px] items-baseline leading-[1.5] overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="40002524:8555" data-name="pr">
               <p className="font-['SF_Pro:Bold',sans-serif] font-bold relative shrink-0 text-[#0a1519] text-[40px] tracking-[-1.2px]" data-node-id="40002524:8556" style={{ fontVariationSettings: "'wdth' 100" }}>
-                {isYear ? '559 000' : '699 000'}
-              </p>
-              <p className="font-['SF_Pro_Display:Regular',sans-serif] not-italic relative shrink-0 text-[#767d88] text-[14px] tracking-[-0.14px]" data-node-id="40002524:8557">
-                soʻm / мес
+                {isYear ? T.priceBusinessYear : T.priceBusinessMonth}
               </p>
             </div>
             <div className="h-[6px] relative shrink-0 w-[100px]" data-node-id="40002524:8558" data-name="sp" />
             <p className={`[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.5] relative shrink-0 text-[#767d88] text-[13px] tracking-[-0.13px] whitespace-nowrap ${isYear ? 'line-through' : ''}`} data-node-id="40002524:8559" style={{ fontVariationSettings: "'wdth' 100" }}>
-              {isYear ? '699 000 soʻm/мес' : '−20% при оплате за год'}
+              {isYear ? T.priceBusinessMonth : '−20% при оплате за год'}
             </p>
             <div className="h-[16px] relative shrink-0 w-[100px]" data-node-id="40002524:8560" data-name="sp" />
             <div className="bg-[rgba(16,142,245,0.08)] content-stretch flex items-center overflow-clip px-[12px] py-[8px] relative rounded-[8px] shrink-0" data-node-id="40002524:8561" data-name="lim">
@@ -2107,15 +2102,12 @@ export default function LandingDesktop() {
             <div className="h-[12px] relative shrink-0 w-[100px]" data-node-id="40002524:8586" data-name="sp" />
             <div className="[word-break:break-word] content-stretch flex gap-[6px] items-baseline leading-[1.5] overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="40002524:8587" data-name="pr">
               <p className="font-['SF_Pro:Bold',sans-serif] font-bold relative shrink-0 text-[#0a1519] text-[40px] tracking-[-1.2px]" data-node-id="40002524:8588" style={{ fontVariationSettings: "'wdth' 100" }}>
-                {isYear ? '799 000' : '999 000'}
-              </p>
-              <p className="font-['SF_Pro_Display:Regular',sans-serif] not-italic relative shrink-0 text-[#767d88] text-[14px] tracking-[-0.14px]" data-node-id="40002524:8589">
-                soʻm / мес
+                {isYear ? T.priceProYear : T.priceProMonth}
               </p>
             </div>
             <div className="h-[6px] relative shrink-0 w-[100px]" data-node-id="40002524:8590" data-name="sp" />
             <p className={`[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.5] relative shrink-0 text-[#767d88] text-[13px] tracking-[-0.13px] whitespace-nowrap ${isYear ? 'line-through' : ''}`} data-node-id="40002524:8591" style={{ fontVariationSettings: "'wdth' 100" }}>
-              {isYear ? '999 000 soʻm/мес' : '−20% при оплате за год'}
+              {isYear ? T.priceProMonth : '−20% при оплате за год'}
             </p>
             <div className="h-[16px] relative shrink-0 w-[100px]" data-node-id="40002524:8592" data-name="sp" />
             <div className="bg-[rgba(16,142,245,0.08)] content-stretch flex items-center overflow-clip px-[12px] py-[8px] relative rounded-[8px] shrink-0" data-node-id="40002524:8593" data-name="lim">
@@ -2343,7 +2335,7 @@ export default function LandingDesktop() {
               <p className="cursor-pointer leading-[1.5]">Telegram-магазин</p>
             </a>
             <a className="[word-break:break-word] block font-['SF_Pro:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[#a6b0bf] text-[14px] tracking-[-0.14px] whitespace-nowrap" href="https://uz.tgshop.io" data-node-id="40002524:8696" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
-              <p className="cursor-pointer leading-[1.5]">TGShop Узбекистан</p>
+              <p className="cursor-pointer leading-[1.5]">{T.footerBrand}</p>
             </a>
           </div>
           <div className="content-stretch flex flex-col gap-[10px] items-start overflow-clip relative shrink-0 w-[200px]" data-node-id="40002524:8697" data-name="fc">
