@@ -5,7 +5,7 @@ import { T, HERO_CHAT_NAMES } from './region';
 // === IMAGE CONSTANTS (deduped across sections) ===
 
 // Hero
-const imgHero_Frame21361400041 = `${import.meta.env.BASE_URL}assets/imgHero_Frame21361400041.png`;
+const imgHero_Frame21361400041 = `${import.meta.env.BASE_URL}assets/${import.meta.env.VITE_REGION === 'ru' ? 'ru_hero_phone.png' : 'imgHero_Frame21361400041.png'}`;
 const imgHero_Ellipse = `${import.meta.env.BASE_URL}assets/imgHero_Ellipse.svg`;
 
 // Trust

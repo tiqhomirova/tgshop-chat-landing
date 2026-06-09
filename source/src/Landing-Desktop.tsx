@@ -26,7 +26,7 @@ const imgGroup7 = `${import.meta.env.BASE_URL}assets/imgGroup7.svg`;
 const imgGroup8 = `${import.meta.env.BASE_URL}assets/imgGroup8.svg`;
 const imgSvg = `${import.meta.env.BASE_URL}assets/imgSvg.svg`;
 const imgVector = `${import.meta.env.BASE_URL}assets/brand-bogner.png`;
-const imgFrame21361400041 = `${import.meta.env.BASE_URL}assets/imgFrame21361400041.png`;
+const imgFrame21361400041 = `${import.meta.env.BASE_URL}assets/${import.meta.env.VITE_REGION === 'ru' ? 'ru_hero_phone.png' : 'imgFrame21361400041.png'}`;
 const imgBackground = `${import.meta.env.BASE_URL}assets/imgBackground.png`;
 const imgBackground1 = `${import.meta.env.BASE_URL}assets/imgBackground1.png`;
 const imgPhoto202508261509132 = `${import.meta.env.BASE_URL}assets/imgPhoto202508261509132.png`;
