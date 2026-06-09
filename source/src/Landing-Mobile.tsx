@@ -204,12 +204,12 @@ function Hero() {
                   ("Yangi"/"Ochiq"/"Yopiq") and clipped Russian "Новый"/"Открыт"/"Закрыт".
                   Removed badgeW — pill auto-sizes to content via px-[7px] padding. */}
               {[
-                { bg: 'bg-[#f3f8ff]', av: 'bg-[#e5484d]', avT: 'Ю', name: 'Регина К.', time: 'только что', badge: 'Новый', badgeBg: 'bg-[#e5484d]', preview: null },
-                { bg: 'bg-[#f3f8ff]', av: 'bg-[#e5484d]', avT: 'Ю', name: HERO_CHAT_NAMES[1], time: 'только что', badge: 'Новый', badgeBg: 'bg-[#e5484d]', preview: null },
+                { bg: 'bg-[#f3f8ff]', av: 'bg-[#e5484d]', avT: 'Ю', name: 'Регина К.', time: 'только что', badge: 'Новый', badgeBg: 'bg-[#e5484d]', preview: { t: 'Здравствуйте! Есть в наличии?', c: '#595959' } },
+                { bg: 'bg-[#f3f8ff]', av: 'bg-[#e5484d]', avT: 'Ю', name: HERO_CHAT_NAMES[1], time: 'только что', badge: 'Новый', badgeBg: 'bg-[#e5484d]', preview: { t: 'Когда доставка?', c: '#595959' } },
                 { bg: '', av: 'bg-[#8b5cf6]', avT: 'Д', name: HERO_CHAT_NAMES[2], time: '4 мин', badge: 'Открыт', badgeBg: 'bg-[#f7b50d]', preview: { t: 'Алина: Передал в доставку ✅', c: '#108ef5' } },
                 { bg: '', av: 'bg-[#ec4899]', avT: 'М', name: HERO_CHAT_NAMES[3], time: '12 мин', badge: 'Открыт', badgeBg: 'bg-[#f7b50d]', preview: { t: 'Спасибо!', c: '#595959' } },
-                { bg: 'bg-[#f3f8ff]', av: 'bg-[#0ea5e9]', avT: 'А', name: HERO_CHAT_NAMES[4], time: '10 мин', badge: 'Закрыт', badgeBg: 'bg-[#4fd192]', preview: { t: 'Доставите сегодня до 18:00?', c: '#595959' } },
-                { bg: 'bg-[#f3f8ff]', av: 'bg-[#0ea5e9]', avT: 'А', name: HERO_CHAT_NAMES[5], time: '15 мин', badge: 'Закрыт', badgeBg: 'bg-[#4fd192]', preview: { t: 'Доставите сегодня до 18:00?', c: '#595959' } },
+                { bg: 'bg-[#f3f8ff]', av: 'bg-[#0ea5e9]', avT: 'А', name: HERO_CHAT_NAMES[4], time: '10 мин', badge: 'Закрыт', badgeBg: 'bg-[#4fd192]', preview: { t: 'Когда будет в наличии?', c: '#595959' } },
+                { bg: 'bg-[#f3f8ff]', av: 'bg-[#0ea5e9]', avT: 'А', name: HERO_CHAT_NAMES[5], time: '15 мин', badge: 'Закрыт', badgeBg: 'bg-[#4fd192]', preview: { t: 'Можно скидку?', c: '#595959' } },
               ].map((c, i) => (
                 <div key={i} className={`${c.bg} content-stretch flex gap-[8px] h-[28.6px] items-center p-[10px] relative rounded-[10px] shrink-0 w-[193.7px]`} data-name="ch">
                   <div className={`${c.av} content-stretch flex items-center justify-center overflow-clip relative rounded-[14px] shrink-0 size-[18.2px]`}>
@@ -247,8 +247,8 @@ function Hero() {
               </div>
             </div>
             <div className="h-[7.8px] shrink-0 w-[65px]" />
-            <div className="h-[268px] relative rounded-[20px] shadow-[-1px_-1px_6px_0px_rgba(0,0,0,0.2)] shrink-0 w-[124px]">
-              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[20px] size-full" src={imgHero_Frame21361400041} />
+            <div className={`h-[268px] relative shrink-0 w-[124px] ${T.isRU ? '' : 'rounded-[20px] shadow-[-1px_-1px_6px_0px_rgba(0,0,0,0.2)]'}`}>
+              <img alt="" className={`absolute inset-0 max-w-none pointer-events-none size-full ${T.isRU ? 'object-contain' : 'object-cover rounded-[20px]'}`} src={imgHero_Frame21361400041} />
             </div>
           </div>
           <div className="absolute flex h-[89.893px] items-center justify-center left-[74.62px] top-[247.38px] w-[166.337px]">
@@ -627,7 +627,7 @@ function How() {
       <div className="content-stretch flex flex-col gap-[14px] items-start overflow-clip relative shrink-0 w-[335px]" data-name="steps">
         {/* Step 1 */}
         <div className="bg-white border border-[rgba(0,0,0,0.06)] border-solid content-stretch flex flex-col items-start overflow-clip pb-[18px] pt-[20px] px-[18px] relative rounded-[24px] shrink-0 w-[335px]" data-name="step">
-          <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-[62px]">
+          <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-full">
             <div className="bg-[#108ef5] content-stretch flex items-start overflow-clip px-[14px] py-[6px] relative rounded-[100px] shrink-0">
               <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[13px] text-white tracking-[-0.13px] whitespace-nowrap">Шаг 1</p>
             </div>
@@ -657,7 +657,7 @@ function How() {
         </div>
         {/* Step 2 */}
         <div className="bg-white border border-[rgba(0,0,0,0.06)] border-solid content-stretch flex flex-col items-start overflow-clip pb-[18px] pt-[20px] px-[18px] relative rounded-[24px] shrink-0 w-[335px]" data-name="step">
-          <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-[64px]">
+          <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-full">
             <div className="bg-[#108ef5] content-stretch flex items-start overflow-clip px-[14px] py-[6px] relative rounded-[100px] shrink-0">
               <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[13px] text-white tracking-[-0.13px] whitespace-nowrap">Шаг 2</p>
             </div>
@@ -700,7 +700,7 @@ function How() {
         </div>
         {/* Step 3 */}
         <div className="bg-white border border-[rgba(0,0,0,0.06)] border-solid content-stretch flex flex-col items-start overflow-clip pb-[18px] pt-[20px] px-[18px] relative rounded-[24px] shrink-0 w-[335px]" data-name="step">
-          <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-[64px]">
+          <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-full">
             <div className="bg-[#108ef5] content-stretch flex items-start overflow-clip px-[14px] py-[6px] relative rounded-[100px] shrink-0">
               <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[13px] text-white tracking-[-0.13px] whitespace-nowrap">Шаг 3</p>
             </div>

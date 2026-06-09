@@ -232,7 +232,7 @@ export default function LandingDesktop() {
                       Ю
                     </p>
                   </div>
-                  <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="40002524:7963" data-name="main">
+                  <div className="content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-start min-w-px relative" data-node-id="40002524:7963" data-name="main">
                     <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="40002524:7964" data-name="top">
                       <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#0a1519] text-[13px] tracking-[-0.13px] whitespace-nowrap" data-node-id="40002524:7965">
                         Регина К.
@@ -242,6 +242,9 @@ export default function LandingDesktop() {
                         только что
                       </p>
                     </div>
+                    <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#595959] text-[13px] tracking-[-0.13px] w-[252px]">
+                      Здравствуйте! Есть в наличии?
+                    </p>
                   </div>
                   <div className="bg-[#e5484d] content-stretch flex items-center overflow-clip px-[7px] py-[3px] relative rounded-[100px] shrink-0" data-node-id="40002524:7969" data-name="bd">
                     <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[10px] text-white tracking-[0.2px] whitespace-nowrap" data-node-id="40002524:7970">
@@ -255,7 +258,7 @@ export default function LandingDesktop() {
                       Ю
                     </p>
                   </div>
-                  <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="40002524:7974" data-name="main">
+                  <div className="content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-start min-w-px relative" data-node-id="40002524:7974" data-name="main">
                     <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="40002524:7975" data-name="top">
                       <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#0a1519] text-[13px] tracking-[-0.13px] whitespace-nowrap" data-node-id="40002524:7976">
                         {HERO_CHAT_NAMES[1]}
@@ -265,6 +268,9 @@ export default function LandingDesktop() {
                         только что
                       </p>
                     </div>
+                    <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#595959] text-[13px] tracking-[-0.13px] w-[252px]">
+                      Когда доставка?
+                    </p>
                   </div>
                   <div className="bg-[#e5484d] content-stretch flex items-center overflow-clip px-[7px] py-[3px] relative rounded-[100px] shrink-0" data-node-id="40002524:7980" data-name="bd">
                     <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[10px] text-white tracking-[0.2px] whitespace-nowrap" data-node-id="40002524:7981">
@@ -341,7 +347,7 @@ export default function LandingDesktop() {
                       </p>
                     </div>
                     <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#595959] text-[13px] tracking-[-0.13px] w-[252px]" data-node-id="40002524:8012">
-                      Доставите сегодня до 18:00?
+                      Когда будет в наличии?
                     </p>
                   </div>
                   <div className="bg-[#4fd192] content-stretch flex items-center overflow-clip px-[7px] py-[3px] relative rounded-[100px] shrink-0" data-node-id="40002524:8013" data-name="bd">
@@ -367,7 +373,7 @@ export default function LandingDesktop() {
                       </p>
                     </div>
                     <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#595959] text-[13px] tracking-[-0.13px] w-[252px]" data-node-id="40002524:8023">
-                      Доставите сегодня до 18:00?
+                      Можно скидку?
                     </p>
                   </div>
                   <div className="bg-[#4fd192] content-stretch flex items-center overflow-clip px-[7px] py-[3px] relative rounded-[100px] shrink-0" data-node-id="40002524:8024" data-name="bd">
@@ -395,8 +401,8 @@ export default function LandingDesktop() {
                 </div>
               </div>
               <div className="h-[12px] relative shrink-0 w-[100px]" data-node-id="40002524:8033" data-name="sp" />
-              <div className="h-[379px] relative rounded-[20px] shadow-[-1px_-1px_6px_0px_rgba(0,0,0,0.2)] shrink-0 w-[175px]" data-node-id="40002524:8034" data-name="Frame 2136140004 1">
-                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[20px] size-full" src={imgFrame21361400041} />
+              <div className={`h-[379px] relative shrink-0 w-[175px] ${T.isRU ? '' : 'rounded-[20px] shadow-[-1px_-1px_6px_0px_rgba(0,0,0,0.2)]'}`} data-node-id="40002524:8034" data-name="Frame 2136140004 1">
+                <img alt="" className={`absolute inset-0 max-w-none pointer-events-none size-full ${T.isRU ? 'object-contain' : 'object-cover rounded-[20px]'}`} src={imgFrame21361400041} />
               </div>
               <div className="h-[12px] relative shrink-0 w-[100px]" data-node-id="40002524:8035" data-name="sp" />
               <div className="h-[8px] relative shrink-0 w-[100px]" data-node-id="40002524:8036" data-name="sp" />
@@ -573,15 +579,6 @@ export default function LandingDesktop() {
                     рост в месяц
                   </p>
                 </div>
-                <div className="content-stretch flex flex-col gap-[6px] items-start opacity-0 relative shrink-0" data-node-id="40002690:8567">
-                  <p className="[word-break:break-word] font-['Manrope:ExtraBold',sans-serif] font-extrabold leading-[normal] relative shrink-0 text-[24px] text-[color:var(--accent-\/-green,#1d9b5e)] tracking-[-0.912px] whitespace-nowrap" data-node-id="40002690:8568">
-                    х2
-                  </p>
-                  <div className="bg-[#21b263] h-[4px] relative rounded-[2px] shrink-0 w-[60px]" data-node-id="40002712:8494" data-name="Rectangle" />
-                  <p className="[word-break:break-word] font-['Manrope:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[14px] text-[color:var(--text-\/-primary,#0a1519)] tracking-[-0.532px] whitespace-nowrap" data-node-id="40002690:8569">
-                    клиентов активировали
-                  </p>
-                </div>
               </div>
               <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] opacity-0 relative shrink-0 text-[#8c949e] text-[11px] whitespace-nowrap" data-node-id="40002712:8495" style={{ fontVariationSettings: "'wdth' 100" }}>
                 в месяц
@@ -631,15 +628,6 @@ export default function LandingDesktop() {
                   <div className="bg-[#21b263] h-[4px] relative rounded-[2px] shrink-0 w-[60px]" data-node-id="40002712:8500" data-name="Rectangle" />
                   <p className="[word-break:break-word] font-['SF_Pro:Medium',sans-serif] font-[510] leading-[18px] relative shrink-0 text-[14px] text-[color:var(--text-\/-primary,#0a1519)] tracking-[-0.392px] whitespace-nowrap" data-node-id="40002690:8585" style={{ fontVariationSettings: "'wdth' 100" }}>
                     рост выручки
-                  </p>
-                </div>
-                <div className="content-stretch flex flex-col gap-[6px] items-start opacity-0 relative shrink-0" data-node-id="40002690:8586">
-                  <p className="[word-break:break-word] font-['Manrope:ExtraBold',sans-serif] font-extrabold leading-[normal] relative shrink-0 text-[24px] text-[color:var(--accent-\/-green,#1d9b5e)] tracking-[-0.912px] whitespace-nowrap" data-node-id="40002690:8587">
-                    х2
-                  </p>
-                  <div className="bg-[#21b263] h-[4px] relative rounded-[2px] shrink-0 w-[60px]" data-node-id="40002712:8501" data-name="Rectangle" />
-                  <p className="[word-break:break-word] font-['Manrope:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[14px] text-[color:var(--text-\/-primary,#0a1519)] tracking-[-0.532px] whitespace-nowrap" data-node-id="40002690:8588">
-                    клиентов активировали
                   </p>
                 </div>
               </div>
@@ -934,7 +922,7 @@ export default function LandingDesktop() {
         <div className="h-[48px] relative shrink-0 w-[100px]" data-node-id="40002524:8341" data-name="sp" />
         <div className="content-stretch flex gap-[24px] items-start overflow-clip relative shrink-0 w-[1200px]" data-node-id="40002524:8342" data-name="steps">
           <div className="bg-white border border-[rgba(0,0,0,0.06)] border-solid content-stretch flex flex-col items-start overflow-clip px-[24px] py-[28px] relative rounded-[24px] shrink-0 w-[384px]" data-node-id="40002524:8343" data-name="step">
-            <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-[62px]" data-node-id="40002524:8344" data-name="h">
+            <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-full" data-node-id="40002524:8344" data-name="h">
               <div className="bg-[#108ef5] content-stretch flex items-start overflow-clip px-[14px] py-[6px] relative rounded-[100px] shrink-0" data-node-id="40002524:8345" data-name="np">
                 <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[13px] text-white tracking-[-0.13px] whitespace-nowrap" data-node-id="40002524:8346">
                   Шаг 1
@@ -997,7 +985,7 @@ export default function LandingDesktop() {
             </div>
           </div>
           <div className="bg-white border border-[rgba(0,0,0,0.06)] border-solid content-stretch flex flex-col items-start overflow-clip px-[24px] py-[28px] relative rounded-[24px] shrink-0 w-[384px]" data-node-id="40002524:8372" data-name="step">
-            <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-[64px]" data-node-id="40002524:8373" data-name="h">
+            <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-full" data-node-id="40002524:8373" data-name="h">
               <div className="bg-[#108ef5] content-stretch flex items-start overflow-clip px-[14px] py-[6px] relative rounded-[100px] shrink-0" data-node-id="40002524:8374" data-name="np">
                 <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[13px] text-white tracking-[-0.13px] whitespace-nowrap" data-node-id="40002524:8375">
                   Шаг 2
@@ -1063,7 +1051,7 @@ export default function LandingDesktop() {
             </div>
           </div>
           <div className="bg-white border border-[rgba(0,0,0,0.06)] border-solid content-stretch flex flex-col items-start overflow-clip px-[24px] py-[28px] relative rounded-[24px] shrink-0 w-[384px]" data-node-id="40002524:8403" data-name="step">
-            <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-[64px]" data-node-id="40002524:8404" data-name="h">
+            <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-full" data-node-id="40002524:8404" data-name="h">
               <div className="bg-[#108ef5] content-stretch flex items-start overflow-clip px-[14px] py-[6px] relative rounded-[100px] shrink-0" data-node-id="40002524:8405" data-name="np">
                 <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[13px] text-white tracking-[-0.13px] whitespace-nowrap" data-node-id="40002524:8406">
                   Шаг 3
