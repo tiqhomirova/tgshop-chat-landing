@@ -243,7 +243,7 @@ export default function LandingDesktop() {
                       </p>
                     </div>
                     <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#595959] text-[13px] tracking-[-0.13px] w-full overflow-hidden text-ellipsis whitespace-nowrap">
-                      Здравствуйте! Есть в наличии?
+                      Есть в наличии?
                     </p>
                   </div>
                   <div className="bg-[#e5484d] content-stretch flex items-center overflow-clip px-[7px] py-[3px] relative rounded-[100px] shrink-0" data-node-id="40002524:7969" data-name="bd">
@@ -295,7 +295,7 @@ export default function LandingDesktop() {
                       </p>
                     </div>
                     <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#108ef5] text-[13px] tracking-[-0.13px] w-full overflow-hidden text-ellipsis whitespace-nowrap" data-node-id="40002524:7990">
-                      Алина: Передал в доставку ✅
+                      Передал в доставку ✅
                     </p>
                   </div>
                   <div className="bg-[#f7b50d] content-stretch flex items-center overflow-clip px-[7px] py-[3px] relative rounded-[100px] shrink-0" data-node-id="40002524:7991" data-name="bd">

@@ -204,9 +204,9 @@ function Hero() {
                   ("Yangi"/"Ochiq"/"Yopiq") and clipped Russian "Новый"/"Открыт"/"Закрыт".
                   Removed badgeW — pill auto-sizes to content via px-[7px] padding. */}
               {[
-                { bg: 'bg-[#f3f8ff]', av: 'bg-[#e5484d]', avT: 'Ю', name: 'Регина К.', time: 'только что', badge: 'Новый', badgeBg: 'bg-[#e5484d]', preview: { t: 'Здравствуйте! Есть в наличии?', c: '#595959' } },
+                { bg: 'bg-[#f3f8ff]', av: 'bg-[#e5484d]', avT: 'Ю', name: 'Регина К.', time: 'только что', badge: 'Новый', badgeBg: 'bg-[#e5484d]', preview: { t: 'Есть в наличии?', c: '#595959' } },
                 { bg: 'bg-[#f3f8ff]', av: 'bg-[#e5484d]', avT: 'Ю', name: HERO_CHAT_NAMES[1], time: 'только что', badge: 'Новый', badgeBg: 'bg-[#e5484d]', preview: { t: 'Когда доставка?', c: '#595959' } },
-                { bg: '', av: 'bg-[#8b5cf6]', avT: 'Д', name: HERO_CHAT_NAMES[2], time: '4 мин', badge: 'Открыт', badgeBg: 'bg-[#f7b50d]', preview: { t: 'Алина: Передал в доставку ✅', c: '#108ef5' } },
+                { bg: '', av: 'bg-[#8b5cf6]', avT: 'Д', name: HERO_CHAT_NAMES[2], time: '4 мин', badge: 'Открыт', badgeBg: 'bg-[#f7b50d]', preview: { t: 'Передал в доставку ✅', c: '#108ef5' } },
                 { bg: '', av: 'bg-[#ec4899]', avT: 'М', name: HERO_CHAT_NAMES[3], time: '12 мин', badge: 'Открыт', badgeBg: 'bg-[#f7b50d]', preview: { t: 'Спасибо!', c: '#595959' } },
                 { bg: 'bg-[#f3f8ff]', av: 'bg-[#0ea5e9]', avT: 'А', name: HERO_CHAT_NAMES[4], time: '10 мин', badge: 'Закрыт', badgeBg: 'bg-[#4fd192]', preview: { t: 'Когда будет в наличии?', c: '#595959' } },
                 { bg: 'bg-[#f3f8ff]', av: 'bg-[#0ea5e9]', avT: 'А', name: HERO_CHAT_NAMES[5], time: '15 мин', badge: 'Закрыт', badgeBg: 'bg-[#4fd192]', preview: { t: 'Можно скидку?', c: '#595959' } },
