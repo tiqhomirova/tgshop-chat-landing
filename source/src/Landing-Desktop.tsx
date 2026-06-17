@@ -242,7 +242,7 @@ export default function LandingDesktop() {
                         только что
                       </p>
                     </div>
-                    <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#595959] text-[13px] tracking-[-0.13px] w-[252px]">
+                    <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#595959] text-[13px] tracking-[-0.13px] w-full overflow-hidden text-ellipsis whitespace-nowrap">
                       Здравствуйте! Есть в наличии?
                     </p>
                   </div>
@@ -268,7 +268,7 @@ export default function LandingDesktop() {
                         только что
                       </p>
                     </div>
-                    <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#595959] text-[13px] tracking-[-0.13px] w-[252px]">
+                    <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#595959] text-[13px] tracking-[-0.13px] w-full overflow-hidden text-ellipsis whitespace-nowrap">
                       Когда доставка?
                     </p>
                   </div>
@@ -294,7 +294,7 @@ export default function LandingDesktop() {
                         4 мин
                       </p>
                     </div>
-                    <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#108ef5] text-[13px] tracking-[-0.13px] w-[252px]" data-node-id="40002524:7990">
+                    <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#108ef5] text-[13px] tracking-[-0.13px] w-full overflow-hidden text-ellipsis whitespace-nowrap" data-node-id="40002524:7990">
                       Алина: Передал в доставку ✅
                     </p>
                   </div>
@@ -320,7 +320,7 @@ export default function LandingDesktop() {
                         12 мин
                       </p>
                     </div>
-                    <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#595959] text-[13px] tracking-[-0.13px] w-[252px]" data-node-id="40002524:8001">
+                    <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#595959] text-[13px] tracking-[-0.13px] w-full overflow-hidden text-ellipsis whitespace-nowrap" data-node-id="40002524:8001">
                       Спасибо!
                     </p>
                   </div>
@@ -346,7 +346,7 @@ export default function LandingDesktop() {
                         10 мин
                       </p>
                     </div>
-                    <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#595959] text-[13px] tracking-[-0.13px] w-[252px]" data-node-id="40002524:8012">
+                    <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#595959] text-[13px] tracking-[-0.13px] w-full overflow-hidden text-ellipsis whitespace-nowrap" data-node-id="40002524:8012">
                       Когда будет в наличии?
                     </p>
                   </div>
@@ -372,7 +372,7 @@ export default function LandingDesktop() {
                         15 мин
                       </p>
                     </div>
-                    <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#595959] text-[13px] tracking-[-0.13px] w-[252px]" data-node-id="40002524:8023">
+                    <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#595959] text-[13px] tracking-[-0.13px] w-full overflow-hidden text-ellipsis whitespace-nowrap" data-node-id="40002524:8023">
                       Можно скидку?
                     </p>
                   </div>
