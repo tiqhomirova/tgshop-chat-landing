@@ -2289,11 +2289,13 @@ export default function LandingDesktop() {
           <div className="[word-break:break-word] content-stretch flex flex-col gap-[12px] items-start leading-[1.5] overflow-clip relative shrink-0 w-[440px]" data-node-id="40002524:8680" data-name="fb">
             <div className="content-stretch flex font-['SF_Pro:Bold',sans-serif] font-bold gap-[4px] items-baseline overflow-clip relative shrink-0 text-[20px] text-white tracking-[-0.4px] whitespace-nowrap" data-node-id="40002524:8681" data-name="br">
               <p className="relative shrink-0" data-node-id="40002524:8682" style={{ fontVariationSettings: "'wdth' 100" }}>
-                TGShop
+                {T.footerLogoBrand}
               </p>
-              <p className="relative shrink-0" data-node-id="40002524:8683" style={{ fontVariationSettings: "'wdth' 100" }}>
-                Chat
-              </p>
+              {T.footerLogoSuffix && (
+                <p className="relative shrink-0" data-node-id="40002524:8683" style={{ fontVariationSettings: "'wdth' 100" }}>
+                  {T.footerLogoSuffix}
+                </p>
+              )}
             </div>
             <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#a6b0bf] text-[14px] tracking-[-0.14px] w-[300px]" data-node-id="40002524:8684" style={{ fontVariationSettings: "'wdth' 100" }}>
               Все Telegram-чаты магазина в одном кабинете. Часть экосистемы TGShop.
@@ -2310,7 +2312,7 @@ export default function LandingDesktop() {
             <a className="[word-break:break-word] block font-['SF_Pro:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[#a6b0bf] text-[14px] tracking-[-0.14px] whitespace-nowrap" href="https://tgshop.io/faq" data-node-id="40002524:8689" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
               <p className="cursor-pointer leading-[1.5]">FAQ</p>
             </a>
-            <a className="[word-break:break-word] block font-['SF_Pro:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[#a6b0bf] text-[14px] tracking-[-0.14px] whitespace-nowrap" href="https://docs.tgshop.io/uz/telegramda-dokon-ochish/tezkor-boshlash" data-node-id="40002524:8691" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
+            <a className="[word-break:break-word] block font-['SF_Pro:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[#a6b0bf] text-[14px] tracking-[-0.14px] whitespace-nowrap" href={T.docsHref} data-node-id="40002524:8691" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
               <p className="cursor-pointer leading-[1.5]">Инструкции</p>
             </a>
           </div>
@@ -2322,8 +2324,8 @@ export default function LandingDesktop() {
             <a className="[word-break:break-word] block font-['SF_Pro:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[#a6b0bf] text-[14px] tracking-[-0.14px] whitespace-nowrap" href="https://tgshop.io/blog/instrukciya-kak-sozdat-magazin-v-telegram-po-shagam/" data-node-id="40002524:8695" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
               <p className="cursor-pointer leading-[1.5]">Telegram-магазин</p>
             </a>
-            <a className="[word-break:break-word] block font-['SF_Pro:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[#a6b0bf] text-[14px] tracking-[-0.14px] whitespace-nowrap" href="https://uz.tgshop.io" data-node-id="40002524:8696" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
-              <p className="cursor-pointer leading-[1.5]">{T.footerBrand}</p>
+            <a className="[word-break:break-word] block font-['SF_Pro:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[#a6b0bf] text-[14px] tracking-[-0.14px] whitespace-nowrap" href={T.solutionsExtraHref} data-node-id="40002524:8696" style={{ fontVariationSettings: "'wdth' 100" }} target="_blank">
+              <p className="cursor-pointer leading-[1.5]">{T.solutionsExtraLabel}</p>
             </a>
           </div>
           <div className="content-stretch flex flex-col gap-[10px] items-start overflow-clip relative shrink-0 w-[200px]" data-node-id="40002524:8697" data-name="fc">
@@ -2346,7 +2348,7 @@ export default function LandingDesktop() {
         <div className="bg-[rgba(0,0,0,0.06)] h-px relative shrink-0 w-[1200px]" data-node-id="40002524:8704" data-name="div" />
         <div className="h-[20px] relative shrink-0 w-[100px]" data-node-id="40002524:8705" data-name="sp" />
         <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.5] relative shrink-0 text-[#a6b0bf] text-[12px] tracking-[-0.12px] whitespace-nowrap" data-node-id="40002524:8706" style={{ fontVariationSettings: "'wdth' 100" }}>
-          © 2026 TGShop. Все права защищены.
+          {T.copyrightText}
         </p>
       </div>
     </div>

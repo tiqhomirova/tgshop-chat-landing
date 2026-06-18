@@ -31,6 +31,16 @@ interface RegionContent {
   zeroAdsBadge: string;            // "0 sum on рекламу" / "0 ₽ на рекламу"
   // Footer brand line
   footerBrand: string;             // "TGShop Узбекистан" / "TGShop"
+  // Footer logo (small brand text above link columns)
+  footerLogoBrand: string;         // "TGShop" / "ТГШОП"
+  footerLogoSuffix: string;        // "Chat" / "" (empty = render single token, no second word)
+  // Footer copyright bottom line
+  copyrightText: string;           // "© 2026 TGShop. Все права защищены." / "© 2026 ТГШОП. Все права защищены."
+  // Footer "Полезные материалы" — Инструкции link href
+  docsHref: string;                // "https://docs.tgshop.io/uz/..." / "https://docs.tgshop.io/"
+  // Footer "Решения" — second link (label + href)
+  solutionsExtraLabel: string;     // "TGShop Узбекистан" / "Магазин в MAX"
+  solutionsExtraHref: string;      // "https://uz.tgshop.io" / "https://max.tgshop.io/"
   // Currency unit suffix (where the standalone "soʻm" appears)
   currency: string;                // "soʻm" / "₽"
   // Hero analytics card: revenue
@@ -67,6 +77,12 @@ const UZ: RegionContent = {
   chatOrderSum:       "1 290 000 soʻm",
   zeroAdsBadge:       "0 сум на рекламу",
   footerBrand:        "TGShop Узбекистан",
+  footerLogoBrand:    "TGShop",
+  footerLogoSuffix:   "Chat",
+  copyrightText:      "© 2026 TGShop. Все права защищены.",
+  docsHref:           "https://docs.tgshop.io/uz/telegramda-dokon-ochish/tezkor-boshlash",
+  solutionsExtraLabel:"TGShop Узбекистан",
+  solutionsExtraHref: "https://uz.tgshop.io",
   currency:           "soʻm",
   revenueAmount:      "6,2 млн soʻm",
   lossBarBig:         "45 000 000",
@@ -98,6 +114,12 @@ const RU: RegionContent = {
   chatOrderSum:       "12 900 ₽",
   zeroAdsBadge:       "0 ₽ на рекламу",
   footerBrand:        "TGShop",
+  footerLogoBrand:    "ТГШОП",
+  footerLogoSuffix:   "",
+  copyrightText:      "© 2026 ТГШОП. Все права защищены.",
+  docsHref:           "https://docs.tgshop.io/",
+  solutionsExtraLabel:"Магазин в MAX",
+  solutionsExtraHref: "https://max.tgshop.io/",
   currency:           "₽",
   revenueAmount:      "62 000 ₽",
   lossBarBig:         "450 000",

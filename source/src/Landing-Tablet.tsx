@@ -1197,8 +1197,8 @@ function Footer() {
       <div className="content-stretch flex gap-[24px] items-start relative shrink-0 w-full" data-name="footer-top">
         <div className="[word-break:break-word] content-stretch flex flex-col gap-[12px] items-start leading-[1.5] overflow-clip relative shrink-0 w-[260px]" data-name="fb">
           <div className="content-stretch flex font-['SF_Pro:Bold',sans-serif] font-bold gap-[4px] items-baseline overflow-clip relative shrink-0 text-[20px] text-white tracking-[-0.4px] whitespace-nowrap" data-name="br">
-            <p className="relative shrink-0" style={{ fontVariationSettings: "'wdth' 100" }}>TGShop</p>
-            <p className="relative shrink-0" style={{ fontVariationSettings: "'wdth' 100" }}>Chat</p>
+            <p className="relative shrink-0" style={{ fontVariationSettings: "'wdth' 100" }}>{T.footerLogoBrand}</p>
+            {T.footerLogoSuffix && <p className="relative shrink-0" style={{ fontVariationSettings: "'wdth' 100" }}>{T.footerLogoSuffix}</p>}
           </div>
           <p className="font-['SF_Pro:Regular',sans-serif] font-normal min-w-full relative shrink-0 text-[#a6b0bf] text-[14px] tracking-[-0.14px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>
             Все Telegram-чаты магазина в одном кабинете. Часть экосистемы TGShop.
@@ -1208,11 +1208,11 @@ function Footer() {
           { title: 'Полезные материалы', links: [
             { label: 'Блог', href: 'https://tgshop.io/blog' },
             { label: 'FAQ', href: 'https://tgshop.io/faq' },
-            { label: 'Инструкции', href: 'https://docs.tgshop.io/uz/telegramda-dokon-ochish/tezkor-boshlash' },
+            { label: 'Инструкции', href: T.docsHref },
           ]},
           { title: 'Решения', links: [
             { label: 'Telegram-магазин', href: 'https://tgshop.io/blog/instrukciya-kak-sozdat-magazin-v-telegram-po-shagam/' },
-            { label: T.footerBrand, href: 'https://uz.tgshop.io' },
+            { label: T.solutionsExtraLabel, href: T.solutionsExtraHref },
           ]},
           { title: 'Поддержка', links: [
             { label: 'Связаться', href: 'https://t.me/TGShopHelp_bot' },
@@ -1235,7 +1235,7 @@ function Footer() {
       <div className="bg-[rgba(0,0,0,0.06)] h-px relative shrink-0 w-[928px]" />
       <div className="h-[20px] relative shrink-0 w-[100px]" />
       <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.5] relative shrink-0 text-[#a6b0bf] text-[12px] tracking-[-0.12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        © 2026 TGShop. Все права защищены.
+        {T.copyrightText}
       </p>
     </div>
   );

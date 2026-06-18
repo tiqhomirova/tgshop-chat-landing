@@ -1198,8 +1198,8 @@ function Footer() {
       <div className="content-stretch flex flex-col gap-[32px] items-start overflow-clip relative shrink-0 w-[335px]" data-name="footer-top">
         <div className="[word-break:break-word] content-stretch flex flex-col gap-[12px] items-start leading-[1.5] overflow-clip relative shrink-0 w-[335px]" data-name="fb">
           <div className="content-stretch flex font-['SF_Pro:Bold',sans-serif] font-bold gap-[4px] items-baseline overflow-clip relative shrink-0 text-[20px] text-white tracking-[-0.4px] whitespace-nowrap">
-            <p className="relative shrink-0" style={{ fontVariationSettings: "'wdth' 100" }}>TGShop</p>
-            <p className="relative shrink-0" style={{ fontVariationSettings: "'wdth' 100" }}>Chat</p>
+            <p className="relative shrink-0" style={{ fontVariationSettings: "'wdth' 100" }}>{T.footerLogoBrand}</p>
+            {T.footerLogoSuffix && <p className="relative shrink-0" style={{ fontVariationSettings: "'wdth' 100" }}>{T.footerLogoSuffix}</p>}
           </div>
           <p className="font-['SF_Pro:Regular',sans-serif] font-normal relative shrink-0 text-[#a6b0bf] text-[14px] tracking-[-0.14px] w-[300px]" style={{ fontVariationSettings: "'wdth' 100" }}>
             Все Telegram-чаты магазина в одном кабинете. Часть экосистемы TGShop.
@@ -1214,7 +1214,7 @@ function Footer() {
           {[
             { href: 'https://tgshop.io/blog', t: 'Блог' },
             { href: 'https://tgshop.io/faq', t: 'FAQ' },
-            { href: 'https://docs.tgshop.io/uz/telegramda-dokon-ochish/tezkor-boshlash', t: 'Инструкции' },
+            { href: T.docsHref, t: 'Инструкции' },
           ].map((l) => (
             <a key={l.t} className="[word-break:break-word] block font-['SF_Pro:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[#a6b0bf] text-[14px] tracking-[-0.14px] whitespace-nowrap" href={l.href} target="_blank" rel="noopener" style={{ fontVariationSettings: "'wdth' 100" }}>
               <p className="cursor-pointer leading-[1.5]">{l.t}</p>
@@ -1229,7 +1229,7 @@ function Footer() {
           <div className="h-[4px] shrink-0 w-[100px]" />
           {[
             { href: 'https://tgshop.io/blog/instrukciya-kak-sozdat-magazin-v-telegram-po-shagam/', t: 'Telegram-магазин' },
-            { href: 'https://uz.tgshop.io', t: T.footerBrand },
+            { href: T.solutionsExtraHref, t: T.solutionsExtraLabel },
           ].map((l) => (
             <a key={l.t} className="[word-break:break-word] block font-['SF_Pro:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[#a6b0bf] text-[14px] tracking-[-0.14px] whitespace-nowrap" href={l.href} target="_blank" rel="noopener" style={{ fontVariationSettings: "'wdth' 100" }}>
               <p className="cursor-pointer leading-[1.5]">{l.t}</p>
@@ -1257,7 +1257,7 @@ function Footer() {
       <div className="bg-[rgba(0,0,0,0.06)] h-px relative shrink-0 w-[335px]" />
       <div className="h-[20px] shrink-0 w-[100px]" />
       <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.5] relative shrink-0 text-[#a6b0bf] text-[12px] tracking-[-0.12px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
-        © 2026 TGShop. Все права защищены.
+        {T.copyrightText}
       </p>
     </div>
   );
