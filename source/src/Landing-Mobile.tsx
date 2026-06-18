@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import { CTA_HREF, SIGNIN_HREF } from './utm';
 import { T, HERO_CHAT_NAMES } from './region';
+import LossCalculator from './LossCalculator';
 
 // Mobile burger-menu overlay — rendered as portal to <body> so that
 // it sits OUTSIDE the #root element (which has transform: scale on it
@@ -523,92 +524,7 @@ function Pain() {
 }
 
 function Price() {
-  const bars = [
-    11, 18, 14, 24, 21, 30, 26, 35, 32, 42, 38, 46, 43, 51, 48, 56, 53, 61, 58, 64, 62, 67, 66, 70, 69, 74, 72, 77, 75
-  ];
-  const opacities = [0.21, 0.24, 0.22, 0.27, 0.25, 0.30, 0.28, 0.33, 0.31, 0.36, 0.34, 0.38, 0.37, 0.41, 0.39, 0.43, 0.41, 0.45, 0.44, 0.47, 0.46, 0.49, 0.48, 0.50, 0.49, 0.52, 0.51, 0.53, 0.53];
-  return (
-    <div className="bg-white content-stretch flex flex-col items-center px-[20px] py-[56px] relative w-full" data-node-id="40002524:9821" data-name="Price">
-      <div className="content-stretch flex flex-col gap-[32px] items-start relative shrink-0 w-[335px]">
-        <div className="content-stretch flex flex-col items-start relative shrink-0 w-[335px]" data-name="price-text">
-          <div className="bg-[rgba(16,142,245,0.08)] content-stretch flex items-start overflow-clip px-[12px] py-[6px] relative rounded-[100px] shrink-0">
-            <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#108ef5] text-[12px] tracking-[-0.12px] whitespace-nowrap">
-              Цена бездействия
-            </p>
-          </div>
-          <div className="h-[16px] shrink-0 w-[100px]" />
-          <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.1] not-italic relative shrink-0 text-[#0a1519] text-[26px] tracking-[-0.65px] w-[335px]">
-            Посчитайте, сколько вы теряете
-          </p>
-          <div className="h-[24px] shrink-0 w-[100px]" />
-          <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.6] not-italic relative shrink-0 text-[#595959] text-[15px] tracking-[-0.15px] w-[335px]">
-            Магазин получает 50 заявок в день, и хотя бы 10% теряются — это 5 потерянных клиентов ежедневно.
-          </p>
-          <div className="h-[16px] shrink-0 w-[100px]" />
-          <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.6] not-italic relative shrink-0 text-[#595959] text-[15px] tracking-[-0.15px] w-[335px]">
-            {T.calcBody}
-          </p>
-          <div className="h-[32px] shrink-0 w-[100px]" />
-          <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.55] not-italic relative shrink-0 text-[#e5484d] text-[15px] tracking-[-0.15px] w-[335px]">
-            Не из-за плохого товара — просто потому что ответили поздно.
-          </p>
-          <div className="h-[28px] shrink-0 w-[100px]" />
-          <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-name="price-cta">
-            <a href={CTA_HREF} target="_blank" rel="noopener" className="contents no-underline">
-              <div className="bg-[#108ef5] content-stretch cursor-pointer flex h-[52px] items-center justify-center overflow-clip px-[32px] relative rounded-[100px] shadow-[0px_20px_35px_0px_rgba(51,133,255,0.22)] shrink-0 w-full" data-name="btn-primary-l">
-                <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[16px] text-white tracking-[-0.16px] whitespace-nowrap">
-                  Хочу больше продаж
-                </p>
-              </div>
-            </a>
-            <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[13px] tracking-[-0.13px] whitespace-nowrap">
-              14 дней бесплатно · карта не нужна
-            </p>
-          </div>
-        </div>
-        <div className="bg-white border border-[rgba(0,0,0,0.06)] border-solid content-stretch drop-shadow-[0px_8px_12px_rgba(0,0,0,0.06)] flex flex-col gap-[12px] items-center pb-[16px] relative rounded-[24px] shrink-0 w-[335px]" data-name="calc-card">
-          <div className="bg-white border border-[rgba(0,0,0,0.06)] border-solid content-stretch flex flex-col h-[196px] items-start overflow-clip pb-px px-[20px] relative rounded-[16px] shadow-[0px_4px_12px_0px_rgba(0,0,0,0.04)] shrink-0 w-[335px]" data-name="loss-chart">
-            <div className="content-stretch flex h-[48px] items-center relative shrink-0 w-[221px]">
-              <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#0a1519] text-[13px] tracking-[-0.13px] whitespace-nowrap">
-                Потери накапливаются каждый день
-              </p>
-              <div className="flex-[1_0_0] h-[100px] min-w-px relative" />
-            </div>
-            <div className="h-[14px] shrink-0 w-[100px]" />
-            <div className="content-stretch flex gap-[3px] h-[80px] items-end relative shrink-0 w-full" data-name="bars">
-              {bars.map((h, i) => (
-                <div key={i} className="relative rounded-tl-[3px] rounded-tr-[3px] shrink-0 w-[6.933px]" style={{ height: `${h}px`, backgroundColor: `rgba(229,72,77,${opacities[i]})` }} />
-              ))}
-              <div className="bg-[#e5484d] h-[80px] relative rounded-tl-[3px] rounded-tr-[3px] shadow-[0px_0px_14px_0px_rgba(229,71,77,0.35)] shrink-0 w-[6.933px]" />
-            </div>
-            <div className="h-[10px] shrink-0 w-[100px]" />
-            <div className="content-stretch flex h-[36px] items-center justify-between relative shrink-0 w-full">
-              <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[11px] tracking-[-0.11px] whitespace-nowrap">
-                день 1 — {T.lossPerMonthShort}
-              </p>
-              <div className="flex-[1_0_0] h-[100px] min-w-px relative" />
-              <div className="[word-break:break-word] content-stretch flex gap-[4px] items-end justify-end leading-[1.5] not-italic overflow-clip relative shrink-0 text-[11px] tracking-[-0.11px] whitespace-nowrap">
-                <p className="font-['SF_Pro_Display:Regular',sans-serif] relative shrink-0 text-[#767d88]">день 30 —</p>
-                <p className="font-['SF_Pro_Display:Bold',sans-serif] relative shrink-0 text-[#e5484d]">{T.lossMonthEnd}</p>
-              </div>
-            </div>
-          </div>
-          <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[22px] text-center tracking-[-0.22px] w-[275px]">↓</p>
-          <div className="bg-[#fff1f1] border border-[rgba(229,72,77,0.2)] border-solid content-stretch flex flex-col items-center overflow-clip px-[24px] py-[22px] relative rounded-[16px] shadow-[0px_10px_30px_0px_rgba(229,71,77,0.08)] shrink-0 w-full" data-name="calc-total">
-            <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#e5484d] text-[13px] tracking-[0.78px] whitespace-nowrap">ПОТЕРИ В МЕСЯЦ</p>
-            <div className="h-[8px] shrink-0 w-[100px]" />
-            <div className="[word-break:break-word] content-stretch flex gap-[8px] items-baseline not-italic overflow-clip relative shrink-0 whitespace-nowrap">
-              <p className="font-['SF_Pro_Display:Bold',sans-serif] leading-none relative shrink-0 text-[#e5484d] text-[32px] tracking-[-1.28px]">{T.lossBarBig}</p>
-              <p className="font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] relative shrink-0 text-[16px] text-[rgba(229,72,77,0.8)] tracking-[-0.16px]">{T.lossBarUnit}</p>
-            </div>
-          </div>
-          <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[12px] text-center tracking-[-0.12px] w-[275px]">
-            Средний магазин · 30 рабочих дней
-          </p>
-        </div>
-      </div>
-    </div>
-  );
+  return <LossCalculator variant="mobile" />;
 }
 
 function How() {

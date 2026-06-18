@@ -4,6 +4,7 @@
 import { useState } from 'react';
 import { CTA_HREF, SIGNIN_HREF } from './utm';
 import { T, HERO_CHAT_NAMES } from './region';
+import LossCalculator from './LossCalculator';
 
 const imgPhoto202508261509211 = `${import.meta.env.BASE_URL}assets/imgPhoto202508261509211.png`;
 // Brand logos — local assets, mirror Figma node 40002682:1121 (8 brands).
@@ -788,125 +789,8 @@ export default function LandingDesktop() {
           </div>
         </div>
       </div>
-      <div className="bg-white content-stretch flex flex-col items-center overflow-clip p-[120px] relative shrink-0 w-[1440px]" data-node-id="40002633:420" data-name="Price">
-        <div className="h-[579px] relative shrink-0 w-[1200px]" data-node-id="40002633:421" data-name="price-inner">
-          <div className="absolute content-stretch flex flex-col items-start left-0 top-0 w-[568px]" data-node-id="40002633:422" data-name="price-text">
-            <div className="bg-[rgba(16,142,245,0.08)] content-stretch flex items-start overflow-clip px-[12px] py-[6px] relative rounded-[100px] shrink-0" data-node-id="40002633:423" data-name="kicker">
-              <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#108ef5] text-[14px] tracking-[-0.14px] whitespace-nowrap" data-node-id="40002633:424">
-                Цена бездействия
-              </p>
-            </div>
-            <div className="h-[16px] relative shrink-0 w-[100px]" data-node-id="40002633:425" data-name="sp" />
-            <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.1] not-italic relative shrink-0 text-[#0a1519] text-[44px] tracking-[-1.1px] w-[568px]" data-node-id="40002633:426">
-              Посчитайте, сколько вы теряете
-            </p>
-            <div className="h-[24px] relative shrink-0 w-[100px]" data-node-id="40002633:427" data-name="sp" />
-            <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.6] not-italic relative shrink-0 text-[#595959] text-[18px] tracking-[-0.18px] w-[568px]" data-node-id="40002633:428">
-              Магазин получает 50 заявок в день, и хотя бы 10% теряются — это 5 потерянных клиентов ежедневно.
-            </p>
-            <div className="h-[16px] relative shrink-0 w-[100px]" data-node-id="40002633:429" data-name="sp" />
-            <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.6] not-italic relative shrink-0 text-[#595959] text-[18px] tracking-[-0.18px] w-[568px]" data-node-id="40002633:430">
-              {T.calcBody}
-            </p>
-            <div className="h-[32px] relative shrink-0 w-[100px]" data-node-id="40002633:431" data-name="sp" />
-            <div className="h-[28px] relative shrink-0 w-[100px]" data-node-id="40002633:476" data-name="sp" />
-            <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.55] not-italic relative shrink-0 text-[#e5484d] text-[15px] tracking-[-0.15px] w-[568px]" data-node-id="40002633:477">
-              Не из-за плохого товара. Не из-за цены. Просто потому что ответили поздно — или не ответили вообще.
-            </p>
-            <div className="h-[28px] relative shrink-0 w-[100px]" data-node-id="40002633:478" data-name="sp" />
-            <div className="content-stretch flex items-center relative shrink-0" data-node-id="40002633:479" data-name="price-cta">
-              <a href={CTA_HREF} target="_blank" rel="noopener" className="contents no-underline">
-                <div className="bg-[#108ef5] content-stretch flex h-[52px] items-center justify-center overflow-clip px-[32px] relative rounded-[100px] shadow-[0px_20px_35px_0px_rgba(51,133,255,0.22)] shrink-0 cursor-pointer" data-node-id="40002633:480" data-name="btn-primary-l">
-                  <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[16px] text-white tracking-[-0.16px] whitespace-nowrap" data-node-id="40002633:481">
-                    Хочу больше продаж
-                  </p>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div className="absolute bg-white border border-[rgba(0,0,0,0.06)] border-solid content-stretch drop-shadow-[0px_8px_12px_rgba(0,0,0,0.06)] flex flex-col gap-[16px] items-center left-[632px] pb-[24px] rounded-[24px] top-0 w-[568px]" data-node-id="40002633:483" data-name="calc-card">
-            <div className="bg-white border border-[rgba(0,0,0,0.06)] border-solid content-stretch flex flex-col items-start overflow-clip pb-[16px] pt-[18px] px-[20px] relative rounded-[16px] shadow-[0px_4px_12px_0px_rgba(0,0,0,0.04)] shrink-0 w-[568px]" data-node-id="40002633:432" data-name="loss-chart">
-              <div className="content-stretch flex items-center justify-between relative shrink-0 w-full" data-node-id="40002633:433" data-name="ch-head">
-                <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#0a1519] text-[13px] tracking-[-0.13px] whitespace-nowrap" data-node-id="40002633:434">
-                  Потери накапливаются каждый день
-                </p>
-                <div className="flex-[1_0_0] h-[100px] min-w-px relative" data-node-id="40002633:435" data-name="sp" />
-                <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[11px] tracking-[0.22px] whitespace-nowrap" data-node-id="40002633:436">
-                  30 ДНЕЙ
-                </p>
-              </div>
-              <div className="h-[14px] relative shrink-0 w-[100px]" data-node-id="40002633:437" data-name="sp" />
-              <div className="content-stretch flex gap-[3px] h-[80px] items-end relative shrink-0 w-full" data-node-id="40002633:438" data-name="bars">
-                <div className="bg-[rgba(229,72,77,0.21)] h-[11px] relative rounded-tl-[3px] rounded-tr-[3px] shrink-0 w-[14.7px]" data-node-id="40002633:439" data-name="bar" />
-                <div className="bg-[rgba(229,72,77,0.24)] h-[18px] relative rounded-tl-[3px] rounded-tr-[3px] shrink-0 w-[14.7px]" data-node-id="40002633:440" data-name="bar" />
-                <div className="bg-[rgba(229,72,77,0.22)] h-[14px] relative rounded-tl-[3px] rounded-tr-[3px] shrink-0 w-[14.7px]" data-node-id="40002633:441" data-name="bar" />
-                <div className="bg-[rgba(229,72,77,0.27)] h-[24px] relative rounded-tl-[3px] rounded-tr-[3px] shrink-0 w-[14.7px]" data-node-id="40002633:442" data-name="bar" />
-                <div className="bg-[rgba(229,72,77,0.25)] h-[21px] relative rounded-tl-[3px] rounded-tr-[3px] shrink-0 w-[14.7px]" data-node-id="40002633:443" data-name="bar" />
-                <div className="bg-[rgba(229,72,77,0.3)] h-[30px] relative rounded-tl-[3px] rounded-tr-[3px] shrink-0 w-[14.7px]" data-node-id="40002633:444" data-name="bar" />
-                <div className="bg-[rgba(229,72,77,0.28)] h-[26px] relative rounded-tl-[3px] rounded-tr-[3px] shrink-0 w-[14.7px]" data-node-id="40002633:445" data-name="bar" />
-                <div className="bg-[rgba(229,72,77,0.33)] h-[35px] relative rounded-tl-[3px] rounded-tr-[3px] shrink-0 w-[14.7px]" data-node-id="40002633:446" data-name="bar" />
-                <div className="bg-[rgba(229,72,77,0.31)] h-[32px] relative rounded-tl-[3px] rounded-tr-[3px] shrink-0 w-[14.7px]" data-node-id="40002633:447" data-name="bar" />
-                <div className="bg-[rgba(229,72,77,0.36)] h-[42px] relative rounded-tl-[3px] rounded-tr-[3px] shrink-0 w-[14.7px]" data-node-id="40002633:448" data-name="bar" />
-                <div className="bg-[rgba(229,72,77,0.34)] h-[38px] relative rounded-tl-[3px] rounded-tr-[3px] shrink-0 w-[14.7px]" data-node-id="40002633:449" data-name="bar" />
-                <div className="bg-[rgba(229,72,77,0.38)] h-[46px] relative rounded-tl-[3px] rounded-tr-[3px] shrink-0 w-[14.7px]" data-node-id="40002633:450" data-name="bar" />
-                <div className="bg-[rgba(229,72,77,0.37)] h-[43px] relative rounded-tl-[3px] rounded-tr-[3px] shrink-0 w-[14.7px]" data-node-id="40002633:451" data-name="bar" />
-                <div className="bg-[rgba(229,72,77,0.41)] h-[51px] relative rounded-tl-[3px] rounded-tr-[3px] shrink-0 w-[14.7px]" data-node-id="40002633:452" data-name="bar" />
-                <div className="bg-[rgba(229,72,77,0.39)] h-[48px] relative rounded-tl-[3px] rounded-tr-[3px] shrink-0 w-[14.7px]" data-node-id="40002633:453" data-name="bar" />
-                <div className="bg-[rgba(229,72,77,0.43)] h-[56px] relative rounded-tl-[3px] rounded-tr-[3px] shrink-0 w-[14.7px]" data-node-id="40002633:454" data-name="bar" />
-                <div className="bg-[rgba(229,72,77,0.41)] h-[53px] relative rounded-tl-[3px] rounded-tr-[3px] shrink-0 w-[14.7px]" data-node-id="40002633:455" data-name="bar" />
-                <div className="bg-[rgba(229,72,77,0.45)] h-[61px] relative rounded-tl-[3px] rounded-tr-[3px] shrink-0 w-[14.7px]" data-node-id="40002633:456" data-name="bar" />
-                <div className="bg-[rgba(229,72,77,0.44)] h-[58px] relative rounded-tl-[3px] rounded-tr-[3px] shrink-0 w-[14.7px]" data-node-id="40002633:457" data-name="bar" />
-                <div className="bg-[rgba(229,72,77,0.47)] h-[64px] relative rounded-tl-[3px] rounded-tr-[3px] shrink-0 w-[14.7px]" data-node-id="40002633:458" data-name="bar" />
-                <div className="bg-[rgba(229,72,77,0.46)] h-[62px] relative rounded-tl-[3px] rounded-tr-[3px] shrink-0 w-[14.7px]" data-node-id="40002633:459" data-name="bar" />
-                <div className="bg-[rgba(229,72,77,0.49)] h-[67px] relative rounded-tl-[3px] rounded-tr-[3px] shrink-0 w-[14.7px]" data-node-id="40002633:460" data-name="bar" />
-                <div className="bg-[rgba(229,72,77,0.48)] h-[66px] relative rounded-tl-[3px] rounded-tr-[3px] shrink-0 w-[14.7px]" data-node-id="40002633:461" data-name="bar" />
-                <div className="bg-[rgba(229,72,77,0.5)] h-[70px] relative rounded-tl-[3px] rounded-tr-[3px] shrink-0 w-[14.7px]" data-node-id="40002633:462" data-name="bar" />
-                <div className="bg-[rgba(229,72,77,0.49)] h-[69px] relative rounded-tl-[3px] rounded-tr-[3px] shrink-0 w-[14.7px]" data-node-id="40002633:463" data-name="bar" />
-                <div className="bg-[rgba(229,72,77,0.52)] h-[74px] relative rounded-tl-[3px] rounded-tr-[3px] shrink-0 w-[14.7px]" data-node-id="40002633:464" data-name="bar" />
-                <div className="bg-[rgba(229,72,77,0.51)] h-[72px] relative rounded-tl-[3px] rounded-tr-[3px] shrink-0 w-[14.7px]" data-node-id="40002633:465" data-name="bar" />
-                <div className="bg-[rgba(229,72,77,0.53)] h-[77px] relative rounded-tl-[3px] rounded-tr-[3px] shrink-0 w-[14.7px]" data-node-id="40002633:466" data-name="bar" />
-                <div className="bg-[rgba(229,72,77,0.53)] h-[75px] relative rounded-tl-[3px] rounded-tr-[3px] shrink-0 w-[14.7px]" data-node-id="40002633:467" data-name="bar" />
-                <div className="bg-[#e5484d] h-[80px] relative rounded-tl-[3px] rounded-tr-[3px] shadow-[0px_0px_14px_0px_rgba(229,71,77,0.35)] shrink-0 w-[14.7px]" data-node-id="40002633:468" data-name="bar" />
-              </div>
-              <div className="h-[10px] relative shrink-0 w-[100px]" data-node-id="40002633:469" data-name="sp" />
-              <div className="content-stretch flex items-center justify-between relative shrink-0 w-full" data-node-id="40002633:470" data-name="ch-foot">
-                <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002633:471">
-                  день 1 — {T.lossPerMonthShort}
-                </p>
-                <div className="flex-[1_0_0] h-[100px] min-w-px relative" data-node-id="40002633:472" data-name="sp" />
-                <div className="[word-break:break-word] content-stretch flex gap-[4px] items-start leading-[1.5] not-italic overflow-clip relative shrink-0 text-[11px] tracking-[-0.11px] whitespace-nowrap" data-node-id="40002633:473" data-name="chf-r">
-                  <p className="font-['SF_Pro_Display:Regular',sans-serif] relative shrink-0 text-[#767d88]" data-node-id="40002633:474">
-                    день 30 —
-                  </p>
-                  <p className="font-['SF_Pro_Display:Bold',sans-serif] relative shrink-0 text-[#e5484d]" data-node-id="40002633:475">
-                    {T.lossMonthEnd}
-                  </p>
-                </div>
-              </div>
-            </div>
-            <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[22px] text-center tracking-[-0.22px] w-[508px]" data-node-id="40002633:509">
-              ↓
-            </p>
-            <div className="bg-[#fff1f1] border border-[rgba(229,72,77,0.2)] border-solid content-stretch flex flex-col items-center overflow-clip px-[24px] py-[22px] relative rounded-[16px] shadow-[0px_10px_30px_0px_rgba(229,71,77,0.08)] shrink-0 w-[504px]" data-node-id="40002633:511" data-name="calc-total">
-              <p className="[word-break:break-word] font-['SF_Pro_Display:Bold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#e5484d] text-[13px] tracking-[0.78px] whitespace-nowrap" data-node-id="40002633:512">
-                ПОТЕРИ В МЕСЯЦ
-              </p>
-              <div className="h-[8px] relative shrink-0 w-[100px]" data-node-id="40002633:513" data-name="sp" />
-              <div className="[word-break:break-word] content-stretch flex gap-[8px] items-baseline not-italic overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="40002633:514" data-name="total-num">
-                <p className="font-['SF_Pro_Display:Bold',sans-serif] leading-none relative shrink-0 text-[#e5484d] text-[44px] tracking-[-1.76px]" data-node-id="40002633:515">
-                  {T.lossBarBig}
-                </p>
-                <p className="font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] relative shrink-0 text-[20px] text-[rgba(229,72,77,0.8)] tracking-[-0.2px]" data-node-id="40002633:516">
-                  {T.lossBarUnit}
-                </p>
-              </div>
-            </div>
-            <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#767d88] text-[12px] text-center tracking-[-0.12px] w-[508px]" data-node-id="40002633:518">
-              Средний магазин · 30 рабочих дней
-            </p>
-          </div>
-        </div>
-      </div>
+      <LossCalculator variant="desktop" />
+
       <div className="bg-white content-stretch flex flex-col items-center overflow-clip px-[120px] py-[70px] relative shrink-0 w-[1440px]" data-node-id="40002524:8335" data-name="How">
         <div className="content-stretch flex flex-col items-center overflow-clip relative shrink-0 w-[820px]" data-node-id="40002524:8336" data-name="section-head">
           <div className="bg-[rgba(16,142,245,0.08)] content-stretch flex items-start overflow-clip px-[12px] py-[6px] relative rounded-[100px] shrink-0" data-node-id="40002524:8337" data-name="kicker">
