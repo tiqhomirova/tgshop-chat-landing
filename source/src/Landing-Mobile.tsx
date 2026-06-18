@@ -670,7 +670,7 @@ function How() {
           <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.5] relative shrink-0 text-[#595959] text-[15px] tracking-[-0.15px] w-[287px]" style={{ fontVariationSettings: "'wdth' 100" }}>Обрабатывайте заявки и вопросы клиентов.</p>
           <div className="h-[10px] shrink-0 w-[100px]" />
           <div className="bg-white border border-[#ebedf2] border-solid content-stretch flex flex-col gap-[10px] items-start overflow-clip p-[14px] relative rounded-[14px] shrink-0 w-full" data-name="m2-chat">
-            <div className="bg-white content-stretch flex items-center justify-between overflow-clip relative shrink-0 w-full">
+            <div className="content-stretch flex items-center justify-between relative shrink-0 w-full">
               <div className="bg-white content-stretch flex gap-[8px] items-center overflow-clip relative shrink-0">
                 <div className="bg-[rgba(38,99,235,0.15)] content-stretch flex items-center justify-center overflow-clip relative rounded-[12px] shrink-0 size-[24px]">
                   <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#2663eb] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>Ю</p>
@@ -785,7 +785,7 @@ function KeyFeatures() {
             { bg: 'bg-[rgba(15,186,130,0.12)]', tc: 'text-[#0fba82]', label: 'Закрыт', cnt: '48', cust: HERO_CHAT_NAMES[3], msg: 'Получила 👍', time: '2 мин' },
           ].map((c, i) => (
             <div key={i} className="bg-[#f7fafc] content-stretch flex flex-col gap-[6px] items-start overflow-clip p-[10px] relative rounded-[14px] shrink-0 w-full">
-              <div className="bg-white content-stretch flex items-center justify-between overflow-clip relative shrink-0 w-full">
+              <div className="content-stretch flex items-center justify-between relative shrink-0 w-full">
                 <div className={`${c.bg} content-stretch flex items-start overflow-clip px-[10px] py-[4px] relative rounded-[10px] shrink-0`}>
                   <p className={`[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[normal] relative shrink-0 ${c.tc} text-[12px] whitespace-nowrap`} style={{ fontVariationSettings: "'wdth' 100" }}>{c.label}</p>
                 </div>

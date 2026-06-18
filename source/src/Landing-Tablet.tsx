@@ -712,7 +712,7 @@ function How() {
           <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.5] min-w-full relative shrink-0 text-[#595959] text-[15px] tracking-[-0.15px] w-[min-content]" style={{ fontVariationSettings: "'wdth' 100" }}>Обрабатывайте заявки и вопросы клиентов.</p>
           <div className="h-[20px] relative shrink-0 w-[100px]" />
           <div className="bg-white border border-[#ebedf2] border-solid content-stretch flex flex-col gap-[10px] items-start overflow-clip p-[18px] relative rounded-[16px] shrink-0 w-full" data-name="m2-chat">
-            <div className="bg-white content-stretch flex items-center justify-between overflow-clip relative shrink-0 w-full">
+            <div className="content-stretch flex items-center justify-between relative shrink-0 w-full">
               <div className="bg-white content-stretch flex gap-[8px] items-center overflow-clip relative shrink-0">
                 <div className="bg-[rgba(38,99,235,0.15)] content-stretch flex items-center justify-center overflow-clip relative rounded-[12px] shrink-0 size-[24px]">
                   <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#2663eb] text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>Ю</p>
@@ -828,7 +828,7 @@ function KeyFeatures() {
             { label: 'Закрыт', labelColor: '#0fba82', labelBg: 'rgba(15,186,130,0.12)', count: '48', cards: [{ name: HERO_CHAT_NAMES[3], msg: 'Получила 👍', time: '2 мин' }, { name: 'Малика О.', msg: 'Спасибо!', time: '15 мин' }] },
           ].map((col, i) => (
             <div key={`col-${i}`} className="bg-[#f7fafc] content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px overflow-clip px-[10px] py-[12px] relative rounded-[14px]" data-name={`col-${col.label}`}>
-              <div className="bg-white content-stretch flex items-center justify-between overflow-clip relative shrink-0 w-full">
+              <div className="content-stretch flex items-center justify-between relative shrink-0 w-full">
                 <div className="content-stretch flex items-start overflow-clip px-[8px] py-[3px] relative rounded-[8px] shrink-0" style={{ backgroundColor: col.labelBg }}>
                   <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[normal] relative shrink-0 text-[11px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100", color: col.labelColor }}>{col.label}</p>
                 </div>

@@ -1006,7 +1006,7 @@ export default function LandingDesktop() {
             </p>
             <div className="h-[20px] relative shrink-0 w-[100px]" data-node-id="40002524:8382" data-name="sp" />
             <div className="bg-white border border-[#ebedf2] border-solid content-stretch flex flex-col gap-[10px] items-start overflow-clip p-[18px] relative rounded-[16px] shrink-0 w-full" data-node-id="40002679:8244" data-name="m2-chat">
-              <div className="bg-white content-stretch flex items-center justify-between overflow-clip relative shrink-0 w-full" data-node-id="40002679:8245" data-name="Frame">
+              <div className="content-stretch flex items-center justify-between relative shrink-0 w-full" data-node-id="40002679:8245" data-name="Frame">
                 <div className="bg-white content-stretch flex gap-[8px] items-center overflow-clip relative shrink-0" data-node-id="40002679:8246" data-name="Frame">
                   <div className="bg-[rgba(38,99,235,0.15)] content-stretch flex items-center justify-center overflow-clip relative rounded-[12px] shrink-0 size-[24px]" data-node-id="40002679:8247" data-name="Frame">
                     <p className="[word-break:break-word] font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#2663eb] text-[11px] whitespace-nowrap" data-node-id="40002679:8248" style={{ fontVariationSettings: "'wdth' 100" }}>
@@ -1173,7 +1173,7 @@ export default function LandingDesktop() {
           </div>
           <div className="bg-white content-stretch flex gap-[12px] items-start overflow-clip p-[20px] relative rounded-[24px] shadow-[0px_16px_40px_0px_rgba(13,18,31,0.08)] shrink-0 w-[600px]" data-node-id="40002650:7859" data-name="kf-status-board">
             <div className="bg-[#f7fafc] content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-w-px overflow-clip px-[14px] py-[16px] relative rounded-[16px]" data-node-id="40002650:7860" data-name="col-Новый">
-              <div className="bg-white content-stretch flex items-center justify-between overflow-clip relative shrink-0 w-full" data-node-id="40002650:7861" data-name="Frame">
+              <div className="content-stretch flex items-center justify-between relative shrink-0 w-full" data-node-id="40002650:7861" data-name="Frame">
                 <div className="bg-[rgba(38,99,235,0.12)] content-stretch flex items-start overflow-clip px-[10px] py-[4px] relative rounded-[10px] shrink-0" data-node-id="40002650:7862" data-name="Frame">
                   <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[normal] relative shrink-0 text-[#2663eb] text-[12px] whitespace-nowrap" data-node-id="40002650:7863" style={{ fontVariationSettings: "'wdth' 100" }}>
                     Новый
@@ -1207,7 +1207,7 @@ export default function LandingDesktop() {
               </div>
             </div>
             <div className="bg-[#f7fafc] content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-w-px overflow-clip px-[14px] py-[16px] relative rounded-[16px]" data-node-id="40002650:7873" data-name="col-Открыт">
-              <div className="bg-white content-stretch flex items-center justify-between overflow-clip relative shrink-0 w-full" data-node-id="40002650:7874" data-name="Frame">
+              <div className="content-stretch flex items-center justify-between relative shrink-0 w-full" data-node-id="40002650:7874" data-name="Frame">
                 <div className="bg-[rgba(245,166,36,0.12)] content-stretch flex items-start overflow-clip px-[10px] py-[4px] relative rounded-[10px] shrink-0" data-node-id="40002650:7875" data-name="Frame">
                   <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[normal] relative shrink-0 text-[#f5a624] text-[12px] whitespace-nowrap" data-node-id="40002650:7876" style={{ fontVariationSettings: "'wdth' 100" }}>
                     Открыт
@@ -1241,7 +1241,7 @@ export default function LandingDesktop() {
               </div>
             </div>
             <div className="bg-[#f7fafc] content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-w-px overflow-clip px-[14px] py-[16px] relative rounded-[16px]" data-node-id="40002650:7886" data-name="col-Закрыт">
-              <div className="bg-white content-stretch flex items-center justify-between overflow-clip relative shrink-0 w-full" data-node-id="40002650:7887" data-name="Frame">
+              <div className="content-stretch flex items-center justify-between relative shrink-0 w-full" data-node-id="40002650:7887" data-name="Frame">
                 <div className="bg-[rgba(15,186,130,0.12)] content-stretch flex items-start overflow-clip px-[10px] py-[4px] relative rounded-[10px] shrink-0" data-node-id="40002650:7888" data-name="Frame">
                   <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[normal] relative shrink-0 text-[#0fba82] text-[12px] whitespace-nowrap" data-node-id="40002650:7889" style={{ fontVariationSettings: "'wdth' 100" }}>
                     Закрыт
