@@ -226,7 +226,7 @@ export default function LandingDesktop() {
                     </p>
                   </div>
                 </div>
-                <div className="bg-[#f3f8ff] content-stretch flex gap-[12px] h-[44px] items-start p-[10px] relative rounded-[10px] shrink-0 w-[298px]" data-node-id="40002524:7960" data-name="ch">
+                <div className="bg-[#f3f8ff] content-stretch flex gap-[12px] items-start p-[10px] relative rounded-[10px] shrink-0 w-[298px]" data-node-id="40002524:7960" data-name="ch">
                   <div className="bg-[#e5484d] content-stretch flex items-center justify-center overflow-clip relative rounded-[14px] shrink-0 size-[28px]" data-node-id="40002524:7961" data-name="av">
                     <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[12px] text-white tracking-[-0.12px] whitespace-nowrap" data-node-id="40002524:7962">
                       Ю
@@ -252,7 +252,7 @@ export default function LandingDesktop() {
                     </p>
                   </div>
                 </div>
-                <div className="bg-[#f3f8ff] content-stretch flex gap-[12px] h-[44px] items-start p-[10px] relative rounded-[10px] shrink-0 w-[298px]" data-node-id="40002524:7971" data-name="ch">
+                <div className="bg-[#f3f8ff] content-stretch flex gap-[12px] items-start p-[10px] relative rounded-[10px] shrink-0 w-[298px]" data-node-id="40002524:7971" data-name="ch">
                   <div className="bg-[#e5484d] content-stretch flex items-center justify-center overflow-clip relative rounded-[14px] shrink-0 size-[28px]" data-node-id="40002524:7972" data-name="av">
                     <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[12px] text-white tracking-[-0.12px] whitespace-nowrap" data-node-id="40002524:7973">
                       Ю
@@ -278,7 +278,7 @@ export default function LandingDesktop() {
                     </p>
                   </div>
                 </div>
-                <div className="content-stretch flex gap-[12px] h-[44px] items-start p-[10px] relative rounded-[10px] shrink-0 w-[298px]" data-node-id="40002524:7982" data-name="ch">
+                <div className="content-stretch flex gap-[12px] items-start p-[10px] relative rounded-[10px] shrink-0 w-[298px]" data-node-id="40002524:7982" data-name="ch">
                   <div className="bg-[#8b5cf6] content-stretch flex items-center justify-center overflow-clip relative rounded-[14px] shrink-0 size-[28px]" data-node-id="40002524:7983" data-name="av">
                     <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[12px] text-white tracking-[-0.12px] whitespace-nowrap" data-node-id="40002524:7984">
                       Д
@@ -304,7 +304,7 @@ export default function LandingDesktop() {
                     </p>
                   </div>
                 </div>
-                <div className="content-stretch flex gap-[12px] h-[44px] items-start p-[10px] relative rounded-[10px] shrink-0 w-[298px]" data-node-id="40002524:7993" data-name="ch">
+                <div className="content-stretch flex gap-[12px] items-start p-[10px] relative rounded-[10px] shrink-0 w-[298px]" data-node-id="40002524:7993" data-name="ch">
                   <div className="bg-[#ec4899] content-stretch flex items-center justify-center overflow-clip relative rounded-[14px] shrink-0 size-[28px]" data-node-id="40002524:7994" data-name="av">
                     <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[12px] text-white tracking-[-0.12px] whitespace-nowrap" data-node-id="40002524:7995">
                       М
@@ -330,7 +330,7 @@ export default function LandingDesktop() {
                     </p>
                   </div>
                 </div>
-                <div className="bg-[#f3f8ff] content-stretch flex gap-[12px] h-[44px] items-start p-[10px] relative rounded-[10px] shrink-0 w-[298px]" data-node-id="40002524:8004" data-name="ch">
+                <div className="bg-[#f3f8ff] content-stretch flex gap-[12px] items-start p-[10px] relative rounded-[10px] shrink-0 w-[298px]" data-node-id="40002524:8004" data-name="ch">
                   <div className="bg-[#0ea5e9] content-stretch flex items-center justify-center overflow-clip relative rounded-[14px] shrink-0 size-[28px]" data-node-id="40002524:8005" data-name="av">
                     <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[12px] text-white tracking-[-0.12px] whitespace-nowrap" data-node-id="40002524:8006">
                       А
@@ -356,7 +356,7 @@ export default function LandingDesktop() {
                     </p>
                   </div>
                 </div>
-                <div className="bg-[#f3f8ff] content-stretch flex gap-[12px] h-[44px] items-start p-[10px] relative rounded-[10px] shrink-0 w-[298px]" data-node-id="40002524:8015" data-name="ch">
+                <div className="bg-[#f3f8ff] content-stretch flex gap-[12px] items-start p-[10px] relative rounded-[10px] shrink-0 w-[298px]" data-node-id="40002524:8015" data-name="ch">
                   <div className="bg-[#0ea5e9] content-stretch flex items-center justify-center overflow-clip relative rounded-[14px] shrink-0 size-[28px]" data-node-id="40002524:8016" data-name="av">
                     <p className="[word-break:break-word] font-['SF_Pro_Display:Semibold',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[12px] text-white tracking-[-0.12px] whitespace-nowrap" data-node-id="40002524:8017">
                       А
