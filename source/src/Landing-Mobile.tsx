@@ -211,7 +211,7 @@ function Hero() {
                 { bg: 'bg-[#f3f8ff]', av: 'bg-[#0ea5e9]', avT: 'А', name: HERO_CHAT_NAMES[4], time: '10 мин', badge: 'Закрыт', badgeBg: 'bg-[#4fd192]', preview: { t: 'Когда будет в наличии?', c: '#595959' } },
                 { bg: 'bg-[#f3f8ff]', av: 'bg-[#0ea5e9]', avT: 'А', name: HERO_CHAT_NAMES[5], time: '15 мин', badge: 'Закрыт', badgeBg: 'bg-[#4fd192]', preview: { t: 'Можно скидку?', c: '#595959' } },
               ].map((c, i) => (
-                <div key={i} className={`${c.bg} content-stretch flex gap-[8px] items-center p-[10px] relative rounded-[10px] shrink-0 w-[193.7px]`} data-name="ch">
+                <div key={i} className={`${c.bg} content-stretch flex gap-[8px] h-[36px] items-center px-[10px] py-[5px] overflow-hidden relative rounded-[10px] shrink-0 w-[193.7px]`} data-name="ch">
                   <div className={`${c.av} content-stretch flex items-center justify-center overflow-clip relative rounded-[14px] shrink-0 size-[18.2px]`}>
                     <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[8px] text-white tracking-[-0.08px] whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>{c.avT}</p>
                   </div>
