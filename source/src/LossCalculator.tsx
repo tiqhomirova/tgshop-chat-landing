@@ -168,14 +168,14 @@ export default function LossCalculator({ variant }: { variant: Variant }) {
             style={{ color: '#595959', maxWidth: variant === 'mobile' ? undefined : '430px', margin: '0' }}
           >
             <span className="block" style={{ marginTop: variant === 'mobile' ? '24px' : '32px' }}>
-              50 заявок в день → 10% не дождутся ответа = 5 ушедших клиентов
+              50 заявок в день → 10% не дождутся ответа =&nbsp;5&nbsp;ушедших&nbsp;клиентов
             </span>
           </p>
           <p
             className={`leading-[1.55] ${cfg.leadSize.replace(/mt-\[\d+px\]/, '')}`}
             style={{ color: '#595959', maxWidth: variant === 'mobile' ? undefined : '430px', marginTop: variant === 'mobile' ? '14px' : '18px' }}
           >
-            Средний чек 3 000 ₽ → −15 000 ₽ в день и −450 000 ₽ в месяц
+            Средний чек 3&nbsp;000&nbsp;₽ → −15&nbsp;000&nbsp;₽ в день и&nbsp;−450&nbsp;000&nbsp;₽&nbsp;в&nbsp;месяц
           </p>
           <p
             className={`leading-[1.55] ${cfg.warnSize}`}
