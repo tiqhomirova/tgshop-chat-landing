@@ -226,7 +226,7 @@ function Hero() {
                     
                     <p className="[word-break:break-word] font-['SF_Pro:Medium',sans-serif] font-[510] leading-[1.5] relative shrink-0 text-[#767d88] text-[9px] tracking-[-0.09px] whitespace-nowrap" data-node-id="40002757:8549" style={{ fontVariationSettings: "'wdth' 100" }}>10 мин</p>
                   </div>
-                  <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.5] relative shrink-0 text-[#595959] text-[11px] tracking-[-0.11px] w-full overflow-hidden text-ellipsis whitespace-nowrap" data-node-id="40002757:8550" style={{ fontVariationSettings: "'wdth' 100" }}>Когда будет в наличии?</p>
+                  <p className="[word-break:break-word] font-['SF_Pro:Regular',sans-serif] font-normal leading-[1.5] relative shrink-0 text-[#595959] text-[11px] tracking-[-0.11px] w-full overflow-hidden text-ellipsis whitespace-nowrap" data-node-id="40002757:8550" style={{ fontVariationSettings: "'wdth' 100" }}>Буду ждать!</p>
                 </div>
                 <div className="bg-[#4fd192] content-stretch flex h-[18px] items-center overflow-clip px-[7px] py-[3px] relative rounded-[100px] shrink-0 w-[48px]" data-node-id="40002757:8551" data-name="bd">
                   <p className="[word-break:break-word] font-['SF_Pro:Semibold',sans-serif] font-[590] leading-[1.5] relative shrink-0 text-[9px] text-white tracking-[0.18px] whitespace-nowrap" data-node-id="40002757:8552" style={{ fontVariationSettings: "'wdth' 100" }}>Закрыт</p>

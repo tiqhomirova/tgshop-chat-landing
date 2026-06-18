@@ -347,7 +347,7 @@ export default function LandingDesktop() {
                       </p>
                     </div>
                     <p className="[word-break:break-word] font-['SF_Pro_Display:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#595959] text-[13px] tracking-[-0.13px] w-full overflow-hidden text-ellipsis whitespace-nowrap" data-node-id="40002524:8012">
-                      Когда будет в наличии?
+                      Буду ждать!
                     </p>
                   </div>
                   <div className="bg-[#4fd192] content-stretch flex items-center overflow-clip px-[7px] py-[3px] relative rounded-[100px] shrink-0" data-node-id="40002524:8013" data-name="bd">
